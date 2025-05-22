@@ -76,10 +76,10 @@ export default function Home() {
           className="text-center mb-12"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-            Hệ Thống Ôn Thi Trắc Nghiệm
+            Trang WEB Ôn Thi Trắc Nghiệm
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Hệ thống ôn tập trắc nghiệm hiện đại giúp bạn chuẩn bị tốt nhất cho các kỳ thi
+            Website ôn tập trắc nghiệm hiện đại giúp bạn chuẩn bị tốt nhất cho kỳ thi kết thúc học phần
           </p>
 
           <div className="relative max-w-md mx-auto mt-8">

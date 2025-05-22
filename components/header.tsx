@@ -41,9 +41,9 @@ export function Header() {
           <Image src="/images/vie-logo.png" alt="VIE Logo" width={32} height={32} className="rounded-md" />
           <div className="flex flex-col">
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-              QuizViet
+              TruongDat
             </span>
-            <span className="text-xs text-muted-foreground">Đại học Duy Tân</span>
+            <span className="text-xs text-muted-foreground"></span>
           </div>
         </Link>
 

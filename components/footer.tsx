@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <div className="flex items-center gap-2">
           <Image src="/images/vie-logo.png" alt="VIE Logo" width={32} height={32} className="rounded-md" />
-          <p className="text-sm text-muted-foreground">Đề cương ôn thi kết thúc học phần - Đại học Duy Tân</p>
+          <p className="text-sm text-muted-foreground">Đề cương ôn thi kết thúc học phần</p>
         </div>
         <div className="flex items-center gap-4">
           <p className="text-sm text-muted-foreground">
@@ -23,7 +23,7 @@ export function Footer() {
             </Link>
           </p>
           <Link
-            href="https://github.com"
+            href="https://github.com/Datkoishi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
