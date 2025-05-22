@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "question": "Hai lệnh dùng trong hàm tạo một nốt trong danh sách liên kết đơn Node(int x, Node t) là ____ và ____",
+    "type": "short_answer",
+    "correctAnswer": "info = x; next = t;",
+    "explanation": "Trong hàm tạo một nốt (Node) trong danh sách liên kết đơn, hai lệnh cơ bản là gán giá trị cho nút (info = x) và gán con trỏ next trỏ đến nút tiếp theo (next = t)."
+  },
+  {
+    "id": 2,
+    "question": "Thuật toán tìm kiếm tuyến tính có độ phức tạp là:",
+    "type": "short_answer",
+    "correctAnswer": "O(n)",
+    "explanation": "Thuật toán tìm kiếm tuyến tính (Linear Search) có độ phức tạp thời gian là O(n) vì trong trường hợp xấu nhất, thuật toán phải duyệt qua tất cả n phần tử của mảng để tìm kiếm."
+  },
+  {
+    "id": 3,
+    "question": "Để duyệt cây theo chiều rộng, ta sử dụng cấu trúc dữ liệu:",
+    "type": "short_answer",
+    "correctAnswer": "Hàng đợi (Queue)",
+    "explanation": "Để duyệt cây theo chiều rộng (Breadth-First Search/Level Order Traversal), ta sử dụng cấu trúc dữ liệu Hàng đợi (Queue). Hàng đợi giúp lưu trữ các nút theo thứ tự cần thăm, đảm bảo các nút ở cùng một mức được thăm trước khi đi đến các nút ở mức tiếp theo."
+  },
+  {
+    "id": 4,
+    "question": "Đối với thuật toán duyệt trung tự, dòng lệnh in giá trị nốt sẽ nằm ở vị trí:",
+    "type": "short_answer",
+    "correctAnswer": "Dòng lệnh in giá trị nốt sẽ nằm ở giữa hai lời gọi đệ quy (trái và phải).",
+    "explanation": "Trong thuật toán duyệt trung tự (Inorder Traversal), thứ tự thăm các nút là: duyệt cây con trái, thăm nút gốc (in giá trị), duyệt cây con phải. Do đó, dòng lệnh in giá trị nút sẽ nằm ở giữa hai lời gọi đệ quy để duyệt cây con trái và cây con phải."
+  },
+  {
+    "id": 5,
+    "question": "Trên kiểu dữ liệu Ngăn xếp có____ thao tác cơ bản.",
+    "type": "short_answer",
+    "correctAnswer": "2",
+    "explanation": "Trên kiểu dữ liệu Ngăn xếp (Stack) có 2 thao tác cơ bản: push (thêm phần tử vào đỉnh ngăn xếp) và pop (lấy phần tử ra khỏi đỉnh ngăn xếp)."
+  },
+  {
+    "id": 6,
+    "question": "Trên kiểu dữ liệu Hàng đợi có _____ thao tác cơ bản",
+    "type": "short_answer",
+    "correctAnswer": "2",
+    "explanation": "Trên kiểu dữ liệu Hàng đợi (Queue) có 2 thao tác cơ bản: AddQ/Enqueue (thêm phần tử vào cuối hàng đợi) và RemoveQ/Dequeue (lấy phần tử ra khỏi đầu hàng đợi)."
+  },
+  {
+    "id": 7,
+    "question": "Để in nốt cuối cùng trong ngăn xếp khác rỗng, lệnh còn thiếu trong điều kiện của đoạn lệnh sau đây là: \n* ..... p=head; \nwhile(_____) \np=p.next; \nSystem.out.print(p);",
+    "type": "short_answer",
+    "correctAnswer": "p.next != null",
+    "explanation": "Để duyệt đến nút cuối cùng trong danh sách liên kết, ta cần kiểm tra điều kiện p.next != null trong vòng lặp while. Khi p.next == null, tức là p đã trỏ đến nút cuối cùng của danh sách, vòng lặp sẽ dừng và ta in ra giá trị của nút cuối cùng."
+  },
+  {
+    "id": 8,
+    "question": "Đối với kiểu dữ liệu ngăn xếp, số lượng thao tác có thể làm thay đổi số phần tử (tăng hoặc giảm) có trong ngăn xếp là____.",
+    "type": "short_answer",
+    "correctAnswer": "2",
+    "explanation": "Đối với kiểu dữ liệu ngăn xếp (Stack), có 2 thao tác có thể làm thay đổi số phần tử: push (thêm phần tử, làm tăng số lượng) và pop (lấy phần tử ra, làm giảm số lượng)."
+  },
+  {
+    "id": 9,
+    "question": "Khi tìm giá trị x trong cây nhị phân tìm kiếm T, nếu x nhỏ hơn giá trị gốc T thì ta sẽ chuyển sang tìm ở con _____ của T.",
+    "type": "short_answer",
+    "correctAnswer": "trái",
+    "explanation": "Trong cây nhị phân tìm kiếm (BST), các giá trị nhỏ hơn giá trị của nút gốc sẽ nằm ở cây con trái, và các giá trị lớn hơn giá trị của nút gốc sẽ nằm ở cây con phải. Do đó, khi tìm giá trị x mà x nhỏ hơn giá trị gốc T, ta sẽ chuyển sang tìm ở cây con trái của T."
+  },
+  {
+    "id": 10,
+    "question": "Khi tìm giá trị x=20 trong dãy gồm các phần tử [1,2,3,4,5,6,7,8] theo phương pháp tìm kiếm nhị phân, số lần tính giá trị mid là:",
+    "type": "short_answer",
+    "correctAnswer": "4",
+    "explanation": "Khi tìm kiếm giá trị x=20 trong dãy [1,2,3,4,5,6,7,8] bằng tìm kiếm nhị phân:\nLần 1: mid = (0+7)/2 = 3, arr[3] = 4 < 20, left = mid+1 = 4\nLần 2: mid = (4+7)/2 = 5, arr[5] = 6 < 20, left = mid+1 = 6\nLần 3: mid = (6+7)/2 = 6, arr[6] = 7 < 20, left = mid+1 = 7\nLần 4: mid = (7+7)/2 = 7, arr[7] = 8 < 20, left = mid+1 = 8 > right = 7, kết thúc\nVậy số lần tính giá trị mid là 4 lần."
+  },
+  {
+    "id": 11,
+    "question": "Biểu thức hậu tố của a+b/c^h-k là:",
+    "type": "short_answer",
+    "correctAnswer": "a b c h ^ / + k -",
+    "explanation": "Chuyển biểu thức trung tố a+b/c^h-k sang hậu tố:\n1. c^h → c h ^\n2. b/(c^h) → b c h ^ /\n3. a+(b/(c^h)) → a b c h ^ / +\n4. (a+b/(c^h))-k → a b c h ^ / + k -\nVậy biểu thức hậu tố là: a b c h ^ / + k -"
+  },
+  {
+    "id": 12,
+    "question": "Biểu thức hậu tố của (a+b)^(p-q)/k là:",
+    "type": "short_answer",
+    "correctAnswer": "a b + p q - ^ k /",
+    "explanation": "Chuyển biểu thức trung tố (a+b)^(p-q)/k sang hậu tố:\n1. (a+b) → a b +\n2. (p-q) → p q -\n3. (a+b)^(p-q) → a b + p q - ^\n4. ((a+b)^(p-q))/k → a b + p q - ^ k /\nVậy biểu thức hậu tố là: a b + p q - ^ k /"
+  },
+  {
+    "id": 13,
+    "question": "Khi chèn các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6] vào cây BST và duyệt cây theo thuật toán duyệt trung tự, ta được kết quả là:",
+    "type": "short_answer",
+    "correctAnswer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+    "explanation": "Khi chèn các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6] vào cây BST, ta được cây với gốc là 5, cây con trái gồm [3, 1, 4, 2], cây con phải gồm [9, 7, 8, 6]. Duyệt trung tự (inorder) sẽ thăm các nút theo thứ tự tăng dần của giá trị, do đó kết quả là: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+  },
+  {
+    "id": 14,
+    "question": "Khi chèn các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6] vào cây BST và duyệt cây theo thuật toán duyệt hậu tự, ta được kết quả là:",
+    "type": "short_answer",
+    "correctAnswer": "2, 1, 4, 3, 6, 8, 7, 9, 5",
+    "explanation": "Khi duyệt hậu tự (post-order) cây BST với các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6], ta thăm các nút theo thứ tự: cây con trái → cây con phải → gốc. Kết quả duyệt hậu tự là: 2, 1, 4, 3, 6, 8, 7, 9, 5."
+  },
+  {
+    "id": 15,
+    "question": "Khi chèn các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6] vào cây BST và duyệt cây theo thuật toán duyệt chiều rộng, ta được kết quả là:",
+    "type": "short_answer",
+    "correctAnswer": "5, 3, 9, 1, 4, 7, 2, 6, 8",
+    "explanation": "Khi duyệt chiều rộng (level order traversal) cây BST với các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6], ta thăm các nút theo từng tầng từ trên xuống dưới, từ trái sang phải:\nTầng 1: 5\nTầng 2: 3, 9\nTầng 3: 1, 4, 7\nTầng 4: 2, 6, 8\nKết quả duyệt chiều rộng là: 5, 3, 9, 1, 4, 7, 2, 6, 8."
+  },
+  {
+    "id": 16,
+    "question": "Trong hàm chiều cao của cây nhị phân T, cao(TNode T), bổ sung phần lệnh còn thiếu khi tính trong trường hợp cây khác rỗng như dưới đây là: if(T==null) return 0; else return 1 + _______",
+    "type": "short_answer",
+    "correctAnswer": "Math.max(cao(T.left), cao(T.right));",
+    "explanation": "Trong hàm tính chiều cao của cây nhị phân, nếu cây rỗng (T==null) thì chiều cao là 0. Nếu cây không rỗng, chiều cao bằng 1 (cho nút gốc) cộng với chiều cao lớn nhất giữa cây con trái và cây con phải. Do đó, phần lệnh còn thiếu là: Math.max(cao(T.left), cao(T.right));"
+  },
+  {
+    "id": 17,
+    "question": "Khi sắp xếp dãy [8, 3, 2, 5, 9, 7, 1] theo thuật toán sắp xếp chọn, thì sau bước 1 các giá trị trong dãy là:",
+    "type": "short_answer",
+    "correctAnswer": "[1, 3, 2, 5, 9, 7, 8]",
+    "explanation": "Thuật toán sắp xếp chọn (Selection Sort) - Bước 1:\n- Tìm phần tử nhỏ nhất trong toàn dãy (từ vị trí 0 đến cuối) và đổi chỗ với phần tử ở vị trí đầu (vị trí 0).\n- Phần tử nhỏ nhất trong dãy là 1 (ở vị trí cuối cùng).\n- Đổi chỗ 1 với 8 (phần tử đầu tiên).\nKết quả sau bước 1: [1, 3, 2, 5, 9, 7, 8]"
+  },
+  {
+    "id": 18,
+    "question": "Khi sắp xếp dãy [8, 3, 2, 5, 9, 7, 1] theo thuật toán sắp xếp nổi bọt, thì sau bước 2 các giá trị trong dãy là:",
+    "type": "short_answer",
+    "correctAnswer": "[2, 3, 5, 7, 1, 8, 9]",
+    "explanation": "Thuật toán sắp xếp nổi bọt (Bubble Sort):\nBước 1: So sánh và đổi chỗ các cặp phần tử liên tiếp từ đầu đến cuối dãy\n[8, 3, 2, 5, 9, 7, 1] → [3, 2, 5, 8, 7, 1, 9]\nBước 2: Lặp lại quá trình trên nhưng không xét phần tử cuối cùng (đã đúng vị trí)\n[3, 2, 5, 8, 7, 1, 9] → [2, 3, 5, 7, 1, 8, 9]\nKết quả sau bước 2: [2, 3, 5, 7, 1, 8, 9]"
+  },
+  {
+    "id": 19,
+    "question": "Số cây nhị phân có thể tạo từ 3 giá trị (cây nhị phân có 3 nốt) là:",
+    "type": "short_answer",
+    "correctAnswer": "5",
+    "explanation": "Số cây nhị phân khác nhau có thể tạo từ n nút được tính bằng số Catalan thứ n: C(n) = (2n)! / (n! * (n+1)!)\nVới n = 3: C(3) = (2*3)! / (3! * (3+1)!) = 6! / (3! * 4!) = 720 / (6 * 24) = 5\nVậy số cây nhị phân khác nhau có thể tạo từ 3 nút là: 5"
+  },
+  {
+    "id": 20,
+    "question": "Khi duyệt cây theo thuật toán duyệt hậu tự, lệnh in giá trị gốc được để ở vị trí nào (1,2,3):",
+    "type": "short_answer",
+    "correctAnswer": "3",
+    "explanation": "Trong duyệt cây theo thuật toán duyệt hậu tự (post-order traversal), thứ tự thăm các nút là:\n1. Duyệt cây con trái\n2. Duyệt cây con phải\n3. In giá trị gốc (nút hiện tại)\nVậy lệnh in giá trị gốc được đặt ở vị trí 3."
+  },
+  {
+    "id": 21,
+    "question": "Để con trỏ p trỏ đến cuối danh sách thì phần còn thiếu trong đoạn lệnh while sau là: ....p=head; while(______) p=p.next;",
+    "type": "short_answer",
+    "correctAnswer": "p.next != null",
+    "explanation": "Để con trỏ p trỏ đến nút cuối cùng của danh sách liên kết, ta cần duyệt danh sách cho đến khi p.next == null (tức là p đã trỏ đến nút cuối). Do đó, điều kiện trong vòng lặp while phải là p.next != null."
+  },
+  {
+    "id": 22,
+    "question": "Hàm int f(int n) dùng để đếm số chữ số của số nguyên dương n. Phần lệnh còn thiếu trong thân hàm dưới đây là: ......if(n>0) return 1 + f(_____) ; else return 0;",
+    "type": "short_answer",
+    "correctAnswer": "n / 10",
+    "explanation": "Hàm đệ quy f(int n) đếm số chữ số của số nguyên dương n bằng cách:\n- Nếu n > 0, trả về 1 (cho chữ số cuối cùng) cộng với số chữ số của n/10 (loại bỏ chữ số cuối cùng)\n- Nếu n = 0, trả về 0\nVậy phần lệnh còn thiếu là: n / 10"
+  },
+  {
+    "id": 23,
+    "question": "Độ phức tạp khi nhân hai ma trận vuông kích thước n là O(n^____)",
+    "type": "short_answer",
+    "correctAnswer": "3",
+    "explanation": "Khi nhân hai ma trận vuông kích thước n, ta cần thực hiện n^3 phép nhân và cộng (n^2 phần tử kết quả, mỗi phần tử cần n phép nhân và n-1 phép cộng). Do đó, độ phức tạp thời gian là O(n^3)."
+  },
+  {
+    "id": 24,
+    "question": "Trong cây nhị phân tìm kiếm, nếu ta muốn tìm phần tử lớn nhất, ta cần đi theo hướng nào?",
+    "options": ["Luôn đi sang trái", "Luôn đi sang phải", "Đi xuống nút gốc", "Đi theo cả hai hướng"],
+    "correctAnswer": 1,
+    "explanation": "Trong cây nhị phân tìm kiếm (BST), các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Do đó, để tìm phần tử lớn nhất, ta cần luôn đi sang phải cho đến khi không thể đi tiếp được nữa (tức là đến nút không có con phải)."
+  },
+  {
+    "id": 25,
+    "question": "Thuật toán sắp xếp nào có độ phức tạp trung bình là O(n log n)?",
+    "options": [
+      "Sắp xếp nổi bọt (Bubble Sort)",
+      "Sắp xếp chèn (Insertion Sort)",
+      "Sắp xếp nhanh (Quick Sort)",
+      "Sắp xếp chọn (Selection Sort)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thuật toán sắp xếp nhanh (Quick Sort) có độ phức tạp trung bình là O(n log n). Các thuật toán sắp xếp nổi bọt (Bubble Sort), sắp xếp chèn (Insertion Sort) và sắp xếp chọn (Selection Sort) đều có độ phức tạp trung bình là O(n²)."
+  },
+  {
+    "id": 26,
+    "question": "Trong cấu trúc dữ liệu ngăn xếp (Stack), phần tử nào được lấy ra đầu tiên?",
+    "options": [
+      "Phần tử được thêm vào đầu tiên",
+      "Phần tử được thêm vào cuối cùng",
+      "Phần tử có giá trị lớn nhất",
+      "Phần tử có giá trị nhỏ nhất"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ngăn xếp (Stack) là cấu trúc dữ liệu LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên. Điều này giống như việc xếp chồng đĩa, đĩa nào được đặt lên trên cùng (cuối cùng) sẽ được lấy ra trước."
+  },
+  {
+    "id": 27,
+    "question": "Trong cấu trúc dữ liệu hàng đợi (Queue), phần tử nào được lấy ra đầu tiên?",
+    "options": [
+      "Phần tử được thêm vào đầu tiên",
+      "Phần tử được thêm vào cuối cùng",
+      "Phần tử có giá trị lớn nhất",
+      "Phần tử có giá trị nhỏ nhất"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hàng đợi (Queue) là cấu trúc dữ liệu FIFO (First In First Out), nghĩa là phần tử được thêm vào đầu tiên sẽ được lấy ra đầu tiên. Điều này giống như người xếp hàng mua vé, người đến trước (đầu tiên) sẽ được phục vụ trước."
+  },
+  {
+    "id": 28,
+    "question": "Thuật toán nào sau đây không phải là thuật toán sắp xếp?",
+    "options": ["Merge Sort", "Bubble Sort", "Binary Search", "Insertion Sort"],
+    "correctAnswer": 2,
+    "explanation": "Binary Search (Tìm kiếm nhị phân) là thuật toán tìm kiếm, không phải thuật toán sắp xếp. Các thuật toán còn lại (Merge Sort, Bubble Sort, Insertion Sort) đều là các thuật toán sắp xếp."
+  },
+  {
+    "id": 29,
+    "question": "Độ phức tạp thời gian tốt nhất của thuật toán sắp xếp nổi bọt (Bubble Sort) là:",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
+    "correctAnswer": 0,
+    "explanation": "Độ phức tạp thời gian tốt nhất của thuật toán sắp xếp nổi bọt (Bubble Sort) là O(n), xảy ra khi mảng đã được sắp xếp từ trước. Trong trường hợp này, thuật toán chỉ cần duyệt qua mảng một lần và không cần thực hiện bất kỳ phép đổi chỗ nào."
+  },
+  {
+    "id": 30,
+    "question": "Cấu trúc dữ liệu nào sau đây không phải là cấu trúc dữ liệu tuyến tính?",
+    "options": ["Mảng (Array)", "Danh sách liên kết (Linked List)", "Cây (Tree)", "Ngăn xếp (Stack)"],
+    "correctAnswer": 2,
+    "explanation": "Cây (Tree) không phải là cấu trúc dữ liệu tuyến tính mà là cấu trúc dữ liệu phi tuyến tính. Các cấu trúc dữ liệu tuyến tính như Mảng (Array), Danh sách liên kết (Linked List), Ngăn xếp (Stack) có các phần tử được sắp xếp theo thứ tự tuyến tính, trong khi Cây có các phần tử được sắp xếp theo quan hệ phân cấp."
+  },
+  {
+    "id": 31,
+    "question": "Trong cây nhị phân đầy đủ (Full Binary Tree), mỗi nút không phải là lá có bao nhiêu con?",
+    "options": ["0", "1", "2", "3"],
+    "correctAnswer": 2,
+    "explanation": "Trong cây nhị phân đầy đủ (Full Binary Tree), mỗi nút không phải là lá (nút trong) đều có đúng 2 con. Nói cách khác, mỗi nút hoặc có 0 con (là nút lá), hoặc có 2 con (là nút trong)."
+  },
+  {
+    "id": 32,
+    "question": "Thuật toán nào sau đây sử dụng chiến lược chia để trị (divide and conquer)?",
+    "options": ["Bubble Sort", "Insertion Sort", "Selection Sort", "Quick Sort"],
+    "correctAnswer": 3,
+    "explanation": "Quick Sort (Sắp xếp nhanh) là thuật toán sắp xếp sử dụng chiến lược chia để trị (divide and conquer). Thuật toán này chia mảng thành hai phần dựa trên một phần tử chốt (pivot), sau đó sắp xếp đệ quy hai phần này."
+  },
+  {
+    "id": 33,
+    "question": "Trong cây nhị phân tìm kiếm (BST), nút con trái của một nút có giá trị như thế nào so với nút cha?",
+    "options": ["Luôn lớn hơn", "Luôn nhỏ hơn", "Có thể lớn hơn hoặc nhỏ hơn", "Bằng nhau"],
+    "correctAnswer": 1,
+    "explanation": "Trong cây nhị phân tìm kiếm (BST), nút con trái của một nút luôn có giá trị nhỏ hơn nút cha. Đây là một trong những tính chất cơ bản của cây nhị phân tìm kiếm, giúp việc tìm kiếm, chèn và xóa các phần tử được thực hiện hiệu quả."
+  },
+  {
+    "id": 34,
+    "question": "Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu phải:",
+    "options": ["Được sắp xếp", "Không được sắp xếp", "Là số nguyên", "Là chuỗi ký tự"],
+    "correctAnswer": 0,
+    "explanation": "Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu phải được sắp xếp trước khi thực hiện tìm kiếm. Điều này cho phép thuật toán loại bỏ một nửa dữ liệu sau mỗi bước so sánh, giúp giảm độ phức tạp thời gian xuống còn O(log n)."
+  },
+  {
+    "id": 35,
+    "question": "Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search) là:",
+    "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+    "correctAnswer": 1,
+    "explanation": "Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search) là O(log n). Điều này là do sau mỗi bước so sánh, thuật toán loại bỏ một nửa dữ liệu cần xem xét, giúp giảm đáng kể số lượng phép so sánh cần thực hiện."
+  },
+  {
+    "id": 36,
+    "question": "Trong cấu trúc dữ liệu cây (Tree), nút không có nút con nào được gọi là:",
+    "options": ["Nút gốc (Root node)", "Nút trong (Internal node)", "Nút lá (Leaf node)", "Nút anh em (Sibling node)"],
+    "correctAnswer": 2,
+    "explanation": "Trong cấu trúc dữ liệu cây (Tree), nút không có nút con nào được gọi là nút lá (Leaf node). Các nút lá thường nằm ở tầng cuối cùng của cây."
+  },
+  {
+    "id": 37,
+    "question": "Thuật toán sắp xếp nào sau đây có độ phức tạp thời gian tốt nhất, trung bình và xấu nhất đều là O(n log n)?",
+    "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Insertion Sort"],
+    "correctAnswer": 1,
+    "explanation": "Merge Sort (Sắp xếp trộn) có độ phức tạp thời gian tốt nhất, trung bình và xấu nhất đều là O(n log n). Đây là một trong những ưu điểm của Merge Sort so với các thuật toán sắp xếp khác như Quick Sort (có độ phức tạp xấu nhất là O(n²)) hay Insertion Sort (có độ phức tạp trung bình và xấu nhất là O(n²))."
+  },
+  {
+    "id": 38,
+    "question": "Trong cây nhị phân hoàn chỉnh (Complete Binary Tree) có n nút, chiều cao của cây là:",
+    "options": ["log₂(n)", "log₂(n+1)", "⌊log₂(n)⌋", "⌈log₂(n+1)⌉"],
+    "correctAnswer": 2,
+    "explanation": "Trong cây nhị phân hoàn chỉnh (Complete Binary Tree) có n nút, chiều cao của cây là ⌊log₂(n)⌋, tức là phần nguyên của log₂(n). Ví dụ, một cây nhị phân hoàn chỉnh có 7 nút sẽ có chiều cao là ⌊log₂(7)⌋ = ⌊2.81⌋ = 2."
+  },
+  {
+    "id": 39,
+    "question": "Trong cây nhị phân tìm kiếm (BST), thứ tự duyệt nào sẽ cho ra các phần tử theo thứ tự tăng dần?",
+    "options": [
+      "Duyệt tiền tự (Preorder)",
+      "Duyệt trung tự (Inorder)",
+      "Duyệt hậu tự (Postorder)",
+      "Duyệt theo chiều rộng (Level order)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Trong cây nhị phân tìm kiếm (BST), duyệt trung tự (Inorder) sẽ cho ra các phần tử theo thứ tự tăng dần. Điều này là do trong BST, các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Khi duyệt trung tự (trái - gốc - phải), ta sẽ thăm các nút theo thứ tự tăng dần của giá trị."
+  },
+  {
+    "id": 40,
+    "question": "Trong danh sách liên kết đơn, để xóa một nút ở giữa danh sách, ta cần:",
+    "options": [
+      "Biết địa chỉ của nút cần xóa",
+      "Biết địa chỉ của nút trước nút cần xóa",
+      "Biết địa chỉ của nút sau nút cần xóa",
+      "Biết địa chỉ của cả nút trước và nút sau nút cần xóa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Trong danh sách liên kết đơn, để xóa một nút ở giữa danh sách, ta cần biết địa chỉ của nút trước nút cần xóa. Điều này là do trong danh sách liên kết đơn, mỗi nút chỉ có con trỏ trỏ đến nút tiếp theo, không có con trỏ trỏ đến nút trước đó. Do đó, để xóa một nút, ta cần cập nhật con trỏ next của nút trước nút cần xóa để trỏ đến nút sau nút cần xóa."
+  }
+]

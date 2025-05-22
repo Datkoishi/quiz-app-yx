@@ -1,0 +1,404 @@
+[
+  {
+    "id": 1,
+    "question": "Giá trị $a_n$ nào sau đây là nghiệm của hệ thức truy hồi: $a_n = 3a_{n-1} - 2a_{n-2}$",
+    "options": ["$a_n = 2^n - 1$", "$a_n = 2^n + n$", "$a_n = 2^n - n$", "$a_n = 2^{n+1} + 1$"],
+    "correctAnswer": 0,
+    "explanation": "* Viết phương trình đặc trưng: $r^2 - 3r + 2 = 0$\n* Giải phương trình đặc trưng: $(r-1)(r-2) = 0 \\Rightarrow r_1=1, \\quad r_2=2$\n* Nghiệm tổng quát của hệ truy hồi: $a_n = A \\cdot 1^n + B \\cdot 2^n = A + B 2^n$\n* Thử nghiệm $a_n = 2^n - 1$ (ứng với $A = -1, B = 1$)\n* Thay vào hệ truy hồi: $2^n - 1 \\stackrel{?}{=} 3(2^{n-1} -1) - 2(2^{n-2} -1)$\n* Phân tích bên phải: $3 \\cdot 2^{n-1} - 3 - 2 \\cdot 2^{n-2} + 2 = 3 \\times \\frac{2^n}{2} - 3 - 2 \\times \\frac{2^n}{4} + 2 = \\frac{3}{2} 2^n - 3 - \\frac{1}{2} 2^n + 2 = 2^n -1$\nPhải và trái bằng nhau nên thỏa mãn.",
+    "formula": "* Phương trình đặc trưng của hệ truy hồi bậc hai: $r^2 - pr + q = 0$\n* Nghiệm tổng quát: $a_n = A r_1^n + B r_2^n$"
+  },
+  {
+    "id": 2,
+    "question": "Tập hợp $\\{\\emptyset, \\{1\\}, \\{2\\}, \\{1, 2\\}\\}$ là tập lũy thừa của tập nào?",
+    "options": ["$\\{1, 2\\}$", "$\\{\\{1\\}, 2\\}$", "$\\{\\{1,2\\}\\}$", "$\\{1, \\{2\\}\\}$"],
+    "correctAnswer": 0,
+    "explanation": "Tập lũy thừa của tập $X$ là tập tất cả các tập con của $X$. Ở đây, tập lũy thừa bao gồm: $\\emptyset, \\{1\\}, \\{2\\}, \\{1, 2\\}$ là tất cả các tập con của tập $\\{1, 2\\}$.",
+    "formula": "* Tập lũy thừa (power set) của X: $\\mathcal{P}(X) = \\{A \\mid A \\subseteq X\\}$"
+  },
+  {
+    "id": 3,
+    "question": "Một bình đựng 5 viên bi xanh và 4 viên bi đỏ. Lần 1 lấy ngẫu nhiên 1 viên bi (không bỏ lại), lần 2 lấy 1 viên bi. Tính xác suất để lần đầu lấy bi xanh và lần hai lấy bi đỏ.",
+    "options": ["0.2996", "0.3124", "0.2778", "0.3112"],
+    "correctAnswer": 2,
+    "explanation": "* Tổng số viên bi ban đầu: 9\n* Xác suất lần 1 lấy viên xanh: $P_1 = \\frac{5}{9}$\n* Sau lần 1 lấy viên xanh không trả lại, còn lại 8 viên, trong đó 4 viên đỏ.\n* Xác suất lần 2 lấy viên đỏ: $P_2 = \\frac{4}{8} = \\frac{1}{2}$\n* Xác suất cả hai lần: $P = P_1 \\times P_2 = \\frac{5}{9} \\times \\frac{1}{2} = \\frac{5}{18} \\approx 0.2778$",
+    "formula": "* Xác suất có điều kiện: $P(A \\cap B) = P(A) \\times P(B \\mid A)$"
+  },
+  {
+    "id": 4,
+    "question": "Có bao nhiêu cách bầu 1 trưởng đoàn, 1 phó đoàn và 1 thủ quỹ từ nhóm 6 người? Không ai giữ kiêm nhiệm.",
+    "options": ["115", "120", "130", "135"],
+    "correctAnswer": 1,
+    "explanation": "* Chọn 3 người giữ 3 chức vụ khác nhau (phân biệt thứ tự) từ 6 người.\n* Số hoán vị chập 3 của 6 phần tử: $P(6, 3) = 6 \\times 5 \\times 4 = 120$",
+    "formula": "* Hoán vị chập k của n phần tử: $P(n, k) = \\frac{n!}{(n-k)!}$"
+  },
+  {
+    "id": 5,
+    "question": "Có bao nhiêu cách chọn 3 bạn sinh viên trong số 7 bạn đi dự hội thảo?",
+    "options": ["45", "50", "30", "35"],
+    "correctAnswer": 3,
+    "explanation": "* Chọn 3 người từ 7 người, không phân biệt thứ tự, dùng tổ hợp: $C_7^3 = \\binom{7}{3} = \\frac{7!}{3! \\times 4!} = 35$",
+    "formula": "* Tổ hợp chập k của n phần tử: $C_n^k = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}$"
+  },
+  {
+    "id": 6,
+    "question": "Một nhóm 8 sinh viên gồm 3 nữ và 5 nam. Hỏi có bao nhiêu cách bầu 1 trưởng nhóm, 1 phó nhóm và 1 thủ quỹ? Không ai giữ kiêm nhiệm.",
+    "options": ["336", "312", "432", "286"],
+    "correctAnswer": 0,
+    "explanation": "* Chọn 3 người giữ 3 chức vụ khác nhau (phân biệt thứ tự) từ 8 người: $P(8, 3) = 8 \\times 7 \\times 6 = 336$",
+    "formula": "* Hoán vị chập k của n phần tử: $P(n, k) = \\frac{n!}{(n-k)!}$"
+  },
+  {
+    "id": 7,
+    "question": "Một nhóm có 9 bạn sinh viên gồm 4 nữ và 5 nam. Hỏi có bao nhiêu cách chọn 3 bạn đi dự hội thảo? Biết rằng trong số 3 bạn đi dự chỉ có ít nhất một nữ.",
+    "options": ["72", "74", "76", "78"],
+    "correctAnswer": 1,
+    "explanation": "Tổng số cách chọn 3 bạn từ 9 bạn: $C_9^3 = \\frac{9!}{3! \\cdot 6!} = 84$\nSố cách chọn 3 bạn không có nữ (tức toàn nam) là chọn 3 trong 5 nam: $C_5^3 = \\frac{5!}{3! \\cdot 2!} = 10$\nSố cách chọn 3 bạn có ít nhất một nữ là: $84 - 10 = 74$",
+    "formula": "$C_n^k = \\frac{n!}{k!(n-k)!}$"
+  },
+  {
+    "id": 8,
+    "question": "Xác định chân trị của biểu thức $(p \\to q) \\land (q \\to r)$ và $(p \\to r)$ khi $p = r = 0, q = 1$?",
+    "options": ["1 và 1", "0 và 0", "0 và 1", "1 và 0"],
+    "correctAnswer": 2,
+    "explanation": "* p → q (implication) là sai chỉ khi p = 1, q = 0, các trường hợp khác đúng.\n* Với p = 0, q = 1, $p \\to q = 1$\n* Với q = 1, r = 0, $q \\to r = 0$\n* Vậy: $(p \\to q) \\land (q \\to r) = 1 \\land 0 = 0$\n* Xét p → r với p = 0, r = 0, do p = 0, nên p → r = 1.",
+    "formula": ""
+  },
+  {
+    "id": 9,
+    "question": "Xác định chân trị của biểu thức $(x \\to y) \\lor (y \\to z)$ và $(x \\to z)$ khi $x = y = z = 1$?",
+    "options": ["0 và 0", "0 và 1", "1 và 0", "1 và 1"],
+    "correctAnswer": 3,
+    "explanation": "Với $x = y = z = 1$:\n* x → y = 1 (vì 1 → 1 = 1)\n* y → z = 1\n* (x → y) ∨ (y → z) = 1 ∨ 1 = 1\n* x → z = 1 → 1 = 1",
+    "formula": ""
+  },
+  {
+    "id": 10,
+    "question": "Một sinh viên thi trắc nghiệm môn Toán rời rạc, đề có 10 câu hỏi, mỗi câu có 4 phương án trả lời, chỉ có 1 phương án đúng. Sinh viên làm bài bằng cách chọn ngẫu nhiên một đáp án cho mỗi câu. Xác suất để sinh viên đó vừa đủ điểm đậu (5 điểm vừa đủ đậu) là bao nhiêu?",
+    "options": ["0.0500", "0.0750", "0.2500", "0.0584"],
+    "correctAnswer": 3,
+    "explanation": "* Số câu đúng cần là 5 trong 10 câu.\n* Mỗi câu đúng với xác suất p = $\\frac{1}{4}$ = 0.25, sai q = $\\frac{3}{4}$ = 0.75.\n* Đây là biến ngẫu nhiên nhị thức với n = 10, xác suất thành công p = 0.25.\n* Xác suất đúng đúng 5 câu: $P(X=5) = C_{10}^5 \\cdot p^5 \\cdot q^{5}$\nTính: $C_{10}^5 = 252, \\quad p^5 = (0.25)^5, \\quad q^5 = (0.75)^5$\nTính giá trị gần đúng: $P \\approx 252 \\times (0.0009766) \\times (0.2373) \\approx 0.0584$",
+    "formula": ""
+  },
+  {
+    "id": 11,
+    "question": "Hoán vị nào sau đây đứng liền sau hoán vị 1 2 4 3 theo thuật toán sinh?",
+    "options": ["2145", "1324", "2143", "1342"],
+    "correctAnswer": 1,
+    "explanation": "Theo thuật toán sinh hoán vị, sau hoán vị 1 2 4 3 là hoán vị tiếp theo theo thứ tự từ nhỏ đến lớn là 1 3 2 4.",
+    "formula": ""
+  },
+  {
+    "id": 12,
+    "question": "Dãy 1 2 5 6 là tổ hợp chập 4 của 6 phần tử, cấu hình đứng liền sau của dãy này theo thuật toán sinh là gì?",
+    "options": ["2134", "1243", "1345", "2156"],
+    "correctAnswer": 2,
+    "explanation": "Dãy tiếp theo trong tổ hợp chập 4 theo thuật toán sinh từ dãy 1 2 5 6 là 1 3 4 5.",
+    "formula": ""
+  },
+  {
+    "id": 13,
+    "question": "Dãy nhị phân độ dài 4 hiện tại là 1011. Dãy liền sau dãy này theo thuật toán sinh là:",
+    "options": ["0110", "0101", "1101", "1100"],
+    "correctAnswer": 3,
+    "explanation": "Thuật toán sinh dãy nhị phân tiếp theo theo thứ tự từ nhỏ đến lớn, sau dãy 1011 là 1100.",
+    "formula": ""
+  },
+  {
+    "id": 14,
+    "question": "Dãy nhị phân độ dài 5 hiện tại là 01110. Dãy liền sau dãy này theo thuật toán sinh là:",
+    "options": ["01011", "00111", "01001", "01111"],
+    "correctAnswer": 3,
+    "explanation": "Theo thuật toán sinh dãy nhị phân liền sau 01110 là 01111.",
+    "formula": ""
+  },
+  {
+    "id": 15,
+    "question": "Công thức nào sau đây có thể tạo ra chuỗi số: 5, 9, 13, 17, 21, ...",
+    "options": ["$a_n = 2n + 1$", "$a_n = 4n + 1$", "$a_n = 4n + 3$", "$a_n = 4n - 1$"],
+    "correctAnswer": 1,
+    "explanation": "Dãy số là cấp số cộng với công sai $d=4$ và số hạng đầu $a_1=5$.\nCông thức tổng quát của cấp số cộng: $a_n = a_1 + (n-1)d = 5 + (n-1) \\times 4 = 4n + 1$",
+    "formula": ""
+  },
+  {
+    "id": 16,
+    "question": "Cho tập $A$ gồm 5 phần tử. Số tập con của tập $A$ là:",
+    "options": ["16", "32", "36", "64"],
+    "correctAnswer": 1,
+    "explanation": "Số tập con của tập có $n$ phần tử là $2^n$. Với $n=5$, số tập con là: $2^5 = 32$",
+    "formula": ""
+  },
+  {
+    "id": 17,
+    "question": "Có bao nhiêu cách biểu diễn khác nhau đối với xâu nhị phân độ dài 8 bit?",
+    "options": ["512", "128", "256", "236"],
+    "correctAnswer": 2,
+    "explanation": "Xâu nhị phân độ dài 8 bit có mỗi bit là 0 hoặc 1, nên tổng số xâu là: $2^8 = 256$",
+    "formula": ""
+  },
+  {
+    "id": 18,
+    "question": "Có bao nhiêu cách mua 7 quả trái cây từ 3 loại cam, xoài, quýt, mỗi loại có không ít hơn 7 quả?",
+    "options": ["36", "45", "50", "65"],
+    "correctAnswer": 0,
+    "explanation": "Bài toán là chọn $x_1, x_2, x_3 \\ge 0$ sao cho: $x_1 + x_2 + x_3 = 7$\nSố nghiệm không âm của phương trình trên là: $C_{7+3-1}^{3-1} = C_9^2 = \\frac{9 \\times 8}{2} = 36$",
+    "formula": ""
+  },
+  {
+    "id": 19,
+    "question": "Đồ thị có hướng $G = (V, E)$ có $n$ đỉnh và $m$ cạnh. Ma trận kề biểu diễn đồ thị $G$ có kích thước:",
+    "options": ["$m \\times m$", "$m \\times n$", "$n \\times n$", "$2 \\times (m + n)$"],
+    "correctAnswer": 2,
+    "explanation": "Ma trận kề biểu diễn đồ thị có kích thước bằng số đỉnh nhân với số đỉnh, tức là ma trận vuông $n \\times n$.",
+    "formula": ""
+  },
+  {
+    "id": 20,
+    "question": "Một dãy XYY, trong đó X có thể là một trong 10 chữ số thập phân, Y có thể là một trong 26 chữ cái. Có bao nhiêu dãy được thành lập theo cách trên?",
+    "options": ["6762", "6760", "6765", "6767"],
+    "correctAnswer": 1,
+    "explanation": "* X có 10 lựa chọn (chữ số 0 đến 9).\n* Y có 26 lựa chọn.\n* Dãy XYY có 3 kí tự, trong đó hai kí tự Y giống nhau.\nSố dãy là: $10 \\times 26 \\times 26 = 6760$",
+    "formula": ""
+  },
+  {
+    "id": 21,
+    "question": "Có bao nhiêu số tự nhiên có 3 chữ số khác nhau được tạo từ các chữ số 1,2,3,4,5?",
+    "options": ["60", "80", "100", "120"],
+    "correctAnswer": 0,
+    "explanation": "Chọn 3 chữ số khác nhau từ 5 chữ số, sau đó sắp xếp 3 chữ số đó.\n* Số cách chọn và sắp xếp: $P(5, 3) = 5 \\times 4 \\times 3 = 60$",
+    "formula": ""
+  },
+  {
+    "id": 22,
+    "question": "Một lớp có 10 học sinh. Hỏi có bao nhiêu cách chọn ra 3 học sinh để làm trực nhật?",
+    "options": ["30", "120", "720", "140"],
+    "correctAnswer": 1,
+    "explanation": "Chọn 3 học sinh theo thứ tự, tức là hoán vị chập 3 của 10 phần tử: $P(10, 3) = 10 \\times 9 \\times 8 = 720$\nTuy nhiên đề hỏi \"chọn ra\" mà không nói thứ tự, nên có thể dùng tổ hợp: $C_{10}^3 = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$",
+    "formula": ""
+  },
+  {
+    "id": 23,
+    "question": "Có bao nhiêu cách sắp xếp 4 quyển sách lên một kệ theo hàng ngang?",
+    "options": ["24", "16", "10", "8"],
+    "correctAnswer": 0,
+    "explanation": "Số cách sắp xếp 4 quyển sách là hoán vị của 4 phần tử: $4! = 24$",
+    "formula": ""
+  },
+  {
+    "id": 24,
+    "question": "Một quán cà phê có 5 loại đồ uống. Một khách hàng có thể chọn tối đa 1 loại đồ uống. Có bao nhiêu cách chọn?",
+    "options": ["5", "10", "15", "25"],
+    "correctAnswer": 0,
+    "explanation": "Khách chỉ chọn tối đa 1 loại đồ uống, tức là chọn 1 trong 5 loại: $C_5^1 = 5$",
+    "formula": ""
+  },
+  {
+    "id": 25,
+    "question": "Có bao nhiêu cách xếp 6 học sinh vào một hàng dọc nếu có 2 học sinh phải đứng cạnh nhau?",
+    "options": ["240", "120", "360", "480"],
+    "correctAnswer": 0,
+    "explanation": "* Gộp 2 học sinh phải đứng cạnh nhau thành 1 nhóm, nên ta có 5 phần tử (nhóm 2 học sinh + 4 học sinh còn lại).\n* Số cách xếp 5 phần tử là $5! = 120$.\n* Trong nhóm 2 học sinh, có thể hoán vị 2 học sinh với nhau là $2!$ cách.\n* Vậy tổng số cách xếp: $5! \\times 2! = 120 \\times 2 = 240$",
+    "formula": ""
+  },
+  {
+    "id": 26,
+    "question": "Có bao nhiêu số chẵn có 3 chữ số được tạo từ các chữ số 1,2,3,4,5,6 mà không lặp chữ số?",
+    "options": ["60", "120", "80", "100"],
+    "correctAnswer": 0,
+    "explanation": "* Số có 3 chữ số, chữ số cuối phải là số chẵn: có thể là 2, 4 hoặc 6 (3 khả năng).\n* Chọn chữ số cuối (đơn vị) có 3 cách.\n* Chọn chữ số hàng trăm: còn 5 chữ số (không lặp với chữ số đơn vị).\n* Chọn chữ số hàng chục: còn 4 chữ số.\n* Tổng số số thỏa mãn: $3 \\times 5 \\times 4 = 60$",
+    "formula": ""
+  },
+  {
+    "id": 27,
+    "question": "Một người có 4 cái áo và 3 cái quần. Hỏi có bao nhiêu cách chọn một bộ gồm 1 áo và 1 quần?",
+    "options": ["7", "10", "12", "15"],
+    "correctAnswer": 2,
+    "explanation": "* Chọn 1 áo trong 4 áo: 4 cách\n* Chọn 1 quần trong 3 quần: 3 cách\n* Tổng số cách chọn bộ là: $4 \\times 3 = 12$",
+    "formula": ""
+  },
+  {
+    "id": 28,
+    "question": "Có bao nhiêu cách xếp 5 người vào một bàn tròn?",
+    "options": ["120", "60", "24", "20"],
+    "correctAnswer": 2,
+    "explanation": "* Số cách sắp xếp n người quanh bàn tròn là: $(n-1)! = 4! = 24$",
+    "formula": ""
+  },
+  {
+    "id": 29,
+    "question": "Có bao nhiêu cách chọn 4 bông hoa từ 6 bông hoa khác nhau?",
+    "options": ["15", "24", "30", "45"],
+    "correctAnswer": 0,
+    "explanation": "Số cách chọn 4 bông hoa không phân biệt thứ tự: $C_6^4 = \\frac{6!}{4! \\times 2!} = 15$",
+    "formula": ""
+  },
+  {
+    "id": 30,
+    "question": "Có bao nhiêu số tự nhiên có 4 chữ số khác nhau được tạo từ các chữ số 1,2,3,4,5,6,7?",
+    "options": ["840", "720", "1680", "2520"],
+    "correctAnswer": 0,
+    "explanation": "* Chọn 4 chữ số khác nhau từ 7 chữ số: $P(7,4) = 7 \\times 6 \\times 5 \\times 4 = 840$",
+    "formula": ""
+  },
+  {
+    "id": 31,
+    "question": "Phép toán nào sau đây không thuộc Đại số Boolean?",
+    "options": ["Phép hội (AND)", "Phép tuyển (OR)", "Phép trừ (SUBTRACT)", "Phép phủ định (NOT)"],
+    "correctAnswer": 2,
+    "explanation": "Phép trừ không phải là phép toán trong Đại số Boolean. Các phép toán chuẩn trong Đại số Boolean là AND, OR, NOT.",
+    "formula": ""
+  },
+  {
+    "id": 32,
+    "question": "Trong Đại số Boolean, giá trị của biểu thức $A + !A$ là:",
+    "options": ["0", "1", "A", "!A"],
+    "correctAnswer": 1,
+    "explanation": "Biểu thức $A + !A$ trong Đại số Boolean luôn đúng (1) theo luật loại trừ trung gian.",
+    "formula": ""
+  },
+  {
+    "id": 33,
+    "question": "Trong Đại số Boolean, giá trị của biểu thức $A . !A$ là:",
+    "options": ["0", "1", "A", "!A"],
+    "correctAnswer": 0,
+    "explanation": "Biểu thức $A . !A$ trong Đại số Boolean luôn bằng 0 vì $A$ và phủ định $A$ không thể đồng thời đúng.",
+    "formula": ""
+  },
+  {
+    "id": 34,
+    "question": "Biểu thức Boolean $A + AB$ tương đương với biểu thức nào dưới đây?",
+    "options": ["A", "B", "AB", "A + B"],
+    "correctAnswer": 0,
+    "explanation": "Sử dụng luật hấp thụ: $A + AB = A$",
+    "formula": ""
+  },
+  {
+    "id": 35,
+    "question": "Biểu thức Boolean $A . (A + B)$ tương đương với biểu thức nào dưới đây?",
+    "options": ["A", "B", "A + B", "AB"],
+    "correctAnswer": 0,
+    "explanation": "Sử dụng phân phối và luật hấp thụ: $A . (A + B) = A . A + A . B = A + AB = A$",
+    "formula": ""
+  },
+  {
+    "id": 36,
+    "question": "Giá trị của biểu thức $(A + B)(A + !B)$ là:",
+    "options": ["A", "B", "A + B", "A . B"],
+    "correctAnswer": 0,
+    "explanation": "Phân phối: $(A + B)(A + !B) = A \\cdot A + A \\cdot !B + B \\cdot A + B \\cdot !B = A + A !B + AB + 0$\nDễ thấy $A !B + AB = A (B + !B) = A \\times 1 = A$, nên biểu thức trở thành: $A + A + A = A$",
+    "formula": ""
+  },
+  {
+    "id": 37,
+    "question": "Dạng tối giản của biểu thức $AB + A!B + !AB$ là gì?",
+    "options": ["AB", "A + B", "A.B", "A XOR B"],
+    "correctAnswer": 1,
+    "explanation": "Sử dụng tính chất đại số Boolean: $AB + A!B + !AB = A + B$",
+    "formula": ""
+  },
+  {
+    "id": 38,
+    "question": "Dạng tối giản của $A + AB$ là gì?",
+    "options": ["A", "B", "A + B", "AB"],
+    "correctAnswer": 0,
+    "explanation": "Dùng luật hấp thụ: $A + AB = A$",
+    "formula": ""
+  },
+  {
+    "id": 39,
+    "question": "Phát biểu nào sau đây đúng với một hàm Boolean?",
+    "options": [
+      "Chỉ nhận giá trị 0 và 1",
+      "Chỉ nhận giá trị dương",
+      "Chỉ nhận giá trị âm",
+      "Có thể nhận bất kỳ giá trị nào"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hàm Boolean chỉ nhận giá trị 0 và 1.",
+    "formula": ""
+  },
+  {
+    "id": 40,
+    "question": "Luật De Morgan cho phép biến đổi biểu thức nào sau đây?",
+    "options": ["$A + B = A.B$", "$A.B = A + B$", "$!(A + B) = !A.!B$", "$A + A = A$"],
+    "correctAnswer": 2,
+    "explanation": "Luật De Morgan cho phép biến đổi: $!(A + B) = !A.!B$ và $!(A.B) = !A + !B$",
+    "formula": ""
+  },
+  {
+    "id": 41,
+    "question": "Có bao nhiêu cách chọn ra 2 học sinh từ một nhóm gồm 10 học sinh?",
+    "options": ["90", "100", "45", "20"],
+    "correctAnswer": 2,
+    "explanation": "Số cách chọn 2 học sinh không phân biệt thứ tự: $C_{10}^2 = \\frac{10!}{2! \\times 8!} = 45$",
+    "formula": ""
+  },
+  {
+    "id": 42,
+    "question": "Có bao nhiêu cách sắp xếp 5 quyển sách khác nhau trên một kệ sách?",
+    "options": ["25", "120", "60", "20"],
+    "correctAnswer": 1,
+    "explanation": "Số cách sắp xếp 5 phần tử khác nhau là: $5! = 120$",
+    "formula": ""
+  },
+  {
+    "id": 43,
+    "question": "Chọn đúng phát biểu về tổ hợp chập $k$ của $n$ phần tử:",
+    "options": [
+      "Có phân biệt thứ tự.",
+      "Không phân biệt thứ tự.",
+      "Có thể chọn lặp.",
+      "Mỗi phần tử được chọn nhiều lần."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tổ hợp chập $k$ của $n$ phần tử là tập hợp các cách chọn $k$ phần tử từ $n$ phần tử mà không phân biệt thứ tự và không lặp lại phần tử.",
+    "formula": ""
+  },
+  {
+    "id": 44,
+    "question": "Từ các chữ số 1, 2, 3, 4, 5, có bao nhiêu số tự nhiên có 3 chữ số khác nhau có thể lập được?",
+    "options": ["60", "120", "30", "24"],
+    "correctAnswer": 0,
+    "explanation": "Số số có 3 chữ số khác nhau từ 5 chữ số là số hoán vị chập 3 của 5: $P(5,3) = 5 \\times 4 \\times 3 = 60$",
+    "formula": ""
+  },
+  {
+    "id": 45,
+    "question": "Có bao nhiêu cách chọn 3 người từ 8 người sao cho hai người bất kỳ trong nhóm được chọn không đứng cạnh nhau (xếp hàng ngang)?",
+    "options": ["56", "35", "28", "20"],
+    "correctAnswer": 3,
+    "explanation": "Số cách chọn 3 người không đứng cạnh nhau trong 8 người là: $C_{8 - 3 + 1}^3 = C_6^3 = 20$",
+    "formula": ""
+  },
+  {
+    "id": 46,
+    "question": "Từ 7 chữ số 1–7, có bao nhiêu số chẵn có 4 chữ số khác nhau có thể lập được?",
+    "options": ["360", "720", "180", "240"],
+    "correctAnswer": 0,
+    "explanation": "* Số chẵn thì chữ số cuối phải là số chẵn: có thể là 2, 4 hoặc 6 (3 khả năng).\n* Chọn chữ số cuối (đơn vị) có 3 cách.\n* Chọn chữ số hàng nghìn: còn 6 chữ số (không lặp với chữ số đơn vị).\n* Chọn chữ số hàng trăm: còn 5 chữ số.\n* Chọn chữ số hàng chục: còn 4 chữ số.\n* Tổng số số thỏa mãn: $3 \\times 6 \\times 5 \\times 4 = 360$",
+    "formula": ""
+  },
+  {
+    "id": 47,
+    "question": "Có bao nhiêu cách xếp 4 học sinh nam và 3 học sinh nữ thành 1 hàng sao cho không có hai nữ đứng cạnh nhau?",
+    "options": ["1440", "720", "360", "2880"],
+    "correctAnswer": 0,
+    "explanation": "* Xếp 4 nam trước: $4! = 24$ cách.\n* Đặt 3 nữ vào 5 khoảng trống giữa và hai đầu 4 nam (không cho 2 nữ đứng cạnh): Chọn 3 vị trí trong 5 khoảng: $C_5^3 = 10$\n* Xếp 3 nữ: $3! = 6$ cách.\n* Tổng số cách: $24 \\times 10 \\times 6 = 1440$",
+    "formula": ""
+  },
+  {
+    "id": 48,
+    "question": "Có bao nhiêu cách chia 10 người thành 2 nhóm mỗi nhóm 5 người (không phân biệt thứ tự nhóm)?",
+    "options": ["252", "252/2", "126", "63"],
+    "correctAnswer": 2,
+    "explanation": "Số cách chia 10 người thành 2 nhóm 5 người không phân biệt thứ tự nhóm là: $\\frac{C_{10}^5}{2!} = \\frac{252}{2} = 126$",
+    "formula": ""
+  },
+  {
+    "id": 49,
+    "question": "Có bao nhiêu số tự nhiên có 4 chữ số đôi một khác nhau được lập từ tập $\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$?",
+    "options": ["3024", "6048", "1680", "9072"],
+    "correctAnswer": 0,
+    "explanation": "Số số có 4 chữ số đôi một khác nhau từ 9 chữ số là hoán vị chập 4 của 9: $P(9,4) = 9 \\times 8 \\times 7 \\times 6 = 3024$",
+    "formula": ""
+  }
+]

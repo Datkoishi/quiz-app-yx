@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 262.1 83.3% 57.8%;
+    --radius: 0.5rem;
+    --success: 142.1 76.2% 36.3%;
+    --success-foreground: 355.7 100% 97.3%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 262.1 83.3% 57.8%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 262.1 83.3% 57.8%;
+    --success: 142.1 70.6% 45.3%;
+    --success-foreground: 144.9 80.4% 10%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Tùy chỉnh CSS cho công thức toán học */
+.math-content {
+  @apply text-base leading-relaxed;
+}
+
+.math-content .katex-display {
+  @apply my-4 overflow-x-auto py-2 px-1 rounded bg-gray-50 dark:bg-gray-800/50;
+  scrollbar-width: thin;
+}
+
+.math-content .katex {
+  @apply text-base;
+}
+
+.math-content .katex-display .katex {
+  @apply text-lg;
+}
+
+/* Tùy chỉnh màu sắc cho công thức toán học */
+.dark .katex {
+  @apply text-gray-100;
+}
+
+.katex {
+  @apply text-gray-900;
+}
+
+/* Tùy chỉnh cho các phần tử toán học */
+.math-content sup,
+.math-content sub {
+  @apply text-sm;
+}
+
+.math-content .frac-line {
+  @apply border-gray-800 dark:border-gray-200;
+}
+
+/* Tùy chỉnh cho lời giải */
+.explanation-content {
+  @apply rounded-lg my-4;
+}
+
+.explanation-content h4 {
+  @apply text-primary font-medium mb-2;
+}
+
+/* Tùy chỉnh cho công thức liên quan */
+.formula-content {
+  @apply rounded-lg my-4;
+}
+
+.formula-content h4 {
+  @apply text-blue-600 dark:text-blue-400 font-medium mb-2;
+}
+
+/* Tùy chỉnh cho bôi màu */
+.math-highlight {
+  @apply bg-yellow-100 dark:bg-yellow-900/30 px-1 rounded;
+}
+
+.math-important {
+  @apply text-red-600 dark:text-red-400 font-bold;
+}
+
+.math-note {
+  @apply text-blue-600 dark:text-blue-400 italic;
+}
+
+/* Tùy chỉnh màu sắc cho KaTeX */
+.katex .colorbox {
+  padding: 2px;
+  border-radius: 2px;
+}
+
+.katex .colorbox[style*="background-color: yellow"] {
+  @apply bg-yellow-100 dark:bg-yellow-900/30;
+}
+
+.katex .mord[style*="color: red"] {
+  @apply text-red-600 dark:text-red-400 font-medium;
+}
+
+.katex .mord[style*="color: blue"] {
+  @apply text-blue-600 dark:text-blue-400;
+}
+
+/* Tùy chỉnh cho các nút trạng thái */
+.btn-success {
+  @apply bg-green-600 hover:bg-green-700 text-white;
+}
+
+.btn-error {
+  @apply bg-red-600 hover:bg-red-700 text-white;
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 640px) {
+  .math-content {
+    @apply text-sm;
+  }
+
+  .math-content .katex-display .katex {
+    @apply text-base;
+  }
+
+  .katex-display > .katex {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.25rem 0;
+  }
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800 rounded;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded hover:bg-gray-400 dark:hover:bg-gray-500 transition-colors;
+}
+
+/* Animations */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom focus styles */
+*:focus-visible {
+  @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
+}
+
+/* Custom selection styles */
+::selection {
+  @apply bg-primary/20 text-foreground;
+}
