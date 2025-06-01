@@ -40,6 +40,16 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { Badge } from "@/components/ui/badge"
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer"
 
+// Function to shuffle array randomly
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const shuffled = [...array]
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+  }
+  return shuffled
+}
+
 // Định nghĩa kiểu dữ liệu cho câu hỏi
 interface BaseQuestion {
   id: number
@@ -145,7 +155,11 @@ export default function SubjectQuiz() {
     "suc-khoe-moi-truong": "Sức Khỏe Môi Trường",
     "toan-roi-rac": "Toán Rời Rạc",
     "ky-thuat-thuong-mai-dien-tu": "Kỹ Thuật Thương Mại Điện Tử",
+    "ky-thuat-thuong-mai-dien-tu-2": "Kỹ Thuật Thương Mại Điện Tử 2",
     "java-2": "Java 2 (Fundamentals of Computing 2)",
+    "application-development-practices": "Application Development Practices",
+    "application-development-practices-essay": "Application Development Practices - Tự Luận",
+    "network-telecommunications": "Introduction to Network & Telecommunications Technology",
   }
 
   // Tải câu hỏi từ API
@@ -155,9 +169,17 @@ export default function SubjectQuiz() {
       try {
         const loadedQuestions = await fetchQuestions(subjectId)
         if (loadedQuestions.length > 0) {
-          setQuestions(loadedQuestions)
-          setAnswers(new Array(loadedQuestions.length).fill(null))
-          setConfirmedAnswers(new Array(loadedQuestions.length).fill(false))
+          // Randomize questions for specific subjects
+          const finalQuestions =
+            subjectId === "java-2-multiple-choice" ||
+            subjectId === "suc-khoe-moi-truong" ||
+            subjectId === "ky-thuat-thuong-mai-dien-tu-2"
+              ? shuffleArray(loadedQuestions)
+              : loadedQuestions
+
+          setQuestions(finalQuestions)
+          setAnswers(new Array(finalQuestions.length).fill(null))
+          setConfirmedAnswers(new Array(finalQuestions.length).fill(false))
         } else {
           // Tạo dữ liệu mẫu nếu không có câu hỏi
           const sampleQuestions: Question[] = [
@@ -218,6 +240,23 @@ export default function SubjectQuiz() {
 
     return () => clearInterval(timer)
   }, [timeLeft, showResults])
+
+  useEffect(() => {
+    // Check if this subject requires password protection
+    if (subjectId === "application-development-practices" || subjectId === "application-development-practices-essay") {
+      const hasAccess = sessionStorage.getItem("adp-access") === "granted"
+      if (!hasAccess) {
+        // Redirect back to home page if no access
+        router.push("/")
+        toast({
+          title: "Truy cập bị từ chối",
+          description: "Bạn cần nhập mật khẩu để truy cập môn học này.",
+          variant: "destructive",
+        })
+        return
+      }
+    }
+  }, [subjectId, router, toast])
 
   // Scroll to top when changing question
   useEffect(() => {

@@ -162,182 +162,27 @@
   },
   {
     "id": 24,
-    "question": "In a binary search tree, if we want to find the largest element, which direction should we go?",
-    "options": ["Always go left", "Always go right", "Go down to the root", "Go in both directions"],
-    "correctAnswer": 1,
-    "explanation": "In a binary search tree (BST), elements in the left subtree are always smaller than the root node, and elements in the right subtree are always larger than the root node. Therefore, to find the largest element, we need to always go right until we can't go further (i.e., reach a node with no right child). / Trong cây nhị phân tìm kiếm (BST), các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Do đó, để tìm phần tử lớn nhất, ta cần luôn đi sang phải cho đến khi không thể đi tiếp được nữa (tức là đến nút không có con phải)."
-  },
-  {
-    "id": 25,
-    "question": "Which sorting algorithm has an average complexity of O(n log n)?",
-    "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
-    "correctAnswer": 2,
-    "explanation": "Quick Sort has an average complexity of O(n log n). Bubble Sort, Insertion Sort, and Selection Sort all have an average complexity of O(n²). / Thuật toán sắp xếp nhanh (Quick Sort) có độ phức tạp trung bình là O(n log n). Các thuật toán sắp xếp nổi bọt (Bubble Sort), sắp xếp chèn (Insertion Sort) và sắp xếp chọn (Selection Sort) đều có độ phức tạp trung bình là O(n²)."
-  },
-  {
-    "id": 26,
-    "question": "In the Stack data structure, which element is removed first?",
-    "options": [
-      "The element added first",
-      "The element added last",
-      "The element with the largest value",
-      "The element with the smallest value"
-    ],
-    "correctAnswer": 1,
-    "explanation": "Stack is a LIFO (Last In First Out) data structure, meaning the element added last will be removed first. This is like stacking plates, the plate placed on top (last) will be taken first. / Ngăn xếp (Stack) là cấu trúc dữ liệu LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên. Điều này giống như việc xếp chồng đĩa, đĩa nào được đặt lên trên cùng (cuối cùng) sẽ được lấy ra trước."
-  },
-  {
-    "id": 27,
-    "question": "In the Queue data structure, which element is removed first?",
-    "options": [
-      "The element added first",
-      "The element added last",
-      "The element with the largest value",
-      "The element with the smallest value"
-    ],
-    "correctAnswer": 0,
-    "explanation": "Queue is a FIFO (First In First Out) data structure, meaning the element added first will be removed first. This is like people lining up to buy tickets, the person who arrives first will be served first. / Hàng đợi (Queue) là cấu trúc dữ liệu FIFO (First In First Out), nghĩa là phần tử được thêm vào đầu tiên sẽ được lấy ra đầu tiên. Điều này giống như người xếp hàng mua vé, người đến trước (đầu tiên) sẽ được phục vụ trước."
-  },
-  {
-    "id": 28,
-    "question": "Which of the following algorithms is NOT a sorting algorithm?",
-    "options": ["Merge Sort", "Bubble Sort", "Binary Search", "Insertion Sort"],
-    "correctAnswer": 2,
-    "explanation": "Binary Search is a search algorithm, not a sorting algorithm. The remaining algorithms (Merge Sort, Bubble Sort, Insertion Sort) are all sorting algorithms. / Binary Search (Tìm kiếm nhị phân) là thuật toán tìm kiếm, không phải thuật toán sắp xếp. Các thuật toán còn lại (Merge Sort, Bubble Sort, Insertion Sort) đều là các thuật toán sắp xếp."
-  },
-  {
-    "id": 29,
-    "question": "The best-case time complexity of Bubble Sort algorithm is:",
-    "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
-    "correctAnswer": 0,
-    "explanation": "The best-case time complexity of Bubble Sort is O(n), which occurs when the array is already sorted. In this case, the algorithm only needs to traverse the array once and doesn't need to perform any swaps. / Độ phức tạp thời gian tốt nhất của thuật toán sắp xếp nổi bọt (Bubble Sort) là O(n), xảy ra khi mảng đã được sắp xếp từ trước. Trong trường hợp này, thuật toán chỉ cần duyệt qua mảng một lần và không cần thực hiện bất kỳ phép đổi chỗ nào."
-  },
-  {
-    "id": 30,
-    "question": "Which of the following data structures is NOT a linear data structure?",
-    "options": ["Array", "Linked List", "Tree", "Stack"],
-    "correctAnswer": 2,
-    "explanation": "Tree is not a linear data structure but a non-linear data structure. Linear data structures like Array, Linked List, Stack have elements arranged in a linear order, while Tree has elements arranged in a hierarchical relationship. / Cây (Tree) không phải là cấu trúc dữ liệu tuyến tính mà là cấu trúc dữ liệu phi tuyến tính. Các cấu trúc dữ liệu tuyến tính như Mảng (Array), Danh sách liên kết (Linked List), Ngăn xếp (Stack) có các phần tử được sắp xếp theo thứ tự tuyến tính, trong khi Cây có các phần tử được sắp xếp theo quan hệ phân cấp."
-  },
-  {
-    "id": 31,
-    "question": "In a Full Binary Tree, how many children does each non-leaf node have?",
-    "options": ["0", "1", "2", "3"],
-    "correctAnswer": 2,
-    "explanation": "In a Full Binary Tree, each non-leaf node (internal node) has exactly 2 children. In other words, each node either has 0 children (leaf node) or has 2 children (internal node). / Trong cây nhị phân đầy đủ (Full Binary Tree), mỗi nút không phải là lá (nút trong) đều có đúng 2 con. Nói cách khác, mỗi nút hoặc có 0 con (là nút lá), hoặc có 2 con (là nút trong)."
-  },
-  {
-    "id": 32,
-    "question": "Which of the following algorithms uses the divide and conquer strategy?",
-    "options": ["Bubble Sort", "Insertion Sort", "Selection Sort", "Quick Sort"],
-    "correctAnswer": 3,
-    "explanation": "Quick Sort is a sorting algorithm that uses the divide and conquer strategy. This algorithm divides the array into two parts based on a pivot element, then recursively sorts these two parts. / Quick Sort (Sắp xếp nhanh) là thuật toán sắp xếp sử dụng chiến lược chia để trị (divide and conquer). Thuật toán này chia mảng thành hai phần dựa trên một phần tử chốt (pivot), sau đó sắp xếp đệ quy hai phần này."
-  },
-  {
-    "id": 33,
-    "question": "In a Binary Search Tree (BST), how does the left child node's value compare to its parent node?",
-    "options": ["Always greater", "Always smaller", "Can be greater or smaller", "Equal"],
-    "correctAnswer": 1,
-    "explanation": "In a Binary Search Tree (BST), the left child node of a node always has a value smaller than the parent node. This is one of the fundamental properties of BST, which enables efficient searching, insertion, and deletion of elements. / Trong cây nhị phân tìm kiếm (BST), nút con trái của một nút luôn có giá trị nhỏ hơn nút cha. Đây là một trong những tính chất cơ bản của cây nhị phân tìm kiếm, giúp việc tìm kiếm, chèn và xóa các phần tử được thực hiện hiệu quả."
-  },
-  {
-    "id": 34,
-    "question": "Binary Search algorithm requires the data to be:",
-    "options": ["Sorted", "Unsorted", "Integer numbers", "Character strings"],
-    "correctAnswer": 0,
-    "explanation": "Binary Search algorithm requires the data to be sorted before performing the search. This allows the algorithm to eliminate half of the data after each comparison step, reducing the time complexity to O(log n). / Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu phải được sắp xếp trước khi thực hiện tìm kiếm. Điều này cho phép thuật toán loại bỏ một nửa dữ liệu sau mỗi bước so sánh, giúp giảm độ phức tạp thời gian xuống còn O(log n)."
-  },
-  {
-    "id": 35,
-    "question": "The time complexity of Binary Search algorithm is:",
-    "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
-    "correctAnswer": 1,
-    "explanation": "The time complexity of Binary Search algorithm is O(log n). This is because after each comparison step, the algorithm eliminates half of the data to be examined, significantly reducing the number of comparisons needed. / Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search) là O(log n). Điều này là do sau mỗi bước so sánh, thuật toán loại bỏ một nửa dữ liệu cần xem xét, giúp giảm đáng kể số lượng phép so sánh cần thực hiện."
-  },
-  {
-    "id": 36,
-    "question": "In a Tree data structure, a node with no child nodes is called:",
-    "options": ["Root node", "Internal node", "Leaf node", "Sibling node"],
-    "correctAnswer": 2,
-    "explanation": "In a Tree data structure, a node with no child nodes is called a Leaf node. Leaf nodes are usually located at the last level of the tree. / Trong cấu trúc dữ liệu cây (Tree), nút không có nút con nào được gọi là nút lá (Leaf node). Các nút lá thường nằm ở tầng cuối cùng của cây."
-  },
-  {
-    "id": 37,
-    "question": "Which sorting algorithm has the same time complexity O(n log n) for best, average, and worst cases?",
-    "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Insertion Sort"],
-    "correctAnswer": 1,
-    "explanation": "Merge Sort has the same time complexity O(n log n) for best, average, and worst cases. This is one of the advantages of Merge Sort compared to other sorting algorithms like Quick Sort (worst case O(n²)) or Insertion Sort (average and worst case O(n²)). / Merge Sort (Sắp xếp trộn) có độ phức tạp thời gian tốt nhất, trung bình và xấu nhất đều là O(n log n). Đây là một trong những ưu điểm của Merge Sort so với các thuật toán sắp xếp khác như Quick Sort (có độ phức tạp xấu nhất là O(n²)) hay Insertion Sort (có độ phức tạp trung bình và xấu nhất là O(n²))."
-  },
-  {
-    "id": 38,
-    "question": "In a Complete Binary Tree with n nodes, the height of the tree is:",
-    "options": ["log₂(n)", "log₂(n+1)", "⌊log₂(n)⌋", "⌈log₂(n+1)⌉"],
-    "correctAnswer": 2,
-    "explanation": "In a Complete Binary Tree with n nodes, the height of the tree is ⌊log₂(n)⌋, which is the floor of log₂(n). For example, a complete binary tree with 7 nodes will have height ⌊log₂(7)⌋ = ⌊2.81⌋ = 2. / Trong cây nhị phân hoàn chỉnh (Complete Binary Tree) có n nút, chiều cao của cây là ⌊log₂(n)⌋, tức là phần nguyên của log₂(n). Ví dụ, một cây nhị phân hoàn chỉnh có 7 nút sẽ có chiều cao là ⌊log₂(7)⌋ = ⌊2.81⌋ = 2."
-  },
-  {
-    "id": 39,
-    "question": "In a Binary Search Tree (BST), which traversal order will give elements in ascending order?",
-    "options": ["Preorder traversal", "Inorder traversal", "Postorder traversal", "Level order traversal"],
-    "correctAnswer": 1,
-    "explanation": "In a Binary Search Tree (BST), inorder traversal will give elements in ascending order. This is because in BST, elements in the left subtree are always smaller than the root node, and elements in the right subtree are always larger than the root node. When performing inorder traversal (left - root - right), we visit nodes in ascending order of values. / Trong cây nhị phân tìm kiếm (BST), duyệt trung tự (Inorder) sẽ cho ra các phần tử theo thứ tự tăng dần. Điều này là do trong BST, các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Khi duyệt trung tự (trái - gốc - phải), ta sẽ thăm các nút theo thứ tự tăng dần của giá trị."
-  },
-  {
-    "id": 40,
-    "question": "In a singly linked list, to delete a node in the middle of the list, we need:",
-    "options": [
-      "The address of the node to be deleted",
-      "The address of the node before the node to be deleted",
-      "The address of the node after the node to be deleted",
-      "The addresses of both the node before and after the node to be deleted"
-    ],
-    "correctAnswer": 1,
-    "explanation": "In a singly linked list, to delete a node in the middle of the list, we need the address of the node before the node to be deleted. This is because in a singly linked list, each node only has a pointer to the next node, not to the previous node. Therefore, to delete a node, we need to update the next pointer of the node before the node to be deleted to point to the node after the node to be deleted. / Trong danh sách liên kết đơn, để xóa một nút ở giữa danh sách, ta cần biết địa chỉ của nút trước nút cần xóa. Điều này là do trong danh sách liên kết đơn, mỗi nút chỉ có con trỏ trỏ đến nút tiếp theo, không có con trỏ trỏ đến nút trước đó. Do đó, để xóa một nút, ta cần cập nhật con trỏ next của nút trước nút cần xóa để trỏ đến nút sau nút cần xóa."
-  },
-  {
-    "id": 41,
-    "question": "The complexity of the Quick Sort algorithm is:",
-    "options": ["O(n)", "O(n²)", "O(nlogn)", "O(n³)"],
-    "correctAnswer": 2,
-    "explanation": "The Quick Sort algorithm has an average complexity of O(nlogn). In the best and average cases, Quick Sort has O(nlogn) complexity, but in the worst case it can reach O(n²). / Thuật toán Quick Sort có độ phức tạp trung bình là O(nlogn). Trong trường hợp tốt nhất và trung bình, Quick Sort có độ phức tạp O(nlogn), nhưng trong trường hợp xấu nhất có thể đạt O(n²)."
-  },
-  {
-    "id": 42,
-    "question": "Stack is also called as:",
-    "options": ["Last In First Out", "First In Last Out", "First In First Out", "All is correct"],
-    "correctAnswer": 0,
-    "explanation": "Stack is called a LIFO (Last In First Out) data structure, meaning the element added last will be removed first. / Stack (Ngăn xếp) được gọi là cấu trúc dữ liệu LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
-  },
-  {
-    "id": 43,
-    "question": "The postfix form of the expression A*X/Y + B*C*F is:",
-    "options": ["A X * Y / B C F * * +", "A X Y * / B C * F * +", "A X * Y + / B C F * *", "All is correct"],
-    "correctAnswer": 0,
-    "explanation": "Converting infix expression A*X/Y + B*C*F to postfix:\n1. A*X → A X *\n2. (A*X)/Y → A X * Y /\n3. B*C → B C *\n4. (B*C)*F → B C * F *\n5. (A*X/Y) + (B*C*F) → A X * Y / B C * F * +\nSo the result is: A X * Y / B C * F * + / Chuyển đổi biểu thức trung tố A*X/Y + B*C*F sang hậu tố: 1. A*X → A X *; 2. (A*X)/Y → A X * Y /; 3. B*C → B C *; 4. (B*C)*F → B C * F *; 5. (A*X/Y) + (B*C*F) → A X * Y / B C * F * +. Vậy kết quả là: A X * Y / B C * F * +"
-  },
-  {
-    "id": 44,
     "question": "Given the values: 17, 8, 13, 22, 4, 19, 33, 10, 18, 6 inserted into an empty Binary Search Tree (BST), what is the result of a pre-order traversal?",
     "type": "short_answer",
     "correctAnswer": "17, 8, 4, 6, 13, 10, 22, 19, 18, 33",
     "explanation": "When inserting values [17, 8, 13, 22, 4, 19, 33, 10, 18, 6] into an empty BST, we get a tree with root 17. Pre-order traversal visits nodes in order: root → left subtree → right subtree. Result: 17, 8, 4, 6, 13, 10, 22, 19, 18, 33. / Khi chèn các giá trị [17, 8, 13, 22, 4, 19, 33, 10, 18, 6] vào cây BST rỗng, ta được cây với gốc là 17. Duyệt tiền tự (pre-order) thăm các nút theo thứ tự: gốc → cây con trái → cây con phải. Kết quả: 17, 8, 4, 6, 13, 10, 22, 19, 18, 33."
   },
   {
-    "id": 45,
+    "id": 25,
     "question": "Given the values: 17, 8, 13, 22, 4, 19, 33, 10, 18, 6 inserted into an empty Binary Search Tree (BST), what is the result of a breadth-first traversal?",
     "type": "short_answer",
     "correctAnswer": "17, 8, 22, 4, 13, 19, 33, 6, 10, 18",
     "explanation": "Breadth-first traversal (level order) visits nodes level by level from top to bottom, left to right:\nLevel 1: 17\nLevel 2: 8, 22\nLevel 3: 4, 13, 19, 33\nLevel 4: 6, 10, 18\nResult: 17, 8, 22, 4, 13, 19, 33, 6, 10, 18. / Duyệt theo chiều rộng (breadth-first/level order) thăm các nút theo từng tầng từ trên xuống dưới, từ trái sang phải: Tầng 1: 17; Tầng 2: 8, 22; Tầng 3: 4, 13, 19, 33; Tầng 4: 6, 10, 18. Kết quả: 17, 8, 22, 4, 13, 19, 33, 6, 10, 18."
   },
   {
-    "id": 46,
+    "id": 26,
     "question": "Convert the following infix expression to postfix: P + (Q * R) / (S - T * U)",
     "type": "short_answer",
     "correctAnswer": "P Q R * S T U * - / +",
     "explanation": "Converting infix expression P + (Q * R) / (S - T * U) to postfix:\n1. Q * R → Q R *\n2. T * U → T U *\n3. S - (T * U) → S T U * -\n4. (Q * R) / (S - T * U) → Q R * S T U * - /\n5. P + ((Q * R) / (S - T * U)) → P Q R * S T U * - / +\nSo the result is: P Q R * S T U * - / + / Chuyển đổi biểu thức trung tố P + (Q * R) / (S - T * U) sang hậu tố: 1. Q * R → Q R *; 2. T * U → T U *; 3. S - (T * U) → S T U * -; 4. (Q * R) / (S - T * U) → Q R * S T U * - /; 5. P + ((Q * R) / (S - T * U)) → P Q R * S T U * - / +. Vậy kết quả là: P Q R * S T U * - / +"
   },
   {
-    "id": 47,
+    "id": 27,
     "question": "Convert the following infix expression to postfix: A + B * C - D / E",
     "type": "short_answer",
     "correctAnswer": "A B C * + D E / -",

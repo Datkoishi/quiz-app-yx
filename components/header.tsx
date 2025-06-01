@@ -15,7 +15,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import Image from "next/image"
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -38,12 +37,14 @@ export function Header() {
     >
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
-          <Image src="/images/vie-logo.png" alt="VIE Logo" width={32} height={32} className="rounded-md" />
+          <div className="bg-gradient-to-r from-purple-600 to-pink-600 p-2 rounded-lg">
+            <BookOpen className="h-6 w-6 text-white" />
+          </div>
           <div className="flex flex-col">
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-              TruongDat
+              Ôn thi đi
             </span>
-            <span className="text-xs text-muted-foreground"></span>
+            <span className="text-xs text-muted-foreground">Designed & Developed truongdat</span>
           </div>
         </Link>
 
@@ -76,7 +77,7 @@ export function Header() {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="icon" className="rounded-full">
                   <Avatar className="h-8 w-8">
-                    <AvatarFallback className="bg-primary/10 text-primary">QV</AvatarFallback>
+                    <AvatarFallback className="bg-primary/10 text-primary">DK</AvatarFallback>
                   </Avatar>
                 </Button>
               </DropdownMenuTrigger>

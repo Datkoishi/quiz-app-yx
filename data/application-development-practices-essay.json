@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "type": "short_answer",
+    "question": "What are the steps in an inspection?",
+    "correctAnswer": "Planning, Overview, Preparation, Inspection meeting, Rework, Follow-up",
+    "explanation": "The inspection process typically includes: 1) Planning (selecting materials, participants), 2) Overview (author presents material), 3) Preparation (individual review), 4) Inspection meeting (group discussion), 5) Rework (fixing identified issues), 6) Follow-up (verifying fixes)."
+  },
+  {
+    "id": 2,
+    "type": "short_answer",
+    "question": "What are the types of integration testing?",
+    "correctAnswer": "Big Bang, Top-down, Bottom-up, Sandwich/Hybrid",
+    "explanation": "Integration testing types include: Big Bang (all modules integrated simultaneously), Top-down (testing from top-level modules downward), Bottom-up (testing from bottom-level modules upward), and Sandwich/Hybrid (combination of top-down and bottom-up)."
+  },
+  {
+    "id": 3,
+    "type": "short_answer",
+    "question": "Name two IDEs (Integrated Development Environments) for Java.",
+    "correctAnswer": "Eclipse, IntelliJ IDEA",
+    "explanation": "Popular Java IDEs include Eclipse, IntelliJ IDEA, NetBeans, Visual Studio Code, and Android Studio. Eclipse and IntelliJ IDEA are among the most widely used."
+  },
+  {
+    "id": 4,
+    "type": "short_answer",
+    "question": "What are the benefits of a technical review?",
+    "correctAnswer": "Early defect detection, Knowledge sharing, Code quality improvement, Risk reduction",
+    "explanation": "Technical reviews provide: early defect detection (cheaper to fix), knowledge sharing among team members, improved code quality and maintainability, reduced project risks, and better adherence to standards."
+  },
+  {
+    "id": 5,
+    "type": "short_answer",
+    "question": "Name three build tools for Java.",
+    "correctAnswer": "Maven, Gradle, Ant",
+    "explanation": "Popular Java build tools include Maven (dependency management and project structure), Gradle (flexible build automation), Ant (XML-based build tool), and SBT (for Scala/Java projects)."
+  },
+  {
+    "id": 6,
+    "type": "short_answer",
+    "question": "How can automated tools help identify and address code smells in a large codebase?",
+    "correctAnswer": "Static analysis, Continuous monitoring, Automated refactoring suggestions, Integration with CI/CD",
+    "explanation": "Automated tools help by: performing static code analysis to detect patterns, providing continuous monitoring and reporting, suggesting refactoring opportunities, integrating with CI/CD pipelines for early detection, and maintaining code quality metrics over time."
+  },
+  {
+    "id": 7,
+    "type": "short_answer",
+    "question": "In software project development, who usually performs unit testing?",
+    "correctAnswer": "Developers",
+    "explanation": "Unit testing is typically performed by developers who write the code. They create and execute unit tests to verify individual components work correctly before integration. This is part of the Test-Driven Development (TDD) approach."
+  },
+  {
+    "id": 8,
+    "type": "short_answer",
+    "question": "What are the stages of an inspection?",
+    "correctAnswer": "Planning, Overview, Preparation, Meeting, Rework, Follow-up",
+    "explanation": "Inspection stages: 1) Planning (define scope, select team), 2) Overview (author explains material), 3) Preparation (individual review), 4) Meeting (group discussion of findings), 5) Rework (author fixes issues), 6) Follow-up (verify corrections)."
+  },
+  {
+    "id": 9,
+    "type": "short_answer",
+    "question": "What are the levels of testing?",
+    "correctAnswer": "Unit testing, Integration testing, System testing, Acceptance testing",
+    "explanation": "Testing levels include: Unit testing (individual components), Integration testing (component interactions), System testing (complete system), and Acceptance testing (user requirements validation)."
+  },
+  {
+    "id": 10,
+    "type": "short_answer",
+    "question": "What are the strategies (types) of integration testing?",
+    "correctAnswer": "Big Bang, Incremental (Top-down, Bottom-up), Sandwich",
+    "explanation": "Integration testing strategies: Big Bang (integrate all at once), Incremental approaches including Top-down (start from top modules), Bottom-up (start from bottom modules), and Sandwich/Hybrid (combination approach)."
+  },
+  {
+    "id": 11,
+    "type": "short_answer",
+    "question": "What is a process?",
+    "correctAnswer": "A series of actions or steps taken to achieve a particular end",
+    "explanation": "In software development, a process is a structured set of activities, methods, practices, and transformations used to develop and maintain software products. It provides a framework for organizing work and ensuring quality."
+  },
+  {
+    "id": 12,
+    "type": "short_answer",
+    "question": "Name three tips for fixing defects.",
+    "correctAnswer": "Reproduce the bug, Isolate the problem, Use debugging tools",
+    "explanation": "Effective defect fixing tips: 1) Reproduce the bug consistently, 2) Isolate the problem area, 3) Use debugging tools and techniques, 4) Check recent changes, 5) Take breaks when stuck, 6) Document the fix."
+  },
+  {
+    "id": 13,
+    "type": "short_answer",
+    "question": "Name two SCM (Software Configuration Management) tools.",
+    "correctAnswer": "Git, SVN",
+    "explanation": "Popular SCM tools include Git (distributed version control), SVN/Subversion (centralized version control), Mercurial, Perforce, and Team Foundation Server. Git and SVN are among the most widely used."
+  },
+  {
+    "id": 14,
+    "type": "short_answer",
+    "question": "What are the goals of refactoring?",
+    "correctAnswer": "Improve code structure, Enhance readability, Reduce complexity, Eliminate code smells",
+    "explanation": "Refactoring goals include: improving code structure and design, enhancing readability and maintainability, reducing complexity, eliminating code smells, improving performance, and making code easier to understand and modify."
+  },
+  {
+    "id": 15,
+    "type": "short_answer",
+    "question": "Why do we need to build a team?",
+    "correctAnswer": "Collaboration, Diverse skills, Shared responsibility, Better results",
+    "explanation": "Teams are essential for: combining diverse skills and expertise, sharing workload and responsibility, improving problem-solving through collaboration, providing mutual support and learning, and achieving better results than individuals working alone."
+  },
+  {
+    "id": 16,
+    "type": "short_answer",
+    "question": "What's the main benefit of using a version control system like Git in a team project?",
+    "correctAnswer": "Track changes, Collaboration, Backup, Branching",
+    "explanation": "Version control systems provide: change tracking and history, seamless collaboration among team members, automatic backup and recovery, branching for parallel development, and conflict resolution mechanisms."
+  },
+  {
+    "id": 17,
+    "type": "short_answer",
+    "question": "Why is it important to address code smells even if the code still works?",
+    "correctAnswer": "Maintainability, Future bugs, Technical debt, Team productivity",
+    "explanation": "Addressing code smells is important because they: reduce maintainability, increase likelihood of future bugs, create technical debt, slow down development, make code harder to understand, and reduce team productivity over time."
+  },
+  {
+    "id": 18,
+    "type": "short_answer",
+    "question": "How can good SCM practices help prevent the accumulation of code smells?",
+    "correctAnswer": "Code reviews, Branching strategy, Continuous integration, Version tracking",
+    "explanation": "Good SCM practices help by: enabling code reviews before merging, implementing proper branching strategies, supporting continuous integration, tracking changes and their impact, and facilitating rollback when issues are detected."
+  },
+  {
+    "id": 19,
+    "type": "short_answer",
+    "question": "What's the main benefit of using a version control system like Git in a team project?",
+    "correctAnswer": "Collaboration and change tracking",
+    "explanation": "The main benefits include: enabling multiple developers to work simultaneously, tracking all changes with history, providing backup and recovery, supporting branching and merging, and facilitating code reviews and collaboration."
+  },
+  {
+    "id": 20,
+    "type": "short_answer",
+    "question": "In the code below, which lines contain code smell?\n\n1. package Refactor;\n2. public class maxnumber {\n3.     public int max2(int a, int b) {\n4.         // TODO Auto-generated constructor stub\n5.         if (a >= b)\n6.             return a;\n7.         else\n8.             return b;\n9.     }\n10. }",
+    "correctAnswer": "Line 2 (class name), Line 4 (inappropriate comment)",
+    "explanation": "Code smells: Line 2 - class name 'maxnumber' violates naming conventions (should be 'MaxNumber'), Line 4 - inappropriate TODO comment for constructor in a method. The class name should follow PascalCase convention."
+  },
+  {
+    "id": 21,
+    "type": "short_answer",
+    "question": "Hãy Refactor đoạn code Sort class và viết Unit Test cho hàm ascSort().\n\npackage REFACTOR;\n\npublic class Sort {\n  int a;\n  int b;\n  int c;\n\n  public void ascSort() {\n    if (a > b) {\n      int temp = a;\n      a = b;\n      b = temp;\n    }\n    if (a > c) {\n      int temp = a;\n      a = c;\n      c = temp;\n    }\n    if (b > c) {\n      int temp = b;\n      b = c;\n      c = temp;\n    }\n  }\n}",
+    "correctAnswer": "Refactored: Use constructor/parameters, return sorted array. Unit Test: Test various input combinations",
+    "explanation": "Refactoring: 1) Use constructor or method parameters instead of public fields, 2) Return sorted values instead of modifying state, 3) Use proper naming conventions. Unit Test should cover: normal cases, edge cases (equal values), and boundary conditions."
+  },
+  {
+    "id": 22,
+    "type": "short_answer",
+    "question": "Hãy Refactor đoạn code maxnumber class và viết Unit Test cho 2 hàm max2 và max3.\n\npackage REFACTOR;\n\npublic class maxnumber {\n    public maxnumber() {\n        // TODO Auto-generated constructor stub\n    }\n\n    public int max2(int a, int b) {\n        if (a >= b) {\n            return a;\n        } else {\n            return b;\n        }\n    }\n\n    public int max3(int a, int b, int c) {\n        if (a >= b) {\n            if (a >= c) {\n                return a;\n            } else {\n                return c;\n            }\n        } else if (b >= c) {\n            return b;\n        } else {\n            return c;\n        }\n    }\n}",
+    "correctAnswer": "Refactored: Rename class to MaxNumber, remove empty constructor, use Math.max(). Unit Tests: Test all combinations",
+    "explanation": "Refactoring: 1) Rename class to 'MaxNumber' (PascalCase), 2) Remove unnecessary constructor, 3) Use Math.max() for cleaner code, 4) Make methods static if no instance variables. Unit Tests should cover positive/negative numbers, equal values, and edge cases."
+  },
+  {
+    "id": 23,
+    "type": "short_answer",
+    "question": "Hãy Refactor đoạn code Sort class và viết Unit Test cho hàm descSort().\n\npackage REFACTOR;\n\npublic class Sort {\n  int a;\n  int b;\n\n  public void descSort() {\n    if (a < b) {\n      int temp = a;\n      a = b;\n      b = temp;\n    }\n  }\n}",
+    "correctAnswer": "Refactored: Use parameters/constructor, return values. Unit Test: Test different value combinations",
+    "explanation": "Refactoring: 1) Use method parameters or constructor instead of public fields, 2) Return sorted values, 3) Encapsulate fields as private. Unit Test should verify: a > b (no swap), a < b (swap occurs), a = b (no change)."
+  },
+  {
+    "id": 24,
+    "type": "short_answer",
+    "question": "Hãy Refactor đoạn code print class và viết Unit Test cho 2 hàm printStart() và printEnd().\n\npackage REFACTOR;\n\nimport java.util.Scanner;\n\npublic class print {\n  public static void printStart() {\n    System.out.println(\"*****************\");\n    System.out.println(\"******START******\");\n    System.out.println(\"*****************\");\n  }\n\n  public static void printEnd() {\n    System.out.println(\"*****************\");\n    System.out.println(\"*******END*******\");\n    System.out.println(\"*****************\");\n  }\n}",
+    "correctAnswer": "Refactored: Rename class to Print, extract common border method. Unit Test: Capture System.out output",
+    "explanation": "Refactoring: 1) Rename class to 'Print' (PascalCase), 2) Extract common border printing to separate method, 3) Remove unused Scanner import. Unit Testing: Use ByteArrayOutputStream to capture and verify console output."
+  },
+  {
+    "id": 25,
+    "type": "short_answer",
+    "question": "Hãy Refactor đoạn code DoiNhietDo class và viết Unit Test cho hàm chuyenDoiSangF.\n\npublic class DoiNhietDo {\n    // Công thức: F = C * 9/5 + 32\n    public static double chuyenDoiSangF(double doC) {\n        if (doC < -273.15 || doC > 1000) {\n            System.out.println(\"Nhiet do Celsius khong hop le.\");\n            return Double.NaN;\n        }\n        return doC * 9 / 5 + 32;\n    }\n}",
+    "correctAnswer": "Refactored: Rename to TemperatureConverter, throw exception instead of printing. Unit Test: Valid/invalid inputs",
+    "explanation": "Refactoring: 1) Use English class name 'TemperatureConverter', 2) Throw IllegalArgumentException instead of printing and returning NaN, 3) Add constants for bounds. Unit Tests: valid temperatures, boundary values, invalid inputs (expect exceptions)."
+  },
+  {
+    "id": 26,
+    "type": "short_answer",
+    "question": "Viết Unit Test cho hàm checkPassOrFail và Refactor đoạn code.\n\npublic class CourseResult {\n    public static String checkPassOrFail(double score) {\n        if (score < 0 || score > 10) {\n            return \"Invalid score\";\n        } else if (score >= 4.0) {\n            return \"Pass\";\n        } else {\n            return \"Fail\";\n        }\n    }\n}",
+    "correctAnswer": "Unit Test: Test boundary values, valid/invalid scores. Refactored: Use constants, enum for results",
+    "explanation": "Unit Tests: score < 0, score > 10 (invalid), score = 0, 3.9 (fail), score = 4.0, 10 (pass). Refactoring: 1) Use constants for bounds and passing score, 2) Consider enum for return values, 3) Add input validation documentation."
+  },
+  {
+    "id": 27,
+    "type": "short_answer",
+    "question": "Viết Unit Test cho hàm createProduct và Refactor đoạn code.\n\npackage services;\n\npublic class ProductService {\n    public void createProduct(String productName, String productCategory, String description,\n                              double price, int stockQuantity, String supplierName,\n                              String supplierContactEmail, String manufacturingDate,\n                              String expiryDate, String warehouseLocation) {\n        System.out.println(\"Creating product: \" + productName + \" in category: \" + productCategory);\n        System.out.println(\"Product created successfully.\");\n    }\n}",
+    "correctAnswer": "Unit Test: Mock dependencies, verify method calls. Refactored: Use Product object, dependency injection",
+    "explanation": "Refactoring: 1) Create Product class to encapsulate parameters, 2) Use dependency injection for database/repository, 3) Return created product or boolean success. Unit Test: Mock repository, verify product creation, test validation logic."
+  },
+  {
+    "id": 28,
+    "type": "short_answer",
+    "question": "Viết Unit Test cho hàm display và Refactor đoạn code.\n\npackage REFACTOR;\n\npublic class student {\n    public void display(int id, String name, int classID, String birthday, String address, String phone) {\n        System.out.println(id + \", \" + name + \", \" + classID + \", \" + birthday + \", \" + address + \", \" + phone);\n    }\n}",
+    "correctAnswer": "Unit Test: Capture output, verify format. Refactored: Student class with fields, toString() method",
+    "explanation": "Refactoring: 1) Rename class to 'Student' (PascalCase), 2) Create Student class with private fields and constructor, 3) Override toString() method, 4) Use proper formatting. Unit Test: Capture System.out and verify output format."
+  },
+  {
+    "id": 29,
+    "type": "short_answer",
+    "question": "Hãy cho biết Code smell ở đoạn nào, tác hại và Refactor đoạn code.\n\npublic class User {\n    public String name;\n    public String email;\n}\n\npublic class EmailSender {\n    public void send(User u) {\n        System.out.println(\"Sending to \" + u.email);\n    }\n}\n\npublic class ProfilePrinter {\n    public void print(User u) {\n        System.out.println(\"Name: \" + u.name);\n        System.out.println(\"Email: \" + u.email);\n    }\n}",
+    "correctAnswer": "Code smell: Public fields in User class. Harm: Breaks encapsulation. Refactor: Private fields with getters/setters",
+    "explanation": "Code Smell: Public fields in User class violate encapsulation. Harm: Direct field access, no validation, tight coupling, hard to maintain. Refactoring: 1) Make fields private, 2) Add getters/setters, 3) Add validation in setters, 4) Consider using constructor for required fields."
+  },
+  {
+    "id": 30,
+    "type": "short_answer",
+    "question": "What is the difference between verification and validation in software testing?",
+    "correctAnswer": "Verification: Are we building the product right? Validation: Are we building the right product?",
+    "explanation": "Verification checks if the software meets specified requirements and design (static testing, reviews, inspections). Validation ensures the software meets user needs and business requirements (dynamic testing, user acceptance testing)."
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": 1,
+    "question": "Namespace nào cung cấp các lớp để tạo ứng dụng Web trong .NET Framework?",
+    "options": ["System.Windows.Forms", "System.Web", "System.Security", "System.Net"],
+    "correctAnswer": 1,
+    "explanation": "System.Web namespace cung cấp các lớp và giao diện cần thiết để tạo ứng dụng web ASP.NET, bao gồm các lớp để xử lý HTTP requests, responses, và các thành phần web khác."
+  },
+  {
+    "id": 2,
+    "question": "File cấu hình trong ASP.NET là:",
+    "options": ["App.config", "Setup.ini", "Web.config", "Web.ini"],
+    "correctAnswer": 2,
+    "explanation": "Web.config là file cấu hình chính trong ứng dụng ASP.NET, chứa các thiết lập về connection strings, authentication, authorization, và các cấu hình khác của ứng dụng web."
+  },
+  {
+    "id": 3,
+    "question": "Đâu là một trong những tính năng nổi bật của Visual Studio Code?",
+    "options": [
+      "Hỗ trợ nhiều ngôn ngữ lập trình",
+      "Chỉ chạy được trên Windows",
+      "Không thể tích hợp Git",
+      "Không hỗ trợ gỡ lỗi (Debugging)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Visual Studio Code hỗ trợ nhiều ngôn ngữ lập trình khác nhau thông qua extensions, có thể chạy trên nhiều hệ điều hành, tích hợp Git và có khả năng debugging mạnh mẽ."
+  },
+  {
+    "id": 4,
+    "question": "Thành phần nào của ứng dụng Web ASP.NET chứa giao diện hiển thị?",
+    "options": ["Database", "Program logic", "Configuration", "Content"],
+    "correctAnswer": 3,
+    "explanation": "Content (nội dung) là thành phần chứa giao diện hiển thị của ứng dụng web, bao gồm HTML, CSS, JavaScript và các controls ASP.NET để tạo ra giao diện người dùng."
+  },
+  {
+    "id": 5,
+    "question": "Giả sử ta có lớp SinhVien(), cú pháp tạo đối tượng sinh viên (sv) nào sau đây là đúng?",
+    "options": [
+      "SinhVien() sv = new SinhVien;",
+      "SinhVien sv = new SinhVien();",
+      "SinhVien() new sv = SinhVien;",
+      "SinhVien new sv = SinhVien();"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cú pháp đúng để tạo đối tượng trong C# là: ClassName objectName = new ClassName(); Do đó SinhVien sv = new SinhVien(); là cách viết chính xác."
+  },
+  {
+    "id": 6,
+    "question": ".NET Framework cung cấp một môi trường runtime được gọi là gì?",
+    "options": ["RMT", "CLR", "RCT", "RC"],
+    "correctAnswer": 1,
+    "explanation": "CLR (Common Language Runtime) là môi trường runtime của .NET Framework, chịu trách nhiệm quản lý memory, thực thi code, garbage collection và cung cấp các dịch vụ runtime khác."
+  },
+  {
+    "id": 7,
+    "question": "ViewState trong ASP.NET có chức năng gì?",
+    "options": [
+      "Lưu trữ trạng thái của các điều khiển trên trang Web giữa các yêu cầu (requests)",
+      "Kết nối đến cơ sở dữ liệu SQL Server",
+      "Tạo bộ nhớ đệm cho toàn bộ trang Web",
+      "Lưu trữ thông tin trên trình duyệt của người dùng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ViewState được sử dụng để duy trì trạng thái của các server controls trên trang web giữa các postback, giúp trang web có thể 'nhớ' được giá trị của các controls sau mỗi lần submit."
+  },
+  {
+    "id": 8,
+    "question": "Đâu là phương thức để xử lý sự kiện trong C#?",
+    "options": ["Method", "Function", "EventHandler", "Thread"],
+    "correctAnswer": 2,
+    "explanation": "EventHandler là delegate được sử dụng để xử lý sự kiện trong C#. Nó định nghĩa signature cho các phương thức có thể được gọi khi một sự kiện xảy ra."
+  },
+  {
+    "id": 9,
+    "question": "Tệp Web User control có đuôi gì?",
+    "options": [".asmx", ".ascx", ".aspx", ".uct"],
+    "correctAnswer": 1,
+    "explanation": "Web User Control trong ASP.NET có phần mở rộng .ascx. Đây là các thành phần có thể tái sử dụng được tạo ra để đóng gói functionality và có thể được sử dụng trên nhiều trang web khác nhau."
+  },
+  {
+    "id": 10,
+    "question": "Đối tượng Page trong ASP.NET là gì?",
+    "options": [
+      "Một lớp của hệ điều hành Windows",
+      "Một phần của .NET Framework để kết nối cơ sở dữ liệu",
+      "Một đối tượng đại diện cho một trang Web Form trong ASP.NET",
+      "Một công cụ thiết kế đồ họa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Đối tượng Page trong ASP.NET đại diện cho một trang web form, cung cấp các thuộc tính và phương thức để quản lý lifecycle của trang, xử lý events và tương tác với các controls."
+  },
+  {
+    "id": 11,
+    "question": "Phần mở rộng của trang web được tạo bằng ASP.NET Web Forms là gì?",
+    "options": [".html", ".asp", ".aspx", ".cshtml"],
+    "correctAnswer": 2,
+    "explanation": "Trang web được tạo bằng ASP.NET Web Forms có phần mở rộng .aspx. Đây là định dạng file chứa markup HTML kết hợp với server controls và code-behind."
+  },
+  {
+    "id": 12,
+    "question": "Đối tượng nào dùng để kết nối đến cơ sở dữ liệu trong ADO.NET?",
+    "options": ["SqlCommand", "SqlConnection", "SqlAdapter", "SqlReader"],
+    "correctAnswer": 1,
+    "explanation": "SqlConnection là đối tượng trong ADO.NET được sử dụng để thiết lập kết nối đến cơ sở dữ liệu SQL Server. Nó cung cấp các phương thức để mở, đóng và quản lý kết nối database."
+  },
+  {
+    "id": 13,
+    "question": "Câu lệnh nào dùng để tạo ràng buộc dữ liệu trong ASP.NET?",
+    "options": ["Eval()", "Bind()", "DataBind()", "Tất cả đều đúng"],
+    "correctAnswer": 3,
+    "explanation": "Cả ba phương thức đều được sử dụng cho data binding: Eval() cho one-way binding, Bind() cho two-way binding, và DataBind() để thực hiện binding cho controls."
+  },
+  {
+    "id": 14,
+    "question": "Đâu là phương thức để xử lý sự kiện trong C#?",
+    "options": ["Method", "Function", "EventHandler", "Thread"],
+    "correctAnswer": 2,
+    "explanation": "EventHandler là delegate pattern được sử dụng trong C# để xử lý các sự kiện. Nó định nghĩa signature chuẩn cho các phương thức xử lý event với tham số sender và EventArgs."
+  },
+  {
+    "id": 15,
+    "question": "File cấu hình trong ASP.NET là:",
+    "options": ["App.config", "Setup.ini", "Web.config", "Web.ini"],
+    "correctAnswer": 2,
+    "explanation": "Web.config là file cấu hình XML chính trong ứng dụng ASP.NET, chứa các thiết lập về connection strings, authentication, compilation, và các cấu hình runtime khác."
+  },
+  {
+    "id": 16,
+    "question": "Thuộc tính nào được dùng để xác định dữ liệu hiển thị trên control Label?",
+    "options": ["Value", "Caption", "Text", "Title"],
+    "correctAnswer": 2,
+    "explanation": "Thuộc tính Text được sử dụng để thiết lập hoặc lấy nội dung hiển thị trên Label control trong ASP.NET. Đây là thuộc tính chính để hiển thị text trên Label."
+  },
+  {
+    "id": 17,
+    "question": "Cấu lệnh dùng để xử lý lỗi trong C# là:",
+    "options": ["using", "try-catch", "if-else", "loop"],
+    "correctAnswer": 1,
+    "explanation": "try-catch là cấu trúc exception handling trong C#, cho ph��p bắt và xử lý các lỗi có thể xảy ra trong quá trình thực thi code một cách an toàn."
+  },
+  {
+    "id": 18,
+    "question": "Đối tượng nào dùng để đọc dữ liệu trả về từ SqlCommand?",
+    "options": ["SqlDataReader", "SqlDataAdapter", "SqlCommand", "SqlTransaction"],
+    "correctAnswer": 0,
+    "explanation": "SqlDataReader cung cấp cách thức đọc dữ liệu forward-only, read-only từ SQL Server database. Nó hiệu quả cho việc đọc large result sets một cách tuần tự."
+  },
+  {
+    "id": 19,
+    "question": "Lệnh Response.Redirect(\"TrangChu.aspx\"); dùng để:",
+    "options": ["Dừng chương trình", "Hiển thông báo", "Chuyển hướng người dùng", "Xóa dữ liệu"],
+    "correctAnswer": 2,
+    "explanation": "Response.Redirect() được sử dụng để chuyển hướng người dùng từ trang hiện tại đến một trang khác. Nó gửi HTTP redirect response về client browser."
+  },
+  {
+    "id": 20,
+    "question": "ASP.NET hỗ trợ ngôn ngữ nào sau đây?",
+    "options": ["C#", "VB.NET", "J#", "Tất cả đều đúng"],
+    "correctAnswer": 3,
+    "explanation": "ASP.NET hỗ trợ nhiều ngôn ngữ .NET bao gồm C#, VB.NET, J#, và các ngôn ngữ .NET khác thông qua Common Language Runtime (CLR)."
+  },
+  {
+    "id": 21,
+    "question": "Để viết ASP.Net code trên cùng trang với HTML bạn đặt khối lệnh trong thẻ nào?",
+    "options": ["Thẻ Script", "Thẻ Body", "Thẻ Head", "Tất cả đều đúng"],
+    "correctAnswer": 0,
+    "explanation": "Thẻ <script runat=\"server\"> được sử dụng để viết server-side code trực tiếp trong trang ASPX, cho phép mixing code với HTML markup."
+  },
+  {
+    "id": 22,
+    "question": "Phương thức di chuyển nào sau đây cho phép giữ lại thông tin từ webform xuất phát?",
+    "options": ["Response.Redirect", "Server.Transfer", "Server.Execute", "Tất cả phương thức này"],
+    "correctAnswer": 1,
+    "explanation": "Server.Transfer chuyển execution đến trang khác trên cùng server mà không thông qua client browser, do đó có thể giữ lại form data và query string từ trang gốc."
+  },
+  {
+    "id": 23,
+    "question": "Control nào sau đây được sử dụng để kiểm tra dữ liệu nhập có theo đúng một định dạng:",
+    "options": ["RequiredFieldValidator", "RegularExpressionValidator", "CompareValidator", "CustomValidator"],
+    "correctAnswer": 1,
+    "explanation": "RegularExpressionValidator được sử dụng để kiểm tra xem dữ liệu nhập có khớp với một pattern cụ thể hay không, như email format, phone number format, etc."
+  },
+  {
+    "id": 24,
+    "question": "Dùng lệnh nào để đi chuyển đến trang web hello.html:",
+    "options": [
+      "Server.Transfer (\"hello.html\")",
+      "Response.Redirect (\"hello.html\")",
+      "Tất cả đều sai",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cả Server.Transfer và Response.Redirect đều có thể được sử dụng để chuyển đến trang khác, mỗi phương thức có cách thức hoạt động khác nhau nhưng đều đạt được mục đích chuyển trang."
+  },
+  {
+    "id": 25,
+    "question": "Đặc trưng của thương mại điện tử?",
+    "options": [
+      "Không tiếp xúc, có sự tham gia của ít nhất 2 chủ thể, không giới hạn phạm vi",
+      "Không giới hạn biên giới, tiếp xúc trực tiếp",
+      "Không tiếp xúc trực tiếp, không giới hạn phạm vi, có sự tham gia ít nhất 3 chủ thể",
+      "Không cần kho lưu trữ, thông tin chính là thị trường"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thương mại điện tử có đặc trưng: không tiếp xúc trực tiếp giữa các bên, không giới hạn về phạm vi địa lý, và thường có sự tham gia của ít nhất 3 chủ thể (người mua, người bán, và nhà cung cấp dịch vụ)."
+  },
+  {
+    "id": 26,
+    "question": "Trong .NET Framework, một Web page thuộc không gian tên nào dưới đây?",
+    "options": ["System.Web.UI.Page", "System.Windows.Page", "System.Web.Page", "Tất cả đều sai"],
+    "correctAnswer": 0,
+    "explanation": "Trong .NET Framework, lớp Page thuộc namespace System.Web.UI.Page. Đây là base class cho tất cả các web pages trong ASP.NET Web Forms."
+  },
+  {
+    "id": 27,
+    "question": "Trong một trang ASP.Net có đoạn code cần tính tổng số tiền nợ của khách hàng từ CSDL với đối tượng SqlCommand. Ta phải dùng phương thức nào để truy vấn CSDL có kết quả đúng và tối ưu nhất?",
+    "options": ["Read", "ExecuteNonQuery", "ExecuteScalar", "ExecuteReader"],
+    "correctAnswer": 2,
+    "explanation": "ExecuteScalar được sử dụng khi query trả về một giá trị duy nhất (như tổng, đếm, max, min). Đây là phương thức tối ưu nhất cho việc tính tổng số tiền nợ."
+  },
+  {
+    "id": 28,
+    "question": "Phương thức nào sau đây của đối tượng command có thể làm thay đổi dữ liệu:",
+    "options": ["ExecuteNoneQuery", "ExecuteScalar", "ExecuteReader", "ExecuteReadOnly"],
+    "correctAnswer": 0,
+    "explanation": "ExecuteNonQuery được sử dụng để thực thi các câu lệnh SQL không trả về dữ liệu như INSERT, UPDATE, DELETE - những câu lệnh có thể thay đổi dữ liệu trong database."
+  },
+  {
+    "id": 29,
+    "question": "Một textbox trong ASP.net cho phép người dùng nhập dữ liệu trên nhiều dòng thì cần thiết lập:",
+    "options": [
+      "TextMode = \"MultiText\"",
+      "TextMode = \"TextArea\"",
+      "TextMode = \"MultiLine\"",
+      "TextMode = \"MultiRow\""
+    ],
+    "correctAnswer": 2,
+    "explanation": "Để cho phép TextBox nhập dữ liệu trên nhiều dòng, cần thiết lập thuộc tính TextMode = \"MultiLine\". Điều này sẽ render TextBox như một HTML textarea."
+  },
+  {
+    "id": 30,
+    "question": "Hãy xác định các phương thức hay tập hợp của đối tượng Response là:",
+    "options": ["Write, QueryString", "Redirect, QueryString", "Redirect, MapPath", "Write, Redirect"],
+    "correctAnswer": 3,
+    "explanation": "Đối tượng Response có các phương thức chính như Write() để ghi dữ liệu ra client và Redirect() để chuyển hướng browser đến URL khác. QueryString và MapPath thuộc về Request và Server objects."
+  }
+]

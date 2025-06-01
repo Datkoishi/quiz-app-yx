@@ -1,0 +1,350 @@
+[
+  {
+    "id": 1,
+    "question": "...performs a similar function as a hard disk drive but without moving parts.",
+    "options": [
+      "Central Processing Unit (CPU)",
+      "Solid state drive (SSD)",
+      "Optical disk drive",
+      "An external disk drive"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SSD (Solid State Drive) provides storage like a hard drive but uses flash memory instead of moving parts. | SSD (Ổ cứng thể rắn) cung cấp lưu trữ như ổ cứng nhưng sử dụng bộ nhớ flash thay vì các bộ phận chuyển động."
+  },
+  {
+    "id": 2,
+    "question": "What converts images, perhaps from the device's camera, to data (words, characters, numbers, etc.) that a computer can understand and use?",
+    "options": [
+      "VPN (Virtual Private Network)",
+      "OCR (Optical Character Recognition) software",
+      "GPS (Global Positioning System)",
+      "Basic Input Output System"
+    ],
+    "correctAnswer": 1,
+    "explanation": "OCR software converts images of text into machine-readable text data. | Phần mềm OCR chuyển đổi hình ảnh văn bản thành dữ liệu văn bản có thể đọc được bằng máy."
+  },
+  {
+    "id": 3,
+    "question": "...are files created during the operation of software or hardware that tell a technician what is happening.",
+    "options": ["Backups", "Logs", "User accounts", "Records"],
+    "correctAnswer": 1,
+    "explanation": "Logs record system activities and events for troubleshooting and monitoring. | Nhật ký ghi lại các hoạt động và sự kiện của hệ thống để khắc phục sự cố và giám sát."
+  },
+  {
+    "id": 4,
+    "question": "The terms and conditions that you agree to when you purchase software or sign up to a website are called...",
+    "options": ["User accounts", "Serial numbers", "Licence terms", "Passwords"],
+    "correctAnswer": 2,
+    "explanation": "License terms define the legal agreement for software usage and website access. | Điều khoản giấy phép xác định thỏa thuận pháp lý cho việc sử dụng phần mềm và truy cập trang web."
+  },
+  {
+    "id": 5,
+    "question": "...is the information such as numbers and detail about people.",
+    "options": ["Data", "Password", "Character", "Alphanumeric"],
+    "correctAnswer": 0,
+    "explanation": "Data refers to information, facts, and details that can be processed by computers. | Dữ liệu đề cập đến thông tin, sự kiện và chi tiết có thể được xử lý bởi máy tính."
+  },
+  {
+    "id": 6,
+    "question": "What is the box inside a computer that converts mains electricity into the appropriate voltages for the internal components?",
+    "options": [
+      "Solid state drive (SSD)",
+      "A hard disk drive (HDD)",
+      "The power supply unit (PSU)",
+      "Optical disk drive"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The PSU (Power Supply Unit) converts AC power to DC power for computer components. | PSU (Đơn vị cung cấp điện) chuyển đổi điện AC thành điện DC cho các thành phần máy tính."
+  },
+  {
+    "id": 7,
+    "question": "...are data that a program or computer produces while it runs, to show how well it is working.",
+    "options": ["Backups", "Logs", "User accounts", "Records"],
+    "correctAnswer": 1,
+    "explanation": "Logs provide performance and operational data about running systems. | Nhật ký cung cấp dữ liệu hiệu suất và hoạt động về các hệ thống đang chạy."
+  },
+  {
+    "id": 8,
+    "question": "Which word below means changing something to make it suit a special purpose?",
+    "options": ["Update", "Reboot", "Tag", "Customise"],
+    "correctAnswer": 3,
+    "explanation": "Customise means to modify something to meet specific requirements or preferences. | Tùy chỉnh có nghĩa là sửa đổi một cái gì đó để đáp ứng các yêu cầu hoặc sở thích cụ thể."
+  },
+  {
+    "id": 9,
+    "question": "...establish short-range ('local') connections, perhaps covering a single office or company within a building, whereas... cover much larger areas.",
+    "options": ["LANS - VPNs", "WANS - LANS", "LANS - WANS", "VPNS - WANS"],
+    "correctAnswer": 2,
+    "explanation": "LANs (Local Area Networks) cover small areas while WANs (Wide Area Networks) cover large geographical areas. | LAN (Mạng cục bộ) bao phủ các khu vực nhỏ trong khi WAN (Mạng diện rộng) bao phủ các khu vực địa lý lớn."
+  },
+  {
+    "id": 10,
+    "question": "...is a pen-shaped device sometimes used with some kinds of screens.",
+    "options": ["Touchpad", "Stylus", "Headset", "Log"],
+    "correctAnswer": 1,
+    "explanation": "A stylus is a pen-like input device used with touch screens and graphics tablets. | Stylus là thiết bị đầu vào giống bút được sử dụng với màn hình cảm ứng và bảng vẽ đồ họa."
+  },
+  {
+    "id": 11,
+    "question": "...uses signals from satellites orbiting Earth to work out the position of the device to a high degree of accuracy.",
+    "options": [
+      "LAN (Local Area Network)",
+      "VPN (Virtual Private Network)",
+      "WAN (Wide area network)",
+      "GPS (Global Positioning System)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "GPS uses satellite signals to determine precise location coordinates. | GPS sử dụng tín hiệu vệ tinh để xác định tọa độ vị trí chính xác."
+  },
+  {
+    "id": 12,
+    "question": "...uses laser light to store or get information (for example, on CDs).",
+    "options": ["The hard disk drive", "An optical disk drive", "The main memory", "Expansion cards"],
+    "correctAnswer": 1,
+    "explanation": "Optical disk drives use laser technology to read and write data on CDs, DVDs, and Blu-ray discs. | Ổ đĩa quang sử dụng công nghệ laser để đọc và ghi dữ liệu trên CD, DVD và đĩa Blu-ray."
+  },
+  {
+    "id": 13,
+    "question": "What is the storage device that holds its data on spinning magnetized disks?",
+    "options": ["Central Processing Unit", "Monitor", "Optical drive", "A hard disk drive"],
+    "correctAnswer": 3,
+    "explanation": "Hard disk drives store data on rotating magnetic platters. | Ổ cứng lưu trữ dữ liệu trên các đĩa từ tính quay."
+  },
+  {
+    "id": 14,
+    "question": "A small circuit board with a number of memory chips on it is called...",
+    "options": [
+      "Dual In-line Memory Module (DIMM)",
+      "Central Processing Unit (CPU)",
+      "Hard disk drive (HDD)",
+      "Solid state drive (SSD)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DIMM (Dual In-line Memory Module) is a circuit board containing RAM chips. | DIMM (Mô-đun bộ nhớ hai hàng nội tuyến) là một bảng mạch chứa các chip RAM."
+  },
+  {
+    "id": 15,
+    "question": "...has only letters and numbers.",
+    "options": ["Alphanumeric", "Character", "Password", "Security"],
+    "correctAnswer": 0,
+    "explanation": "Alphanumeric refers to characters that include only letters and numbers. | Chữ và số đề cập đến các ký tự chỉ bao gồm chữ cái và số."
+  },
+  {
+    "id": 16,
+    "question": "What is the basic software built into PCs that initialises the computer and controls it before the OS starts?",
+    "options": [
+      "An operating system",
+      "An application software",
+      "A Global Positioning System",
+      "Basic Input Output System"
+    ],
+    "correctAnswer": 3,
+    "explanation": "BIOS (Basic Input Output System) is firmware that initializes hardware during boot process. | BIOS (Hệ thống đầu vào đầu ra cơ bản) là firmware khởi tạo phần cứng trong quá trình khởi động."
+  },
+  {
+    "id": 17,
+    "question": "Which word below means adding electronic information to something e.g. a photo?",
+    "options": ["Tag", "Customise", "Reboot", "Update"],
+    "correctAnswer": 0,
+    "explanation": "Tagging involves adding metadata or keywords to digital files for organization. | Gắn thẻ bao gồm việc thêm siêu dữ liệu hoặc từ khóa vào tệp kỹ thuật số để tổ chức."
+  },
+  {
+    "id": 18,
+    "question": "What is the small part inside smartphones and other devices that measures change of speed, e.g. if someone drops it?",
+    "options": ["Alphanumeric", "Universal Serial Bus", "Accelerometer", "Mp3 Player"],
+    "correctAnswer": 2,
+    "explanation": "An accelerometer measures acceleration and movement changes in devices. | Gia tốc kế đo gia tốc và thay đổi chuyển động trong các thiết bị."
+  },
+  {
+    "id": 19,
+    "question": "...displays the information on the computer.",
+    "options": ["A CPU", "A case", "A motherboard", "A screen"],
+    "correctAnswer": 3,
+    "explanation": "A screen (monitor) displays visual output from the computer. | Màn hình hiển thị đầu ra hình ảnh từ máy tính."
+  },
+  {
+    "id": 20,
+    "question": "...is the code that is supplied with an OS or software when purchased and which is entered the first time it is run to verify that it was obtained legally.",
+    "options": ["product key", "password", "serial number", "A and C are correct"],
+    "correctAnswer": 3,
+    "explanation": "Both product key and serial number are used to verify legitimate software purchases. | Cả khóa sản phẩm và số sê-ri đều được sử dụng để xác minh việc mua phần mềm hợp pháp."
+  },
+  {
+    "id": 21,
+    "question": "...means 'comprised only of letters and numbers and not including spaces or punctuation symbols.'",
+    "options": ["Alphanumeric", "Character", "Password", "Security"],
+    "correctAnswer": 0,
+    "explanation": "Alphanumeric specifically refers to text containing only letters and numbers. | Chữ và số cụ thể đề cập đến văn bản chỉ chứa chữ cái và số."
+  },
+  {
+    "id": 22,
+    "question": "...is a device that shows a copy of the computer's screen on a large screen, often used in presentations.",
+    "options": ["Power point", "Projector", "Touch screen", "Stylus"],
+    "correctAnswer": 1,
+    "explanation": "A projector displays computer output on a large screen for presentations. | Máy chiếu hiển thị đầu ra máy tính trên màn hình lớn cho các bài thuyết trình."
+  },
+  {
+    "id": 23,
+    "question": "...are often used to hold meetings when the participants are in different physical locations.",
+    "options": ["Forums", "Videoconferences", "Teleconferences", "B and C are correct"],
+    "correctAnswer": 3,
+    "explanation": "Both videoconferences and teleconferences enable remote meetings between distant participants. | Cả hội nghị truyền hình và hội nghị điện thoại đều cho phép các cuộc họp từ xa giữa những người tham gia ở xa."
+  },
+  {
+    "id": 24,
+    "question": "What is the 'brain' of the computer and carries out the instructions that the software gives it?",
+    "options": [
+      "Central Processing Unit (CPU)",
+      "Solid state drive (SSD)",
+      "Optical disk drive",
+      "A hard disk drive (HDD)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CPU (Central Processing Unit) executes program instructions and performs calculations. | CPU (Đơn vị xử lý trung tâm) thực thi các lệnh chương trình và thực hiện tính toán."
+  },
+  {
+    "id": 25,
+    "question": "The smallest unit of memory used to store a single character is...",
+    "options": ["A megabit", "A kilobit", "A byte", "A gigabit"],
+    "correctAnswer": 2,
+    "explanation": "A byte is the basic unit of computer memory that stores one character. | Byte là đơn vị cơ bản của bộ nhớ máy tính lưu trữ một ký tự."
+  },
+  {
+    "id": 26,
+    "question": "What is a secret word that you type into a computer before you can use it?",
+    "options": ["Data", "Password", "Character", "Alphanumeric"],
+    "correctAnswer": 1,
+    "explanation": "A password is a secret authentication credential used to access systems. | Mật khẩu là thông tin xác thực bí mật được sử dụng để truy cập hệ thống."
+  },
+  {
+    "id": 27,
+    "question": "What allows the device's battery to be recharged from any computer that has a USB socket?",
+    "options": ["USB recharger", "Power Supply Unit", "Accelerometer", "External disk drive"],
+    "correctAnswer": 0,
+    "explanation": "A USB recharger enables battery charging through USB connections. | Bộ sạc USB cho phép sạc pin thông qua kết nối USB."
+  },
+  {
+    "id": 28,
+    "question": "Computers in a home sharing the same network connection are on ... while the internet is the most obvious example of a ...",
+    "options": ["LANS - VPNs", "WANS - LANS", "LANS - WANS", "VPNS - WANS"],
+    "correctAnswer": 2,
+    "explanation": "Home networks are LANs (Local Area Networks) while the internet is a WAN (Wide Area Network). | Mạng gia đình là LAN (Mạng cục bộ) trong khi internet là WAN (Mạng diện rộng)."
+  },
+  {
+    "id": 29,
+    "question": "...has many functions such as printing, scanning, copying and/or faxing.",
+    "options": ["Touchpad", "Graphics tablets and stylus", "Log", "Multifunction printer"],
+    "correctAnswer": 3,
+    "explanation": "A multifunction printer combines multiple office functions in one device. | Máy in đa chức năng kết hợp nhiều chức năng văn phòng trong một thiết bị."
+  },
+  {
+    "id": 30,
+    "question": "Networks that use radio signals are known as ... networks, while networks using cables are ...",
+    "options": ["wired - wireless", "wireless - wired", "wireless - wifi", "wifi - wireless"],
+    "correctAnswer": 1,
+    "explanation": "Wireless networks use radio signals while wired networks use physical cables. | Mạng không dây sử dụng tín hiệu radio trong khi mạng có dây sử dụng cáp vật lý."
+  },
+  {
+    "id": 31,
+    "question": "...is a monitor that can detect when and where a finger touches it.",
+    "options": ["Touchpad", "Headset", "Touch screen", "Graphics tablets and stylus"],
+    "correctAnswer": 2,
+    "explanation": "A touch screen responds to finger touches and can detect touch location. | Màn hình cảm ứng phản hồi với cảm ứng ngón tay và có thể phát hiện vị trí cảm ứng."
+  },
+  {
+    "id": 32,
+    "question": "What is the circuit board that carries a separate processor and is similar to the CPU but designed specifically to process imagery, mostly video?",
+    "options": ["External hard drive", "Graphics card", "Hard disk drive", "Monitor"],
+    "correctAnswer": 1,
+    "explanation": "A graphics card contains a GPU (Graphics Processing Unit) specialized for image and video processing. | Card đồ họa chứa GPU (Đơn vị xử lý đồ họa) chuyên dụng cho xử lý hình ảnh và video."
+  },
+  {
+    "id": 33,
+    "question": "When a hard drive is ... it is divided up into two or more sections which each act like a separate drive.",
+    "options": ["removed", "partitioned", "installed", "set up"],
+    "correctAnswer": 1,
+    "explanation": "Partitioning divides a hard drive into separate logical sections. | Phân vùng chia ổ cứng thành các phần logic riêng biệt."
+  },
+  {
+    "id": 34,
+    "question": "...is to install on many computers all at the same time.",
+    "options": ["Resetting", "Setting permissions", "Deploying", "Checking logs"],
+    "correctAnswer": 2,
+    "explanation": "Deploying refers to installing software across multiple systems simultaneously. | Triển khai đề cập đến việc cài đặt phần mềm trên nhiều hệ thống cùng lúc."
+  },
+  {
+    "id": 35,
+    "question": "...changes written or printed words to data that a computer can understand.",
+    "options": [
+      "VPN (Virtual Private Network)",
+      "OCR (Optical Character Recognition) software",
+      "GPS (Global Positioning System)",
+      "Basic Input Output System"
+    ],
+    "correctAnswer": 1,
+    "explanation": "OCR software converts printed or written text into digital text data. | Phần mềm OCR chuyển đổi văn bản in hoặc viết tay thành dữ liệu văn bản kỹ thuật số."
+  },
+  {
+    "id": 36,
+    "question": "The window that provides information as well as asking for input from the user is called...",
+    "options": ["SATA socket", "Virtual reality goggles", "An operating system", "Dialogue box"],
+    "correctAnswer": 3,
+    "explanation": "A dialogue box is a user interface element that displays information and requests user input. | Hộp thoại là một phần tử giao diện người dùng hiển thị thông tin và yêu cầu đầu vào từ người dùng."
+  },
+  {
+    "id": 37,
+    "question": "...displays the information on the computer.",
+    "options": ["A CPU", "A case", "A motherboard", "A screen"],
+    "correctAnswer": 3,
+    "explanation": "A screen (monitor) displays visual information from the computer. | Màn hình hiển thị thông tin hình ảnh từ máy tính."
+  },
+  {
+    "id": 38,
+    "question": "...are glasses with monitors on the inside which are connected to a computer, enabling the user to see a three-dimensional image.",
+    "options": ["Virtual reality goggles", "SATA socket", "An operating system", "Dialogue box"],
+    "correctAnswer": 0,
+    "explanation": "Virtual reality goggles provide immersive 3D visual experiences through built-in displays. | Kính thực tế ảo cung cấp trải nghiệm hình ảnh 3D nhập vai thông qua màn hình tích hợp."
+  },
+  {
+    "id": 39,
+    "question": "Who writes, tests and debugs computer programs, usually as part of a team?",
+    "options": ["Database administrator", "Software developer", "Helpdesk supervisor", "Support technician"],
+    "correctAnswer": 1,
+    "explanation": "Software developers create, test, and maintain computer programs and applications. | Nhà phát triển phần mềm tạo, kiểm tra và duy trì các chương trình và ứng dụng máy tính."
+  },
+  {
+    "id": 40,
+    "question": "...is a set of hard drives in a single box, which is attached to a network in the same way as a computer.",
+    "options": ["Log", "USB (Universal serial bus)", "Mp3 Player", "NAS (Network attached storage) device"],
+    "correctAnswer": 3,
+    "explanation": "NAS devices provide networked storage through multiple hard drives in one unit. | Thiết bị NAS cung cấp lưu trữ mạng thông qua nhiều ổ cứng trong một đơn vị."
+  },
+  {
+    "id": 41,
+    "question": "Which word below means adding electronic information to something e.g. a photo?",
+    "options": ["Tag", "Customise", "Reboot", "Update"],
+    "correctAnswer": 0,
+    "explanation": "Tagging involves adding metadata or descriptive information to digital files. | Gắn thẻ bao gồm việc thêm siêu dữ liệu hoặc thông tin mô tả vào tệp kỹ thuật số."
+  },
+  {
+    "id": 42,
+    "question": "...is the software that controls a computer. Its functions are wide-ranging and include managing the GUI, memory, storage and other hardware.",
+    "options": ["A programming software", "SATA socket", "An operating system", "An application software"],
+    "correctAnswer": 2,
+    "explanation": "An operating system manages computer hardware and provides a platform for other software. | Hệ điều hành quản lý phần cứng máy tính và cung cấp nền tảng cho phần mềm khác."
+  },
+  {
+    "id": 43,
+    "question": "...is part of a laptop computer used instead of a mouse for moving the cursor.",
+    "options": ["Touchpad", "Stylus", "Headset", "Log"],
+    "correctAnswer": 0,
+    "explanation": "A touchpad is the built-in pointing device on laptops that replaces a mouse. | Touchpad là thiết bị chỉ điểm tích hợp trên laptop thay thế chuột."
+  },
+  {
+    "id": 44,
+    "question": "...supervises technical support staff, who may be working in a telephone call centre.",
+    "options": ["Database administrator", "Software developer", "Helpdesk supervisor", "Systems analyst"],
+    "correctAnswer": 2,
+    "explanation": "A helpdesk supervisor manages technical support teams and call center operations. | Giám sát viên helpdesk quản lý các nhóm hỗ trợ kỹ thuật và hoạt động trung tâm cuộc gọi."
+  }
+]

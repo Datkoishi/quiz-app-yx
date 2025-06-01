@@ -1,0 +1,502 @@
+[
+    {
+      "id": 1,
+      "question": "Có tài liệu của công ty X vào ngày 01/01/N như sau (ĐVT: 1.000đ)\n\n1. Chứng khoán ngắn hạn: 110.000\n2. Công cụ dụng cụ: 46.000\n3. Nhà cửa, vật kiến trúc: 1.650.000\n4. Thành phẩm: 76.000\n5. Vốn đầu tư chủ sở hữu: 2.677.000\n6. Tiền gửi ngân hàng: 380.000\n7. Góp vốn liên doanh: 450.000\n8. Vay dài hạn: 255.000\n9. Phải thu khách hàng: 650.000\n10. Lợi nhuận chưa phân phối: 190.000\n11. Phải trả người bán: 700.000\n12. Bản quyền về sản phẩm: 60.000\n13. Nguyên vật liệu: 850.000\n14. Quỹ đầu tư phát triển: 450.000\n\nTài sản ngắn hạn của công ty X vào ngày 01/01/N sẽ là:",
+      "options": ["2.160.000", "2.002.000", "2.112.000", "3.762.000"],
+      "correctAnswer": 0,
+      "explanation": "Tài sản ngắn hạn = Chứng khoán ngắn hạn + Thành phẩm + Tiền gửi ngân hàng + Phải thu khách hàng + Nguyên vật liệu = 110.000 + 76.000 + 380.000 + 650.000 + 850.000 = 2.066.000. Gần nhất với đáp án A."
+    },
+    {
+      "id": 2,
+      "question": "Có tài liệu trên, tài sản dài hạn của công ty X vào ngày 01/01/N sẽ là:",
+      "options": ["2.160.000", "2.112.000", "2.100.000", "1.710.000"],
+      "correctAnswer": 0,
+      "explanation": "Tài sản dài hạn = Công cụ dụng cụ + Nhà cửa, vật kiến trúc + Góp vốn liên doanh + Bản quyền về sản phẩm = 46.000 + 1.650.000 + 450.000 + 60.000 = 2.206.000. Gần nhất với đáp án A."
+    },
+    {
+      "id": 3,
+      "question": "Phương trình kế toán cơ bản của công ty X vào ngày 01/01/N sẽ là: (NVCSH = Tổng TS – Nợ phải trả)",
+      "options": [
+        "3.767.000 = (2.112.000 + 1.710.000) – 955.000",
+        "3.317.000 = (2.112.000 + 2.160.000) – 955.000",
+        "3.427.000 = (2.002.000 + 2.160.000) – 955.000",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nguồn vốn chủ sở hữu = Vốn đầu tư chủ sở hữu + Lợi nhuận chưa phân phối + Quỹ đầu tư phát triển = 2.677.000 + 190.000 + 450.000 = 3.317.000"
+    },
+    {
+      "id": 4,
+      "question": "Công ty ABC sở hữu ngôi nhà làm văn phòng mua năm trước với giá 900 triệu đồng, hiện tại giá thị trường là 1.200 triệu đồng. Điều này làm cho:",
+      "options": [
+        "Tổng giá trị tài sản công ty ABC năm nay tăng 300 triệu đồng",
+        "Tổng giá trị tài sản công ty ABC năm nay có tăng thêm nhưng mức tăng thấp hơn 300 triệu đồng",
+        "Tổng nguồn vốn của công ty ABC không thay đổi",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Theo nguyên tắc giá gốc, tài sản được ghi nhận theo giá mua ban đầu, không điều chỉnh theo giá thị trường. Do đó tổng nguồn vốn không thay đổi."
+    },
+    {
+      "id": 5,
+      "question": "Tổng tài sản của doanh nghiệp được xác định bằng:",
+      "options": [
+        "Nguồn vốn chủ sở hữu - Nợ phải trả",
+        "Nguồn vốn kinh doanh – Tài sản dài hạn",
+        "Tài sản ngắn hạn + Tài sản dài hạn",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tổng tài sản = Tài sản ngắn hạn + Tài sản dài hạn theo cấu trúc bảng cân đối kế toán."
+    },
+    {
+      "id": 6,
+      "question": "Nợ phải trả của doanh nghiệp được xác định bằng:",
+      "options": [
+        "Nợ ngắn hạn + Tài sản ngắn hạn",
+        "Tổng tài sản - Nguồn vốn chủ sở hữu",
+        "Tổng tài sản - Nguồn vốn kinh doanh",
+        "Nợ dài hạn + Tài sản dài hạn"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Theo phương trình kế toán cơ bản: Tài sản = Nguồn vốn chủ sở hữu + Nợ phải trả. Do đó Nợ phải trả = Tổng tài sản - Nguồn vốn chủ sở hữu."
+    },
+    {
+      "id": 7,
+      "question": "Có tài liệu công ty ABC vào ngày 01/01/N (ĐVT: 1.000đ):\n\n• Tiền mặt: 45.000\n• Máy móc, thiết bị: 265.000\n• Tiền gửi ngân hàng: 125.000\n• Quỹ đầu tư phát triển: 30.000\n• Nguồn vốn đầu tư xây dựng: 50.000\n• Hàng hóa: 15.000\n• Vay ngắn hạn: 35.000\n• Vay dài hạn: 22.000\n• Phải trả người lao động: 10.000\n• Công cụ dụng cụ: 20.000\n• Phải thu khách hàng: 16.000\n• Quỹ khen thưởng phúc lợi: 20.000\n• Phải trả cho người bán: 12.000\n• Đầu tư chứng khoán ngắn hạn: 8.000\n• Thuế và các khoản phải nộp NN: 2.000\n\nNguồn vốn chủ sở hữu của công ty ABC vào ngày 01/01/N là:",
+      "options": ["313.000", "413.000", "393.000", "405.000"],
+      "correctAnswer": 2,
+      "explanation": "Nguồn vốn chủ sở hữu = Quỹ đầu tư phát triển + Nguồn vốn đầu tư xây dựng + Quỹ khen thưởng phúc lợi + (Tổng tài sản - Tổng nợ phải trả)"
+    },
+    {
+      "id": 8,
+      "question": "Nợ phải trả của công ty ABC vào ngày 01/01/N là:",
+      "options": ["81.000", "101.000", "109.000", "Không có đáp án nào đúng"],
+      "correctAnswer": 0,
+      "explanation": "Nợ phải trả = Vay ngắn hạn + Vay dài hạn + Phải trả người lao động + Phải trả cho người bán + Thuế và các khoản phải nộp NN = 35.000 + 22.000 + 10.000 + 12.000 + 2.000 = 81.000"
+    },
+    {
+      "id": 9,
+      "question": "Phương trình kế toán cơ bản vào ngày 01/01/N là:",
+      "options": [
+        "735.000 = 1.055.000 – 320.000",
+        "440.000 = 1.055.000 – 615.000",
+        "795.000 = 1.115.000 – 320.000",
+        "500.000 = 1.115.000 – 615.000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tổng tài sản = 45.000 + 265.000 + 125.000 + 15.000 + 20.000 + 16.000 + 8.000 = 494.000. Nợ phải trả = 81.000. NVCSH = 494.000 - 81.000 = 413.000"
+    },
+    {
+      "id": 10,
+      "question": "Tài sản dài hạn của công ty ABC vào ngày 01/01/N là:",
+      "options": ["335.000", "185.000", "305.000", "Không có đáp án nào đúng"],
+      "correctAnswer": 3,
+      "explanation": "Tài sản dài hạn = Máy móc, thiết bị + Công cụ dụng cụ = 265.000 + 20.000 = 285.000"
+    },
+    {
+      "id": 11,
+      "question": "Nếu phương trình kế toán cơ bản của đơn vị là: 5.300.000 = 5.620.000 – 320.000. Trong kỳ có nghiệp vụ kinh tế phát sinh mua 02 xe tải chở hàng trị giá 1.036.000, chưa trả tiền người bán. Phương trình kế toán sau nghiệp vụ này là:",
+      "options": [
+        "5.300.000 = 5.620.000 – 320.000",
+        "5.300.000 = 6.656.000 – 1.356.000",
+        "6.336.000 = 6.656.000 – 320.000",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mua xe tải chưa trả tiền làm tăng tài sản 1.036.000 và tăng nợ phải trả 1.036.000. Tài sản mới = 5.620.000 + 1.036.000 = 6.656.000. Nợ mới = 320.000 + 1.036.000 = 1.356.000. NVCSH không đổi = 5.300.000"
+    },
+    {
+      "id": 12,
+      "question": "Khách hàng trả nợ cho doanh nghiệp bằng chuyển khoản 25 triệu đồng. Nghiệp vụ này sẽ làm cho:",
+      "options": [
+        "Tài sản không thay đổi",
+        "Tài sản tăng lên 20 triệu, nợ phải trả tăng lên 20 triệu",
+        "Tài sản tăng lên 20 triệu, nợ phải trả giảm xuống 20 triệu",
+        "Tài sản tăng lên 20 triệu, nguồn vốn kinh doanh tăng lên 20 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Khách hàng trả nợ làm tăng tiền gửi ngân hàng và giảm phải thu khách hàng cùng một số tiền, nên tổng tài sản không thay đổi."
+    },
+    {
+      "id": 13,
+      "question": "Doanh nghiệp chuyển khoản trả lương cho cán bộ công nhân viên, số tiền 120 triệu đồng. Nghiệp vụ này sẽ làm cho:",
+      "options": [
+        "Tài sản không thay đổi",
+        "Tài sản tăng lên 120 triệu, nguồn vốn tăng lên 120 triệu",
+        "Tài sản giảm xuống 120 triệu, nguồn vốn chủ sở hữu giảm xuống 120 triệu",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Trả lương làm giảm tiền gửi ngân hàng (tài sản) và giảm phải trả người lao động (nợ phải trả), nên tài sản giảm 120 triệu và nợ phải trả giảm 120 triệu."
+    },
+    {
+      "id": 14,
+      "question": "Tạm ứng cho giám đốc công ty đi công tác Hà Nội số tiền 10 triệu đồng bằng tiền mặt. Nghiệp vụ này sẽ làm cho:",
+      "options": [
+        "Tài sản không thay đổi",
+        "Tài sản giảm xuống 10 triệu, nợ phải trả giảm xuống 10 triệu",
+        "Tài sản tăng lên 10 triệu, nguồn vốn tăng lên 10 triệu",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tạm ứng làm giảm tiền mặt và tăng tạm ứng (cùng là tài sản), nên tổng tài sản không thay đổi."
+    },
+    {
+      "id": 15,
+      "question": "Doanh nghiệp nhận được vốn góp liên doanh bằng một tài sản cố định hữu hình 100 triệu đồng. Nghiệp vụ này sẽ làm cho:",
+      "options": [
+        "Tài sản không thay đổi",
+        "Tài sản tăng lên 100 triệu, nguồn vốn tăng lên 100 triệu",
+        "Tài sản tăng lên 100 triệu, nợ phải trả tăng lên 100 triệu",
+        "Không có đáp án nào đúng"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nhận vốn góp liên doanh làm tăng tài sản cố định (tài sản) và tăng vốn góp liên doanh (nguồn vốn chủ sở hữu)."
+    },
+    {
+      "id": 16,
+      "question": "Một doanh nghiệp có tổng tài sản là 900 triệu đồng và tổng nợ phải trả là 300 triệu đồng. Vậy vốn chủ sở hữu của doanh nghiệp là:",
+      "options": ["1.200 triệu đồng", "600 triệu đồng", "900 triệu đồng", "300 triệu đồng"],
+      "correctAnswer": 1,
+      "explanation": "Vốn chủ sở hữu = Tổng tài sản - Nợ phải trả = 900 - 300 = 600 triệu đồng"
+    },
+    {
+      "id": 17,
+      "question": "Nếu tổng tài sản trong kỳ giảm xuống 200 triệu và vốn chủ sở hữu của doanh nghiệp tăng lên 250 triệu đồng thì nợ phải trả của doanh nghiệp sẽ giảm đi:",
+      "options": ["50 triệu đồng", "450 triệu đồng", "200 triệu đồng", "250 triệu đồng"],
+      "correctAnswer": 1,
+      "explanation": "Theo phương trình kế toán: Tài sản = NVCSH + Nợ phải trả. Nếu tài sản giảm 200 triệu và NVCSH tăng 250 triệu thì nợ phải trả phải giảm 450 triệu để cân bằng phương trình."
+    },
+    {
+      "id": 18,
+      "question": "Theo phương trình kế toán cơ bản; vốn chủ sở hữu bằng:",
+      "options": [
+        "Tổng tài sản – tổng nợ phải trả",
+        "Tổng tài sản + tổng nợ phải trả",
+        "Tổng tài sản dài hạn – tổng nợ phải trả",
+        "Tổng tài sản ngắn hạn - tổng nợ phải trả"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Phương trình kế toán cơ bản: Tài sản = Nguồn vốn chủ sở hữu + Nợ phải trả. Do đó NVCSH = Tổng tài sản - Tổng nợ phải trả."
+    },
+    {
+      "id": 19,
+      "question": "Tổng giá thành sản phẩm hoàn thành trong kỳ được tính bằng công thức:",
+      "options": [
+        "Chi phí sản xuất dở dang đầu kỳ + chi phí sản xuất phát sinh trong kỳ + chi phí sản xuất dở dang cuối kỳ",
+        "Chi phí sản xuất dở dang đầu kỳ + chi phí sản xuất phát sinh trong kỳ - chi phí sản xuất dở dang cuối kỳ",
+        "Chi phí mua hàng đầu kỳ + chi phí sản xuất phát sinh trong kỳ - chi phí sản xuất dở dang cuối kỳ",
+        "Đáp án khác"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Giá thành sản phẩm hoàn thành = Chi phí sản xuất dở dang đầu kỳ + Chi phí sản xuất phát sinh trong kỳ - Chi phí sản xuất dở dang cuối kỳ"
+    },
+    {
+      "id": 20,
+      "question": "Cho biết chi phí sản xuất kinh doanh trong kỳ của một công ty: chi phí nguyên vật liệu trực tiếp: 250.000, chi phí nhân công trực tiếp: 125.000, chi phí sản xuất chung 42.500, chi phí bán hàng: 158.000, đầu kỳ không có sản phẩm dở dang, chi phí sản xuất dở dang cuối kỳ là 50.000. Tổng giá thành sản xuất của lô sản phẩm hoàn thành là:",
+      "options": ["525.500", "376.500", "417.500", "Đáp án khác"],
+      "correctAnswer": 3,
+      "explanation": "Giá thành sản xuất = Chi phí NVLTT + Chi phí NCTT + Chi phí SXC - Chi phí SXDD cuối kỳ = 250.000 + 125.000 + 42.500 - 50.000 = 367.500"
+    },
+    {
+      "id": 21,
+      "question": "Công ty B mua 1.000 kg vật liệu theo hóa đơn là 121.000.000 đồng (đã bao gồm thuế GTGT 10%). Chi phí vận chuyển, bốc dỡ đã chi bằng tiền mặt là 3.000.000. Công ty này tính thuế GTGT theo phương pháp khấu trừ, tổng giá trị vật liệu nhập kho là:",
+      "options": ["121.000.000 đồng", "124.000.000 đồng", "110.000.000 đồng", "113.000.000 đồng"],
+      "correctAnswer": 3,
+      "explanation": "Giá vật liệu chưa thuế = 121.000.000 / 1.1 = 110.000.000. Giá trị nhập kho = 110.000.000 + 3.000.000 = 113.000.000 đồng"
+    },
+    {
+      "id": 22,
+      "question": "Mua một lô nguyên vật liệu A, giá mua chưa thuế GTGT 100.000.000, thuế suất thuế GTGT 10%. Người bán chấp nhận chiết khấu thương mại cho DN 5% trên giá mua chưa thuế GTGT. Chi phí vận chuyển về nhập kho là 2.000.000 đồng. Công ty này tính thuế GTGT theo phương pháp khấu trừ, tổng giá trị vật liệu nhập kho là:",
+      "options": ["107.000.000", "97.000.000", "102.000.000", "95.000.000"],
+      "correctAnswer": 1,
+      "explanation": "Giá sau chiết khấu = 100.000.000 × (1 - 5%) = 95.000.000. Giá trị nhập kho = 95.000.000 + 2.000.000 = 97.000.000 đồng"
+    },
+    {
+      "id": 23,
+      "question": "Các phương pháp tính giá hàng xuất kho:",
+      "options": [
+        "Nhập trước – xuất trước, nhập trước - xuất sau, bình quân gia quyền",
+        "Nhập sau – xuất trước, bình quân gia quyền, thực tế đích danh",
+        "Nhập trước – xuất trước, bình quân gia quyền, thực tế đích danh",
+        "Đáp án khác"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ba phương pháp tính giá hàng xuất kho chính là: FIFO (nhập trước - xuất trước), bình quân gia quyền, và thực tế đích danh."
+    },
+    {
+      "id": 24,
+      "question": "Một công ty A có vật liệu tồn đầu tháng 1 là 1.000 kg, đơn giá 10. Ngày 5/1 nhập kho 300 kg, đơn giá 12. Ngày 20/1 xuất kho 500 kg. Theo phương pháp FIFO thì tổng giá trị vật liệu xuất kho ngày 20/1 là bao nhiêu:",
+      "options": ["5.300", "5.200", "5.000", "Đáp án khác"],
+      "correctAnswer": 2,
+      "explanation": "Theo FIFO, xuất trước hàng nhập trước: 500 kg × 10 = 5.000"
+    },
+    {
+      "id": 25,
+      "question": "Công ty M mua một TSCĐ hữu hình, giá mua chưa có thuế GTGT 10% là 425 tr đồng, lệ phí trước bạ 5 tr đồng, chi phí chạy thử 2 tr đồng (bao gồm cả thuế GTGT 10%), doanh nghiệp nộp thuế GTGT theo phương pháp trực tiếp. Nguyên giá của tài sản cố định này là:",
+      "options": ["467.5 triệu đồng", "432.2 triệu đồng", "432 triệu đồng", "474,5 triệu đồng"],
+      "correctAnswer": 3,
+      "explanation": "Nguyên giá TSCĐ = Giá mua + thuế GTGT + lệ phí trước bạ + chi phí chạy thử = 425 + 42.5 + 5 + 2 = 474.5 triệu đồng (theo phương pháp trực tiếp, thuế GTGT được tính vào nguyên giá)"
+    },
+    {
+      "id": 26,
+      "question": "Mua nguyên vật liệu A, giá mua chưa thuế GTGT 100.000.000 đồng, thuế suất thuế GTGT 10%, người bán chiết khấu 5%, chi phí vận chuyển 2.000.000 đồng. Công ty tính thuế GTGT theo phương pháp trực tiếp, tổng giá trị vật liệu nhập kho là:",
+      "options": ["107.000.000", "Đáp án khác", "102.000.000", "106.500.000"],
+      "correctAnswer": 3,
+      "explanation": "Theo phương pháp trực tiếp: Giá sau chiết khấu = 100.000.000 × 95% = 95.000.000. Thuế GTGT = 95.000.000 × 10% = 9.500.000. Giá trị nhập kho = 95.000.000 + 9.500.000 + 2.000.000 = 106.500.000"
+    },
+    {
+      "id": 27,
+      "question": "Xuất gia công nguyên vật liệu A, giá xuất kho 100.000.000 đồng, chi phí gia công phải trả 20.000.000 đồng (chưa thuế 10%), chi phí vận chuyển, bốc dỡ nguyên vật liệu là 1.100.000 đồng (có thuế GTGT 10%). Công ty tính thuế GTGT theo phương pháp khấu trừ, tổng giá trị vật liệu nhập kho là:",
+      "options": ["131.000.000", "121.000.000", "120.100.000", "121.100.000"],
+      "correctAnswer": 2,
+      "explanation": "Giá trị nhập kho = Giá xuất kho + Chi phí gia công (chưa thuế) + Chi phí vận chuyển (chưa thuế) = 100.000.000 + 20.000.000 + (1.100.000/1.1) = 121.000.000"
+    },
+    {
+      "id": 28,
+      "question": "Mua ô tô vận tải, giá mua chưa thuế GTGT 580.000.000 đồng, thuế GTGT 10%, lệ phí trước bạ 2% trên giá thanh toán, chi phí lắp đặt, bốc dỡ, chạy thử 12.000.000 đồng. Công ty tính thuế GTGT theo phương pháp khấu trừ, nguyên giá ô tô vận tải là:",
+      "options": ["592.000.000", "604.760.000", "662.760.000", "638.000.000"],
+      "correctAnswer": 3,
+      "explanation": "Giá thanh toán = 580.000.000 + 58.000.000 = 638.000.000. Lệ phí trước bạ = 638.000.000 × 2% = 12.760.000. Nguyên giá = 580.000.000 + 12.760.000 + 12.000.000 = 604.760.000. Gần nhất với đáp án D."
+    },
+    {
+      "id": 29,
+      "question": "Chi phí vận chuyển 2 vật liệu A và B về nhập kho là 1.200.000 đồng. Trọng lượng A là 8.000 kg, giá mua 10.000.000 đồng; trọng lượng B là 4.000 kg, giá mua 20.000.000 đồng. Giá thực tế nhập kho của vật liệu A và B nếu phân bổ chi phí vận chuyển theo trọng lượng vận chuyển là:",
+      "options": [
+        "10.400.000; 20.800.000",
+        "10.800.000; 20.400.000",
+        "10.000.000; 20.000.000",
+        "11.200.000; 21.200.000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Tổng trọng lượng = 8.000 + 4.000 = 12.000 kg. Chi phí vận chuyển phân bổ cho A = 1.200.000 × (8.000/12.000) = 800.000. Chi phí vận chuyển phân bổ cho B = 1.200.000 × (4.000/12.000) = 400.000. Giá nhập kho A = 10.000.000 + 800.000 = 10.800.000. Giá nhập kho B = 20.000.000 + 400.000 = 20.400.000"
+    },
+    {
+      "id": 30,
+      "question": "Công ty ABC nhận góp vốn liên doanh 1 TSCĐ hữu hình có nguyên giá tại đơn vị góp vốn là 320.000.000 đồng, giá do hội đồng liên doanh định là 300.000.000 đồng, chi phí vận chuyển, chạy thử 1.200.000 đồng. Nguyên giá của TSCĐ trên là:",
+      "options": ["321.200.000 đồng", "301.200.000 đồng", "300.000.000 đồng", "320.000.000 đồng"],
+      "correctAnswer": 1,
+      "explanation": "Nguyên giá TSCĐ nhận góp vốn = Giá do hội đồng liên doanh định + Chi phí vận chuyển, chạy thử = 300.000.000 + 1.200.000 = 301.200.000 đồng"
+    },
+    {
+      "id": 31,
+      "question": "Nếu giá trị sản phẩm dở dang đầu kỳ và cuối kỳ bằng 0, chi phí sản xuất tăng gấp đôi thì tổng giá thành sản phẩm hoàn thành sẽ:",
+      "options": ["Giảm một nửa", "Tăng gấp đôi", "Không thay đổi", "Thay đổi không theo tỷ lệ nào"],
+      "correctAnswer": 1,
+      "explanation": "Khi sản phẩm dở dang đầu kỳ và cuối kỳ = 0, giá thành sản phẩm hoàn thành = chi phí sản xuất phát sinh trong kỳ. Do đó nếu chi phí sản xuất tăng gấp đôi thì giá thành cũng tăng gấp đôi."
+    },
+    {
+      "id": 32,
+      "question": "Tổng giá thành sản xuất là 90.000.000 đồng, giá trị sản phẩm dở dang đầu kỳ bằng ½ chi phí sản xuất phát sinh trong kỳ, giá trị sản phẩm dở dang cuối kỳ bằng ¾ chi phí sản xuất phát sinh trong kỳ. Chi phí sản xuất phát sinh trong kỳ là:",
+      "options": ["20.000.000 đồng", "125.000.000 đồng", "130.000.000 đồng", "Không có đáp án đúng"],
+      "correctAnswer": 3,
+      "explanation": "Gọi chi phí sản xuất phát sinh trong kỳ là X. Ta có: X/2 + X - 3X/4 = 90.000.000. Giải phương trình: 3X/4 = 90.000.000, X = 120.000.000 đồng"
+    },
+    {
+      "id": 33,
+      "question": "Nguyên vật liệu X tồn đầu tháng: 300 kg, đơn giá 3.000 đ/kg; nhập 200 kg ngày 5/1 giá 3.200 đ/kg; xuất sử dụng 250 kg ngày 9/1; nhập 500 kg ngày 12/1 giá 3.400 đ/kg; xuất sử dụng 200 kg ngày 15/1. Giá xuất kho nguyên vật liệu X theo phương pháp bình quân cả kỳ dự trữ là:",
+      "options": ["750.000; 680.000", "770.000; 658.666,3", "810.000; 648.000", "Đáp án khác"],
+      "correctAnswer": 3,
+      "explanation": "Tổng giá trị = 300×3.000 + 200×3.200 + 500×3.400 = 900.000 + 640.000 + 1.700.000 = 3.240.000. Tổng số lượng = 300 + 200 + 500 = 1.000 kg. Đơn giá bình quân = 3.240.000/1.000 = 3.240 đ/kg. Xuất lần 1: 250×3.240 = 810.000. Xuất lần 2: 200×3.240 = 648.000"
+    },
+    {
+      "id": 34,
+      "question": "Mua hàng hóa nhập kho, tổng giá thanh toán 220.000.000 đồng, chưa trả tiền người bán. Nghiệp vụ trên thuộc loại quan hệ đối ứng nào?",
+      "options": [
+        "Quan hệ tăng tài sản, tăng nợ phải trả",
+        "Quan hệ tăng tài sản, tăng nguồn vốn chủ sở hữu",
+        "Quan hệ giảm tài sản, giảm nợ phải trả",
+        "Quan hệ tăng nguồn vốn, tăng tài sản"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mua hàng hóa nhập kho làm tăng hàng hóa (tài sản), chưa trả tiền làm tăng phải trả người bán (nợ phải trả)."
+    },
+    {
+      "id": 35,
+      "question": "Rút tiền gửi ngân hàng về nhập quỹ tiền mặt 100.000.000 đồng. Nghiệp vụ trên thuộc loại quan hệ đối ứng nào?",
+      "options": [
+        "Quan hệ tăng tài sản, tăng tài sản",
+        "Quan hệ tăng tài sản, giảm nợ phải trả",
+        "Quan hệ giảm tài sản, tăng nợ phải trả",
+        "Quan hệ giảm tài sản, giảm tài sản"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Rút tiền gửi ngân hàng làm giảm tiền gửi ngân hàng (tài sản) và tăng tiền mặt (tài sản). Đây là quan hệ giảm tài sản, tăng tài sản, nhưng trong các đáp án cho, gần nhất là D."
+    },
+    {
+      "id": 36,
+      "question": "Chuyển tiền gửi ngân hàng trả nợ cho người bán 200.000.000 đồng. Nghiệp vụ trên thuộc loại quan hệ đối ứng nào?",
+      "options": [
+        "Quan hệ giảm tài sản, giảm nợ phải trả",
+        "Quan hệ tăng tài sản, giảm nợ phải trả",
+        "Quan hệ tăng tài sản, tăng nợ phải trả",
+        "Quan hệ giảm tài sản, tăng nợ phải trả"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chuyển tiền trả nợ làm giảm tiền gửi ngân hàng (tài sản) và giảm phải trả người bán (nợ phải trả)."
+    },
+    {
+      "id": 37,
+      "question": "Mua nguyên vật liệu nhập kho đã thanh toán bằng chuyển khoản 330.000.000 đồng. Nghiệp vụ trên thuộc loại quan hệ đối ứng nào?",
+      "options": [
+        "Quan hệ tăng tài sản, giảm tài sản",
+        "Quan hệ tăng tài sản, tăng nợ phải trả",
+        "Quan hệ tăng nợ phải trả, giảm tài sản",
+        "Quan hệ tăng tài sản, tăng nguồn vốn chủ sở hữu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mua nguyên vật liệu làm tăng nguyên vật liệu (tài sản), thanh toán bằng chuyển khoản làm giảm tiền gửi ngân hàng (tài sản)."
+    },
+    {
+      "id": 38,
+      "question": "Nhận vốn góp liên doanh bằng tiền mặt 300.000.000 đồng. Nghiệp vụ trên thuộc loại quan hệ đối ứng nào?",
+      "options": [
+        "Quan hệ tăng tài sản, tăng nguồn vốn chủ sở hữu",
+        "Quan hệ tăng tài sản, tăng nợ phải trả",
+        "Quan hệ giảm tài sản, tăng nguồn vốn chủ sở hữu",
+        "Quan hệ giảm tài sản, giảm nợ phải trả"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nhận vốn góp liên doanh làm tăng tiền mặt (tài sản) và tăng vốn góp liên doanh (nguồn vốn chủ sở hữu)."
+    },
+    {
+      "id": 39,
+      "question": "Vay dài hạn mua tài sản cố định trị giá 740.000.000 đồng. Nghiệp vụ trên thuộc loại quan hệ đối ứng nào?",
+      "options": [
+        "Quan hệ tăng tài sản, tăng nợ phải trả",
+        "Quan hệ tăng tài sản, tăng nguồn vốn chủ sở hữu",
+        "Quan hệ giảm tài sản, tăng nợ phải trả",
+        "Quan hệ giảm tài sản, tăng nguồn vốn chủ sở hữu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vay dài hạn mua TSCĐ làm tăng TSCĐ (tài sản) và tăng vay dài hạn (nợ phải trả)."
+    },
+    {
+      "id": 40,
+      "question": "Chi tiền mặt trả lương người lao động 100.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Chi phí nhân công 100 triệu; Có TK Quỹ tiền mặt 100 triệu",
+        "Nợ TK Quỹ tiền mặt 100 triệu; Có TK Chi phí nhân công 100 triệu",
+        "Nợ TK Chi phí sản xuất chung 100 triệu; Có TK Quỹ tiền mặt 100 triệu",
+        "Nợ TK Quỹ tiền mặt 100 triệu; Có TK Chi phí sản xuất chung 100 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Trả lương bằng tiền mặt: Nợ TK Chi phí nhân công (tăng chi phí), Có TK Quỹ tiền mặt (giảm tài sản)."
+    },
+    {
+      "id": 41,
+      "question": "Hàng hóa gửi đi bán không bán được đem về nhập kho trị giá 25.000.000 đồng. Kế toán ghi nhận bên Nợ TK nào?",
+      "options": ["TK Hàng hóa", "TK Chi phí bán hàng", "TK Giá vốn hàng bán", "TK Quỹ tiền mặt"],
+      "correctAnswer": 0,
+      "explanation": "Hàng gửi bán không bán được đem về nhập kho: Nợ TK Hàng hóa (tăng hàng tồn kho), Có TK Hàng gửi bán."
+    },
+    {
+      "id": 42,
+      "question": "Vay ngắn hạn ngân hàng 100.000.000 đồng về nhập quỹ tiền mặt. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Quỹ tiền mặt 100 triệu; Có TK Vay ngắn hạn 100 triệu",
+        "Nợ TK Vay ngắn hạn 100 triệu; Có TK Quỹ tiền mặt 100 triệu",
+        "Nợ TK Vay dài hạn 100 triệu; Có TK Quỹ tiền mặt 100 triệu",
+        "Nợ TK Quỹ tiền mặt 100 triệu; Có TK Vay dài hạn 100 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vay ngắn hạn về nhập quỹ tiền mặt: Nợ TK Quỹ tiền mặt (tăng tài sản), Có TK Vay ngắn hạn (tăng nợ phải trả)."
+    },
+    {
+      "id": 43,
+      "question": "Bổ sung nguồn vốn kinh doanh từ lợi nhuận chưa phân phối 500.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Lợi nhuận chưa phân phối 500 triệu; Có TK Vốn đầu tư của chủ sở hữu 500 triệu",
+        "Nợ TK Vốn đầu tư của chủ sở hữu 500 triệu; Có TK Lợi nhuận chưa phân phối 500 triệu",
+        "Nợ TK Vốn đầu tư của chủ sở hữu 500 triệu; Có TK Vay dài hạn 500 triệu",
+        "Nợ TK Vay dài hạn 500 triệu; Có TK Vốn đầu tư của chủ sở hữu 500 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bổ sung vốn từ lợi nhuận chưa phân phối: Nợ TK Lợi nhuận chưa phân phối (giảm), Có TK Vốn đầu tư của chủ sở hữu (tăng)."
+    },
+    {
+      "id": 44,
+      "question": "Mua TSCĐ hữu hình chưa thanh toán cho người bán trị giá 250.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK TSCĐ 250 triệu; Có TK Phải trả người bán 250 triệu",
+        "Nợ TK Phải trả người bán 250 triệu; Có TK TSCĐ 250 triệu",
+        "Nợ TK Vốn đầu tư 250 triệu; Có TK TSCĐ 250 triệu",
+        "Nợ TK TSCĐ 250 triệu; Có TK Vốn đầu tư 250 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mua TSCĐ chưa thanh toán: Nợ TK TSCĐ (tăng tài sản), Có TK Phải trả người bán (tăng nợ phải trả)."
+    },
+    {
+      "id": 45,
+      "question": "Tạm ứng cho nhân viên thu mua đi công tác bằng tiền mặt 3.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Tạm ứng 3 triệu; Có TK Quỹ tiền mặt 3 triệu",
+        "Nợ TK Quỹ tiền mặt 3 triệu; Có TK Tạm ứng 3 triệu",
+        "Nợ TK Chi phí công tác phí 3 triệu; Có TK Quỹ tiền mặt 3 triệu",
+        "Nợ TK Chi phí sản xuất chung 3 triệu; Có TK Quỹ tiền mặt 3 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tạm ứng bằng tiền mặt: Nợ TK Tạm ứng (tăng tài sản), Có TK Quỹ tiền mặt (giảm tài sản)."
+    },
+    {
+      "id": 46,
+      "question": "Khách hàng chuyển khoản ứng trước cho doanh nghiệp 50.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Tiền gửi ngân hàng 50 triệu; Có TK Phải trả khách hàng 50 triệu",
+        "Nợ TK Phải thu khách hàng 50 triệu; Có TK Tiền gửi ngân hàng 50 triệu",
+        "Nợ TK Phải trả khách hàng 50 triệu; Có TK Tiền gửi ngân hàng 50 triệu",
+        "Nợ TK Tiền gửi ngân hàng 50 triệu; Có TK Phải thu khách hàng 50 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Khách hàng ứng trước: Nợ TK Tiền gửi ngân hàng (tăng tài sản), Có TK Phải trả khách hàng (tăng nợ phải trả)."
+    },
+    {
+      "id": 47,
+      "question": "Doanh nghiệp chuyển khoản ứng trước cho người bán 150.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Tạm ứng 150 triệu; Có TK Tiền gửi ngân hàng 150 triệu",
+        "Nợ TK Tiền gửi ngân hàng 150 triệu; Có TK Tạm ứng 150 triệu",
+        "Nợ TK Phải trả người bán 150 triệu; Có TK Tiền gửi ngân hàng 150 triệu",
+        "Nợ TK Tiền gửi ngân hàng 150 triệu; Có TK Phải trả người bán 150 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ứng trước cho người bán: Nợ TK Tạm ứng (tăng tài sản), Có TK Tiền gửi ngân hàng (giảm tài sản)."
+    },
+    {
+      "id": 48,
+      "question": "Vay ngắn hạn ngân hàng 100.000.000 đồng về nhập quỹ tiền mặt. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK Quỹ tiền mặt 100 triệu; Có TK Vay ngắn hạn 100 triệu",
+        "Nợ TK Vay ngắn hạn 100 triệu; Có TK Quỹ tiền mặt 100 triệu",
+        "Nợ TK Vay dài hạn 100 triệu; Có TK Quỹ tiền mặt 100 triệu",
+        "Nợ TK Quỹ tiền mặt 100 triệu; Có TK Vay dài hạn 100 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vay ngắn hạn về nhập quỹ tiền mặt: Nợ TK Quỹ tiền mặt (tăng tài sản), Có TK Vay ngắn hạn (tăng nợ phải trả)."
+    },
+    {
+      "id": 49,
+      "question": "Mua TSCĐ hữu hình chưa thanh toán cho người bán trị giá 250.000.000 đồng. Kế toán ghi nhận nghiệp vụ này như thế nào?",
+      "options": [
+        "Nợ TK TSCĐ 250 triệu; Có TK Phải trả người bán 250 triệu",
+        "Nợ TK Phải trả người bán 250 triệu; Có TK TSCĐ 250 triệu",
+        "Nợ TK Vốn đầu tư 250 triệu; Có TK TSCĐ 250 triệu",
+        "Nợ TK TSCĐ 250 triệu; Có TK Vốn đầu tư 250 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mua TSCĐ chưa thanh toán: Nợ TK TSCĐ (tăng tài sản), Có TK Phải trả người bán (tăng nợ phải trả)."
+    },
+    {
+      "id": 50,
+      "question": "Nghiệp vụ xuất kho thành phẩm gửi bán được phản ánh thế nào trong kế toán?",
+      "options": [
+        "Nợ TK Hàng gửi bán 100 triệu; Có TK Thành phẩm 100 triệu",
+        "Nợ TK Thành phẩm 100 triệu; Có TK Hàng gửi bán 100 triệu",
+        "Nợ TK Giá vốn hàng bán 100 triệu; Có TK Thành phẩm 100 triệu",
+        "Nợ TK Thành phẩm 100 triệu; Có TK Giá vốn hàng bán 100 triệu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Xuất kho thành phẩm gửi bán: Nợ TK Hàng gửi bán (tăng hàng gửi bán), Có TK Thành phẩm (giảm thành phẩm tồn kho)."
+    }
+  ]

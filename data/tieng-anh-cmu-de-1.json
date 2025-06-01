@@ -1,0 +1,311 @@
+[
+  {
+    "id": 1,
+    "question": "What is a flat pressure-sensitive pad and pen-shaped device, often used with graphic design software?",
+    "options": ["Touchpad", "Graphics tablets and stylus", "Headset", "Stylus"],
+    "correctAnswer": 1,
+    "explanation": "Graphics tablets and stylus are specifically designed for graphic design work, providing pressure sensitivity for digital art creation. | Bảng vẽ đồ họa và bút stylus được thiết kế đặc biệt cho công việc thiết kế đồ họa, cung cấp độ nhạy áp lực cho việc tạo nghệ thuật số."
+  },
+  {
+    "id": 2,
+    "question": "At the heart of databases, the columns of the table are called... the rows are called...",
+    "options": [
+      "tables - fields - records",
+      "records - fields - tables",
+      "fields - tables - records",
+      "tables - records - fields"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In database terminology, columns are called 'fields' and rows are called 'records'. | Trong thuật ngữ cơ sở dữ liệu, các cột được gọi là 'trường' (fields) và các hàng được gọi là 'bản ghi' (records)."
+  },
+  {
+    "id": 3,
+    "question": "...is used in a variety of industries, including engineering, architecture, and filmmaking, to replace traditional hand-drawn technical drawings, blueprints, and animations.",
+    "options": ["CAD (Computer-Aided Design)", "SaaS (Software as a service)", "Freeware", "Adware"],
+    "correctAnswer": 0,
+    "explanation": "CAD (Computer-Aided Design) software is specifically used for creating technical drawings and designs in various industries. | Phần mềm CAD (Thiết kế hỗ trợ máy tính) được sử dụng đặc biệt để tạo bản vẽ kỹ thuật và thiết kế trong nhiều ngành công nghiệp."
+  },
+  {
+    "id": 4,
+    "question": "What is a collection of drives in a single box, accessed through a network and thus more flexible than a device attached to only one computer?",
+    "options": ["Log", "USB (Universal serial bus)", "Mp3 Player", "NAS (Network attached storage) device"],
+    "correctAnswer": 3,
+    "explanation": "NAS (Network Attached Storage) devices provide networked storage accessible by multiple computers. | Thiết bị NAS (Lưu trữ gắn mạng) cung cấp bộ nhớ mạng có thể truy cập bởi nhiều máy tính."
+  },
+  {
+    "id": 5,
+    "question": "...is a device people wear on their heads that includes a microphone as well as headphones.",
+    "options": ["Touchpad", "Stylus", "Headset", "Graphics tablet"],
+    "correctAnswer": 2,
+    "explanation": "A headset combines headphones and a microphone in one wearable device. | Tai nghe kết hợp loa tai và microphone trong một thiết bị đeo được."
+  },
+  {
+    "id": 6,
+    "question": "Which word below means adding keywords to a file (e.g. a document or photograph) to make it easier to find?",
+    "options": ["Tagging", "Syncing", "Archiving", "Booting"],
+    "correctAnswer": 0,
+    "explanation": "Tagging involves adding keywords or metadata to files for easier organization and searching. | Gắn thẻ bao gồm việc thêm từ khóa hoặc siêu dữ liệu vào tệp để tổ chức và tìm kiếm dễ dàng hơn."
+  },
+  {
+    "id": 7,
+    "question": "...is the data security system which is used over the internet and other open networks.",
+    "options": [
+      "SaaS (Software as a Service)",
+      "MCU (Multipoint Control Unit)",
+      "NFC (Near Field Communication)",
+      "SSL (Secure Sockets Layer)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "SSL (Secure Sockets Layer) is a security protocol used to encrypt data transmitted over networks. | SSL (Lớp ổ cắm bảo mật) là giao thức bảo mật được sử dụng để mã hóa dữ liệu truyền qua mạng."
+  },
+  {
+    "id": 8,
+    "question": "Which device can control the video conferencing system from a distance, without wires, and can be passed from person to person easily?",
+    "options": ["Remote control", "Near Field Communication", "Multipoint Control Unit", "Dedicated system"],
+    "correctAnswer": 0,
+    "explanation": "A remote control allows wireless operation of video conferencing systems from a distance. | Điều khiển từ xa cho phép vận hành không dây các hệ thống hội nghị truyền hình từ xa."
+  },
+  {
+    "id": 9,
+    "question": "...are files created during the operation of software or hardware that tell a technician what is happening.",
+    "options": ["Backups", "Logs", "User accounts", "Records"],
+    "correctAnswer": 1,
+    "explanation": "Logs are files that record system activities and events for troubleshooting and monitoring purposes. | Nhật ký là các tệp ghi lại hoạt động và sự kiện của hệ thống để khắc phục sự cố và giám sát."
+  },
+  {
+    "id": 10,
+    "question": "What is built into many smartphones, which transmits data over very short distances?",
+    "options": [
+      "SaaS (Software as a Service)",
+      "MCU (Multipoint Control Unit)",
+      "NFC (Near Field Communication)",
+      "SSL (Secure Sockets Layer)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NFC (Near Field Communication) enables short-range wireless communication between devices. | NFC (Giao tiếp trường gần) cho phép giao tiếp không dây tầm ngắn giữa các thiết bị."
+  },
+  {
+    "id": 11,
+    "question": "Which device allows video conferencing systems to use more than two locations?",
+    "options": ["Remote control", "Near Field Communication", "Multipoint Control Unit", "Dedicated system"],
+    "correctAnswer": 2,
+    "explanation": "MCU (Multipoint Control Unit) enables multiple participants to join a video conference simultaneously. | MCU (Đơn vị điều khiển đa điểm) cho phép nhiều người tham gia hội nghị truyền hình cùng lúc."
+  },
+  {
+    "id": 12,
+    "question": "...is a monitor that can detect when and where a finger touches it.",
+    "options": ["Touchpad", "Headset", "Touch screen", "Graphics tablets and stylus"],
+    "correctAnswer": 2,
+    "explanation": "A touch screen is a display that responds to touch input from fingers or stylus. | Màn hình cảm ứng là màn hình phản hồi với đầu vào cảm ứng từ ngón tay hoặc bút stylus."
+  },
+  {
+    "id": 13,
+    "question": "...is a device that shows a copy of the computer's screen on a large screen, often used in presentations.",
+    "options": ["Powerpoint", "Projector", "Touch screen", "Stylus"],
+    "correctAnswer": 1,
+    "explanation": "A projector displays computer output on a large screen for presentations and meetings. | Máy chiếu hiển thị đầu ra máy tính trên màn hình lớn cho các bài thuyết trình và cuộc họp."
+  },
+  {
+    "id": 14,
+    "question": "A system for having conversation using short written messages on the internet.",
+    "options": ["Announcement", "Instant messaging", "Permission", "Log"],
+    "correctAnswer": 1,
+    "explanation": "Instant messaging allows real-time text-based communication over the internet. | Nhắn tin tức thời cho phép giao tiếp dựa trên văn bản theo thời gian thực qua internet."
+  },
+  {
+    "id": 15,
+    "question": "Documents showing standard ways of doing things in an organisation are called...",
+    "options": ["Permissions", "Announcements", "Policies and procedures", "Licence terms"],
+    "correctAnswer": 2,
+    "explanation": "Policies and procedures document the standard operating methods within an organization. | Chính sách và quy trình ghi lại các phương pháp vận hành tiêu chuẩn trong một tổ chức."
+  },
+  {
+    "id": 16,
+    "question": "...has many functions such as printing, scanning, copying and/or faxing.",
+    "options": ["Touchpad", "Graphics tablets and stylus", "Log", "Multifunction printer"],
+    "correctAnswer": 3,
+    "explanation": "A multifunction printer combines multiple office functions in one device. | Máy in đa chức năng kết hợp nhiều chức năng văn phòng trong một thiết bị."
+  },
+  {
+    "id": 17,
+    "question": "...is a pen-shaped device sometimes used with some kinds of screens.",
+    "options": ["Touchpad", "Stylus", "Headset", "Log"],
+    "correctAnswer": 1,
+    "explanation": "A stylus is a pen-like input device used with touch screens and graphics tablets. | Stylus là thiết bị đầu vào giống bút được sử dụng với màn hình cảm ứng và bảng vẽ đồ họa."
+  },
+  {
+    "id": 18,
+    "question": "...is part of a laptop computer used instead of a mouse for moving the cursor.",
+    "options": ["Touchpad", "Stylus", "Headset", "Log"],
+    "correctAnswer": 0,
+    "explanation": "A touchpad is the built-in pointing device on laptops that replaces a mouse. | Touchpad là thiết bị chỉ điểm tích hợp trên laptop thay thế chuột."
+  },
+  {
+    "id": 19,
+    "question": "...enable people to write questions which are viewable and answerable by anyone with access to the system.",
+    "options": ["Forums", "Q&A", "Instant messages", "Comments"],
+    "correctAnswer": 0,
+    "explanation": "Forums provide a platform for public discussion where users can post questions and answers. | Diễn đàn cung cấp nền tảng thảo luận công khai nơi người dùng có thể đăng câu hỏi và câu trả lời."
+  },
+  {
+    "id": 20,
+    "question": "...allows documents to be shared, edited and/or archived by people with the relevant permissions.",
+    "options": ["Forum", "Document management", "Comment", "Hosting"],
+    "correctAnswer": 1,
+    "explanation": "Document management systems control access, sharing, and archiving of documents. | Hệ thống quản lý tài liệu kiểm soát việc truy cập, chia sẻ và lưu trữ tài liệu."
+  },
+  {
+    "id": 21,
+    "question": "Usually the user pays monthly rather than a one-off fee; this is called...",
+    "options": ["subscription pricing", "tiered pricing", "traditional pricing", "freemium pricing"],
+    "correctAnswer": 0,
+    "explanation": "Subscription pricing involves regular recurring payments rather than a single purchase. | Định giá đăng ký bao gồm các khoản thanh toán định kỳ thường xuyên thay vì mua một lần."
+  },
+  {
+    "id": 22,
+    "question": "...is a system in which each server has only one client's websites on it.",
+    "options": ["Internet Protocol", "Dedicated hosting", "Shared hosting", "Total Cost of Ownership"],
+    "correctAnswer": 1,
+    "explanation": "Dedicated hosting provides exclusive server resources to a single client. | Hosting chuyên dụng cung cấp tài nguyên máy chủ độc quyền cho một khách hàng duy nhất."
+  },
+  {
+    "id": 23,
+    "question": "...is a set of hard drives in a single box, which is attached to a network in the same way as a computer.",
+    "options": ["Log", "USB (Universal serial bus)", "Mp3 Player", "NAS (Network attached storage) device"],
+    "correctAnswer": 3,
+    "explanation": "NAS devices provide networked storage through multiple hard drives in one unit. | Thiết bị NAS cung cấp lưu trữ mạng thông qua nhiều ổ cứng trong một đơn vị."
+  },
+  {
+    "id": 24,
+    "question": "Saving an old file in a special place because you don't use it very often but might want to use it later is called...",
+    "options": ["Tagging", "Booting", "Archiving", "Syncing"],
+    "correctAnswer": 2,
+    "explanation": "Archiving involves storing infrequently used files in a separate location for long-term retention. | Lưu trữ bao gồm việc lưu các tệp ít sử dụng ở vị trí riêng để giữ lại lâu dài."
+  },
+  {
+    "id": 25,
+    "question": "What is the total of all the fees for owning something?",
+    "options": ["Internet Protocol", "Dedicated hosting", "Shared hosting", "Total Cost of Ownership"],
+    "correctAnswer": 3,
+    "explanation": "Total Cost of Ownership (TCO) includes all costs associated with acquiring and maintaining something. | Tổng chi phí sở hữu (TCO) bao gồm tất cả chi phí liên quan đến việc mua và duy trì một thứ gì đó."
+  },
+  {
+    "id": 26,
+    "question": "...is the way to fit audio or video into a smaller space and use less bandwidth.",
+    "options": ["Dedicated system", "Multipoint Control Unit", "Remote control", "(Data) compression"],
+    "correctAnswer": 3,
+    "explanation": "Data compression reduces file size to save storage space and bandwidth. | Nén dữ liệu giảm kích thước tệp để tiết kiệm không gian lưu trữ và băng thông."
+  },
+  {
+    "id": 27,
+    "question": "There are often several levels of service, with higher levels carrying higher monthly fees. This is called...",
+    "options": ["subscription pricing", "tiered pricing", "traditional pricing", "freemium pricing"],
+    "correctAnswer": 1,
+    "explanation": "Tiered pricing offers different service levels at different price points. | Định giá theo tầng cung cấp các mức dịch vụ khác nhau ở các mức giá khác nhau."
+  },
+  {
+    "id": 28,
+    "question": "...is to store the website on its own computer along with several other companies' websites.",
+    "options": ["Internet Protocol", "Dedicated hosting", "Shared hosting", "Total Cost of Ownership"],
+    "correctAnswer": 2,
+    "explanation": "Shared hosting places multiple websites on the same server to reduce costs. | Hosting chia sẻ đặt nhiều trang web trên cùng một máy chủ để giảm chi phí."
+  },
+  {
+    "id": 29,
+    "question": "...is the pricing model in which the user pays a price for the initial purchase and can choose to pay an additional fee for a major upgrade to the software.",
+    "options": ["subscription pricing", "tiered pricing", "traditional pricing", "freemium pricing"],
+    "correctAnswer": 2,
+    "explanation": "Traditional pricing involves an upfront purchase with optional paid upgrades. | Định giá truyền thống bao gồm mua trước với các nâng cấp trả phí tùy chọn."
+  },
+  {
+    "id": 30,
+    "question": "...are data that a program or computer produces while it runs, to show how well it is working.",
+    "options": ["Backups", "Logs", "User accounts", "Records"],
+    "correctAnswer": 1,
+    "explanation": "Logs record system performance and operational data for monitoring purposes. | Nhật ký ghi lại hiệu suất hệ thống và dữ liệu hoạt động cho mục đích giám sát."
+  },
+  {
+    "id": 31,
+    "question": "An important message for many people, giving new information.",
+    "options": ["Announcement", "Instant messaging", "Permission", "Log"],
+    "correctAnswer": 0,
+    "explanation": "An announcement is a formal message that provides important information to a group. | Thông báo là một thông điệp chính thức cung cấp thông tin quan trọng cho một nhóm."
+  },
+  {
+    "id": 32,
+    "question": "What is like a physical wallet but carries such things as cash or credit card details electronically, usually on a mobile phone?",
+    "options": ["A cheque", "An e-wallet", "A digital wallet", "Both B and C are correct"],
+    "correctAnswer": 3,
+    "explanation": "Both e-wallet and digital wallet refer to electronic payment systems on mobile devices. | Cả ví điện tử và ví kỹ thuật số đều đề cập đến hệ thống thanh toán điện tử trên thiết bị di động."
+  },
+  {
+    "id": 33,
+    "question": "...is the largest amount of data that can be moved.",
+    "options": ["Cost of Ownership", "Computer Aided Design", "Bandwidth", "IP address"],
+    "correctAnswer": 2,
+    "explanation": "Bandwidth refers to the maximum data transfer capacity of a network connection. | Băng thông đề cập đến khả năng truyền dữ liệu tối đa của kết nối mạng."
+  },
+  {
+    "id": 34,
+    "question": "What is a unique number to identify a computer on the internet?",
+    "options": ["A shared hosting", "A dedicated hosting", "A projector", "An IP (Internet Protocol) address"],
+    "correctAnswer": 3,
+    "explanation": "An IP address is a unique numerical identifier for devices on a network. | Địa chỉ IP là một định danh số duy nhất cho các thiết bị trên mạng."
+  },
+  {
+    "id": 35,
+    "question": "A final pricing model is to offer the software for free but to include advertisements within it to fund it. This is called...",
+    "options": ["freeware", "traditional pricing", "adware", "Both A and C are correct"],
+    "correctAnswer": 2,
+    "explanation": "Adware is software that displays advertisements to generate revenue while being free to use. | Adware là phần mềm hiển thị quảng cáo để tạo doanh thu trong khi miễn phí sử dụng."
+  },
+  {
+    "id": 36,
+    "question": "The system in which data is stored on the software vendor's servers and much of the processing done by the software occurs on the company's servers rather than the local computer is...",
+    "options": ["CAD (Computer Aided Design)", "SaaS (Software as a service)", "Freeware", "Adware"],
+    "correctAnswer": 1,
+    "explanation": "SaaS (Software as a Service) provides software functionality through cloud-based servers. | SaaS (Phần mềm như một dịch vụ) cung cấp chức năng phần mềm thông qua máy chủ đám mây."
+  },
+  {
+    "id": 37,
+    "question": "Which system is used for only one purpose, e.g. for video conferencing only, nothing else?",
+    "options": ["Remote control", "Near Field Communication", "Secure Sockets Layer", "Dedicated system"],
+    "correctAnswer": 3,
+    "explanation": "A dedicated system is designed and used for a single specific purpose. | Hệ thống chuyên dụng được thiết kế và sử dụng cho một mục đích cụ thể duy nhất."
+  },
+  {
+    "id": 38,
+    "question": "What is the way of buying and selling between business and government?",
+    "options": ["G2G", "B2G", "B2B", "B2C"],
+    "correctAnswer": 1,
+    "explanation": "B2G (Business to Government) refers to commercial transactions between businesses and government entities. | B2G (Doanh nghiệp đến Chính phủ) đề cập đến các giao dịch thương mại giữa doanh nghiệp và các cơ quan chính phủ."
+  },
+  {
+    "id": 39,
+    "question": "The pricing model where there is a free version as well as a paid version is...",
+    "options": ["subscription pricing", "tiered pricing", "traditional pricing", "freemium pricing"],
+    "correctAnswer": 3,
+    "explanation": "Freemium pricing offers basic features for free with premium features available for a fee. | Định giá freemium cung cấp các tính năng cơ bản miễn phí với các tính năng cao cấp có sẵn với một khoản phí."
+  },
+  {
+    "id": 40,
+    "question": "Making data from two places match, e.g. making two calendars match is called...",
+    "options": ["Tagging", "Booting", "Archiving", "Syncing"],
+    "correctAnswer": 3,
+    "explanation": "Syncing (synchronization) ensures data consistency across multiple devices or locations. | Đồng bộ hóa đảm bảo tính nhất quán của dữ liệu trên nhiều thiết bị hoặc vị trí."
+  },
+  {
+    "id": 41,
+    "question": "The way of viewing emails and comments so that all messages in the same conversation are grouped together is called...",
+    "options": ["Normal view", "Threaded view", "Customers' view", "Guests' view"],
+    "correctAnswer": 1,
+    "explanation": "Threaded view organizes related messages together in conversation threads. | Chế độ xem theo luồng tổ chức các tin nhắn liên quan lại với nhau trong các chuỗi hội thoại."
+  },
+  {
+    "id": 42,
+    "question": "...is a sequence of numbers and letters that is unique to each server or website and which can be used to identify it on the internet.",
+    "options": ["A shared hosting", "A dedicated hosting", "A projector", "An IP (Internet Protocol) address"],
+    "correctAnswer": 3,
+    "explanation": "An IP address uniquely identifies servers and websites on the internet. | Địa chỉ IP xác định duy nhất các máy chủ và trang web trên internet."
+  }
+]

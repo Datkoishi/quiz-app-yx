@@ -9,13 +9,12 @@ export interface Question {
 // Hàm để lấy dữ liệu câu hỏi từ file JSON tương ứng
 export const getQuestions = async (subjectId: string): Promise<Question[]> => {
   try {
-    // Trong môi trường thực tế, bạn sẽ fetch dữ liệu từ file JSON
-    // Ví dụ:
-    // const response = await fetch(`/data/${subjectId}.json`);
-    // return await response.json();
-
-    // Hiện tại trả về mảng trống
-    return []
+    // Fetch data from the API
+    const response = await fetch(`/api/questions/${subjectId}`)
+    if (!response.ok) {
+      throw new Error(`Error fetching questions: ${response.statusText}`)
+    }
+    return await response.json()
   } catch (error) {
     console.error("Lỗi khi tải câu hỏi:", error)
     return []

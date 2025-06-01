@@ -1,0 +1,342 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following statements about demand is TRUE?",
+      "options": [
+        "requirements for something necessary in a person's life",
+        "people's needs that are moulded by culture and individual personality",
+        "are created when the buying power backs a person's want",
+        "All of above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Demand is created when buying power backs a person's want, combining both the desire and ability to purchase."
+    },
+    {
+      "id": 2,
+      "question": "The ……….. element of the marketing mix includes features, logo, slogan, packaging, brand name, and warranty.",
+      "options": ["Product", "Pricing", "Promotion", "Services"],
+      "correctAnswer": 0,
+      "explanation": "Product element includes all tangible and intangible features like logo, slogan, packaging, brand name, and warranty."
+    },
+    {
+      "id": 3,
+      "question": "Biti's Hunter send their catalog to young people aged from 18 to 30. These people are described as the company's____________",
+      "options": ["marketing mix", "market aggregation strategy", "marketing program", "target market"],
+      "correctAnswer": 3,
+      "explanation": "Target market refers to the specific group of consumers that a company aims to reach with its products and marketing efforts."
+    },
+    {
+      "id": 4,
+      "question": "The ability to buy a Coke from a vending machine demonstrates which element of the marketing mix?",
+      "options": ["Place", "Price", "Promotion", "Product"],
+      "correctAnswer": 0,
+      "explanation": "Place (distribution) refers to how and where products are made available to consumers, including vending machines."
+    },
+    {
+      "id": 5,
+      "question": "There are _________basic concepts of Marketing according to Kerin, R. A, Hartley, S. W",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 3,
+      "explanation": "According to Kerin and Hartley, there are 4 basic concepts of marketing."
+    },
+    {
+      "id": 6,
+      "question": "The tools of marketing involve all of the following EXCEPT:",
+      "options": ["Product", "Production", "Pricing", "Distribution place"],
+      "correctAnswer": 1,
+      "explanation": "Production is not part of the marketing mix. The 4Ps are Product, Price, Place, and Promotion."
+    },
+    {
+      "id": 7,
+      "question": "The factors under a marketing manager's control—price, product, promotion, and place—are called:",
+      "options": ["customer value", "the marketing program", "the marketing mix", "the four utilities"],
+      "correctAnswer": 2,
+      "explanation": "The marketing mix consists of the 4Ps: Product, Price, Place, and Promotion - the controllable factors."
+    },
+    {
+      "id": 8,
+      "question": "…………….. is the unique combination of benefits received by targeted buyers that includes quality, price, convenience, on-time delivery, and both before-sale and after-sale service.",
+      "options": [
+        "The marketing concept",
+        "The price-quality trade-off",
+        "Customer value",
+        "The societal marketing concept"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Customer value is the unique combination of benefits that customers receive from a product or service."
+    },
+    {
+      "id": 9,
+      "question": "In marketing, a market includes:",
+      "options": [
+        "line of products",
+        "people have desire and ability to buy the specific products",
+        "any place",
+        "a store that sells groceries"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A market consists of people who have both the desire and ability to buy specific products."
+    },
+    {
+      "id": 10,
+      "question": "…………. is the activity for creating, communicating, delivering, and exchanging offerings that benefit the organization, its stakeholders and society at large.",
+      "options": ["Advertising", "Selling", "Marketing", "Creative planning"],
+      "correctAnswer": 2,
+      "explanation": "Marketing encompasses all activities for creating, communicating, delivering, and exchanging value."
+    },
+    {
+      "id": 11,
+      "question": "The key steps of planning, implementation, and evaluation are part of what is called:",
+      "options": [
+        "Gap analysis",
+        "The strategic marketing process",
+        "The situational marketing process",
+        "The developmental market analysis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The strategic marketing process includes planning, implementation, and evaluation phases."
+    },
+    {
+      "id": 12,
+      "question": "How many organizational strategy level(s) do large organizations usually consist?",
+      "options": ["1", "2", "3", "4"],
+      "correctAnswer": 2,
+      "explanation": "Large organizations typically have 3 strategy levels: corporate, business unit, and functional."
+    },
+    {
+      "id": 13,
+      "question": "Factors, such as GDP per capita, inflation, and exchange rate that influence the marketing environment, are called..",
+      "options": ["Technology", "Consumption", "Economic", "Competitive"],
+      "correctAnswer": 2,
+      "explanation": "Economic factors include GDP, inflation, exchange rates that affect the marketing environment."
+    },
+    {
+      "id": 14,
+      "question": "In a SWOT analysis, SWOT stands for:",
+      "options": [
+        "Strategies, weaknesses, organization, threats",
+        "Strengths, weaknesses, opportunities, threats",
+        "Strengths, work requirements, opportunities, time",
+        "Strategic, weaknesses, opportunities, tactics"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SWOT analysis examines Strengths, Weaknesses, Opportunities, and Threats."
+    },
+    {
+      "id": 15,
+      "question": "The objective of Vinamilk is to control 40 percent of the canned food market within the next five years, this is a …. objective",
+      "options": ["Profit", "Sales", "Unit volume", "Market share"],
+      "correctAnswer": 3,
+      "explanation": "Controlling a percentage of the market refers to market share objectives."
+    },
+    {
+      "id": 16,
+      "question": "A marketing plan/ program concentrates on…",
+      "options": ["Product", "Price", "Promotion", "All of the above"],
+      "correctAnswer": 3,
+      "explanation": "A marketing program addresses all elements of the marketing mix: product, price, promotion, and place."
+    },
+    {
+      "id": 17,
+      "question": "Viettel, Mobiphone, vinaphone control approximately 80 percent long distance telephone service market in Viet Nam. These companies operate in a(n):",
+      "options": ["Monopoly", "Pure competition position", "Monopolistic competition position", "Oligopoly"],
+      "correctAnswer": 3,
+      "explanation": "When a few companies control most of the market, it's called an oligopoly."
+    },
+    {
+      "id": 18,
+      "question": "The SWOT analysis for Highland coffee would indicate that the fiercely competitive market, is a … while the good service quality at Highland coffee is a…",
+      "options": ["Strength, weakness", "Weakness, threat", "Threat, strength", "Opportunity, threat"],
+      "correctAnswer": 2,
+      "explanation": "Competitive market is an external threat, while good service quality is an internal strength."
+    },
+    {
+      "id": 19,
+      "question": "… factors are the environmental factors concerned with the changes in people's values, lifestyles, and family roles.",
+      "options": ["Social", "Economic", "Political", "Competitive"],
+      "correctAnswer": 0,
+      "explanation": "Social factors involve changes in values, lifestyles, and family roles in society."
+    },
+    {
+      "id": 20,
+      "question": "Mr. Mann is the CEO of a F and B company. Mann operates at the … level strategy of his organization.",
+      "options": ["Business unit", "Functional", "Corporate", "Strategic"],
+      "correctAnswer": 2,
+      "explanation": "CEOs operate at the corporate level strategy, overseeing the entire organization."
+    },
+    {
+      "id": 21,
+      "question": "To buy a new bike, Peter used some product attributes such as: quality, price, design and brand. These criteria would be used in which stage of the consumer purchase decision process?",
+      "options": ["Information search", "Evaluation of alternatives", "Purchase decision", "Problem recognition"],
+      "correctAnswer": 1,
+      "explanation": "Evaluation of alternatives involves comparing products using specific criteria like quality, price, and design."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is an example of a PSYCHOLOGICAL influences that can have an impact on the purchase decision process?",
+      "options": [
+        "Culture and subculture",
+        "Values, beliefs and attitudes",
+        "Opinion leadership",
+        "Physical surrounding"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Values, beliefs, and attitudes are psychological factors that influence consumer behavior."
+    },
+    {
+      "id": 23,
+      "question": "When Thomas goes to the store to buy breakfast cereal, he considered buying Rice Krispies, Cocoa Krispies, Rice Chex, and any other cereal made with rice. These cereals are his:",
+      "options": ["Cognitive set", "Reference group", "Consideration set", "Evaluation criteria"],
+      "correctAnswer": 2,
+      "explanation": "Consideration set includes all brands that a consumer would consider acceptable for purchase."
+    },
+    {
+      "id": 24,
+      "question": "The student realizes she can't do group projects without a laptop, she was entering which stage of the consumer decision process?",
+      "options": ["Problem recognition", "Purchase decision", "Alternative evaluation", "Postpurchase behavior"],
+      "correctAnswer": 0,
+      "explanation": "Problem recognition occurs when a consumer realizes they have an unmet need."
+    },
+    {
+      "id": 25,
+      "question": "Examples of a market dominated source of information for an external information search include:",
+      "options": ["Advertising", "Friends and relatives", "Consumer reports", "Internal knowledge"],
+      "correctAnswer": 0,
+      "explanation": "Advertising is a market-dominated source controlled by companies to promote their products."
+    },
+    {
+      "id": 26,
+      "question": "The feeling of post purchase psychological tension or anxiety that a consumer often experiences is called:",
+      "options": ["Anxiety", "Selective retention", "Cognitive dissonance", "Selective comprehension"],
+      "correctAnswer": 2,
+      "explanation": "Cognitive dissonance is the psychological tension experienced after making a purchase decision."
+    },
+    {
+      "id": 27,
+      "question": "….….. is the term that describes the actions a person takes in purchasing and using products and services.",
+      "options": ["Marketing", "Market search", "Consumer behavior", "Consumer management"],
+      "correctAnswer": 2,
+      "explanation": "Consumer behavior encompasses all actions related to purchasing and using products and services."
+    },
+    {
+      "id": 28,
+      "question": "Several people often participate in the organization buying process. Called…., these people share common goals, risks, and knowledge important to a purchase decision.",
+      "options": ["a buying center", "A cohort", "Corporate obstructionists", "Opinion leaders"],
+      "correctAnswer": 0,
+      "explanation": "A buying center consists of people involved in organizational purchasing decisions."
+    },
+    {
+      "id": 29,
+      "question": "When Peter want to buy a college book, he remembered the title book that his friend recommend before. What term best describes the information search method used by the Peter?",
+      "options": [
+        "Personal external source",
+        "Public external source",
+        "Internal search",
+        "Market-dominated internal source"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Internal search involves using information stored in memory from past experiences."
+    },
+    {
+      "id": 30,
+      "question": "Which type of purchase is most likely to by the result of joint family decision making?",
+      "options": ["Car tires", "Children's toys", "Family vacations", "Medicine"],
+      "correctAnswer": 2,
+      "explanation": "Family vacations typically involve joint decision making as they affect all family members."
+    },
+    {
+      "id": 31,
+      "question": "Provide(s) ideas about a relative vague problem:",
+      "options": ["Research objectives", "Descriptive research", "Exploratory research", "Measures of success"],
+      "correctAnswer": 2,
+      "explanation": "Exploratory research is used to gain insights about vague or unclear problems."
+    },
+    {
+      "id": 32,
+      "question": "A general rule of thumb among marketing people is to use first and then collect:",
+      "options": [
+        "Secondary data, primary data",
+        "Internal primary data, external primary data",
+        "Primary data, internal secondary data",
+        "Primary data, external secondary data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "It's more cost-effective to use existing secondary data first before collecting new primary data."
+    },
+    {
+      "id": 33,
+      "question": "Published data from outside the organization are called___ data",
+      "options": ["Proprietary", "External primary", "External secondary", "Internal primary"],
+      "correctAnswer": 2,
+      "explanation": "External secondary data refers to published information from outside sources."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following is not a step in the marketing research process:",
+      "options": [
+        "Define the problem",
+        "Develop the research plan",
+        "Take marketing actions",
+        "Identify market research methods"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The marketing research process includes defining problems, developing plans, and taking actions, but not specifically identifying research methods as a separate step."
+    },
+    {
+      "id": 35,
+      "question": "When a researcher develops the research plan, they:",
+      "options": [
+        "Specify constraints and determine how to collect data",
+        "Set research objectives",
+        "Identify possible marketing actions",
+        "Analyze data"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Developing a research plan involves specifying constraints and determining data collection methods."
+    },
+    {
+      "id": 36,
+      "question": "What are two common constraints in marketing problem solving?",
+      "options": ["Time and money", "Budget and office space", "Office space and middle management", "None of above"],
+      "correctAnswer": 0,
+      "explanation": "Time and money are the most common constraints in marketing research and problem solving."
+    },
+    {
+      "id": 37,
+      "question": "Secondary data are the",
+      "options": [
+        "Facts and figures that are newly collected for the project at hand",
+        "Facts and figures obtained by watching people mechanically rather than in person",
+        "Facts and figures obtained by asking people questions",
+        "Facts and figures that have already been recorded before the project"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Secondary data consists of information that was previously collected for other purposes."
+    },
+    {
+      "id": 38,
+      "question": "Compared with_____ data, two disadvantages of ___ data are far more time consuming and more expensive to collect.",
+      "options": ["Secondary, primary", "Primary, secondary", "Differential, observational", "Sample, population"],
+      "correctAnswer": 0,
+      "explanation": "Primary data is more time-consuming and expensive to collect compared to secondary data."
+    },
+    {
+      "id": 39,
+      "question": "Marketing discovers consumer needs by:",
+      "options": ["Using the marketing program", "Using 4Ps", "Marketing research", "Advertising"],
+      "correctAnswer": 2,
+      "explanation": "Marketing research is the primary method for discovering and understanding consumer needs."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following is NOT a criterion used for selecting a market segment?",
+      "options": [
+        "size of the market",
+        "similarities of needs of potential buyers",
+        "competitive position",
+        "cost of reaching the segment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Competitive position is not a primary criterion for market segmentation; the focus is on consumer characteristics and accessibility."
+    }
+  ]

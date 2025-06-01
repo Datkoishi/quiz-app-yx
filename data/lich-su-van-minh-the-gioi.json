@@ -1,0 +1,1012 @@
+[
+  {
+    "id": 1,
+    "question": "Các Kim Tự Tháp đầu tiên của Ai Cập được xây dựng dưới thời ...",
+    "options": ["Tảo kỳ vương quốc", "Cổ vương quốc", "Trung vương quốc", "Tân vương quốc"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "Kết hợp nội dung ở cột A với nội dung ở cột B cho phù hợp:\nCột A: 1.Ai Cập, 2.Babylon, 3.Ấn Độ, 4.Trung Quốc\nCột B: a.Sông Tigris, b.Sông Hằng, c.Sông Hoàng Hà, d.Sông Nile, e.Sông Euphrates",
+    "options": ["1-d, 2-a, 3-b, 4-c", "1-d, 2-b, 3-a, 4-c", "1-e, 2-a, 3-b, 4-c", "1-b, 2-a, 3-d, 4-c"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "Kim Tự Tháp nào sau đây được xếp là một trong 7 kỳ quan của thế giới cổ đại?",
+    "options": ["Khephren", "Djeser", "Menkaure", "Kheops"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 4,
+    "question": "Người Ai Cập cổ đã phát minh ra...",
+    "options": ["Dương lịch", "Âm lịch", "Cả âm lịch và dương lịch", "Nông lịch"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "Theo các sử gia Hy Lạp, vị vua nào là người đầu tiên thống nhất đất nước Ai Cập (khoảng 3200 tr.CN)?",
+    "options": ["Narmer", "Djeser", "Kheops", "Ramses I"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "Ai Cập là tặng phẩm của sông...",
+    "options": ["Hằng", "Nile", "Tigris", "Euphrates"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 7,
+    "question": "Từ \"papier\" trong tiếng Pháp, \"paper\" trong Tiếng Anh có nguồn gốc từ một loại ...ở Ai Cập cổ đại",
+    "options": ["Trang sách", "Thẻ", "Bản khắc trên đá", "Giấy"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 8,
+    "question": "Người đứng đầu Ai Cập cổ đại thường được gọi là?",
+    "options": ["Vua", "Hoàng đế", "Pharaoh", "Người vĩ đại"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "Đại Kim tự tháp của Ai Cập cổ đại là...",
+    "options": ["Khephren", "Djeser", "Menkaure", "Kheops"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 10,
+    "question": "Nền văn minh nào nằm ở Đông Bắc châu Phi, trên một thung lũng dài, hẹp dọc theo hạ lưu sông Nile và hầu như tách biệt với thế giới bên ngoài?",
+    "options": ["Lưỡng Hà", "Ai Cập", "Trung Quốc", "Ấn Độ"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "question": "Vua Akhenaton (1424-1388 tr.CN) tiến hành một cuộc cải cách tôn giáo, đề xướng tôn giáo thờ thần A-tôn vì...",
+    "options": [
+      "Muốn phá bỏ quyền lực của tập đoàn tăng lữ thờ thần A-môn",
+      "Uy quyền của tôn giáo thờ thần A-môn không còn đáp ứng yêu cầu thu phục lòng dân và tiến hành chiến tranh xâm lược nữa",
+      "Ông muốn trở thành vị thần tối cao của tôn giáo, không chỉ nắm vương quyền mà cả thần quyền",
+      "Muốn có một thứ vũ khí tinh thần mới để xoa dịu và khống chế nô lệ, dân nghèo"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Nhà sử học Hy Lạp cổ đại là Herodot(484 – 425 tr C.N) đã nói \"việc xây dựng... đã đem lại cho nhân dân Ai Cập không biết bao nhiêu là tai họa\". Trong dấu 3 chấm là công trình xây dựng nào?",
+    "options": ["Ngọn hải đăng Alexandria", "Kim tự tháp", "Tượng Sphinx", "Kênh Suez"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "Các tác phẩm điêu khắc: tượng Nhân sư, tượng Người thư lai, tượng bán thân Nữ hoàng Nefertiti thuộc về nền văn minh nào?",
+    "options": ["Ai Cập", "Lưỡng Hà", "Trung Quốc", "Ấn Độ"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Thời kỳ nào trong lịch sử Ai Cập được mệnh danh là \"Thời đại của Kim tự tháp\"?",
+    "options": ["Tảo Vương quốc", "Cổ Vương quốc", "Trung Vương quốc", "Tân Vương quốc"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "Người Ai Cập cổ đại đã tính được trị số của π (pi) bằng...",
+    "options": ["3,14", "3,15", "3,17", "3,16"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 16,
+    "question": "Vị thần nào được người Ai Cập coi là chúa tể của địa ngục?",
+    "options": ["Thần Ra", "Thần Nut", "Thần Osiris", "Thần Ghep"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 17,
+    "question": "Trong thuật ướp xác của Ai Cập cổ đại, bộ phận nào của cơ thể người được giữ lại khi người ta tiến hành mổ ướp xác?",
+    "options": ["Não", "Tim", "Gan", "Phổi"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 18,
+    "question": "Ngoài Kim tự tháp Kheops, công trình kiến trúc nào ở Ai Cập cổ được xếp vào một trong bảy kỳ quan của thế giới cổ đại?",
+    "options": ["Tượng Sphynx", "Kim tự tháp Khephren", "Lăng mộ vua Ramses II", "Ngọn hải đăng Alexandria"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 19,
+    "question": "Tôn giáo chính của người Ai Cập cổ đại là ...",
+    "options": ["Bái hỏa giáo", "Đa thần giáo", "Đạo vật tổ", "Sikh giáo"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "question": "Về nguồn gốc dân cư, người Ai Cập cổ đại là...",
+    "options": ["Người Tây Á", "Người di cư từ châu Á tới", "Thổ dân châu Phi", "Người Semites"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 21,
+    "question": "Vị Pharaoh cuối cùng của Ai Cập cổ đại là Nữ hoàng...",
+    "options": ["Hatshepsut", "Nefertiti", "Merneith", "Cleopatra"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 22,
+    "question": "Vị Pharaoh nữ đầu tiên của Ai Cập cổ đại là Nữ hoàng...",
+    "options": ["Hatshepsut", "Nefertiti", "Merneith", "Cleopatra"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 23,
+    "question": "Loại giấy mà người Ai Cập cổ đại đã sử dụng là...",
+    "options": ["Giấy Papyrus", "Giấy gió", "Giấy làm từ vỏ cây", "Giấy làm từ cây sậy"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "Thời kỳ người Ai Cập thực hiện thờ cúng độc thần là...",
+    "options": [
+      "Thời kỳ Tảo vương quốc",
+      "Thời kỳ Cổ vương quốc",
+      "Thời kỳ Trung vương quốc",
+      "Thời kỳ Tân vương quốc"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 25,
+    "question": "Pharaoh trong tiếng Ai Cập cổ có nghĩa là...",
+    "options": ["Người vĩ đại", "Ngôi nhà vĩ đại", "Chúa tể", "Kẻ ngự trị"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "Ở Ai Cập cổ đại, vật liệu chủ yếu sử dụng để xây dựng các công trình lăng mộ là...",
+    "options": ["Đất sét", "Đồng", "Đá", "Sắt"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 27,
+    "question": "Thần Ra, thần Horus, thần Osiris là những thần linh của nền văn minh nào?",
+    "options": ["Lưỡng Hà", "Trung Qu���c", "Ấn Độ", "Ai Cập"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 28,
+    "question": "Tất cả đều sợ thời gian, nhưng thời gian sợ...",
+    "options": ["Nhân sư", "Mặt trời", "Kim tự tháp", "Các vị thần"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 29,
+    "question": "Cách dùng tên Mặt Trời, Mặt Trăng và các hành tinh khác để gọi các ngày trong tuần là do người... cổ đại đặt ra.",
+    "options": ["Ai Cập", "Hy Lạp", "La Mã", "Lưỡng Hà"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 30,
+    "question": "Tộc người nào đã xây dựng nền văn minh đầu tiên ở Lưỡng Hà?",
+    "options": ["Akkad", "Sumer", "Medi", "Assyry"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 31,
+    "question": "Vườn treo Babylon được xây dựng dưới thời trị vì của vị vua nào?",
+    "options": [
+      "Hammurabi (1792 - 1750 tr.CN)",
+      "Nabopolasar (Thế kỷ VII tr.CN)",
+      "Nabuchodonosor (605 - 561 tr.CN)",
+      "Xargon (2369 - 2314 tr.CN)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 32,
+    "question": "Bộ luật đầu tiên xuất hiện ở Lưỡng Hà",
+    "options": ["Luật Vương triều Ur", "Luật Hammurabi", "Luật 12 bảng", "Luật Manu"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 33,
+    "question": "Lưỡng Hà (tiếng Hy Lạp là Mesopotamia) có nghĩa là...",
+    "options": ["Hai con sông", "Sông Tigris và Euphrates", "Vùng đất giữa hai con sông", "Vùng Tây Á"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 34,
+    "question": "Chữ của người Lưỡng Hà cổ đại được gọi là chữ hình đinh (Cueiforme) là vì...",
+    "options": [
+      "Nét chữ giống hình cái đinh",
+      "Họ dùng đinh để viết",
+      "Họ viết chữ lên các tấm đất sét",
+      "Họ viết chữ lên các tấm da"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "Những câu chuyện: Khai thiên lập địa, Sáng tạo ra loài người, Nạn Hồng Thủy,...trong kinh thánh (Cựu ước) bắt nguồn từ nền văn minh nào?",
+    "options": ["Ai Cập", "Lưỡng Hà", "Ấn Độ", "Hy Lạp"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 36,
+    "question": "Thiên anh hùng ca Gilgamesh bắt nguồn từ nền văn minh nào?",
+    "options": ["Ai Cập", "Lưỡng Hà", "Ấn Độ", "Hy Lạp"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "question": "Thành nào có chu vi 16 km, tường thành bằng gạch cao 30 m, dày 8,5 m, có bảy cửa-nổi bật nhất là cửa Ista ở phía Bắc?",
+    "options": ["Babylon", "Memphis", "Roma", "Athens"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "Chữ viết của người Sumer được viết trên chất liệu nào?",
+    "options": ["Giấy", "Đất sét", "Xương thú", "Kim loại"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 39,
+    "question": "Cách tính độ và cách tính phút giây ngày nay bắt nguồn từ hệ đếm của nền văn minh nào?",
+    "options": [
+      "Hệ đếm của nền văn minh Lưỡng Hà",
+      "Hệ đếm của nền văn minh Ai Cập",
+      "Hệ đếm của nền văn minh Ấn Độ",
+      "Hệ đếm của nền văn minh Hy Lạp"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "Các thành bang Lagash, Kish, Surrupak, Uruk, Nuppur là những quốc gia nhỏ của người...",
+    "options": ["Sumer", "Babylonia", "Akkad", "Hy lạp"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "Vị vua đầu tiên thống nhất được toàn bộ vùng Lưỡng Hà là...",
+    "options": ["Sargon", "Hammurabi", "Utukhegal", "Nabuchodonosor"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "Bộ luật Hammurabi được sáng tạo trong thời kỳ nào của nền văn minh Lưỡng Hà?",
+    "options": ["Vương quốc Akkad", "Vương quốc Cổ Babylon", "Vương quốc Tân Babilon", "Vương quốc Assyria"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "Tôn giáo của người Lưỡng Hà cổ đại là ...",
+    "options": ["Bái hỏa giáo", "Đa thần giáo", "Đạo vật tổ", "Sikh giáo"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 44,
+    "question": "Hệ thống lịch theo Mặt Trăng (Âm lịch), 1 năm có 12 tháng, xen kẻ một tháng đủ có 30 ngày là một tháng thiếu có 29 ngày, tổng cộng cả năm là 354 ngày. Đó là hệ thống lịch của nền văn minh nào?",
+    "options": ["Văn minh Ai Cập", "Văn minh Lưỡng Hà", "Văn Minh Ấn Độ", "Văn minh Trung Hoa"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 45,
+    "question": "Hình tượng con rắn quấn quanh cây gậy mà ngày nay ngành y học vẫn coi là biểu tượng có nguồn gốc từ nền văn minh nào?",
+    "options": ["Văn minh Ai Cập", "Văn minh Lưỡng Hà", "Văn minh Hy Lạp", "Văn minh Roma"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 46,
+    "question": "Trong nền văn minh Lưỡng Hà, bộ luật cổ hoàn chỉnh nhất là ....",
+    "options": ["Luật Hammurabi", "Luật Manu", "Luật 12 bảng", "Luật của thành bang Ur"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "Nền văn minh đầu tiên xuất hiện ở vùng phía Đông Bắc của nơi mà ngày nay được gọi là Trung Đông, dọc theo sông Tigris và Euphrates dẫn đến Vịnh Ba Tư. Đó là nền văn minh nào?",
+    "options": ["Văn minh Lưỡng Hà", "Văn minh Ai Cập", "Văn minh Trung Quốc", "Văn minh Ấn Độ"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "Người Lưỡng Hà phát minh ra loại lịch nào?",
+    "options": ["Nông lịch", "Dương lịch", "Âm lịch", "Cả âm lịch và dương lịch"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "Vườn treo Babylon - một trong 7 kỳ quan thế giới cổ đại – thuộc nền văn minh nào?",
+    "options": ["Văn minh Ai Cập", "Văn minh Lưỡng Hà (Tân Babylon)", "Văn minh Hy Lạp", "Văn minh Ấn Độ"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 50,
+    "question": ".... được xem là thiên sử thi đầu tiên của nhân loại, nó có tầm ảnh hưởng rộng lớn trong những sáng tác văn học sau này ở Cận Đông và cả ở Hy lạp, La Mã cổ đại",
+    "options": ["Sử thi Gilgamesh", "Sử thi Mahabharata", "Sử thi Ramayana", "Sử thi Iliad"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 51,
+    "question": "Về mặt địa hình, khác với các nền văn minh lớn khác ở Phương Đông, địa hình của ... bằng phẳng và hầu như không có biên giới thiên nhiên hiểm trở che chắn",
+    "options": ["Ai Cập", "Lưỡng Hà", "Ấn Độ", "Trung Quốc"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 52,
+    "question": "Trong lịch sử thế giới, người ... được coi là tộc người đã xây dựng các quốc gia thành thị sớm nhất.",
+    "options": ["Ai Cập", "Sumer", "Hy Lạp", "Dravida"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 53,
+    "question": "Chữ do người ... phát minh ra là thứ chữ mẹ đẻ của nhiều thứ chữ cổ khác như chữ Akkad, chữ Babylonnia, chữ Hatti, chữ Assyria, chữ Ba Tư.",
+    "options": ["Ai Cập", "Phenicia", "Sumer", "Ấn Độ"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 54,
+    "question": "Thời kỳ tồn tại của vương quốc nào được coi là thời kỳ huy hoàng nhất trong lịch sử Lưỡng Hà?",
+    "options": ["Vương triều III Ur", "Vương quốc Tân Babylon", "Vương quốc Akkad", "Vương quốc Cổ Babylon"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 55,
+    "question": "Các công trình: Thành Babyon, Tháp Babylon, Vườn treo Babylon thuộc về nền văn minh nào?",
+    "options": ["Lưỡng Hà", "Trung Quốc", "Ấn Độ", "Ai Cập"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 56,
+    "question": "Hai con sông lớn góp phần quan trọng tạo nên nền văn minh Lưỡng Hà là...",
+    "options": ["Sông Tigris và Euphrates", "Sông Trường Giang và Hoàng Hà", "Sông Ấn và Hằng", "Cả ba đáp án đều sai"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 57,
+    "question": "Vương quốc Tân Babylon do vị vua nào thành lập?",
+    "options": ["Nabopolaxa", "Nabuchodonosor", "Hammurabi", "Naramxine"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 58,
+    "question": "Vương quốc nào dưới đây đã công hãm Jerusalem, diệt vương quốc Do Thái, bắt tất cả tăng lữ, qúy tộc, thương nhân và thợ thuyền Do Thái về quản chế tại Babylonia, tạo nên cái gọi là \"nhà ngục Babylonia\" mà lịch sử Do Thái thường nhắc đến với tâm trạng đau đớn?",
+    "options": ["Ba Tư", "Assyria", "Cổ Babylonia", "Tân Babylonia"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 59,
+    "question": "Các vị thần: thần Anu (thần Trời), thần Samat (thần Mặt trời), thần Istaro (thần Ái tình), thần Inana (thần Mẹ), thần Ea (thần Biển), thần Tammuz (thần Nước), thần Istar (Nữ thần Chiến tranh và Thắng lợi) thuộc nền văn minh nào?",
+    "options": ["Ai Cập", "Lưỡng Hà", "Ấn Độ", "Hy Lạp"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 60,
+    "question": "Bốn trung tâm văn minh ra đời sớm nhất ở phương Đông cổ đại là...",
+    "options": [
+      "Ai Cập – Lưỡng Hà – Ấn Độ - Ả Rập",
+      "Ai Cập – Lưỡng Hà – Trung Quốc – Ả Rập",
+      "Ai Cập – Lưỡng Hà – Ấn Độ - Trung Quốc",
+      "Ai Cập – Lưỡng Hà – Hy Lạp – La Mã"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 61,
+    "question": "Người Ấn Độ tự hào rằng: \"Cái gì không thấy được ở trong... thì cũng không thấy được ở Ấn Độ\".",
+    "options": ["Ramayana", "Veda", "Sakuntala", "Mahabharata"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 62,
+    "question": "Kết hợp nội dung ở Cột A cho đúng với nội dung ở Cột B:\nCột A: 1.Mohamed, 2.Siddhartha Gautama, 3.Jesus\nCột B: a.Đạo Phật, b.Đạo Hồi, c.Đạo Kitô, d.Đạo",
+    "options": ["1-d, 2-a, 3-c", "1-b, 2-a, 3-c", "1-b, 2-c, 3-a", "1-a, 2-d, 3-c"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 63,
+    "question": "Hai thành phố cổ Harappa và Mohenjo Daro thuộc nền văn minh nào?",
+    "options": ["Văn minh Lưỡng Hà", "Văn minh Trung Quốc", "Văn minh Ấn Độ", "Văn minh Hy Lạp"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 64,
+    "question": "Tôn giáo đầu tiên xuất hiện và được truyền bá rộng rãi tại Ấn Độ là...",
+    "options": ["Thiên chúa giáo", "Phật giáo", "Bà La Môn giáo", "Do Thái giáo"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 65,
+    "question": "\"Tứ diệu đế\" của Phật giáo gồm những gì?",
+    "options": [
+      "Khổ đế - Tập đế - Diệt đế - Đạo đế",
+      "Khổ đế - Chánh đế - Diệt đế - Đạo đế",
+      "Khổ đế - Tập đế - Chân đế - Đạo đế",
+      "Khổ đế - Thiên đế - Diệt đế - Đạo đế"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 66,
+    "question": "Hai con sông lớn góp phần quan trọng tạo nên nền văn minh Ấn Độ là?",
+    "options": [
+      "Sông Tigris và Euphrates",
+      "Sông Trường Giang và Hoàng Hà",
+      "Sông Ấn và sông Hằng",
+      "Cả ba đáp án đều sai"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 67,
+    "question": "Các quan niệm về Dharma (Đạo pháp), Karma (Nghiệp), Samsara (Luân hồi), Nirvana (Niết bàn), có gốc từ tôn giáo nào?",
+    "options": ["Balamon giáo", "Phật giáo", "Jain giáo", "Sikh giáo"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 68,
+    "question": "Tác phẩm nào được xem là \"Thiên tình sử\" của nền văn học Ấn Độ?",
+    "options": ["Veda", "Sakuntala", "Ramayana", "Mahabharata"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 69,
+    "question": "Phát biểu nào đúng nhất trong các phát biểu dưới đây?",
+    "options": [
+      "Người Aryan là chủ nhân của nền văn minh sông Ấn",
+      "Người Dravida là chủ nhân của nền văn minh sông Ấn",
+      "Người Dravida là chủ nhân của nền văn minh sông Hằng",
+      "Người Aryan là chủ nhân của nền văn minh sông Ấn và sông Hằng"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 70,
+    "question": "Varna là chế độ....",
+    "options": [
+      "phân biệt về tôn giáo",
+      "phân biệt về nghề nghiệp",
+      "phân biệt về đẳng cấp xã hội",
+      "phân biệt về dòng tộc, tôn giáo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 71,
+    "question": "Ai là người sáng lập vương triều Maurya (321-232 tr.CN) trong lịch sử Ấn Độ?",
+    "options": ["Chandragupta", "Mahapadma Nanda", "Bimbisara", "Asoka"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 72,
+    "question": "Người đã sáng lập ra Phật giáo là...",
+    "options": ["Siddartha Gautama", "Moses", "Jesus", "Muhammad"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 73,
+    "question": "Hãy nối các thông tin ở cột A và cột B cho phù hợp:\nCột A: Thần Zeus, Thần Brahman, Thần Ra, Thần Venus\nCột B: Ai Cập, La Mã, Lưỡng Hà, Ấn Độ, Hy Lạp",
+    "options": ["1-a, 2-d, 3-b, 4-e", "1-e, 2-d, 3-a, 4-b", "1-b, 2-e, 3-a, 4-d", "1-e, 2-b, 3-a, 4-c"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 74,
+    "question": "Trong xã hội của người Aryan, đẳng cấp nào là cao nhất?",
+    "options": ["Ksatrya", "Vaisya", "Brahman", "Sudra"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 75,
+    "question": "Phật giáo ra đời tại quốc gia nào?",
+    "options": ["Ấn Độ", "Trung Quốc", "Lưỡng Hà", "Ai Cập"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 76,
+    "question": "Tác phẩm nào được xem là Đại Bách khoa toàn thư của Ấn Độ?",
+    "options": ["Veda", "Sakuntala", "Ramayana", "Mahabharata"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 77,
+    "question": "Nguồn gốc của người Aryan là...",
+    "options": [
+      "Những người nói hệ ngôn ngữ Ấn – Âu",
+      "Những người trồng trọt nói hệ ngôn ngữ Ấn – Âu",
+      "Những người chăn thả súc vật nói hệ ngôn ngữ Ấn – Âu",
+      "Những người thương nhân nói hệ ngôn ngữ Ấn – Âu"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 78,
+    "question": "Trong Tứ Diệu đế của Phật giáo, cái gì đề cập đến nguyên nhân của sự khổ đau?",
+    "options": ["Khổ đế (Dukha)", "Tập đế (Samudaya)", "Diệt đế (Nirodha)", "Đạo đế (Marga)"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 79,
+    "question": "Trong Tứ Diệu đế của Phật giáo, cái gì đề cập đến con đường đúng để diệt khổ?",
+    "options": ["Khổ đế (Dukha)", "Tập đế (Samudaya)", "Diệt đế (Nirodha)", "Đạo đế (Marga)"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 80,
+    "question": "Trong Tứ Diệu đế của Phật giáo, cái gì đề cập đến sự cần thiết phải diệt khổ?",
+    "options": ["Khổ đế (Dukha)", "Tập đế (Samudaya)", "Diệt đế (Nirodha)", "Đạo đế (Marga)"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 81,
+    "question": "Trong giáo lý của Phật giáo, Tứ vô lượng tâm \"bốn món tâm rộng lớn không lường được\", đó là...",
+    "options": ["Từ - Bi - Hỷ - Nộ", "Từ - Bi - Ái - Hỷ", "Từ - Bi - Hỷ - Xả", "Từ - Hỷ - Ái - Xả"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 82,
+    "question": "Dòng sông được coi là linh thiêng nhất có tính chất tôn giáo của Ấn Độ là...",
+    "options": ["Sông Ấn", "Sông Hằng", "Sông Krishna", "Sông Thiêng"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 83,
+    "question": "Công trình nghệ thuật kiến trúc nổi tiếng nhất ở Ấn Độ được người đời ca tụng là \"giọt lệ rơi tạc bằng đá cẩm thạch\" và \"đó không phải là một công trình kiến trúc thông thường như các tòa nhà khác, mà là một tình yêu nồng nàn của vị đế vương được tạc trên đá, sông mãi với thời gian\". Đó là công trình nào?",
+    "options": ["Lăng mộ Taj Mahal", "Cột đá Sácnat", "Chùa hang Ajanta", "Tháp Sanchi"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 84,
+    "question": "Kinh Veda được sử dụng trong giáo lý của tôn giáo nào?",
+    "options": ["Phật giáo", "Ki tô giáo", "Bà La Môn giáo", "Hồi giáo"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 85,
+    "question": "Các vị thần Brahma (thần Sáng tạo), Vishnu (thần Bảo vệ), Siva (thần Hủy diệt) thuộc tôn giáo nào?",
+    "options": ["Phật giáo", "Ki tô giáo", "Hồi giáo", "Bà La Môn giáo"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 86,
+    "question": "Trong tôn giáo của Ấn Độ, đạo Bà La Môn về sau được gọi là....",
+    "options": ["Hindu giáo", "Sikh giáo", "Phật giáo", "Jaina giáo"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 87,
+    "question": "Hindu giáo ra đời tại quốc gia nào?",
+    "options": ["Ai Cập", "Lưỡng Hà", "Ấn Độ", "Trung Quốc"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 88,
+    "question": "Người khởi xướng tư tưởng Nho Giáo là...",
+    "options": ["Lão Tử", "Tuân Tử", "Hàn Phi Tử", "Khổng Tử"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 89,
+    "question": "Thời Cổ Trung đại, 4 phát minh quan trọng nào của người Trung Quốc được thế giới đánh giá cao?",
+    "options": [
+      "Giấy, Kỹ thuật in, La bàn, Thuốc súng",
+      "Giấy, Kỹ thuật in, La bàn, Súng Đại bác",
+      "Giấy, Lụa, La bàn, Thuốc súng",
+      "Giấy, Lụa, La bàn, Súng Đại bác"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 90,
+    "question": "Các tác phẩm Thủy hử, Tam quốc diễn nghĩa, Tây Du Ký, Hồng Lâu Mộng thuộc về nền văn minh nào?",
+    "options": ["Ấn Độ", "Trung Quốc", "Ai Cập", "Lưỡng Hà"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 91,
+    "question": "Quan sát bảng dưới đây rồi kết hợp tên tác giả ở cột bên phải đúng với tên tác phẩm văn học ở cột bên trái:\nTác phẩm: 1.Thi Nại Am, 2.Ngô Thừa Ân, 3.Ngô Tử Kính, 4.La Quán Trung\nTác giả: a.Tam Quốc Diễn Nghĩa, b.Tây Du Kí, c.Nho Lâm Ngoại Sử, d.Hồng Lâu Mộng, e.Thuỷ Hử",
+    "options": ["1-e, 2-a, 3-c, 4-b", "1-e, 2-b, 3-a, 4-c", "1-e, 2-b, 3-c, 4-a", "1-b, 2-e, 3-c, 4-a"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 92,
+    "question": "Ra đời từ thiên niên kỷ thứ II tr.CN, chữ viết cổ của nền văn minh nào dưới đây là hệ chữ viết duy nhất được sử dụng qua hàng ngàn năm lịch sử cho đến ngày nay?",
+    "options": ["Ấn Độ", "Trung Quốc", "Lưỡng Hà", "Hy Lạp"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 93,
+    "question": "Trong lịch sử Trung Quốc, ai là người thành lập trường phái Pháp gia về triết học chính trị?",
+    "options": ["Lão Tử", "Tuân Tử", "Mạnh Tử", "Thương Ương"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 94,
+    "question": "Cuộc cải cách của Thương Ương (bắt đầu từ năm 359 tr.CN) đã làm cho nước nào hùng mạnh lên?",
+    "options": ["Tấn", "Sở", "Ngụy", "Tần"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 95,
+    "question": "Công trình vĩ đại của Trung Quốc, được ví như \"nghĩa địa đài nhất trái đất\" là ...",
+    "options": ["Vạn Lý Trưởng Thành", "Tử Cấm Thành", "Lăng mộ Tần Thủy Hoàng", "Phong Hoàng cổ trấn"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 96,
+    "question": "Chữ Giáp cốt xuất hiện dưới thời kỳ nào trong lịch sử Trung Quốc cổ đại?",
+    "options": [
+      "Thời nhà Hạ (Thế kỷ XXI – XVI tr.CN)",
+      "Thời nhà Thương (Thế kỷ XVI – XI tr.CN)",
+      "Thời Tây Chu (Thế kỷ XI – VIII tr.CN)",
+      "Thời Hoàng Đế (Thiên niên kỷ III tr.CN)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 97,
+    "question": "Thứ tự của các triều đại đầu tiên trong lịch sử Trung Hoa?",
+    "options": ["Chu – Thương – Hạ", "Chu – Hạ - Thương", "Hạ - Thương – Chu", "Thương – Hạ - Chu"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 98,
+    "question": "Chữ Giáp cốt là một dạng chữ viết...",
+    "options": [
+      "xuất hiện khoảng thiên niên kỳ II tr.CN và sau đó trở thành một thứ chữ chết",
+      "xuất hiện khoảng thiên niên kỷ II tr.CN và sau đó được cải tiến qua quá trình lịch sử để trở thành chữ Trung hiện nay",
+      "xuất hiện khoảng thiên niên kỷ II tr.CN và sau đó trở thành một thứ chữ chết khi chữ kim văn xuất hiện",
+      "xuất hiện khoảng thiên niên kỷ II tr.CN và sau đó trở thành thứ chữ chết khi nhà Tần thống nhất Trung Quốc vào năm 221 tr.CN"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 99,
+    "question": "Người đã lập ra Triều đại nhà Hán ở Trung Quốc là ...",
+    "options": ["Lưu Bang", "Hạng Vũ", "Tần Thủy Hoàng", "Càn Long"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 100,
+    "question": "Vị hoàng đế đầu tiên thống nhất Trung Quốc?",
+    "options": ["Việt Vương Câu Tiễn", "Tần Thủy Hoàng", "Ngô Vương Phù Sai", "Chu Nguyên Chương"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 101,
+    "question": "Ai là người có quan điểm nhấn mạnh đến vô vi thay cho quyền lực chính trị và tự vẫn thay cho việc làm chủ những người khác?",
+    "options": ["Lão Tử", "Tuân Tử", "Hàn Phi Tử", "Khổng Tử"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 102,
+    "question": "Quan điểm cho rằng: Nhân tính sở thiện là của.....",
+    "options": ["Lão Tử", "Tuân Tử", "Hàn Phi Tử", "Mạnh Tử"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 103,
+    "question": "Người phụ nữ duy nhất trong lịch sử phong kiến Trung Hoa xưng đế là...",
+    "options": ["Từ Hy Thái Hậu", "Dương Quý Phi", "Võ Tắc Thiên", "Vương Chiêu Quân"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 104,
+    "question": "Kinh đô chính của triều Thương (XVI-XI tr.CN) là...",
+    "options": ["Triều Ca", "Bạc", "Trường An", "Ân Khư"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 105,
+    "question": "Theo Tư Mã Thiên, chính sách phần phong ruộng đất cho những người cùng đồng họ, do đó mà lập nên hệ thống các quốc gia chư hầu xuất hiện dưới thời kỳ nào?",
+    "options": [
+      "Thời nhà Hạ (TK XXI -XVII tr.CN)",
+      "Thời nhà Thương (TK XVI-XI tr.CN)",
+      "Thời Tây Chu (TK XI-VIII tr.CN)",
+      "Thời Xuân Thu-Chiến Quốc (TK VII-III tr.CN)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 106,
+    "question": "Khác với quan niệm của Mạnh Tử, ai cho rằng: Nhân tính sở ác?",
+    "options": ["Lão Tử", "Tuân Tử", "Hàn Phi Tử", "Mặc Tử"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 107,
+    "question": "Kinh đô đầu tiên của Nhà Hán đông ở đâu?",
+    "options": ["Tây An", "Trường An", "Lạc Dương", "Bắc Kinh"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 108,
+    "question": "Về nguồn gốc lịch sử, chủ nhân đầu tiên của vùng châu thổ sông Hoàng Hà và là tổ tiên của dân tộc Hán sau này là các tộc người nào?",
+    "options": ["Hạ - Thương – Mãn", "Thương – Chu – Mông Cổ", "Hạ - Thương – Hồi", "Hạ - Thương – Chu"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 109,
+    "question": "Theo Khổng Tử, quan niệm về Ngũ thường là...",
+    "options": [
+      "Nhân, Lễ, Nghĩa, Trí, Dũng",
+      "Lễ, Nghĩa, Trí, Tín, Dũng",
+      "Nhân, Lễ, Nghĩa, Trí, Tín",
+      "Nhân, Lễ, Đức, Trí, Tín"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 110,
+    "question": "Theo Khổng Tử, quan niệm về Tam cương là...",
+    "options": [
+      "Vua – Tôi, Cha – Con, Chồng – Vợ",
+      "Vua – Tôi, Anh – Em, Bầu – Bạn",
+      "Cha - Con, Chồng – Vợ, Anh – Em",
+      "Chồng – Vợ, Anh – Em, Bầu – Bạn"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 111,
+    "question": "Về nguồn gốc, nền văn minh Trung Quốc đầu tiên xuất hiện dọc lưu vực con sông nào?",
+    "options": ["Trường Giang", "Lê Giang", "Hán Thủy", "Hoàng Hà"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 112,
+    "question": "Công trình phòng ngự nổi tiếng nào ở Trung Quốc được xây dựng từ thời kỳ Tần Thủy Hoàng?",
+    "options": ["Tử Cấm Thành", "Vạn lý Trưởng Thành", "Thành Trường An", "Thành Lạc Dương"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 113,
+    "question": "Các loại chữ viết: Giáp cốt, Kim văn, Tiểu triện, chữ Lệ, chữ Khải thuộc nền văn minh nào?",
+    "options": ["Ấn Độ", "Ai Cập", "Lưỡng Hà", "Trung Quốc"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 114,
+    "question": "Tập thơ nào là tập thơ cổ nhất Trung Quốc, được các tác giả sáng tác trong khoảng thời gian từ thời Tây Chu cho đến giữa thời Xuân Thu, gồm ba phần: Phong, Nhã, Tụng?",
+    "options": ["Thạch hảo lại", "Kinh thi", "Ti bà hành", "Hành lộ nan"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 115,
+    "question": "Các tác phẩm văn học như Tam Quốc Diễn Nghĩa, Hồng Lâu Mộng, Tây Du Ký, Thủy Hử, Liêu Trai Chí Dị ra đời vào thời kỳ nào ở Trung Quốc?",
+    "options": ["Thời kỳ Xuân Thu – Chiến quốc", "Thời kỳ nhà Hán", "Thời kỳ nhà Minh – Thanh", "Thời kỳ nhà Đường"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 116,
+    "question": "Trong nền văn chương Hy Lạp, ai là tác giả của hai tác phẩm thi ca lớn Iliad và Odyssey, với chủ đề huyền thoại về cuộc chiến của người Myecnaean với thành Troy?",
+    "options": ["Homer", "Sophocles", "Socrates", "Plato"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 117,
+    "question": "Trong nghệ thuật kiến trúc, ba phong cách phân biệt cho những tòa nhà đồ sộ, mỗi phong cách được trang trí hoa mỹ hơn phong cách trước đó: Doric, Ionic và Corinthian. Đó là kiến trúc của nền văn minh nào?",
+    "options": ["Ấn Độ", "La Mã", "Hy Lạp", "Trung Quốc"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 118,
+    "question": "Trong nền văn minh Hy Lạp, ai là người đã nghĩ ra những hệ thống ròng rọc để bơm nước ra khỏi những con tàu và cánh đồng ngập nước?",
+    "options": ["Gallen", "Ptolemy", "Pythagore", "Archimedes"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 119,
+    "question": "Triết gia Hy Lạp nổi tiếng nhất và là thầy của Alexander đại đế?",
+    "options": ["Aristophanes", "Socrates", "Aristotle", "Plato"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 120,
+    "question": "Theo thần thoại Hy Lạp, vị thần nào đã sáng tạo ra con người và nền văn minh nhân loại?",
+    "options": ["Thần Zeus", "Thần Apollon", "Thần Prometheus", "Thần Athena"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 121,
+    "question": "Trong thần thoại Hy Lạp, vị thần nào được xem là tối cao nhất, thần của các vị thần?",
+    "options": ["Thần Zeus", "Thần Artemis", "Thần Lesto", "Thần Apollon"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 122,
+    "question": "Bảng chữ cái Alphabet đầu tiên trên thế giới do dân tộc nào sáng tạo nên?",
+    "options": ["Người Hy Lạp", "Người La Mã", "Người Ai Cập", "Người Phoenicia"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 123,
+    "question": "Nền văn minh nào là nền văn minh tối cổ của người Hy Lạp tồn tại từ thiên niên kỷ III đến thiên niên kỷ II tr.CN?",
+    "options": ["Văn minh thời đại Homer", "Văn minh Crete – Myxen", "Văn minh Sumer", "Văn minh Phenicia"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 124,
+    "question": "Thành bang được xem là thành bang điển hình cho chế độ cộng hòa quý tộc ở Hy Lạp cổ đại là ....",
+    "options": ["Sparte", "Athens", "Coral", "Nile"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 125,
+    "question": "Thành bang nào được xem là thành bang điển hình cho chế độ cộng hòa dân chủ ở Hy Lạp cổ đại?",
+    "options": ["Thành bang Mile", "Thành bang Athens", "Thành bang Sparte", "Thành bang Coranh"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 126,
+    "question": "Vị vua trẻ nổi tiếng nhất của Macedonia thời kỳ Hy Lạp cổ đại là ai?",
+    "options": ["Caesar", "Alexander", "Potolemy", "Octavius"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 127,
+    "question": "Trong số các bức tượng nổi tiếng dưới đây của nền văn minh Hy Lạp cổ đại, bức tượng nào là một trong 7 kỳ quan thế giới cổ đại?",
+    "options": [
+      "Tượng thần Vệ nữ (Venus)",
+      "Tượng Người lục sĩ ném đĩa",
+      "Tượng thần Zeus ở Olympia",
+      "Tượng nữ thần Artemis"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 128,
+    "question": "Đơn vị chính trị của Hy Lạp được gọi là....",
+    "options": ["Vương quốc", "Thành bang", "Tiểu quốc", "Thành phố"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 129,
+    "question": "Ở Hy Lạp cổ đại, tổ chức nhà nước theo hai mô hình.",
+    "options": [
+      "Cộng hòa dân chủ và Cộng hoà quý tộc",
+      "Đế chế và Cộng hoà quý tộc",
+      "Dân chủ chủ nô và độc tài quân chủ",
+      "Dân chủ chủ nô và quân chủ lập hiến"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 130,
+    "question": "Xã hội Hy Lạp thời đại Homer (Thế kỷ XI-IX tr.CN) sống dựa trên cơ sở nền kinh tế tự nhiên tự cung tự cấp, ngành kinh tế chủ yếu là ....",
+    "options": ["Nông nghiệp", "Chăn nuôi", "Buôn bán", "Thủ công nghiệp"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 131,
+    "question": "Sự kiện lịch sử quan trọng nào đã diễn ra ở Hy Lạp vào năm 776 tr.CN?",
+    "options": [
+      "Thành lập thành bang Athens",
+      "Thành lập thành bang Sparte",
+      "Người Hy Lạp chinh phục thành Troy",
+      "Đại hội Olympic"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 132,
+    "question": "Những công trình kiến trúc: Đền Parthenon, đền nữ thần Artemis, Lăng mộ Maussohs, tượng thần Zeus thuộc về nền văn minh nào?",
+    "options": ["Ai Cập", "Lưỡng Hà", "Hy Lạp", "La Mã"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 133,
+    "question": "Để phân biệt và để nhận biết nô lệ của mình, các chủ nô Hy Lạp thường...",
+    "options": [
+      "Khắc ký hiệu vào tay mỗi nô lệ",
+      "Đeo vòng bắt có đánh ký hiệu vào cổ mỗi nô lệ",
+      "Đeo vòng sắt có đánh ký hiệu vào chân mỗi nô lệ",
+      "Khắc dấu lên trán mỗi nô lệ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 134,
+    "question": "Cuộc chiến tranh nào dưới đây kéo dài 27 năm (431 - 404 tr.CN) đã tàn phá nặng nề nền kinh tế và đời sống xã hội của các thành bang Hy Lạp, nhất là Athens?",
+    "options": ["Hy Lạp Ba Tư", "Hy Lạp – La Mã", "Hy Lạp – Makedonia", "Peloponnesus"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 135,
+    "question": "Các công trình kiến trúc, điêu khắc cổ đại nổi tiếng như đền Parthenon, đền nữ Thần Artemis, Lăng mộ Maussolus, tượng thần Zeus, tượng Lục sĩ ném đĩa thuộc nền văn minh nào?",
+    "options": ["Ai Cập", "Ba Tư", "Hy Lạp", "La Mã"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 136,
+    "question": "Các vị thần: Zeus (vị thần Tối cao), Apollon (thần Ánh sáng và Nghệ thuật), Clio (thần Lịch sử), Aphrodite (thần Tình yêu và Sắc đẹp), Poseidon (thần Biển cả) thuộc nền văn minh nào?",
+    "options": ["Ai Cập", "Hy Lạp", "Lưỡng Hà", "La Mã"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 137,
+    "question": "Ai là nhân vật quan trọng nhất trong nền y học Hy Lạp cổ đại và thường được xem là \"Cha đẻ của y học hiện đại\"?",
+    "options": ["Heracleides", "Hippocrates", "Esculates", "Faulkner"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 138,
+    "question": "Hệ thống chữ viết nào dưới đây vẫn còn được sử dụng khắp Tây Âu và châu Mỹ ngày nay?",
+    "options": ["Hệ thống chữ Hy Lạp", "Hệ thống chữ Latinh", "Hệ thống chữ Phoenicia", "Hệ thống chữ Ai Cập"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 139,
+    "question": "Tôn giáo nào bắt nguồn từ Chúa Jesus ở Nazareth?",
+    "options": ["Hindu giáo", "Do Thái giáo", "Phật giáo", "Kitô giáo"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 140,
+    "question": "Trung tâm của đời sống chính trị La Mã là...",
+    "options": ["Hoàng đế", "Viện nguyên lão", "Thủ lĩnh quân sự", "Đại hội bình dân"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 141,
+    "question": "\"Cùng với chữ Latinh, nó là di sản lâu bền nhất mà người La Mã đã đóng góp vào nền văn minh chung của nhân loại\". Đó là di sản nào?",
+    "options": ["Triết học", "Nghệ thuật", "Luật pháp", "Khoa học"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 142,
+    "question": "Việc sử dụng nhiều... vào thời đỉnh cao của La Mã giúp giải thích kỹ thuật sản xuất trì trệ trong chế tạo và nông nghiệp. Hãy điền thông tin vào dấu ba chấm (...)?",
+    "options": ["Nô lệ", "Quân đội", "Cư dân", "Lao động"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 143,
+    "question": "Về nguồn gốc, Kitô giáo đã xuất hiện ở đâu?",
+    "options": ["Hy Lạp", "La Mã", "Lưỡng Hà", "Ấn Độ"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 144,
+    "question": "Công trình kiến trúc to lớn và nổi tiếng bậc nhất nào là nơi diễn ra hình thức giải trí đẫm màu nhất của đế chế La Mã cổ đại?",
+    "options": ["Đấu trưởng Colosseum", "Điện Panthenon", "Khải hoàn môn Trajan", "Thành La Mã"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 145,
+    "question": "\"Người La Mã\" nguyên là cụm từ dùng để gọi...",
+    "options": [
+      "Người sống trên bán đảo Italia",
+      "Người sống ở khu vực đồng bằng Latinum",
+      "Nhóm người Latinh sống ở thành La Mã",
+      "Người sống trong đế quốc La Mã"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 146,
+    "question": "Thành phố nào được xem là trung tâm quyền lực của đế chế La Mã?",
+    "options": ["Babilon", "Memphis", "Alexandria", "Roma"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 147,
+    "question": "\"Đây không chỉ đơn thuần là nơi giải trí, mà còn là một công trình văn hoá với các thư viện và phòng đọc sách. Tóm lại, đó là cả xã hội Roma thu gọn\". Đó là công trình kiến trúc nào?",
+    "options": ["Đền Pantheon", "Đấu trưởng Colosseum", "Nhà tắm Caracalla", "Khải hoàn môn Trajan"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 148,
+    "question": "La Mã là điển hình của một chế độ xã hội...",
+    "options": ["Chiếm hữu nô lệ", "Quân chủ chuyên chế", "Cộng hòa dân chủ", "Cộng hòa quý tộc"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 149,
+    "question": "Các công trình kiến trúc nổi tiếng như: Đấu trường Coloseum, Nhà tắm Caracalla, Khải hoàn môn Trajan thuộc nền văn minh cổ đại nào?",
+    "options": ["Ai Cập", "Trung Quốc", "Hy Lạp", "La Mã"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 150,
+    "question": "Các vị thần như: Jupiter (vị thần Tối cao), Apollo (Thần Ánh sáng và bảo trợ cho Nghệ thuật) Venus (thần Tình yêu và Sắc Đẹp), Neptune (thần Biển cả) thuộc nền văn minh cổ đại nào?",
+    "options": ["Ai Cập", "Hy Lạp", "Lưỡng Hà", "La Mã"],
+    "correctAnswer": 3
+  }
+]

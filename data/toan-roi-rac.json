@@ -188,7 +188,7 @@
     "question": "Một quán cà phê có 5 loại đồ uống. Một khách hàng có thể chọn tối đa 1 loại đồ uống. Có bao nhiêu cách chọn?",
     "options": ["5", "10", "15", "25"],
     "correctAnswer": 0,
-    "explanation": "Khách chỉ chọn tối đa 1 loại đồ uống, tức là chọn 1 trong 5 loại: $C_5^1 = 5$",
+    "explanation": "Khách chỉ ch���n tối đa 1 loại đồ uống, tức là chọn 1 trong 5 loại: $C_5^1 = 5$",
     "formula": ""
   },
   {
@@ -321,7 +321,7 @@
     "question": "Luật De Morgan cho phép biến đổi biểu thức nào sau đây?",
     "options": ["$A + B = A.B$", "$A.B = A + B$", "$!(A + B) = !A.!B$", "$A + A = A$"],
     "correctAnswer": 2,
-    "explanation": "Luật De Morgan cho phép biến đổi: $!(A + B) = !A.!B$ và $!(A.B) = !A + !B$",
+    "explanation": "Luật De Morgan cho phép biến đổi: $!(A + B) = !A.!B$ v���� $!(A.B) = !A + !B$",
     "formula": ""
   },
   {
@@ -355,7 +355,7 @@
   },
   {
     "id": 44,
-    "question": "Từ các chữ số 1, 2, 3, 4, 5, có bao nhiêu số tự nhiên có 3 chữ số khác nhau có thể lập được?",
+    "question": "Từ các chữ số 1, 2, 3, 4, 5, có bao nhiêu số tự nhiên có 3 ch��� số khác nhau có thể lập được?",
     "options": ["60", "120", "30", "24"],
     "correctAnswer": 0,
     "explanation": "Số số có 3 chữ số khác nhau từ 5 chữ số là số hoán vị chập 3 của 5: $P(5,3) = 5 \\times 4 \\times 3 = 60$",

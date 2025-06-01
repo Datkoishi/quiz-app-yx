@@ -154,7 +154,7 @@ export default function AdminPage() {
 
       toast({
         title: "Thành công",
-        description: "Đã lưu tất cả câu hỏi",
+        description: "Đã lưu t���t cả câu hỏi",
       })
     } catch (error) {
       console.error("Lỗi khi lưu câu hỏi:", error)

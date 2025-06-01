@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "question": "The two commands used in the constructor of a node in a singly linked list Node(int x, Node t) are ____ and ____",
+    "type": "short_answer",
+    "correctAnswer": "info = x; next = t;",
+    "explanation": "In the constructor of a node (Node) in a singly linked list, the two basic commands are assigning a value to the node (info = x) and assigning the next pointer to point to the next node (next = t).\n\n**Vietnamese/Tiếng Việt**: Trong hàm tạo một nốt (Node) trong danh sách liên kết đơn, hai lệnh cơ bản là gán giá trị cho nút (info = x) và gán con trỏ next trỏ đến nút tiếp theo (next = t)."
+  },
+  {
+    "id": 2,
+    "question": "The linear search algorithm has a complexity of:",
+    "type": "short_answer",
+    "correctAnswer": "O(n)",
+    "explanation": "The linear search algorithm (Linear Search) has a time complexity of O(n) because in the worst case, the algorithm must traverse all n elements of the array to search.\n\n**Vietnamese/Tiếng Việt**: Thuật toán tìm kiếm tuyến tính (Linear Search) có độ phức tạp thời gian là O(n) vì trong trường hợp xấu nhất, thuật toán phải duyệt qua tất cả n phần tử của mảng để tìm kiếm."
+  },
+  {
+    "id": 3,
+    "question": "To traverse a tree in breadth-first order, we use the data structure:",
+    "type": "short_answer",
+    "correctAnswer": "Queue",
+    "explanation": "To traverse a tree in breadth-first order (Breadth-First Search/Level Order Traversal), we use the Queue data structure. The queue helps store nodes in the order they need to be visited, ensuring that nodes at the same level are visited before moving to nodes at the next level.\n\n**Vietnamese/Tiếng Việt**: Để duyệt cây theo chiều rộng (Breadth-First Search/Level Order Traversal), ta sử dụng cấu trúc dữ liệu Hàng đợi (Queue). Hàng đợi giúp lưu trữ các nút theo thứ tự cần thăm, đảm bảo các nút ở cùng một mức được thăm trước khi đi đến các nút ở mức tiếp theo."
+  },
+  {
+    "id": 4,
+    "question": "For the inorder traversal algorithm, the line of code that prints the node value will be located at:",
+    "type": "short_answer",
+    "correctAnswer": "The line that prints the node value will be located between the two recursive calls (left and right).",
+    "explanation": "In the inorder traversal algorithm (Inorder Traversal), the order of visiting nodes is: traverse the left subtree, visit the root node (print the value), traverse the right subtree. Therefore, the line of code that prints the node value will be located between the two recursive calls to traverse the left and right subtrees.\n\n**Vietnamese/Tiếng Việt**: Trong thuật toán duyệt trung tự (Inorder Traversal), thứ tự thăm các nút là: duyệt cây con trái, thăm nút gốc (in giá trị), duyệt cây con phải. Do đó, dòng lệnh in giá trị nút sẽ nằm ở giữa hai lời gọi đệ quy để duyệt cây con trái và cây con phải."
+  },
+  {
+    "id": 5,
+    "question": "The Stack data type has ____ basic operations.",
+    "type": "short_answer",
+    "correctAnswer": "2",
+    "explanation": "The Stack data type has 2 basic operations: push (add an element to the top of the stack) and pop (remove an element from the top of the stack).\n\n**Vietnamese/Tiếng Việt**: Trên kiểu dữ liệu Ngăn xếp (Stack) có 2 thao tác cơ bản: push (thêm phần tử vào đỉnh ngăn xếp) và pop (lấy phần tử ra khỏi đỉnh ngăn xếp)."
+  },
+  {
+    "id": 6,
+    "question": "The Queue data type has _____ basic operations.",
+    "type": "short_answer",
+    "correctAnswer": "2",
+    "explanation": "The Queue data type has 2 basic operations: AddQ/Enqueue (add an element to the end of the queue) and RemoveQ/Dequeue (remove an element from the front of the queue).\n\n**Vietnamese/Tiếng Việt**: Trên kiểu dữ liệu Hàng đợi (Queue) có 2 thao tác cơ bản: AddQ/Enqueue (thêm phần tử vào cuối hàng đợi) và RemoveQ/Dequeue (lấy phần tử ra khỏi đầu hàng đợi)."
+  },
+  {
+    "id": 7,
+    "question": "To print the last node in a non-empty stack, the missing command in the condition of the following code snippet is: \n* ..... p=head; \nwhile(_____) \np=p.next; \nSystem.out.print(p);",
+    "type": "short_answer",
+    "correctAnswer": "p.next != null",
+    "explanation": "To traverse to the last node in a linked list, we need to check the condition p.next != null in the while loop. When p.next == null, it means p is pointing to the last node of the list, the loop will stop, and we print the value of the last node.\n\n**Vietnamese/Tiếng Việt**: Để duyệt đến nút cuối cùng trong danh sách liên kết, ta cần kiểm tra điều kiện p.next != null trong vòng lặp while. Khi p.next == null, tức là p đã trỏ đến nút cuối cùng của danh sách, vòng lặp sẽ dừng và ta in ra giá trị của nút cuối cùng."
+  },
+  {
+    "id": 8,
+    "question": "For the stack data type, the number of operations that can change the number of elements (increase or decrease) in the stack is____.",
+    "type": "short_answer",
+    "correctAnswer": "2",
+    "explanation": "For the stack data type, there are 2 operations that can change the number of elements: push (add an element, increasing the count) and pop (remove an element, decreasing the count).\n\n**Vietnamese/Tiếng Việt**: Đối với kiểu dữ liệu ngăn xếp (Stack), có 2 thao tác có thể làm thay đổi số phần tử: push (thêm phần tử, làm tăng số lượng) và pop (lấy phần tử ra, làm giảm số lượng)."
+  },
+  {
+    "id": 9,
+    "question": "When searching for a value x in a binary search tree T, if x is less than the root value of T, then we will move to search in the _____ child of T.",
+    "type": "short_answer",
+    "correctAnswer": "left",
+    "explanation": "In a binary search tree (BST), values less than the root value are located in the left subtree, and values greater than the root value are located in the right subtree. Therefore, when searching for a value x that is less than the root value of T, we will move to search in the left subtree of T.\n\n**Vietnamese/Tiếng Việt**: Trong cây nhị phân tìm kiếm (BST), các giá trị nhỏ hơn giá trị của nút gốc sẽ nằm ở cây con trái, và các giá trị lớn hơn giá trị của nút gốc sẽ nằm ở cây con phải. Do đó, khi tìm giá trị x mà x nhỏ hơn giá trị gốc T, ta sẽ chuyển sang tìm ở cây con trái của T."
+  },
+  {
+    "id": 10,
+    "question": "When searching for the value x=20 in the array [1,2,3,4,5,6,7,8] using the binary search method, the number of times the mid value is calculated is:",
+    "type": "short_answer",
+    "correctAnswer": "4",
+    "explanation": "When searching for the value x=20 in the array [1,2,3,4,5,6,7,8] using binary search:\nIteration 1: mid = (0+7)/2 = 3, arr[3] = 4 < 20, left = mid+1 = 4\nIteration 2: mid = (4+7)/2 = 5, arr[5] = 6 < 20, left = mid+1 = 6\nIteration 3: mid = (6+7)/2 = 6, arr[6] = 7 < 20, left = mid+1 = 7\nIteration 4: mid = (7+7)/2 = 7, arr[7] = 8 < 20, left = mid+1 = 8 > right = 7, end\nSo the number of times the mid value is calculated is 4.\n\n**Vietnamese/Tiếng Việt**: Khi tìm kiếm giá trị x=20 trong dãy [1,2,3,4,5,6,7,8] bằng tìm kiếm nhị phân:\nLần 1: mid = (0+7)/2 = 3, arr[3] = 4 < 20, left = mid+1 = 4\nLần 2: mid = (4+7)/2 = 5, arr[5] = 6 < 20, left = mid+1 = 6\nLần 3: mid = (6+7)/2 = 6, arr[6] = 7 < 20, left = mid+1 = 7\nLần 4: mid = (7+7)/2 = 7, arr[7] = 8 < 20, left = mid+1 = 8 > right = 7, kết thúc\nVậy số lần tính giá trị mid là 4 lần."
+  },
+  {
+    "id": 11,
+    "question": "The postfix expression of a+b/c^h-k is:",
+    "type": "short_answer",
+    "correctAnswer": "a b c h ^ / + k -",
+    "explanation": "Converting the infix expression a+b/c^h-k to postfix:\n1. c^h → c h ^\n2. b/(c^h) → b c h ^ /\n3. a+(b/(c^h)) → a b c h ^ / +\n4. (a+b/(c^h))-k → a b c h ^ / + k -\nSo the postfix expression is: a b c h ^ / + k -\n\n**Vietnamese/Tiếng Việt**: Chuyển biểu thức trung tố a+b/c^h-k sang hậu tố:\n1. c^h → c h ^\n2. b/(c^h) → b c h ^ /\n3. a+(b/(c^h)) → a b c h ^ / +\n4. (a+b/(c^h))-k → a b c h ^ / + k -\nVậy biểu thức hậu tố là: a b c h ^ / + k -"
+  },
+  {
+    "id": 12,
+    "question": "The postfix expression of (a+b)^(p-q)/k is:",
+    "type": "short_answer",
+    "correctAnswer": "a b + p q - ^ k /",
+    "explanation": "Converting the infix expression (a+b)^(p-q)/k to postfix:\n1. (a+b) → a b +\n2. (p-q) → p q -\n3. (a+b)^(p-q) → a b + p q - ^\n4. ((a+b)^(p-q))/k → a b + p q - ^ k /\nSo the postfix expression is: a b + p q - ^ k /\n\n**Vietnamese/Tiếng Việt**: Chuyển biểu thức trung tố (a+b)^(p-q)/k sang hậu tố:\n1. (a+b) → a b +\n2. (p-q) → p q -\n3. (a+b)^(p-q) → a b + p q - ^\n4. ((a+b)^(p-q))/k → a b + p q - ^ k /\nVậy biểu thức hậu tố là: a b + p q - ^ k /"
+  },
+  {
+    "id": 13,
+    "question": "When inserting the values [5, 3, 4, 9, 7, 1, 8, 2, 6] into a BST and traversing the tree using the inorder traversal algorithm, the result is:",
+    "type": "short_answer",
+    "correctAnswer": "1, 2, 3, 4, 5, 6, 7, 8, 9",
+    "explanation": "When inserting the values [5, 3, 4, 9, 7, 1, 8, 2, 6] into a BST, we get a tree with root 5, left subtree [3, 1, 4, 2], and right subtree [9, 7, 8, 6]. Inorder traversal will visit the nodes in ascending order of values, so the result is: 1, 2, 3, 4, 5, 6, 7, 8, 9.\n\n**Vietnamese/Tiếng Việt**: Khi chèn các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6] vào cây BST, ta được cây với gốc là 5, cây con trái gồm [3, 1, 4, 2], cây con phải gồm [9, 7, 8, 6]. Duyệt trung tự (inorder) sẽ thăm các nút theo thứ tự tăng dần của giá trị, do đó kết quả là: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+  },
+  {
+    "id": 14,
+    "question": "When inserting the values [5, 3, 4, 9, 7, 1, 8, 2, 6] into a BST and traversing the tree using the postorder traversal algorithm, the result is:",
+    "type": "short_answer",
+    "correctAnswer": "2, 1, 4, 3, 6, 8, 7, 9, 5",
+    "explanation": "When traversing a BST with values [5, 3, 4, 9, 7, 1, 8, 2, 6] using postorder traversal, we visit the nodes in the order: left subtree → right subtree → root. The result of postorder traversal is: 2, 1, 4, 3, 6, 8, 7, 9, 5.\n\n**Vietnamese/Tiếng Việt**: Khi duyệt hậu tự (post-order) cây BST với các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6], ta thăm các nút theo thứ tự: cây con trái → cây con phải → gốc. Kết quả duyệt hậu tự là: 2, 1, 4, 3, 6, 8, 7, 9, 5."
+  },
+  {
+    "id": 15,
+    "question": "When inserting the values [5, 3, 4, 9, 7, 1, 8, 2, 6] into a BST and traversing the tree using the breadth-first traversal algorithm, the result is:",
+    "type": "short_answer",
+    "correctAnswer": "5, 3, 9, 1, 4, 7, 2, 6, 8",
+    "explanation": "When traversing a BST with values [5, 3, 4, 9, 7, 1, 8, 2, 6] using breadth-first traversal (level order traversal), we visit the nodes level by level from top to bottom, left to right:\nLevel 1: 5\nLevel 2: 3, 9\nLevel 3: 1, 4, 7\nLevel 4: 2, 6, 8\nThe result of breadth-first traversal is: 5, 3, 9, 1, 4, 7, 2, 6, 8.\n\n**Vietnamese/Tiếng Việt**: Khi duyệt chiều rộng (level order traversal) cây BST với các giá trị [5, 3, 4, 9, 7, 1, 8, 2, 6], ta thăm các nút theo từng tầng từ trên xuống dưới, từ trái sang phải:\nTầng 1: 5\nTầng 2: 3, 9\nTầng 3: 1, 4, 7\nTầng 4: 2, 6, 8\nKết quả duyệt chiều rộng là: 5, 3, 9, 1, 4, 7, 2, 6, 8."
+  },
+  {
+    "id": 16,
+    "question": "In the height function of a binary tree T, cao(TNode T), complete the missing part in the body of the function below: if(T==null) return 0; else return 1 + _______",
+    "type": "short_answer",
+    "correctAnswer": "Math.max(cao(T.left), cao(T.right));",
+    "explanation": "In the function to calculate the height of a binary tree, if the tree is empty (T==null), the height is 0. If the tree is not empty, the height is 1 (for the root node) plus the maximum height between the left and right subtrees. Therefore, the missing part is: Math.max(cao(T.left), cao(T.right));\n\n**Vietnamese/Tiếng Việt**: Trong hàm tính chiều cao của cây nhị phân, nếu cây rỗng (T==null) thì chiều cao là 0. Nếu cây không rỗng, chiều cao bằng 1 (cho nút gốc) cộng với chiều cao lớn nhất giữa cây con trái và cây con phải. Do đó, phần lệnh còn thiếu là: Math.max(cao(T.left), cao(T.right));"
+  },
+  {
+    "id": 17,
+    "question": "When sorting the array [8, 3, 2, 5, 9, 7, 1] using the selection sort algorithm, after step 1, the values in the array are:",
+    "type": "short_answer",
+    "correctAnswer": "[1, 3, 2, 5, 9, 7, 8]",
+    "explanation": "Selection Sort Algorithm - Step 1:\n- Find the smallest element in the entire array (from position 0 to the end) and swap it with the element at position 0.\n- The smallest element in the array is 1 (at the last position).\n- Swap 1 with 8 (the first element).\nResult after step 1: [1, 3, 2, 5, 9, 7, 8]\n\n**Vietnamese/Tiếng Việt**: Thuật toán sắp xếp chọn (Selection Sort) - Bước 1:\n- Tìm phần tử nhỏ nhất trong toàn dãy (từ vị trí 0 đến cuối) và đổi chỗ với phần tử ở vị trí đầu (vị trí 0).\n- Phần tử nhỏ nhất trong dãy là 1 (ở vị trí cuối cùng).\n- Đổi chỗ 1 với 8 (phần tử đầu tiên).\nKết quả sau bước 1: [1, 3, 2, 5, 9, 7, 8]"
+  },
+  {
+    "id": 18,
+    "question": "When sorting the array [8, 3, 2, 5, 9, 7, 1] using the bubble sort algorithm, after step 2, the values in the array are:",
+    "type": "short_answer",
+    "correctAnswer": "[2, 3, 5, 7, 1, 8, 9]",
+    "explanation": "Bubble Sort Algorithm:\nStep 1: Compare and swap adjacent pairs of elements from the beginning to the end of the array\n[8, 3, 2, 5, 9, 7, 1] → [3, 2, 5, 8, 7, 1, 9]\nStep 2: Repeat the process but don't consider the last element (which is already in the correct position)\n[3, 2, 5, 8, 7, 1, 9] → [2, 3, 5, 7, 1, 8, 9]\nResult after step 2: [2, 3, 5, 7, 1, 8, 9]\n\n**Vietnamese/Tiếng Việt**: Thuật toán sắp xếp nổi bọt (Bubble Sort):\nBước 1: So sánh và đổi chỗ các cặp phần tử liên tiếp từ đầu đến cuối dãy\n[8, 3, 2, 5, 9, 7, 1] → [3, 2, 5, 8, 7, 1, 9]\nBước 2: Lặp lại quá trình trên nhưng không xét phần tử cuối cùng (đã đúng vị trí)\n[3, 2, 5, 8, 7, 1, 9] → [2, 3, 5, 7, 1, 8, 9]\nKết quả sau bước 2: [2, 3, 5, 7, 1, 8, 9]"
+  },
+  {
+    "id": 19,
+    "question": "The number of binary trees that can be created from 3 values (binary trees with 3 nodes) is:",
+    "type": "short_answer",
+    "correctAnswer": "5",
+    "explanation": "The number of different binary trees that can be created from n nodes is calculated using the nth Catalan number: C(n) = (2n)! / (n! * (n+1)!)\nWith n = 3: C(3) = (2*3)! / (3! * (3+1)!) = 6! / (3! * 4!) = 720 / (6 * 24) = 5\nSo the number of different binary trees that can be created from 3 nodes is: 5\n\n**Vietnamese/Tiếng Việt**: Số cây nhị phân khác nhau có thể tạo từ n nút được tính bằng số Catalan thứ n: C(n) = (2n)! / (n! * (n+1)!)\nVới n = 3: C(3) = (2*3)! / (3! * (3+1)!) = 6! / (3! * 4!) = 720 / (6 * 24) = 5\nVậy số cây nhị phân khác nhau có thể tạo từ 3 nút là: 5"
+  },
+  {
+    "id": 20,
+    "question": "When traversing a tree using the postorder traversal algorithm, the command to print the root value is placed at position (1,2,3):",
+    "type": "short_answer",
+    "correctAnswer": "3",
+    "explanation": "In tree traversal using the postorder traversal algorithm, the order of visiting nodes is:\n1. Traverse the left subtree\n2. Traverse the right subtree\n3. Print the root value (current node)\nSo the command to print the root value is placed at position 3.\n\n**Vietnamese/Tiếng Việt**: Trong duyệt cây theo thuật toán duyệt hậu tự (post-order traversal), thứ tự thăm các nút là:\n1. Duyệt cây con trái\n2. Duyệt cây con phải\n3. In giá trị gốc (nút hiện tại)\nVậy lệnh in giá trị gốc được đặt ở vị trí 3."
+  },
+  {
+    "id": 21,
+    "question": "To make pointer p point to the end of the list, the missing part in the following while loop is: ....p=head; while(______) p=p.next;",
+    "type": "short_answer",
+    "correctAnswer": "p.next != null",
+    "explanation": "To make pointer p point to the last node of a linked list, we need to traverse the list until p.next == null (meaning p is pointing to the last node). Therefore, the condition in the while loop must be p.next != null.\n\n**Vietnamese/Tiếng Việt**: Để con trỏ p trỏ đến nút cuối cùng của danh sách liên kết, ta cần duyệt danh sách cho đến khi p.next == null (tức là p đã trỏ đến nút cuối). Do đó, điều kiện trong vòng lặp while phải là p.next != null."
+  },
+  {
+    "id": 22,
+    "question": "The function int f(int n) is used to count the number of digits of a positive integer n. The missing part in the body of the function below is: ......if(n>0) return 1 + f(_____) ; else return 0;",
+    "type": "short_answer",
+    "correctAnswer": "n / 10",
+    "explanation": "The recursive function f(int n) counts the number of digits of a positive integer n by:\n- If n > 0, return 1 (for the last digit) plus the number of digits of n/10 (removing the last digit)\n- If n = 0, return 0\nSo the missing part is: n / 10\n\n**Vietnamese/Tiếng Việt**: Hàm đệ quy f(int n) đếm số chữ số của số nguyên dương n bằng cách:\n- Nếu n > 0, trả về 1 (cho chữ số cuối cùng) cộng với số chữ số của n/10 (loại bỏ chữ số cuối cùng)\n- Nếu n = 0, trả về 0\nVậy phần lệnh còn thiếu là: n / 10"
+  },
+  {
+    "id": 23,
+    "question": "The complexity of multiplying two square matrices of size n is O(n^____)",
+    "type": "short_answer",
+    "correctAnswer": "3",
+    "explanation": "When multiplying two square matrices of size n, we need to perform n^3 multiplication and addition operations (n^2 result elements, each requiring n multiplications and n-1 additions). Therefore, the time complexity is O(n^3).\n\n**Vietnamese/Tiếng Việt**: Khi nhân hai ma trận vuông kích thước n, ta cần thực hiện n^3 phép nhân và cộng (n^2 phần tử kết quả, mỗi phần tử cần n phép nhân và n-1 phép cộng). Do đó, độ phức tạp thời gian là O(n^3)."
+  },
+  {
+    "id": 24,
+    "question": "In a binary search tree, if we want to find the largest element, we need to go in which direction?",
+    "options": ["Always go left", "Always go right", "Go down to the root node", "Go in both directions"],
+    "correctAnswer": 1,
+    "explanation": "In a binary search tree (BST), elements in the left subtree are always smaller than the root node, and elements in the right subtree are always larger than the root node. Therefore, to find the largest element, we need to always go right until we can't go any further (i.e., until we reach a node with no right child).\n\n**Vietnamese/Tiếng Việt**: Trong cây nhị phân tìm kiếm (BST), các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Do đó, để tìm phần tử lớn nhất, ta cần luôn đi sang phải cho đến khi không thể đi tiếp được nữa (tức là đến nút không có con phải)."
+  },
+  {
+    "id": 25,
+    "question": "Which sorting algorithm has an average complexity of O(n log n)?",
+    "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
+    "correctAnswer": 2,
+    "explanation": "Quick Sort has an average time complexity of O(n log n). The other sorting algorithms - Bubble Sort, Insertion Sort, and Selection Sort - all have an average time complexity of O(n²).\n\n**Vietnamese/Tiếng Việt**: Thuật toán sắp xếp nhanh (Quick Sort) có độ phức tạp trung bình là O(n log n). Các thuật toán sắp xếp nổi bọt (Bubble Sort), sắp xếp chèn (Insertion Sort) và sắp xếp chọn (Selection Sort) đều có độ phức tạp trung bình là O(n²)."
+  },
+  {
+    "id": 26,
+    "question": "In the stack data structure, which element is removed first?",
+    "options": [
+      "The element added first",
+      "The element added last",
+      "The element with the largest value",
+      "The element with the smallest value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The stack is a LIFO (Last In First Out) data structure, meaning that the element added last will be removed first. This is similar to stacking plates, where the plate placed on top (last) will be the first one to be removed.\n\n**Vietnamese/Tiếng Việt**: Ngăn xếp (Stack) là cấu trúc dữ liệu LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên. Điều này giống như việc xếp chồng đĩa, đĩa nào được đặt lên trên cùng (cuối cùng) sẽ được lấy ra trước."
+  },
+  {
+    "id": 27,
+    "question": "In the queue data structure, which element is removed first?",
+    "options": [
+      "The element added first",
+      "The element added last",
+      "The element with the largest value",
+      "The element with the smallest value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The queue is a FIFO (First In First Out) data structure, meaning that the element added first will be removed first. This is similar to people queuing for tickets, where the person who arrives first (first) will be served first.\n\n**Vietnamese/Tiếng Việt**: Hàng đợi (Queue) là cấu trúc dữ liệu FIFO (First In First Out), nghĩa là phần tử được thêm vào đầu tiên sẽ được lấy ra đầu tiên. Điều này giống như người xếp hàng mua vé, người đến trước (đầu tiên) sẽ được phục vụ trước."
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is not a sorting algorithm?",
+    "options": ["Merge Sort", "Bubble Sort", "Binary Search", "Insertion Sort"],
+    "correctAnswer": 2,
+    "explanation": "Binary Search is a searching algorithm, not a sorting algorithm. The other options (Merge Sort, Bubble Sort, Insertion Sort) are all sorting algorithms.\n\n**Vietnamese/Tiếng Việt**: Binary Search (Tìm kiếm nhị phân) là thuật toán tìm kiếm, không phải thuật toán sắp xếp. Các thuật toán còn lại (Merge Sort, Bubble Sort, Insertion Sort) đều là các thuật toán sắp xếp."
+  },
+  {
+    "id": 29,
+    "question": "The best-case time complexity of the bubble sort algorithm is:",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
+    "correctAnswer": 0,
+    "explanation": "The best-case time complexity of the bubble sort algorithm is O(n), which occurs when the array is already sorted. In this case, the algorithm only needs to traverse the array once and doesn't need to perform any swaps.\n\n**Vietnamese/Tiếng Việt**: Độ phức tạp thời gian tốt nhất của thuật toán sắp xếp nổi bọt (Bubble Sort) là O(n), xảy ra khi mảng đã được sắp xếp từ trước. Trong trường hợp này, thuật toán chỉ cần duyệt qua mảng một lần và không cần thực hiện bất kỳ phép đổi chỗ nào."
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is not a linear data structure?",
+    "options": ["Array", "Linked List", "Tree", "Stack"],
+    "correctAnswer": 2,
+    "explanation": "Tree is not a linear data structure but a non-linear data structure. Linear data structures like Array, Linked List, Stack have elements arranged in a linear order, while Tree has elements arranged in a hierarchical relationship.\n\n**Vietnamese/Tiếng Việt**: Cây (Tree) không phải là cấu trúc dữ liệu tuyến tính mà là cấu trúc dữ liệu phi tuyến tính. Các cấu trúc dữ liệu tuyến tính như Mảng (Array), Danh sách liên kết (Linked List), Ngăn xếp (Stack) có các phần tử được sắp xếp theo thứ tự tuyến tính, trong khi Cây có các phần tử được sắp xếp theo quan hệ phân cấp."
+  },
+  {
+    "id": 31,
+    "question": "In a full binary tree, how many children does each non-leaf node have?",
+    "options": ["0", "1", "2", "3"],
+    "correctAnswer": 2,
+    "explanation": "In a full binary tree, each non-leaf node (internal node) has exactly 2 children. In other words, each node either has 0 children (is a leaf node) or has 2 children (is an internal node).\n\n**Vietnamese/Tiếng Việt**: Trong cây nhị phân đầy đủ (Full Binary Tree), mỗi nút không phải là lá (nút trong) đều có đúng 2 con. Nói cách khác, mỗi nút hoặc có 0 con (là nút lá), hoặc có 2 con (là nút trong)."
+  },
+  {
+    "id": 32,
+    "question": "Which of the following algorithms uses the divide and conquer strategy?",
+    "options": ["Bubble Sort", "Insertion Sort", "Selection Sort", "Quick Sort"],
+    "correctAnswer": 3,
+    "explanation": "Quick Sort is a sorting algorithm that uses the divide and conquer strategy. This algorithm divides the array into two parts based on a pivot element, then recursively sorts these two parts.\n\n**Vietnamese/Tiếng Việt**: Quick Sort (Sắp xếp nhanh) là thuật toán sắp xếp sử dụng chiến lược chia để trị (divide and conquer). Thuật toán này chia mảng thành hai phần dựa trên một phần tử chốt (pivot), sau đó sắp xếp đệ quy hai phần này."
+  },
+  {
+    "id": 33,
+    "question": "In a binary search tree (BST), how does the value of a left child node compare to its parent node?",
+    "options": ["Always greater", "Always less", "Can be greater or less", "Equal"],
+    "correctAnswer": 1,
+    "explanation": "In a binary search tree (BST), the left child of a node always has a value less than the parent node. This is one of the fundamental properties of a binary search tree, which helps make searching, inserting, and deleting elements efficient.\n\n**Vietnamese/Tiếng Việt**: Trong cây nhị phân tìm kiếm (BST), nút con trái của một nút luôn có giá trị nhỏ hơn nút cha. Đây là một trong những tính chất cơ bản của cây nhị phân tìm kiếm, giúp việc tìm kiếm, chèn và xóa các phần tử được thực hiện hiệu quả."
+  },
+  {
+    "id": 34,
+    "question": "The binary search algorithm requires data to be:",
+    "options": ["Sorted", "Unsorted", "Integer", "String"],
+    "correctAnswer": 0,
+    "explanation": "The binary search algorithm requires data to be sorted before performing the search. This allows the algorithm to eliminate half of the data after each comparison, reducing the time complexity to O(log n).\n\n**Vietnamese/Tiếng Việt**: Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu phải được sắp xếp trước khi thực hiện tìm kiếm. Điều này cho phép thuật toán loại bỏ một nửa dữ liệu sau mỗi bước so sánh, giúp giảm độ phức tạp thời gian xuống còn O(log n)."
+  },
+  {
+    "id": 35,
+    "question": "The time complexity of the binary search algorithm is:",
+    "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+    "correctAnswer": 1,
+    "explanation": "The time complexity of the binary search algorithm is O(log n). This is because after each comparison, the algorithm eliminates half of the data that needs to be considered, significantly reducing the number of comparisons needed.\n\n**Vietnamese/Tiếng Việt**: Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search) là O(log n). Điều này là do sau mỗi bước so sánh, thuật toán loại bỏ một nửa dữ liệu cần xem xét, giúp giảm đáng kể số lượng phép so sánh cần thực hiện."
+  },
+  {
+    "id": 36,
+    "question": "In a tree data structure, a node with no children is called:",
+    "options": ["Root node", "Internal node", "Leaf node", "Sibling node"],
+    "correctAnswer": 2,
+    "explanation": "In a tree data structure, a node with no children is called a leaf node. Leaf nodes are typically found at the bottom level of the tree.\n\n**Vietnamese/Tiếng Việt**: Trong cấu trúc dữ liệu cây (Tree), nút không có nút con nào được gọi là nút lá (Leaf node). Các nút lá thường nằm ở tầng cuối cùng của cây."
+  },
+  {
+    "id": 37,
+    "question": "Which sorting algorithm has a best, average, and worst-case time complexity of O(n log n)?",
+    "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Insertion Sort"],
+    "correctAnswer": 1,
+    "explanation": "Merge Sort has a best, average, and worst-case time complexity of O(n log n). This is one of the advantages of Merge Sort compared to other sorting algorithms like Quick Sort (which has a worst-case complexity of O(n²)) or Insertion Sort (which has an average and worst-case complexity of O(n²)).\n\n**Vietnamese/Tiếng Việt**: Merge Sort (Sắp xếp trộn) có độ phức tạp thời gian tốt nhất, trung bình và xấu nhất đều là O(n log n). Đây là một trong những ưu điểm của Merge Sort so với các thuật toán sắp xếp khác như Quick Sort (có độ phức tạp xấu nhất là O(n²)) hay Insertion Sort (có độ phức tạp trung bình và xấu nhất là O(n²))."
+  },
+  {
+    "id": 38,
+    "question": "In a complete binary tree with n nodes, the height of the tree is:",
+    "options": ["log₂(n)", "log₂(n+1)", "⌊log₂(n)⌋", "⌈log₂(n+1)⌉"],
+    "correctAnswer": 2,
+    "explanation": "In a complete binary tree with n nodes, the height of the tree is ⌊log₂(n)⌋, which is the floor of log₂(n). For example, a complete binary tree with 7 nodes will have a height of ⌊log₂(7)⌋ = ⌊2.81⌋ = 2.\n\n**Vietnamese/Tiếng Việt**: Trong cây nhị phân hoàn chỉnh (Complete Binary Tree) có n nút, chiều cao của cây là ⌊log₂(n)⌋, tức là phần nguyên của log₂(n). Ví dụ, một cây nhị phân hoàn chỉnh có 7 nút sẽ có chiều cao là ⌊log₂(7)⌋ = ⌊2.81⌋ = 2."
+  },
+  {
+    "id": 39,
+    "question": "In a binary search tree (BST), which traversal will give the elements in ascending order?",
+    "options": ["Preorder traversal", "Inorder traversal", "Postorder traversal", "Level order traversal"],
+    "correctAnswer": 1,
+    "explanation": "In a binary search tree (BST), inorder traversal will give the elements in ascending order. This is because in a BST, elements in the left subtree are always less than the root node, and elements in the right subtree are always greater than the root node. When using inorder traversal (left - root - right), we visit the nodes in ascending order of values.\n\n**Vietnamese/Tiếng Việt**: Trong cây nhị phân tìm kiếm (BST), duyệt trung tự (Inorder) sẽ cho ra các phần tử theo thứ tự tăng dần. Điều này là do trong BST, các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Khi duyệt trung tự (trái - gốc - phải), ta sẽ thăm các nút theo thứ tự tăng dần của giá trị."
+  },
+  {
+    "id": 40,
+    "question": "In a singly linked list, to delete a node in the middle of the list, we need:",
+    "options": [
+      "To know the address of the node to be deleted",
+      "To know the address of the node before the node to be deleted",
+      "To know the address of the node after the node to be deleted",
+      "To know the addresses of both the node before and the node after the node to be deleted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a singly linked list, to delete a node in the middle of the list, we need to know the address of the node before the node to be deleted. This is because in a singly linked list, each node only has a pointer to the next node, not to the previous node. Therefore, to delete a node, we need to update the next pointer of the node before the node to be deleted to point to the node after the node to be deleted.\n\n**Vietnamese/Tiếng Việt**: Trong danh sách liên kết đơn, để xóa một nút ở giữa danh sách, ta cần biết địa chỉ của nút trước nút cần xóa. Điều này là do trong danh sách liên kết đơn, mỗi nút chỉ có con trỏ trỏ đến nút tiếp theo, không có con trỏ trỏ đến nút trước đó. Do đó, để xóa một nút, ta cần cập nhật con trỏ next của nút trước nút cần xóa để trỏ đến nút sau nút cần xóa."
+  }
+]

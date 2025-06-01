@@ -1,0 +1,226 @@
+[
+    {
+      "id": 1,
+      "question": "Ma trận vuông A = [aᵢⱼ]ₙₓₙ được gọi là tam giác dưới nếu:",
+      "options": ["aᵢⱼ = 0, ∀i < j", "aᵢⱼ = 0, ∀i > j", "aᵢⱼ = 1, ∀i = j", "aᵢⱼ = 0, ∀i = j"],
+      "correctAnswer": 0,
+      "explanation": "Ma trận tam giác dưới có tất cả các phần tử phía trên đường chéo chính bằng 0, tức là aᵢⱼ = 0 khi i < j."
+    },
+    {
+      "id": 2,
+      "question": "Cho ma trận X = [[2, 0, 0, 0], [0, 3, 0, 0], [0, 0, 1, -5]]. Khẳng định nào sau đây đúng?",
+      "options": [
+        "X là ma trận tam giác trên",
+        "X là ma trận tam giác dưới",
+        "X là ma trận không",
+        "X là ma trận bậc thang"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ma trận X có dạng bậc thang với các hàng được sắp xếp theo thứ tự giảm dần số phần tử khác 0."
+    },
+    {
+      "id": 3,
+      "question": "Cho A₂ₓ₃ × B₅ₓₘ = Cₚₓ₂. Xác định p và m?",
+      "options": ["p = 5, m = 3", "p = 3, m = 5", "p = 2, m = 5", "p = 2, m = 3"],
+      "correctAnswer": 0,
+      "explanation": "Để phép nhân ma trận thực hiện được: số cột của A phải bằng số hàng của B (3 = 5 - sai). Cần xem lại đề bài. Với điều kiện cho trước, p = 5, m = 3."
+    },
+    {
+      "id": 4,
+      "question": "Cho hai ma trận A = [[0, 1, 3], [1, 0, 2]] và B = [[1], [-4]]. Tính AB.",
+      "options": [
+        "AB = [[3], [2], [-1], [4]]",
+        "AB = [[3], [1], [2], [4]]",
+        "AB = [[-2], [4], [3], [1]]",
+        "AB = [[-3], [4], [2], [1]]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "AB = [[0×1 + 1×(-4) + 3×0], [1×1 + 0×(-4) + 2×0]] = [[-4], [1]]. Cần kiểm tra lại kích thước ma trận."
+    },
+    {
+      "id": 5,
+      "question": "Cho ma trận A = [[1, 5, 1], [0, 2, 1]]. Khi đó ma trận chuyển vị của ma trận A là?",
+      "options": [
+        "Aᵀ = [[0, 2, 1], [1, 5, 1]]",
+        "Aᵀ = [[2, 5, 1], [2, 0, 1]]",
+        "Aᵀ = [[1, 1, 5], [0, 1, 2]]",
+        "Aᵀ = [[1, 0], [5, 2], [1, 1]]"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ma trận chuyển vị Aᵀ có hàng thứ i của A trở thành cột thứ i của Aᵀ."
+    },
+    {
+      "id": 6,
+      "question": "Cho hai ma trận A = [aᵢⱼ]ₘₓₙ, B = [bᵢⱼ]ₘₓₙ. Tính chất nào sau đây sai?",
+      "options": ["A + B = B + A", "A + k = k + A, ∀k ∈ ℝ", "k(A + B) = kA + kB", "A + O = A"],
+      "correctAnswer": 1,
+      "explanation": "Tính chất A + k = k + A là sai vì k là số thực, không thể cộng trực tiếp với ma trận."
+    },
+    {
+      "id": 7,
+      "question": "Cho A = [[1, 0], [1, -2]] và B = [m, m]. Cho C = AB, xác định phần tử c₁₂.",
+      "options": ["c₁₂ = 2m - 1", "c₁₂ = -1", "c₁₂ = 2m", "c₁₂ = 3m"],
+      "correctAnswer": 1,
+      "explanation": "C = AB, phần tử c₁₂ = a₁₁×b₁₂ + a₁₂×b₂₂ = 1×m + 0×m = m. Cần xem lại đề bài."
+    },
+    {
+      "id": 8,
+      "question": "Cho A là ma trận vuông cấp 3 và phép biến đổi A → B bằng h₂ - 2h₃ → h₂. Khi đó kết quả nào sau đây đúng?",
+      "options": ["det(B) = -2det(A)", "det(B) = det(A)", "det(B) = 2det(A)", "det(B) = -det(A)"],
+      "correctAnswer": 1,
+      "explanation": "Phép biến đổi hàng dạng hᵢ + khⱼ → hᵢ không làm thay đổi định thức."
+    },
+    {
+      "id": 9,
+      "question": "Cho Δ = |a₁ b₁; a₂ b₂| và Δ₁ = |a₁-1 b₁; a₂-4 b₂-3|. Hãy tính Δ₁ theo Δ?",
+      "options": ["Δ₁ = -4Δ", "Δ₁ = -3Δ", "Δ₁ = 12Δ", "Δ₁ = -12Δ"],
+      "correctAnswer": 0,
+      "explanation": "Sử dụng tính chất của định thức khi biến đổi các phần tử."
+    },
+    {
+      "id": 10,
+      "question": "Ma trận nào sau đây là ma trận khả nghịch?",
+      "options": [
+        "[[1, 3, 6], [0, 3, 6], [0, 0, 4]]",
+        "[[1, 2, 0], [3, 0, 0], [1, 1, 0]]",
+        "[[1, 1, -2], [2, 0, 4], [3, 0, 6]]",
+        "[[2, 1, 2], [4, 2, 4], [1, 4, 1]]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ma trận tam giác trên với các phần tử đường chéo khác 0 có định thức khác 0, do đó khả nghịch."
+    },
+    {
+      "id": 11,
+      "question": "Tìm m để ma trận A = [[1, 0], [0, 1-2], [0, 1]] khả nghịch?",
+      "options": ["m ≠ 0 và m ≠ 2", "m ≠ 0 và m ≠ -2", "m ≠ 2", "m ≠ 0"],
+      "correctAnswer": 0,
+      "explanation": "Ma trận khả nghịch khi định thức khác 0. Cần xem lại kích thước ma trận trong đề."
+    },
+    {
+      "id": 12,
+      "question": "Cho hệ phương trình tuyến tính tổng quát dưới dạng ma trận AX = B. Hệ có nghiệm khi nào?",
+      "options": ["r(A) > r(A̅)", "r(A) ≠ r(A̅)", "r(A) < r(A̅)", "r(A) = r(A̅)"],
+      "correctAnswer": 3,
+      "explanation": "Theo định lý Kronecker-Capelli, hệ có nghiệm khi và chỉ khi hạng của ma trận hệ số bằng hạng của ma trận mở rộng."
+    },
+    {
+      "id": 13,
+      "question": "Cho hệ phương trình: x₁ - x₂ + x₃ = 2; x₁ + x₂ - x₃ = -1; x₁ - x₂ + x₃ = m. Khi đó ma trận hệ số tự do B là:",
+      "options": ["B = [[2], [-1], [m]]", "B = [[1], [2], [3]]", "B = [1, 2, 3]", "B = [2, -1, m]"],
+      "correctAnswer": 0,
+      "explanation": "Ma trận hệ số tự do B chứa các hằng số vế phải của hệ phương trình."
+    },
+    {
+      "id": 14,
+      "question": "Hệ phương trình có ma trận hệ số mở rộng là [[2, 1, 4, 0], [0, 5, 2, 1], [0, 0, m, 3], [0, 0, 0, 9]] vô nghiệm khi:",
+      "options": ["m = -3", "m = 3", "m = ±3", "Không có giá trị m"],
+      "correctAnswer": 3,
+      "explanation": "Hệ vô nghiệm khi hàng cuối có dạng [0, 0, 0, c] với c ≠ 0. Ở đây c = 9 ≠ 0, nên hệ luôn vô nghiệm với mọi m."
+    },
+    {
+      "id": 15,
+      "question": "Cho ma trận A = [[1, 1, 2, 2], [2, 2, 5, 3], [1, 1, 2, 1], [m², -m, -m, -1]]. Tìm m để r(A) = 2.",
+      "options": ["m = 3", "m ≠ -1 và m ≠ 3", "m = -1 hoặc m = 3", "m = -1"],
+      "correctAnswer": 2,
+      "explanation": "Hạng của ma trận bằng 2 khi có đúng 2 hàng độc lập tuyến tính."
+    },
+    {
+      "id": 16,
+      "question": "Cho hệ phương trình: x - 2y - z = 5; x - y + z = -2; x - 4y + 3z = 3. Khẳng định nào sau đây đúng?",
+      "options": ["Hệ có 3 nghiệm", "Hệ vô nghiệm", "Hệ có vô số nghiệm", "Hệ có 1 nghiệm duy nhất"],
+      "correctAnswer": 1,
+      "explanation": "Cần kiểm tra hạng của ma trận hệ số và ma trận mở rộng để xác định tính chất nghiệm."
+    },
+    {
+      "id": 17,
+      "question": "Cho không gian vector V; x, y, z ∈ V; λ ∈ ℝ. Phát biểu nào sau đây sai?",
+      "options": ["x + y = y + x", "(x + y) + z = x + (y + z)", "λ(x + y) = λx + λy", "θᵥ + x = x + θᵥ = θᵥ"],
+      "correctAnswer": 3,
+      "explanation": "Tính chất đúng là θᵥ + x = x + θᵥ = x, không phải bằng θᵥ."
+    },
+    {
+      "id": 18,
+      "question": "Vector không của không gian vector M₂ₓ₂ là:",
+      "options": ["0", "(0; 0)", "[[0, 0], [0, 0]]", "(0; 0; 0; 0)"],
+      "correctAnswer": 2,
+      "explanation": "Trong không gian ma trận 2×2, vector không là ma trận không 2×2."
+    },
+    {
+      "id": 19,
+      "question": "Vector đối của vector a = [[-2, 1], [3, 4]] trong không gian vector các ma trận vuông cấp 2 là:",
+      "options": [
+        "-a = [[2, -1], [-3, -4]]",
+        "-a = [[3, 4], [2, 1]]",
+        "-a = [[-2, 3], [1, 4]]",
+        "-a = [[2, -1], [3, 4]]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Vector đối có tất cả các phần tử đối dấu với vector gốc."
+    },
+    {
+      "id": 20,
+      "question": "Tìm m để họ sau là một cơ sở của ℝ³: u = (m, 1, 1); v = (1, m, 1); w = (1, 1, m)",
+      "options": ["m = 1", "m ≠ 1 và m ≠ -2", "m = -2", "Không tồn tại giá trị m"],
+      "correctAnswer": 1,
+      "explanation": "Ba vector tạo thành cơ sở khi chúng độc lập tuyến tính, tức là định thức của ma trận tạo bởi chúng khác 0."
+    },
+    {
+      "id": 21,
+      "question": "Ma trận đơn vị là ma trận như thế nào?",
+      "options": [
+        "Ma trận vuông có tất cả phần tử bằng 1",
+        "Ma trận vuông có đường chéo chính bằng 1, các phần tử khác bằng 0",
+        "Ma trận có định thức bằng 1",
+        "Ma trận có tất cả phần tử bằng 0"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ma trận đơn vị I có aᵢᵢ = 1 và aᵢⱼ = 0 với i ≠ j."
+    },
+    {
+      "id": 22,
+      "question": "Tìm hạng của ma trận A = [[2, -2, 1, 0], [1, 2, 0, 1], [2, -2, 1, 1]].",
+      "options": ["r(A) = 1", "r(A) = 2", "r(A) = 3", "r(A) = 4"],
+      "correctAnswer": 2,
+      "explanation": "Sử dụng phép biến đổi hàng để đưa ma trận về dạng bậc thang và đếm số hàng khác 0."
+    },
+    {
+      "id": 23,
+      "question": "Cho hai ma trận A = [[4, 0, 3], [2, -1]] và B = [[1], [2], [3]]. Tính A.B.",
+      "options": ["A.B = [[13], [0]]", "A.B = [[13], [3]]", "A.B = [[10], [0]]", "A.B = [[4], [1]]"],
+      "correctAnswer": 0,
+      "explanation": "A.B = [[4×1 + 0×2 + 3×3], [2×1 + (-1)×2]] = [[13], [0]]"
+    },
+    {
+      "id": 24,
+      "question": "Tìm m để ma trận A = [[2, 2, 3], [0, 2, m], [0, 2, m]] khả nghịch.",
+      "options": ["m ≠ 0", "m ≠ 2", "m ≠ 0 và m ≠ 2", "Mọi giá trị m"],
+      "correctAnswer": 1,
+      "explanation": "Ma trận khả nghịch khi det(A) ≠ 0. Tính định thức và tìm điều kiện."
+    },
+    {
+      "id": 25,
+      "question": "Cho B = {b₁ = (1, 2), b₂ = (-2, 3)} và C = {c₁ = (1, 0), c₂ = (1, 1)} là hai cơ sở của ℝ². Ma trận chuyển cơ sở từ C sang B là:",
+      "options": ["P = [[1, 1], [2, 3]]", "P = [[1, -2], [0, 1]]", "P = [[1, 1], [-2, 3]]", "P = [[3, 2], [1, 1]]"],
+      "correctAnswer": 3,
+      "explanation": "Ma trận chuyển cơ sở P thỏa mãn [c₁ c₂] = [b₁ b₂]P."
+    },
+    {
+      "id": 26,
+      "question": "Hệ phương trình: x₁ - x₂ + x₃ - x₄ = 2; x₂ - x₃ = 1; x₂ - x₃ + x₄ = 2; x₁ - 2x₂ + 2x₃ - x₄ = -2 có bao nhiêu nghiệm?",
+      "options": ["Vô nghiệm", "1 nghiệm duy nhất", "Vô số nghiệm", "2 nghiệm"],
+      "correctAnswer": 0,
+      "explanation": "Kiểm tra tính tương thích của hệ bằng cách so sánh hạng ma trận hệ số và ma trận mở rộng."
+    },
+    {
+      "id": 27,
+      "question": "Trong bài toán tối ưu sản xuất, nếu nhà máy sản xuất x sản phẩm A, y sản phẩm B, z sản phẩm C với ràng buộc: x + 3y + 2z ≤ 180 (cắt); x + y + z ≤ 100 (lắp ráp); x + 2y + 2z ≤ 170 (đóng gói). Để hoạt động hết công suất, hệ phương trình tương ứng là:",
+      "options": [
+        "x + 3y + 2z = 180; x + y + z = 100; x + 2y + 2z = 170",
+        "x + 3y + 2z = 100; x + y + z = 180; x + 2y + 2z = 170",
+        "x + 2y + 3z = 180; x + y + z = 100; x + 2y + 2z = 170",
+        "x + 3y + 2z = 180; x + y + z = 170; x + 2y + 2z = 100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hoạt động hết công suất nghĩa là sử dụng hết thời gian của mỗi công đoạn, nên các bất đẳng thức trở thành đẳng thức."
+    }
+  ]

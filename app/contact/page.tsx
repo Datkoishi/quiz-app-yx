@@ -59,8 +59,8 @@ export default function ContactPage() {
                 <CardTitle>Điện Thoại</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-600 dark:text-gray-400">+84 123 456 789</p>
-                <p className="text-gray-600 dark:text-gray-400">+84 987 654 321</p>
+                <p className="text-gray-600 dark:text-gray-400">+84 372254972</p>
+                <p className="text-gray-600 dark:text-gray-400">+84 000000000</p>
               </CardContent>
             </Card>
 
@@ -72,8 +72,8 @@ export default function ContactPage() {
                 <CardTitle>Email</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-600 dark:text-gray-400">info@quizviet.com</p>
-                <p className="text-gray-600 dark:text-gray-400">support@quizviet.com</p>
+                <p className="text-gray-600 dark:text-gray-400">https://truongdat.glitch.me/</p>
+                <p className="text-gray-600 dark:text-gray-400">https://truongdat.glitch.me/</p>
               </CardContent>
             </Card>
 
@@ -85,8 +85,8 @@ export default function ContactPage() {
                 <CardTitle>Địa Chỉ</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-600 dark:text-gray-400">123 Đường ABC, Quận XYZ</p>
-                <p className="text-gray-600 dark:text-gray-400">Thành phố Hồ Chí Minh, Việt Nam</p>
+                <p className="text-gray-600 dark:text-gray-400">TP Da Nang</p>
+                <p className="text-gray-600 dark:text-gray-400"> Việt Nam</p>
               </CardContent>
             </Card>
           </div>

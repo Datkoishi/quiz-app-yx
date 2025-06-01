@@ -1,0 +1,844 @@
+[
+  {
+    "id": 1,
+    "question": "The IETF standards documents are called ________",
+    "options": ["RFC", "RCF", "ID", "DFC"],
+    "correctAnswer": 0,
+    "explanation": "RFC stands for Request for Comments, which are the official documents published by the Internet Engineering Task Force (IETF) that describe methods, behaviors, research, or innovations applicable to the working of the Internet."
+  },
+  {
+    "id": 2,
+    "question": "The first Network was called ________",
+    "options": ["CNNET", "NSFNET", "ASAPNET", "ARPANET"],
+    "correctAnswer": 3,
+    "explanation": "ARPANET (Advanced Research Projects Agency Network) was the first wide-area network and the predecessor of the modern Internet, developed by DARPA in the late 1960s."
+  },
+  {
+    "id": 3,
+    "question": "Which of this is not a network edge device?",
+    "options": ["PC", "Smartphones", "Servers", "Switch"],
+    "correctAnswer": 3,
+    "explanation": "A switch is a network infrastructure device that operates at the data link layer, not an edge device. Edge devices are end-user devices like PCs, smartphones, and servers that connect to the network."
+  },
+  {
+    "id": 4,
+    "question": "A _________ set of rules that governs data communication.",
+    "options": ["Protocols", "Standards", "RFCs", "Servers"],
+    "correctAnswer": 0,
+    "explanation": "Protocols are formal sets of rules and conventions that govern how data is transmitted and received over a network."
+  },
+  {
+    "id": 5,
+    "question": "When collection of various computers seems a single coherent system to its client, then it is called _________",
+    "options": ["computer network", "distributed system", "networking system", "mail system"],
+    "correctAnswer": 1,
+    "explanation": "A distributed system is a collection of independent computers that appears to its users as a single coherent system, hiding the complexity of the underlying infrastructure."
+  },
+  {
+    "id": 6,
+    "question": "Two devices are in network if __________",
+    "options": [
+      "a process in one device is able to exchange information with a process in another device",
+      "a process is running on both devices",
+      "PIDs of the processes running on different devices are same",
+      "a process is active and another is inactive"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Two devices are considered to be in a network when processes running on them can communicate and exchange information with each other."
+  },
+  {
+    "id": 7,
+    "question": "In computer network nodes are _________",
+    "options": [
+      "the computer that originates the data",
+      "the computer that routes the data",
+      "the computer that terminates the data",
+      "all of the mentioned"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In a computer network, nodes can be any device that can send, receive, or forward data - including source computers, routers, and destination computers."
+  },
+  {
+    "id": 8,
+    "question": "Communication channel is shared by all the machines on the network in ________",
+    "options": ["broadcast network", "unicast network", "multicast network", "anycast network"],
+    "correctAnswer": 0,
+    "explanation": "In a broadcast network, all machines share a single communication channel, and messages sent by any machine are received by all other machines on the network."
+  },
+  {
+    "id": 9,
+    "question": "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
+    "options": ["bridge", "firewall", "router", "hub"],
+    "correctAnswer": 2,
+    "explanation": "A router is a networking device that forwards data packets between computer networks by examining the routing information in the packet headers."
+  },
+  {
+    "id": 10,
+    "question": "A list of protocols used by a system, one protocol per layer, is called ________",
+    "options": ["protocol architecture", "protocol stack", "protocol suite", "protocol system"],
+    "correctAnswer": 2,
+    "explanation": "A protocol suite is a collection of protocols that work together to provide network services, with typically one protocol per layer of the network model."
+  },
+  {
+    "id": 11,
+    "question": "How many layers are present in the Internet protocol stack (TCP/IP model)?",
+    "options": ["5", "7", "6", "10"],
+    "correctAnswer": 0,
+    "explanation": "The TCP/IP model has 5 layers: Physical, Data Link, Network, Transport, and Application layers."
+  },
+  {
+    "id": 12,
+    "question": "The number of layers in ISO OSI reference model is __________",
+    "options": ["5", "7", "6", "10"],
+    "correctAnswer": 1,
+    "explanation": "The OSI (Open Systems Interconnection) model has 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+  },
+  {
+    "id": 13,
+    "question": "In TCP IP Model, when data is sent from device A to device B, the 5th layer to receive data at B is ____________",
+    "options": ["Application layer", "Transport layer", "Link layer", "Session layer"],
+    "correctAnswer": 0,
+    "explanation": "In the TCP/IP model, the Application layer is the 5th and topmost layer that receives data at the destination device."
+  },
+  {
+    "id": 14,
+    "question": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______",
+    "options": ["Added", "Removed", "Rearranged", "Randomized"],
+    "correctAnswer": 1,
+    "explanation": "As data moves up the OSI layers during reception, headers added by corresponding layers during transmission are removed (decapsulation process)."
+  },
+  {
+    "id": 15,
+    "question": "The number of layers in ISO OSI reference model is __________",
+    "options": ["4", "5", "6", "7"],
+    "correctAnswer": 3,
+    "explanation": "The ISO OSI reference model consists of 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application."
+  },
+  {
+    "id": 16,
+    "question": "TCP/IP model does not have ______ layer but OSI model have this layer.",
+    "options": ["session layer", "transport layer", "application layer", "network layer"],
+    "correctAnswer": 0,
+    "explanation": "The TCP/IP model does not have a separate Session layer, while the OSI model includes the Session layer as the 5th layer."
+  },
+  {
+    "id": 17,
+    "question": "Which layer is used to link the network support layers and user support layers?",
+    "options": ["session layer", "data link layer", "transport layer", "network layer"],
+    "correctAnswer": 0,
+    "explanation": "The Session layer in the OSI model serves as a bridge between the network support layers (Physical, Data Link, Network) and user support layers (Presentation, Application)."
+  },
+  {
+    "id": 18,
+    "question": "Which address is used on the internet for employing the TCP/IP protocols?",
+    "options": ["physical address and logical address", "port address", "specific address", "all of the mentioned"],
+    "correctAnswer": 0,
+    "explanation": "TCP/IP protocols use both physical addresses (MAC addresses) at the data link layer and logical addresses (IP addresses) at the network layer."
+  },
+  {
+    "id": 19,
+    "question": "TCP/IP model was developed _____ the OSI model.",
+    "options": ["prior to", "after", "simultaneous to", "with no link to"],
+    "correctAnswer": 0,
+    "explanation": "The TCP/IP model was developed in the 1970s for ARPANET, before the OSI model which was developed in the 1980s."
+  },
+  {
+    "id": 20,
+    "question": "Which layer is responsible for process to process delivery in a general network model?",
+    "options": ["network layer", "transport layer", "session layer", "data link layer"],
+    "correctAnswer": 1,
+    "explanation": "The Transport layer is responsible for process-to-process delivery, ensuring data reaches the correct application process on the destination host."
+  },
+  {
+    "id": 21,
+    "question": "Which address is used to identify a process on a host by the transport layer?",
+    "options": ["physical address", "logical address", "port address", "specific address"],
+    "correctAnswer": 2,
+    "explanation": "Port addresses (port numbers) are used by the transport layer to identify specific processes or applications running on a host."
+  },
+  {
+    "id": 22,
+    "question": "Transmission data rate is decided by ____________",
+    "options": ["network layer", "physical layer", "data link layer", "transport layer"],
+    "correctAnswer": 1,
+    "explanation": "The Physical layer determines the transmission data rate as it deals with the actual transmission of raw bits over the physical medium."
+  },
+  {
+    "id": 23,
+    "question": "The physical layer is concerned with ___________",
+    "options": [
+      "bit-by-bit delivery",
+      "process to process delivery",
+      "application to application delivery",
+      "port to port delivery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Physical layer is responsible for bit-by-bit delivery, handling the transmission of individual bits over the physical medium."
+  },
+  {
+    "id": 24,
+    "question": "Which transmission media provides the highest transmission speed in a network?",
+    "options": ["coaxial cable", "twisted pair cable", "optical fiber", "electrical cable"],
+    "correctAnswer": 2,
+    "explanation": "Optical fiber provides the highest transmission speed and bandwidth among common transmission media, using light signals instead of electrical signals."
+  },
+  {
+    "id": 25,
+    "question": "Bits can be sent over guided and unguided media as analog signal by ___________",
+    "options": ["digital modulation", "amplitude modulation", "frequency modulation", "phase modulation"],
+    "correctAnswer": 0,
+    "explanation": "Digital modulation is the process of converting digital bits into analog signals for transmission over both guided and unguided media."
+  },
+  {
+    "id": 26,
+    "question": "The physical layer provides __________",
+    "options": [
+      "mechanical specifications of electrical connectors and cables",
+      "electrical specification of transmission line signal level",
+      "specification for IR over optical fiber",
+      "all of the mentioned"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Physical layer provides all these specifications: mechanical (connectors, cables), electrical (signal levels), and optical (fiber specifications)."
+  },
+  {
+    "id": 27,
+    "question": "The physical layer translates logical communication requests from the ______ into hardware specific operations.",
+    "options": ["data link layer", "network layer", "transport layer", "application layer"],
+    "correctAnswer": 0,
+    "explanation": "The Physical layer receives logical communication requests from the Data Link layer and translates them into hardware-specific operations."
+  },
+  {
+    "id": 28,
+    "question": "A single channel is shared by multiple signals by ____________",
+    "options": ["analog modulation", "digital modulation", "multiplexing", "phase modulation"],
+    "correctAnswer": 2,
+    "explanation": "Multiplexing is the technique that allows multiple signals to share a single communication channel simultaneously."
+  },
+  {
+    "id": 29,
+    "question": "Wireless transmission of signals can be done via ___________",
+    "options": ["radio waves", "microwaves", "infrared", "all of the mentioned"],
+    "correctAnswer": 3,
+    "explanation": "Wireless transmission can use various electromagnetic waves including radio waves, microwaves, and infrared signals."
+  },
+  {
+    "id": 30,
+    "question": "The data link layer takes the packets from _________ and encapsulates them into frames for transmission.",
+    "options": ["network layer", "physical layer", "transport layer", "application layer"],
+    "correctAnswer": 0,
+    "explanation": "The Data Link layer receives packets from the Network layer and encapsulates them into frames by adding headers and trailers."
+  },
+  {
+    "id": 31,
+    "question": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+    "options": [
+      "logical link control sublayer",
+      "media access control sublayer",
+      "network interface control sublayer",
+      "error control sublayer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Media Access Control (MAC) sublayer performs functions that depend on the specific type of transmission medium being used."
+  },
+  {
+    "id": 32,
+    "question": "Header of a frame generally contains ______________",
+    "options": ["synchronization bytes", "addresses", "frame identifier", "all of the mentioned"],
+    "correctAnswer": 3,
+    "explanation": "Frame headers typically contain synchronization bytes, source and destination addresses, frame identifiers, and other control information."
+  },
+  {
+    "id": 33,
+    "question": "Automatic repeat request error management mechanism is provided by ________",
+    "options": [
+      "logical link control sublayer",
+      "media access control sublayer",
+      "network interface control sublayer",
+      "application access control sublayer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Logical Link Control (LLC) sublayer provides error management mechanisms including Automatic Repeat Request (ARQ)."
+  },
+  {
+    "id": 34,
+    "question": "CRC stands for __________",
+    "options": ["cyclic redundancy check", "code repeat check", "code redundancy check", "cyclic repeat check"],
+    "correctAnswer": 0,
+    "explanation": "CRC stands for Cyclic Redundancy Check, which is an error detection method used to detect changes in data."
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is the multiple access protocol for channel access control?",
+    "options": ["CSMA/CD", "CSMA/CA", "Both CSMA/CD & CSMA/CA", "HDLC"],
+    "correctAnswer": 2,
+    "explanation": "Both CSMA/CD (Carrier Sense Multiple Access with Collision Detection) and CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) are multiple access protocols for channel access control."
+  },
+  {
+    "id": 36,
+    "question": "Transport layer aggregates data from different applications into a single stream before passing it to ____________",
+    "options": ["network layer", "data link layer", "application layer", "physical layer"],
+    "correctAnswer": 0,
+    "explanation": "The Transport layer aggregates data from multiple applications and passes it down to the Network layer for routing."
+  },
+  {
+    "id": 37,
+    "question": "User datagram protocol is called connectionless because _____________",
+    "options": [
+      "all UDP packets are treated independently by transport layer",
+      "it sends data as a stream of related packets",
+      "it is received in the same order as sent order",
+      "it sends data very quickly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP is connectionless because each UDP packet (datagram) is treated independently, without establishing a connection or maintaining state information."
+  },
+  {
+    "id": 38,
+    "question": "Transmission control protocol ___________",
+    "options": [
+      "is a connection-oriented protocol",
+      "uses a three way handshake to establish a connection",
+      "receives data from application as a single stream",
+      "all of the mentioned"
+    ],
+    "correctAnswer": 3,
+    "explanation": "TCP is connection-oriented, uses a three-way handshake for connection establishment, and treats application data as a continuous stream."
+  },
+  {
+    "id": 39,
+    "question": "An endpoint of an inter-process communication flow across a computer network is called __________",
+    "options": ["socket", "pipe", "port", "machine"],
+    "correctAnswer": 0,
+    "explanation": "A socket is an endpoint of a two-way communication link between two programs running on the network, providing an interface for inter-process communication."
+  },
+  {
+    "id": 40,
+    "question": "Which one of the following is a version of UDP with congestion control?",
+    "options": [
+      "datagram congestion control protocol",
+      "stream control transmission protocol",
+      "structured stream transport",
+      "user congestion control protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DCCP (Datagram Congestion Control Protocol) is a transport layer protocol that provides congestion control for UDP-like applications."
+  },
+  {
+    "id": 41,
+    "question": "A _____ is a TCP name for a transport service access point.",
+    "options": ["port", "pipe", "node", "protocol"],
+    "correctAnswer": 0,
+    "explanation": "In TCP terminology, a port is the name for a transport service access point, which identifies specific processes or services running on a host."
+  },
+  {
+    "id": 42,
+    "question": "Transport layer protocols deals with ____________",
+    "options": [
+      "application to application communication",
+      "process to process communication",
+      "node to node communication",
+      "man to man communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transport layer protocols handle process-to-process communication, ensuring data is delivered to the correct application process on the destination host."
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is a transport layer protocol?",
+    "options": [
+      "stream control transmission protocol",
+      "internet control message protocol",
+      "neighbor discovery protocol",
+      "dynamic host configuration protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SCTP (Stream Control Transmission Protocol) is a transport layer protocol that provides reliable, message-oriented communication."
+  },
+  {
+    "id": 44,
+    "question": "The network layer is concerned with __________ of data.",
+    "options": ["bits", "frames", "packets", "bytes"],
+    "correctAnswer": 2,
+    "explanation": "The Network layer deals with packets, which are the data units at this layer responsible for routing data across different networks."
+  },
+  {
+    "id": 45,
+    "question": "A 4 byte IP address consists of __________",
+    "options": [
+      "only network address",
+      "only host address",
+      "network address & host address",
+      "network address & MAC address"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An IPv4 address consists of both network address and host address portions, which are determined by the subnet mask."
+  },
+  {
+    "id": 46,
+    "question": "Which of the following routing algorithms can be used for network layer design?",
+    "options": ["shortest path algorithm", "distance vector routing", "link state routing", "all of the mentioned"],
+    "correctAnswer": 3,
+    "explanation": "All mentioned algorithms (shortest path, distance vector, and link state routing) are valid routing algorithms used in network layer design."
+  },
+  {
+    "id": 47,
+    "question": "Which one of the following algorithm is not used for congestion control?",
+    "options": ["traffic aware routing", "admission control", "load shedding", "routing information protocol"],
+    "correctAnswer": 3,
+    "explanation": "RIP (Routing Information Protocol) is a routing protocol, not a congestion control algorithm. The others are legitimate congestion control techniques."
+  },
+  {
+    "id": 48,
+    "question": "The network layer protocol for internet is __________",
+    "options": ["ethernet", "internet protocol", "hypertext transfer protocol", "file transfer protocol"],
+    "correctAnswer": 1,
+    "explanation": "IP (Internet Protocol) is the primary network layer protocol for the Internet, responsible for addressing and routing packets across networks."
+  },
+  {
+    "id": 49,
+    "question": "Which is not a application layer protocol?",
+    "options": ["HTTP", "SMTP", "FTP", "TCP"],
+    "correctAnswer": 3,
+    "explanation": "TCP is a transport layer protocol, not an application layer protocol. HTTP, SMTP, and FTP are all application layer protocols."
+  },
+  {
+    "id": 50,
+    "question": "The packet of information at the application layer is called __________",
+    "options": ["Packet", "Message", "Segment", "Frame"],
+    "correctAnswer": 1,
+    "explanation": "At the application layer, the data unit is called a message, which contains the actual application data being transmitted."
+  },
+  {
+    "id": 51,
+    "question": "Which one of the following is an architecture paradigms?",
+    "options": ["Peer to peer", "Client-server", "HTTP", "Both Peer-to-Peer & Client-Server"],
+    "correctAnswer": 3,
+    "explanation": "Both Peer-to-Peer and Client-Server are network architecture paradigms that define how applications are structured and communicate."
+  },
+  {
+    "id": 52,
+    "question": "Application developer has permission to decide the following on transport layer side",
+    "options": [
+      "Transport layer protocol",
+      "Maximum buffer size",
+      "Both Transport layer protocol and Maximum buffer size",
+      "None of the mentioned"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Application developers can choose the transport layer protocol (TCP or UDP) and set maximum buffer sizes for their applications."
+  },
+  {
+    "id": 53,
+    "question": "Application layer offers _______ service.",
+    "options": ["End to end", "Process to process", "Both End to end and Process to process", "None of the mentioned"],
+    "correctAnswer": 2,
+    "explanation": "The application layer provides both end-to-end communication services and process-to-process communication for applications."
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is an application layer service?",
+    "options": [
+      "Network virtual terminal",
+      "File transfer, access, and management",
+      "Mail service",
+      "All of the mentioned"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All mentioned services (network virtual terminal, file transfer/access/management, and mail service) are provided by the application layer."
+  },
+  {
+    "id": 55,
+    "question": "To deliver a message to the correct application program running on a host, the _______ address must be consulted.",
+    "options": ["IP", "MAC", "Port", "None of the mentioned"],
+    "correctAnswer": 2,
+    "explanation": "Port addresses are used to identify specific application programs or processes running on a host for message delivery."
+  },
+  {
+    "id": 56,
+    "question": "Electronic mail uses which Application layer protocol?",
+    "options": ["SMTP", "HTTP", "FTP", "SIP"],
+    "correctAnswer": 0,
+    "explanation": "SMTP (Simple Mail Transfer Protocol) is the primary application layer protocol used for sending electronic mail."
+  },
+  {
+    "id": 57,
+    "question": "The entire hostname has a maximum of ___________",
+    "options": ["255 characters", "127 characters", "63 characters", "31 characters"],
+    "correctAnswer": 0,
+    "explanation": "A fully qualified domain name (hostname) can have a maximum length of 255 characters including the dots."
+  },
+  {
+    "id": 58,
+    "question": "A DNS client is called _________",
+    "options": ["DNS updater", "DNS resolver", "DNS handler", "none of the mentioned"],
+    "correctAnswer": 1,
+    "explanation": "A DNS resolver is the client-side component that queries DNS servers to resolve domain names to IP addresses."
+  },
+  {
+    "id": 59,
+    "question": "Servers handle requests for other domains _______",
+    "options": ["directly", "by contacting remote DNS server", "it is not possible", "none of the mentioned"],
+    "correctAnswer": 1,
+    "explanation": "When a DNS server receives a request for a domain it doesn't handle, it contacts remote DNS servers to resolve the query."
+  },
+  {
+    "id": 60,
+    "question": "DNS database contains _______",
+    "options": ["name server records", "hostname-to-address records", "hostname aliases", "all of the mentioned"],
+    "correctAnswer": 3,
+    "explanation": "DNS databases contain various types of records including name server records, hostname-to-address mappings, and hostname aliases."
+  },
+  {
+    "id": 61,
+    "question": "Which one of the following allows client to update their DNS entry as their IP address change?",
+    "options": ["dynamic DNS", "mail transfer agent", "authoritative name server", "none of the mentioned"],
+    "correctAnswer": 0,
+    "explanation": "Dynamic DNS allows clients to automatically update their DNS records when their IP addresses change, useful for dynamic IP assignments."
+  },
+  {
+    "id": 62,
+    "question": "The right to use a domain name is delegated by domain name registers which are accredited by _______",
+    "options": [
+      "internet architecture board",
+      "internet society",
+      "internet research task force",
+      "internet corporation for assigned names and numbers"
+    ],
+    "correctAnswer": 3,
+    "explanation": "ICANN (Internet Corporation for Assigned Names and Numbers) accredits domain name registrars who delegate the right to use domain names."
+  },
+  {
+    "id": 63,
+    "question": "The domain name system is maintained by _______",
+    "options": ["distributed database system", "a single server", "a single computer", "none of the mentioned"],
+    "correctAnswer": 0,
+    "explanation": "DNS is maintained by a distributed database system with multiple servers worldwide, providing redundancy and scalability."
+  },
+  {
+    "id": 64,
+    "question": "A piece of icon or image on a web page associated with another webpage is called ______",
+    "options": ["url", "hyperlink", "plugin", "extension"],
+    "correctAnswer": 1,
+    "explanation": "A hyperlink is a clickable element (text, image, or icon) on a web page that links to another webpage or resource."
+  },
+  {
+    "id": 65,
+    "question": "Dynamic web page ______",
+    "options": [
+      "is same every time whenever it displays",
+      "generates on demand by a program or a request from browser",
+      "both is same every time whenever it displays and generates on demand by a program or a request from browser",
+      "is different always in a predefined order"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dynamic web pages are generated on demand by server-side programs in response to browser requests, allowing for personalized content."
+  },
+  {
+    "id": 66,
+    "question": "What is a web browser?",
+    "options": [
+      "a program that can display a web page",
+      "a program used to view html documents",
+      "it enables user to access the resources of internet",
+      "all of the mentioned"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A web browser is all of the mentioned: it displays web pages, views HTML documents, and enables users to access internet resources."
+  },
+  {
+    "id": 67,
+    "question": "Common gateway interface is used to _______",
+    "options": [
+      "generate executable files from web content by web server",
+      "generate web pages",
+      "stream videos",
+      "download media files"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CGI (Common Gateway Interface) is used by web servers to execute external programs and generate dynamic content in response to web requests."
+  },
+  {
+    "id": 68,
+    "question": "URL stands for ________",
+    "options": [
+      "unique reference label",
+      "uniform reference label",
+      "uniform resource locator",
+      "unique resource locator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "URL stands for Uniform Resource Locator, which is a reference to a web resource that specifies its location on a computer network."
+  },
+  {
+    "id": 69,
+    "question": "A web cookie is a small piece of data that is _______",
+    "options": [
+      "sent from a website and stored in user's web browser while a user is browsing a website",
+      "sent from user and stored in the server while a user is browsing a website",
+      "sent from root server to all servers",
+      "sent from the root server to other root servers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A web cookie is a small piece of data sent from a website and stored in the user's web browser to remember information about the user."
+  },
+  {
+    "id": 70,
+    "question": "The TTL field has value 10. How many routers (max) can process this datagram?",
+    "options": ["11", "5", "10", "1"],
+    "correctAnswer": 2,
+    "explanation": "TTL (Time To Live) field indicates the maximum number of hops (routers) a packet can traverse. With TTL=10, maximum 10 routers can process the datagram."
+  },
+  {
+    "id": 71,
+    "question": "What should be the flag value to indicate the last fragment?",
+    "options": ["0", "1", "TTL value", "Protocol field value"],
+    "correctAnswer": 0,
+    "explanation": "In IP fragmentation, the More Fragments (MF) flag is set to 0 to indicate the last fragment of a fragmented packet."
+  },
+  {
+    "id": 72,
+    "question": "In classless addressing, there are no classes but addresses are still granted in ______",
+    "options": ["IPs", "Blocks", "Codes", "Sizes"],
+    "correctAnswer": 1,
+    "explanation": "In classless addressing (CIDR), IP addresses are allocated in blocks of contiguous addresses rather than fixed classes."
+  },
+  {
+    "id": 73,
+    "question": "In IPv4 Addresses, classful addressing is replaced with ________",
+    "options": ["Classless Addressing", "Classful Addressing", "Classful Advertising", "Classless Advertising"],
+    "correctAnswer": 0,
+    "explanation": "Classful addressing in IPv4 has been replaced with Classless Inter-Domain Routing (CIDR) or classless addressing for more efficient IP allocation."
+  },
+  {
+    "id": 74,
+    "question": "First address in a block is used as network address that represents the ________",
+    "options": ["Class Network", "Entity", "Organization", "Codes"],
+    "correctAnswer": 1,
+    "explanation": "The first address in a block serves as the network address that represents the entire network entity or organization."
+  },
+  {
+    "id": 75,
+    "question": "Network addresses are a very important concept of ________",
+    "options": ["Routing", "Mask", "IP Addressing", "Classless Addressing"],
+    "correctAnswer": 0,
+    "explanation": "Network addresses are crucial for routing as they help routers determine the path for forwarding packets to their destinations."
+  },
+  {
+    "id": 76,
+    "question": "DHCP is used for ________",
+    "options": ["IPv6", "IPv4", "Both IPv6 and IPv4", "None of the mentioned"],
+    "correctAnswer": 2,
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) can be used for both IPv4 and IPv6 address assignment and configuration."
+  },
+  {
+    "id": 77,
+    "question": "A local telephone network is an example of a _______ network.",
+    "options": ["Packet switched", "Circuit switched", "Bit switched", "Line switched"],
+    "correctAnswer": 1,
+    "explanation": "A local telephone network uses circuit switching, where a dedicated communication path is established between two parties for the duration of the call."
+  },
+  {
+    "id": 78,
+    "question": "Most packet switches use this principle ____________",
+    "options": ["Stop and wait", "Store and forward", "Store and wait", "Stop and forward"],
+    "correctAnswer": 1,
+    "explanation": "Packet switches use the store-and-forward principle, where they receive the entire packet, store it temporarily, and then forward it to the next hop."
+  },
+  {
+    "id": 79,
+    "question": "If there are N routers from source to destination, the total end to end delay in sending packet P(L-> number of bits in the packet R-> transmission rate) is equal to ______________",
+    "options": ["N", "(NL)/R", "(2NL)/R", "L/R"],
+    "correctAnswer": 1,
+    "explanation": "With N routers and store-and-forward switching, the total end-to-end delay is (N+1)L/R, but among the given options, (NL)/R is the closest approximation."
+  },
+  {
+    "id": 80,
+    "question": "What are the Methods to move data through a network of links and switches?",
+    "options": [
+      "Packet switching and Line switching",
+      "Circuit switching and Line switching",
+      "Line switching and bit switching",
+      "Packet switching and Circuit switching"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The two main methods for moving data through networks are packet switching and circuit switching, each with different characteristics and use cases."
+  },
+  {
+    "id": 81,
+    "question": "The required resources for communication between end systems are reserved for the duration of the session between end systems in ________ method.",
+    "options": ["Packet switching", "Circuit switching", "Line switching", "Frequency switching"],
+    "correctAnswer": 1,
+    "explanation": "In circuit switching, resources are reserved for the entire duration of the communication session between end systems."
+  },
+  {
+    "id": 82,
+    "question": "In _________ systems, resources are allocated on demand.",
+    "options": ["packet switching", "circuit switching", "line switching", "frequency switching"],
+    "correctAnswer": 0,
+    "explanation": "In packet switching systems, network resources are allocated on demand as packets arrive, providing more efficient resource utilization."
+  },
+  {
+    "id": 83,
+    "question": "_____________ allows LAN users to share computer programs and data.",
+    "options": ["Communication server", "Print server", "File server", "Network"],
+    "correctAnswer": 2,
+    "explanation": "A file server allows LAN users to share computer programs and data by providing centralized storage and access control."
+  },
+  {
+    "id": 84,
+    "question": "With respect to physical media, STP cables stands for _________",
+    "options": [
+      "Shielded Twisted Pair Cable",
+      "Spanning Tree Protocol Cable",
+      "Static Transport Protocol Cable",
+      "Shielded Two Power Cable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "STP stands for Shielded Twisted Pair Cable, which provides additional protection against electromagnetic interference compared to UTP."
+  },
+  {
+    "id": 85,
+    "question": "What is the max length of the Shielded twisted pair cable?",
+    "options": ["100 ft.", "200 ft.", "100 m.", "200 m."],
+    "correctAnswer": 2,
+    "explanation": "The maximum length for Shielded Twisted Pair (STP) cable is 100 meters (328 feet) to maintain signal integrity."
+  },
+  {
+    "id": 86,
+    "question": "Which connector does the STP cable use?",
+    "options": ["BNC", "RJ-11", "RJ-45", "RJ-69"],
+    "correctAnswer": 2,
+    "explanation": "STP (Shielded Twisted Pair) cables typically use RJ-45 connectors, the same as UTP cables for Ethernet connections."
+  },
+  {
+    "id": 87,
+    "question": "What is the central device in star topology?",
+    "options": ["STP server", "Hub/switch", "PDC", "Router"],
+    "correctAnswer": 1,
+    "explanation": "In star topology, all devices connect to a central hub or switch, which acts as the central point for all communications."
+  },
+  {
+    "id": 88,
+    "question": "Which of the following architecture uses the CSMA/CD access method?",
+    "options": ["ARC net", "Ethernet", "Router", "STP server"],
+    "correctAnswer": 1,
+    "explanation": "Ethernet uses CSMA/CD (Carrier Sense Multiple Access with Collision Detection) as its media access control method."
+  },
+  {
+    "id": 89,
+    "question": "Which type of Ethernet framing is used for TCP/IP and DEC net?",
+    "options": ["Ethernet 802.3", "Ethernet 802.2", "Ethernet II", "Ethernet SNAP"],
+    "correctAnswer": 2,
+    "explanation": "Ethernet II framing is used for TCP/IP and DECnet protocols, providing a simpler frame format compared to 802.3."
+  },
+  {
+    "id": 90,
+    "question": "Novell's implementation of RIP updates routing tables every _________ seconds.",
+    "options": ["60", "90", "10", "30"],
+    "correctAnswer": 0,
+    "explanation": "Novell's implementation of RIP (Routing Information Protocol) updates routing tables every 60 seconds by default."
+  },
+  {
+    "id": 91,
+    "question": "Open Shortest Path First (OSPF) is also called as _____________",
+    "options": [
+      "Link state protocol",
+      "Error-correction protocol",
+      "Routing information protocol",
+      "Border gateway protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OSPF (Open Shortest Path First) is classified as a link state routing protocol because it maintains a complete topology database."
+  },
+  {
+    "id": 92,
+    "question": "Which of the following is not a type of OSPF packet?",
+    "options": ["Hello", "Link-state request", "Link-state response", "Link-state ACK"],
+    "correctAnswer": 2,
+    "explanation": "OSPF uses Hello, Link-state request, and Link-state ACK packets, but not 'Link-state response' packets. The correct term is 'Link-state update'."
+  },
+  {
+    "id": 93,
+    "question": "Ethernet frame consists of ____________",
+    "options": ["MAC address", "IP address", "Default mask", "Network address"],
+    "correctAnswer": 0,
+    "explanation": "Ethernet frames contain MAC (Media Access Control) addresses for source and destination identification at the data link layer."
+  },
+  {
+    "id": 94,
+    "question": "A point-to-point protocol over ethernet is a network protocol for __________",
+    "options": [
+      "encapsulating PPP frames inside ethernet frames",
+      "encapsulating ethernet frames inside PPP frames",
+      "for security of ethernet frames",
+      "for security of PPP frames"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PPPoE (Point-to-Point Protocol over Ethernet) encapsulates PPP frames inside Ethernet frames, commonly used for DSL connections."
+  },
+  {
+    "id": 95,
+    "question": "High speed and long ethernet works on _________",
+    "options": ["coaxial cable", "twisted pair cable", "optical fiber", "unshielded twisted pair cable"],
+    "correctAnswer": 2,
+    "explanation": "High-speed and long-distance Ethernet implementations use optical fiber due to its high bandwidth and low signal attenuation."
+  },
+  {
+    "id": 96,
+    "question": "Which IPv6 address is the equivalent of the IPv4 interface loopback address 127.0.0.1?",
+    "options": ["::1", "::", "2000::/3", "0::/10"],
+    "correctAnswer": 0,
+    "explanation": "::1 is the IPv6 loopback address, equivalent to 127.0.0.1 in IPv4, used for local host communication."
+  },
+  {
+    "id": 97,
+    "question": "Which command enables IPv6 forwarding on a Cisco router?",
+    "options": ["ipv6 local", "ipv6 host", "ipv6 unicast-routing", "ipv6 neighbor"],
+    "correctAnswer": 2,
+    "explanation": "The 'ipv6 unicast-routing' command enables IPv6 forwarding on Cisco routers, allowing them to route IPv6 packets."
+  },
+  {
+    "id": 98,
+    "question": "What is known as \"one-to-nearest\" addressing in IPv6?",
+    "options": ["global unicast", "anycast", "multicast", "unspecified address"],
+    "correctAnswer": 1,
+    "explanation": "Anycast addressing in IPv6 is known as 'one-to-nearest' addressing, where packets are delivered to the nearest node in a group."
+  },
+  {
+    "id": 99,
+    "question": "What will happen if a private IP address is assigned to a public interface connected to an ISP?",
+    "options": [
+      "Addresses in a private range will be not be routed on the Internet backbone",
+      "Only the ISP router will have the capability to access the public network",
+      "The NAT process will be used to translate this address to a valid IP address",
+      "A conflict of IP addresses happens, because other public routers can use the same range"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Private IP addresses are not routed on the Internet backbone, so they cannot be used for public interfaces connected to ISPs."
+  },
+  {
+    "id": 100,
+    "question": "What is the alternative notation for the IPv6 address B514:82C3:0000:0000:0029:EC7A:0000:EC72?",
+    "options": [
+      "B514 : 82C3 : 0029 : EC7A : EC72",
+      "B514 : 82C3 :: 0029 : EC7A : EC72",
+      "B514 : 82C3 : 0029 :: EC7A : 0000 : EC72",
+      "B514 : 82C3 :: 0029 : EC7A : 0 : EC72"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IPv6 address compression uses :: to represent consecutive groups of zeros. B514:82C3::0029:EC7A:EC72 correctly compresses the middle zeros."
+  },
+  {
+    "id": 101,
+    "question": "Which option is a valid IPv6 address?",
+    "options": [
+      "2001:0000:130F::099a::12a",
+      "2002:7654:A1AD:61:81AF:CCC1",
+      "FEC0:ABCD:WXYZ:0067::2A4",
+      "2004:1:25A4:886F::1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "2004:1:25A4:886F::1 is a valid IPv6 address. The other options contain errors like double :: or invalid characters (WXYZ)."
+  }
+]

@@ -1,1 +1,637 @@
-[]
+[
+  {
+    "id": 1,
+    "question": "Đâu là tag tạo ra màu nền của web?",
+    "options": ["color=\"yellow\"", "bgcolor=\"yellow\"", "background=\"yellow\"", "background-color=\"yellow\""],
+    "correctAnswer": 1,
+    "explanation": "Thuộc tính `bgcolor` được sử dụng để thiết lập màu nền cho các phần tử HTML như `<body>`, `<table>`, `<td>`, v.v. Ví dụ: `<body bgcolor=\"yellow\">` sẽ tạo màu nền vàng cho toàn bộ trang web.",
+    "formula": "Cú pháp: `<element bgcolor=\"color_value\">`"
+  },
+  {
+    "id": 2,
+    "question": "Thế nào là ứng dụng thương mại điện tử?",
+    "options": [
+      "Là loại hình mua bán hàng hóa thông thường",
+      "Là một loại ứng dụng Web",
+      "Là giao dịch tiền tệ",
+      "Là loại hình trao đổi thư điện tử"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ứng dụng thương mại điện tử (E-commerce) là một loại ứng dụng Web cho phép thực hiện các giao dịch mua bán, thanh toán và quản lý kinh doanh trên môi trường Internet. Nó bao gồm các chức năng như hiển thị sản phẩm, giỏ hàng, thanh toán trực tuyến, quản lý đơn hàng, v.v.",
+    "formula": "E-commerce = Web Application + Business Logic + Payment System + Database"
+  },
+  {
+    "id": 3,
+    "question": "Common Language Runtime cung cấp những tính năng nào?",
+    "options": [
+      "Quản lý bộ nhớ tự động, tương thích ngôn ngữ",
+      "Quản lý bộ nhớ tự động, tương thích ngôn ngữ, nền tảng độc lập, quản lý an ninh, cung cấp kiểu an toàn",
+      "Quản lý an ninh, cung cấp kiểu an toàn",
+      "Quản lý bộ nhớ tự động, nền tảng độc lập, quản lý an ninh, cung cấp kiểu an toàn"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Common Language Runtime (CLR) là thành phần cốt lõi của .NET Framework, cung cấp đầy đủ các tính năng: quản lý bộ nhớ tự động (Garbage Collection), tương thích đa ngôn ngữ (Language Interoperability), nền tảng độc lập (Platform Independence), quản lý an ninh (Security Management), và cung cấp kiểu an toàn (Type Safety).",
+    "formula": "CLR = Memory Management + Language Interoperability + Platform Independence + Security + Type Safety"
+  },
+  {
+    "id": 4,
+    "question": "JavaScript là ngôn ngữ xử lý ở:",
+    "options": ["Client", "Server", "Server/client", "Không có dạng nào"],
+    "correctAnswer": 0,
+    "explanation": "JavaScript ban đầu được thiết kế để chạy ở phía Client (trình duyệt web). Tuy nhiên, với sự ra đời của Node.js, JavaScript hiện tại có thể chạy cả ở phía Server. Nhưng theo ngữ cảnh truyền thống và câu hỏi này, JavaScript chủ yếu được biết đến như ngôn ngữ xử lý phía Client.",
+    "formula": "JavaScript: Client-side scripting language for web browsers"
+  },
+  {
+    "id": 5,
+    "question": "Các thuộc tính của đối tượng Request là:",
+    "options": ["Path", "Redirect", "QueryString", "Transfer"],
+    "correctAnswer": 2,
+    "explanation": "Đối tượng Request trong ASP.NET có nhiều thuộc tính, trong đó QueryString là một thuộc tính quan trọng để lấy dữ liệu từ URL. Các thuộc tính khác của Request bao gồm: Form, Cookies, Headers, ServerVariables, Files, v.v. Redirect và Transfer là phương thức của Response và Server, không phải thuộc tính của Request.",
+    "formula": "Request.QueryString[\"parameter_name\"] - lấy giá trị từ URL"
+  },
+  {
+    "id": 6,
+    "question": "Control nào sau đây được sử dụng để kiểm tra dữ liệu phải được nhập?",
+    "options": ["RequiredFieldValidator", "RangeValidator", "CustomValidator", "CompareValidator"],
+    "correctAnswer": 0,
+    "explanation": "RequiredFieldValidator được sử dụng để đảm bảo rằng người dùng phải nhập dữ liệu vào một trường bắt buộc. Nó kiểm tra xem trường có được điền hay không. RangeValidator kiểm tra giá trị trong khoảng, CompareValidator so sánh giá trị, CustomValidator cho phép tùy chỉnh logic kiểm tra.",
+    "formula": "<asp:RequiredFieldValidator ControlToValidate=\"TextBox1\" ErrorMessage=\"Trường này bắt buộc\" />"
+  },
+  {
+    "id": 7,
+    "question": "Điều khiển nào sau đây không cho chọn dữ liệu?",
+    "options": ["Label", "CheckListBox", "ListBox", "ComboBox"],
+    "correctAnswer": 0,
+    "explanation": "Label là điều khiển chỉ dùng để hiển thị văn bản tĩnh, không cho phép người dùng chọn hoặc nhập dữ liệu. CheckListBox, ListBox, và ComboBox đều là các điều khiển cho phép người dùng chọn dữ liệu từ danh sách các tùy chọn có sẵn.",
+    "formula": "<asp:Label Text=\"Hiển thị văn bản\" /> - chỉ hiển thị, không tương tác"
+  },
+  {
+    "id": 8,
+    "question": "Trong một ứng dụng ASP.Net, khi dùng đối tượng SqlCommand để gọi thủ tục lấy ra danh sách các khách hàng có những đơn hàng trị giá trên 50 triệu từ CSDL trong MS SQL Server, chúng ta gọi phương thức:",
+    "options": ["ExecuteReader", "ExecuteNonQuery", "ExecuteMyReader", "ExecuteScalar"],
+    "correctAnswer": 0,
+    "explanation": "ExecuteReader() được sử dụng khi cần lấy về nhiều dòng dữ liệu từ cơ sở dữ liệu. Trong trường hợp này, cần lấy danh sách khách hàng (nhiều bản ghi), nên sử dụng ExecuteReader(). ExecuteNonQuery() dùng cho INSERT/UPDATE/DELETE, ExecuteScalar() trả về giá trị đơn.",
+    "formula": "SqlDataReader reader = command.ExecuteReader(); - trả về nhiều dòng dữ liệu"
+  },
+  {
+    "id": 9,
+    "question": "Một điều khiển DataAdapter dùng phương thức nào dưới đây để nạp một DataSet?",
+    "options": ["Fill()", "ExecuteQuery()", "Read()", "Tất cả đều đúng"],
+    "correctAnswer": 0,
+    "explanation": "Phương thức Fill() của DataAdapter được sử dụng để nạp dữ liệu từ cơ sở dữ liệu vào DataSet hoặc DataTable. Đây là phương thức chính để đổ dữ liệu từ database vào bộ nhớ để xử lý. ExecuteQuery() và Read() không phải là phương thức của DataAdapter.",
+    "formula": "dataAdapter.Fill(dataSet, \"TableName\"); - nạp dữ liệu vào DataSet"
+  },
+  {
+    "id": 10,
+    "question": "Thuộc tính QueryString của đối tượng Request dùng để nhận giá trị từ 1 chuỗi truy vấn nằm sau dấu \"?\" trong chuỗi URL gồm những cặp Biến_1=Giá_trị_1&Biến_2=Giá trị_2...Trên trang Asp .net dùng ngôn ngữ C# thì sẽ nhận giá trị theo cú pháp:",
+    "options": [
+      "Request.QueryString(\"Tên_biến\")",
+      "Request.QueryString[\"Tên_biến\"]",
+      "Querystring(\"Tên_biến\")",
+      "Cả 3 câu đều sai"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Trong C#, để lấy giá trị từ QueryString, ta sử dụng cú pháp với dấu ngoặc vuông []. Ví dụ: Request.QueryString[\"id\"] sẽ lấy giá trị của tham số 'id' từ URL. Cú pháp với dấu ngoặc tròn () được sử dụng trong VB.NET.",
+    "formula": "string value = Request.QueryString[\"parameter_name\"]; - C# syntax"
+  },
+  {
+    "id": 11,
+    "question": "Để viết ASP.Net code trên cùng trang với HTML bạn đặt khối lệnh trong thẻ nào?",
+    "options": ["Thẻ Script", "Thẻ Body", "Thẻ Head", "Tất cả đều đúng"],
+    "correctAnswer": 0,
+    "explanation": "Để viết ASP.NET code (server-side code) trên cùng trang với HTML, ta sử dụng thẻ <script runat=\"server\">. Điều này cho phép nhúng C# hoặc VB.NET code trực tiếp vào trang .aspx. Code này sẽ được thực thi trên server trước khi gửi HTML về client.",
+    "formula": "<script runat=\"server\"> // C# code here </script>"
+  },
+  {
+    "id": 12,
+    "question": "ASP.Net là:",
+    "options": [
+      "Ngôn ngữ lập trình",
+      "Kỹ thuật lập trình phía server",
+      "Kỹ thuật lập trình phía client",
+      "Ngôn ngữ lập trình cơ sở dữ liệu tương tự như SQL"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ASP.NET là một framework/kỹ thuật lập trình phía server được phát triển bởi Microsoft. Nó không phải là ngôn ngữ lập trình mà là một nền tảng cho phép sử dụng nhiều ngôn ngữ khác nhau (C#, VB.NET, F#) để xây dựng ứng dụng web động.",
+    "formula": "ASP.NET = Server-side Web Application Framework"
+  },
+  {
+    "id": 13,
+    "question": "Control nào sau đây được sử dụng để kiểm tra dữ liệu nhập có theo đúng một định dạng:",
+    "options": ["RequiredFieldValidator", "RegularExpressionValidator", "CompareValidator", "CustomValidator"],
+    "correctAnswer": 1,
+    "explanation": "RegularExpressionValidator được sử dụng để kiểm tra xem dữ liệu nhập có khớp với một mẫu (pattern) định sẵn hay không. Ví dụ: kiểm tra định dạng email, số điện thoại, mã bưu điện, v.v. bằng cách sử dụng biểu thức chính quy (Regular Expression).",
+    "formula": "<asp:RegularExpressionValidator ValidationExpression=\"pattern\" /> - kiểm tra định dạng"
+  },
+  {
+    "id": 14,
+    "question": "Tag nào tạo ra 1 DropDownList trong HTML?",
+    "options": ["select", "list", "input type=\"dropdown\"", "input type=\"list\""],
+    "correctAnswer": 0,
+    "explanation": "Thẻ <select> trong HTML được sử dụng để tạo ra một dropdown list (danh sách thả xuống). Bên trong thẻ <select> sẽ chứa các thẻ <option> để định nghĩa các lựa chọn. Đây là cách tiêu chuẩn để tạo dropdown trong HTML.",
+    "formula": "<select><option value=\"1\">Option 1</option><option value=\"2\">Option 2</option></select>"
+  },
+  {
+    "id": 15,
+    "question": "Dùng lệnh nào để di chuyển đến trang web hello.html:",
+    "options": [
+      "Server.Transfer(\"hello.html\")",
+      "Response.Redirect(\"hello.html\")",
+      "Tất cả đều sai",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cả Server.Transfer() và Response.Redirect() đều có thể được sử dụng để di chuyển đến trang khác. Response.Redirect() gửi lệnh chuyển hướng về client, còn Server.Transfer() chuyển hướng ngay trên server mà không thông qua client. Cả hai đều có thể dùng để chuyển đến hello.html.",
+    "formula": "Response.Redirect(\"url\"); hoặc Server.Transfer(\"url\");"
+  },
+  {
+    "id": 16,
+    "question": "Đối tượng trong asp.net cho phép gửi yêu cầu đến server thông qua sự kiện để thực hiện chức năng của người dùng:",
+    "options": ["Button", "LinkButton", "ImageButton", "Tất cả đều đúng"],
+    "correctAnswer": 3,
+    "explanation": "Button, LinkButton, và ImageButton đều là các điều khiển trong ASP.NET có thể gửi yêu cầu (postback) đến server khi người dùng click. Chúng đều có thể xử lý sự kiện Click và thực hiện các chức năng phía server. Mỗi loại có giao diện hiển thị khác nhau nhưng chức năng tương tự.",
+    "formula": "<asp:Button OnClick=\"Button_Click\" /> - gửi postback đến server"
+  },
+  {
+    "id": 17,
+    "question": "Common Language Runtime cung cấp những tính năng nào?",
+    "options": [
+      "Quản lý bộ nhớ tự động, tương thích ngôn ngữ",
+      "Quản lý bộ nhớ tự động, tương thích ngôn ngữ, nền tảng độc lập, quản lý an ninh, cung cấp kiểu an toàn",
+      "Quản lý an ninh, cung cấp kiểu an toàn",
+      "Quản lý bộ nhớ tự động, nền tảng độc lập, quản lý an ninh, cung cấp kiểu an toàn"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CLR cung cấp đầy đủ các tính năng: Automatic Memory Management (Garbage Collection), Language Interoperability (tương thích đa ngôn ngữ), Platform Independence (độc lập nền tảng), Security Management (quản lý bảo mật), và Type Safety (an toàn kiểu dữ liệu). Đây là các tính năng cốt lõi của .NET Framework.",
+    "formula": "CLR = Complete Runtime Environment với đầy đủ tính năng"
+  },
+  {
+    "id": 18,
+    "question": "Để trả về giá trị đơn khi lấy dữ liệu, ta dùng phương thức nào sau đây của đối tượng command:",
+    "options": ["ExecuteReader()", "ExecuteScalar()", "ExecuteXmlReader()", "ExecuteNoneQuery()"],
+    "correctAnswer": 1,
+    "explanation": "ExecuteScalar() được sử dụng khi cần lấy về một giá trị đơn từ cơ sở dữ liệu, thường là kết quả của các hàm tổng hợp như COUNT, SUM, MAX, MIN hoặc giá trị đầu tiên của cột đầu tiên trong kết quả truy vấn. Phương thức này trả về object và cần ép kiểu khi sử dụng.",
+    "formula": "object result = command.ExecuteScalar(); - trả về giá trị đơn"
+  },
+  {
+    "id": 19,
+    "question": "Phương thức di chuyển nào sau đây cho phép giữ lại thông tin từ webform xuất phát:",
+    "options": ["Response.Redirect", "Server.Transfer", "Server.Execute", "Tất cả phương thức này"],
+    "correctAnswer": 1,
+    "explanation": "Server.Transfer() cho phép giữ lại thông tin từ webform xuất phát vì nó chuyển hướng ngay trên server mà không gửi response về client. Điều này có nghĩa là các đối tượng Request, Session, ViewState từ trang gốc vẫn được bảo toàn. Response.Redirect() tạo round-trip mới nên mất thông tin.",
+    "formula": "Server.Transfer(\"page.aspx\"); - giữ nguyên context"
+  },
+  {
+    "id": 20,
+    "question": "Đối tượng nào sau đây có tương tác với CSDL?",
+    "options": ["DataAdapter", "DataRow", "DataSet", "DataTable"],
+    "correctAnswer": 0,
+    "explanation": "DataAdapter là đối tượng duy nhất trong danh sách có tương tác trực tiếp với cơ sở dữ liệu. Nó đóng vai trò như cầu nối giữa DataSet/DataTable (dữ liệu trong bộ nhớ) và cơ sở dữ liệu. DataSet, DataTable, DataRow chỉ là các đối tượng lưu trữ dữ liệu trong bộ nhớ.",
+    "formula": "DataAdapter = Bridge between Database and DataSet"
+  },
+  {
+    "id": 21,
+    "question": "Đặc trưng của thương mại điện tử?",
+    "options": [
+      "Không tiếp xúc, có sự tham gia ít nhất 2 chủ thể, không giới hạn phạm vi",
+      "Không giới hạn biên giới, tiếp xúc trực tiếp",
+      "Không tiếp xúc trực tiếp, không giới hạn phạm vi, có sự tham gia ít nhất 3 chủ thể",
+      "Không cần kho lưu trữ, thông tin chính là thị trường"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thương mại điện tử có các đặc trưng: không tiếp xúc trực tiếp (giao dịch qua mạng), không giới hạn phạm vi địa lý, có sự tham gia của ít nhất 3 chủ thể (người mua, người bán, và nhà cung cấp dịch vụ thanh toán/vận chuyển). Điều này phân biệt với thương mại truyền thống chỉ cần 2 chủ thể.",
+    "formula": "E-commerce = Non-direct contact + Unlimited scope + Multiple parties (≥3)"
+  },
+  {
+    "id": 22,
+    "question": "Dòng nào tuân theo đúng cú pháp của CSS?",
+    "options": ["body {color: black}", "{body;color:black}", "body:color=black", "{body:color=black(body}"],
+    "correctAnswer": 0,
+    "explanation": "Cú pháp đúng của CSS là: selector {property: value}. Trong đó 'body' là selector, 'color' là thuộc tính, và 'black' là giá trị. Dấu hai chấm (:) phân cách thuộc tính và giá trị, dấu chấm phẩy (;) kết thúc mỗi khai báo, và cặp dấu ngoặc nhọn {} bao quanh các khai báo.",
+    "formula": "selector { property: value; property2: value2; }"
+  },
+  {
+    "id": 23,
+    "question": "Từ HTML là từ viết tắt của từ nào?",
+    "options": [
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language",
+      "Tất cả đều sai"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTML là viết tắt của HyperText Markup Language (Ngôn ngữ đánh dấu siêu văn bản). Đây là ngôn ngữ tiêu chuẩn để tạo và thiết kế các trang web. HTML sử dụng các thẻ (tags) để đánh dấu và cấu trúc nội dung trên trang web.",
+    "formula": "HTML = HyperText Markup Language"
+  },
+  {
+    "id": 24,
+    "question": ".NET Framework có các thành phần nào sau đây?",
+    "options": ["Common Language Runtime", ".NET Framework Base Classes", "Giao diện người dùng", "Tất cả đều đúng"],
+    "correctAnswer": 3,
+    "explanation": ".NET Framework bao gồm: Common Language Runtime (CLR) - môi trường thực thi, .NET Framework Base Classes (BCL) - thư viện lớp cơ sở, và các thành phần giao diện người dùng như Windows Forms, WPF, ASP.NET. Tất cả đều là các thành phần quan trọng của .NET Framework.",
+    "formula": ".NET Framework = CLR + BCL + UI Frameworks + Additional Libraries"
+  },
+  {
+    "id": 25,
+    "question": "Một lớp trừu tượng...",
+    "options": [
+      "Có thể chứa các biến instance",
+      "Có thể chứa constructor",
+      "Có thể mở rộng class khác",
+      "Tất cả các đáp án này"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Lớp trừu tượng (abstract class) có thể: chứa các biến instance (fields), có constructor để khởi tạo, và có thể kế thừa từ class khác (nhưng chỉ một class). Abstract class cũng có thể chứa cả phương thức abstract (không có implementation) và phương thức concrete (có implementation).",
+    "formula": "abstract class ClassName : BaseClass { // fields, constructors, methods }"
+  },
+  {
+    "id": 26,
+    "question": "Các đối tượng ngoại lệ được bắt nguồn từ class?",
+    "options": ["Try", "Catch", "Exception", "Event"],
+    "correctAnswer": 2,
+    "explanation": "Tất cả các đối tượng ngoại lệ (exception objects) trong .NET đều được bắt nguồn từ class Exception. Đây là class cơ sở cho tất cả các loại exception như SystemException, ApplicationException, và các exception cụ thể khác. Try và Catch là từ khóa, Event là loại delegate.",
+    "formula": "public class CustomException : Exception { }"
+  },
+  {
+    "id": 27,
+    "question": "Thành phần nào không phải là thuộc tính của đối tượng DataAdapter:",
+    "options": ["SQLCommand", "DeleteCommand", "UpdateCommand", "InsertCommand"],
+    "correctAnswer": 0,
+    "explanation": "SQLCommand không phải là thuộc tính của DataAdapter. DataAdapter có các thuộc tính: SelectCommand, InsertCommand, UpdateCommand, và DeleteCommand. Mỗi thuộc tính này chứa một đối tượng Command tương ứng với các thao tác CRUD (Create, Read, Update, Delete).",
+    "formula": "DataAdapter properties: SelectCommand, InsertCommand, UpdateCommand, DeleteCommand"
+  },
+  {
+    "id": 28,
+    "question": "Phương thức nào sau đây của DataSet dùng để cập nhật dữ liệu:",
+    "options": ["Fill", "AcceptChanges", "RejectChanges", "Update"],
+    "correctAnswer": 3,
+    "explanation": "Phương thức Update() của DataAdapter (không phải DataSet) được sử dụng để cập nhật các thay đổi từ DataSet về cơ sở dữ liệu. Fill() dùng để nạp dữ liệu, AcceptChanges() chấp nhận thay đổi trong bộ nhớ, RejectChanges() hủy bỏ thay đổi chưa lưu.",
+    "formula": "dataAdapter.Update(dataSet, \"TableName\"); - cập nhật về CSDL"
+  },
+  {
+    "id": 29,
+    "question": "Trong ADO.NET, không gian tên System.Data chứa lớp nào:",
+    "options": ["DataTable", "DataRelation", "DataSet", "Tất cả các câu trên đều đúng"],
+    "correctAnswer": 3,
+    "explanation": "Namespace System.Data chứa tất cả các lớp cơ bản của ADO.NET bao gồm: DataSet, DataTable, DataRow, DataColumn, DataRelation, và nhiều lớp khác. Đây là namespace chính cho việc làm việc với dữ liệu trong .NET Framework.",
+    "formula": "using System.Data; - import namespace chứa các lớp dữ liệu cơ bản"
+  },
+  {
+    "id": 30,
+    "question": "Đâu là phương thức được dùng để truy vấn dữ liệu và trả về nhiều dòng kết quả?",
+    "options": ["ExecuteNonQuery()", "ExecuteScalar()", "ExecuteReader()", "ExecuteXml()"],
+    "correctAnswer": 2,
+    "explanation": "ExecuteReader() được sử dụng để thực thi câu lệnh SQL và trả về một SqlDataReader, cho phép đọc nhiều dòng dữ liệu một cách tuần tự. Đây là phương thức hiệu quả nhất khi cần đọc nhiều bản ghi từ cơ sở dữ liệu.",
+    "formula": "SqlDataReader reader = command.ExecuteReader(); - trả về nhiều dòng"
+  },
+  {
+    "id": 31,
+    "question": "Tag nào trong HTML được dùng để hiển thị đoạn văn bản?",
+    "options": ["div", "p", "text", "span"],
+    "correctAnswer": 1,
+    "explanation": "Thẻ <p> (paragraph) được sử dụng để hiển thị đoạn văn bản trong HTML. Thẻ này tự động tạo khoảng cách trước và sau đoạn văn. Thẻ <div> dùng cho container, <span> cho inline text, <text> không phải là thẻ HTML hợp lệ.",
+    "formula": "<p>Đây là một đoạn văn bản</p>"
+  },
+  {
+    "id": 32,
+    "question": "ASP.NET là gì?",
+    "options": [
+      "Hệ quản trị cơ sở dữ liệu",
+      "Kỹ thuật lập trình phía server",
+      "Phần mềm máy khách",
+      "Công cụ thiết kế đồ họa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ASP.NET là một framework/kỹ thuật lập trình phía server được Microsoft phát triển để xây dựng các ứng dụng web động và dịch vụ web. Nó cho phép tạo ra các trang web tương tác với cơ sở dữ liệu và xử lý logic nghiệp vụ phức tạp.",
+    "formula": "ASP.NET = Server-side Web Development Framework"
+  },
+  {
+    "id": 33,
+    "question": "Control nào dùng để bắt buộc nhập liệu?",
+    "options": ["CompareValidator", "CustomValidator", "RequiredFieldValidator", "RangeValidator"],
+    "correctAnswer": 2,
+    "explanation": "RequiredFieldValidator được sử dụng để bắt buộc người dùng phải nhập dữ liệu vào một trường cụ thể. Nó kiểm tra xem trường có được điền hay không và hiển thị thông báo lỗi nếu trường để trống.",
+    "formula": "<asp:RequiredFieldValidator ControlToValidate=\"TextBox1\" ErrorMessage=\"Bắt buộc nhập\" />"
+  },
+  {
+    "id": 34,
+    "question": "Từ nào viết tắt cho khái niệm \"HTML\"?",
+    "options": [
+      "HyperText Makeup Language",
+      "Hyper Tool Markup Language",
+      "Hyper Text Markup Language",
+      "Hyper Text Modeling Language"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTML là viết tắt của HyperText Markup Language. Đây là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang web, sử dụng các thẻ để cấu trúc và định dạng nội dung.",
+    "formula": "HTML = HyperText Markup Language"
+  },
+  {
+    "id": 35,
+    "question": "Phương thức nào của DataSet dùng để loại bỏ các thay đổi chưa lưu?",
+    "options": ["AcceptChanges()", "RejectChanges()", "Discard()", "Update()"],
+    "correctAnswer": 1,
+    "explanation": "RejectChanges() được sử dụng để loại bỏ tất cả các thay đổi chưa được lưu trong DataSet, đưa dữ liệu về trạng thái ban đầu. AcceptChanges() chấp nhận thay đổi, Update() lưu về CSDL, Discard() không phải phương thức của DataSet.",
+    "formula": "dataSet.RejectChanges(); - hủy bỏ thay đổi chưa lưu"
+  },
+  {
+    "id": 36,
+    "question": "Thuộc tính nào trong đối tượng Request giúp lấy dữ liệu từ URL?",
+    "options": ["Form", "Cookies", "QueryString", "Session"],
+    "correctAnswer": 2,
+    "explanation": "QueryString là thuộc tính của đối tượng Request được sử dụng để lấy dữ liệu từ URL (phần sau dấu ?). Form lấy dữ liệu từ form POST, Cookies lấy từ cookie, Session không phải thuộc tính của Request.",
+    "formula": "string value = Request.QueryString[\"parameter\"]; - lấy từ URL"
+  },
+  {
+    "id": 37,
+    "question": "Common Language Runtime (CLR) có chức năng gì?",
+    "options": [
+      "Dịch code sang Java",
+      "Tăng hiệu suất đồ họa",
+      "Quản lý bộ nhớ, an ninh, tương thích ngôn ngữ",
+      "Lưu trữ tập tin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CLR (Common Language Runtime) là thành phần cốt lõi của .NET Framework, có chức năng quản lý bộ nhớ (Garbage Collection), quản lý bảo mật, đảm bảo tương thích giữa các ngôn ngữ lập trình khác nhau, và cung cấp môi trường thực thi an toàn.",
+    "formula": "CLR = Memory Management + Security + Language Interoperability + Runtime Services"
+  },
+  {
+    "id": 38,
+    "question": "Đối tượng nào sau đây KHÔNG tương tác trực tiếp với CSDL?",
+    "options": ["SqlCommand", "DataSet", "SqlDataAdapter", "SqlConnection"],
+    "correctAnswer": 1,
+    "explanation": "DataSet không tương tác trực tiếp với cơ sở dữ liệu. Nó chỉ là container lưu trữ dữ liệu trong bộ nhớ. SqlConnection kết nối CSDL, SqlCommand thực thi lệnh, SqlDataAdapter là cầu nối giữa DataSet và CSDL.",
+    "formula": "DataSet = In-memory data container (không kết nối trực tiếp CSDL)"
+  },
+  {
+    "id": 39,
+    "question": "Ngôn ngữ JavaScript chạy ở đâu?",
+    "options": ["Chỉ phía Server", "Phía Client", "Cả Server và Client", "Không rõ"],
+    "correctAnswer": 1,
+    "explanation": "JavaScript truyền thống chạy ở phía Client (trình duyệt web). Tuy nhiên, với Node.js, JavaScript hiện có thể chạy cả phía Server. Nhưng trong ngữ cảnh web development cơ bản, JavaScript chủ yếu được biết đến như ngôn ngữ client-side.",
+    "formula": "JavaScript = Client-side scripting language (chủ yếu)"
+  },
+  {
+    "id": 40,
+    "question": "Thành phần nào dưới đây là bắt buộc khi khai báo một kết nối đến CSDL SQL Server?",
+    "options": ["ConnectionString", "DataAdapter", "SqlCommand", "DataSet"],
+    "correctAnswer": 0,
+    "explanation": "ConnectionString là thành phần bắt buộc khi tạo kết nối đến SQL Server. Nó chứa thông tin về server, database, authentication, và các tham số kết nối khác. Không có ConnectionString thì không thể kết nối được đến CSDL.",
+    "formula": "SqlConnection conn = new SqlConnection(connectionString);"
+  },
+  {
+    "id": 41,
+    "question": "Control nào được dùng để hiển thị thông tin tĩnh không cho phép người dùng chỉnh sửa?",
+    "options": ["TextBox", "Label", "DropDownList", "CheckBox"],
+    "correctAnswer": 1,
+    "explanation": "Label được sử dụng để hiển thị văn bản tĩnh mà người dùng không thể chỉnh sửa. TextBox cho phép nhập/sửa, DropDownList cho phép chọn, CheckBox cho phép tick/untick. Label chỉ hiển thị thông tin.",
+    "formula": "<asp:Label Text=\"Thông tin tĩnh\" /> - chỉ hiển thị"
+  },
+  {
+    "id": 42,
+    "question": "Đâu là lệnh SQL dùng để chèn thêm dữ liệu vào bảng?",
+    "options": ["SELECT", "DELETE", "INSERT", "UPDATE"],
+    "correctAnswer": 2,
+    "explanation": "INSERT là lệnh SQL được sử dụng để chèn thêm dữ liệu mới vào bảng. SELECT dùng để truy vấn, DELETE để xóa, UPDATE để cập nhật dữ liệu có sẵn.",
+    "formula": "INSERT INTO table_name (column1, column2) VALUES (value1, value2);"
+  },
+  {
+    "id": 43,
+    "question": "Trong ASP.NET, phương thức Response.Redirect() được dùng để:",
+    "options": ["Hiển thị dữ liệu từ CSDL", "Gửi mail", "Chuyển hướng trang web", "Kết nối database"],
+    "correctAnswer": 2,
+    "explanation": "Response.Redirect() được sử dụng để chuyển hướng người dùng từ trang hiện tại đến một trang khác. Phương thức này gửi HTTP redirect response về client, khiến trình duyệt tự động chuyển đến URL mới.",
+    "formula": "Response.Redirect(\"newpage.aspx\"); - chuyển hướng trang"
+  },
+  {
+    "id": 44,
+    "question": "Câu lệnh JavaScript đúng để hiển thị thông báo là:",
+    "options": ["alert(\"Xin chào!\");", "msg(\"Xin chào!\");", "notify(\"Xin chào!\");", "echo(\"Xin chào!\");"],
+    "correctAnswer": 0,
+    "explanation": "alert() là hàm JavaScript tiêu chuẩn để hiển thị hộp thoại thông báo. Các hàm msg(), notify(), echo() không phải là hàm JavaScript chuẩn để hiển thị thông báo.",
+    "formula": "alert(\"message\"); - hiển thị hộp thoại thông báo"
+  },
+  {
+    "id": 45,
+    "question": "ADO.NET là gì?",
+    "options": ["Giao diện quản trị website", "Công nghệ truy cập CSDL", "Hệ điều hành mạng", "Ngôn ngữ lập trình web"],
+    "correctAnswer": 1,
+    "explanation": "ADO.NET (ActiveX Data Objects .NET) là công nghệ truy cập cơ sở dữ liệu của Microsoft trong .NET Framework. Nó cung cấp các lớp và phương thức để kết nối, truy vấn, và thao tác với nhiều loại cơ sở dữ liệu khác nhau.",
+    "formula": "ADO.NET = Data Access Technology for .NET"
+  },
+  {
+    "id": 46,
+    "question": "Câu lệnh JavaScript nào được dùng để thay đổi nội dung HTML của phần tử có id là title?",
+    "options": [
+      "document.getElement(\"title\").text = \"Hello\";",
+      "document.getElementById(\"title\").innerHTML = \"Hello\";",
+      "document.title = \"Hello\";",
+      "title.innerText = \"Hello\";"
+    ],
+    "correctAnswer": 1,
+    "explanation": "document.getElementById(\"title\").innerHTML = \"Hello\"; là cách đúng để thay đổi nội dung HTML của phần tử có id là 'title'. getElementById() lấy phần tử theo id, innerHTML thay đổi nội dung HTML bên trong.",
+    "formula": "document.getElementById(\"id\").innerHTML = \"new content\";"
+  },
+  {
+    "id": 47,
+    "question": "Trong C#, từ khóa try-catch được dùng để:",
+    "options": ["Khai báo biến", "Lặp lại đoạn mã", "Bắt lỗi khi chương trình thực thi", "Định nghĩa class"],
+    "correctAnswer": 2,
+    "explanation": "try-catch được sử dụng để xử lý ngoại lệ (exception handling) trong C#. Khối try chứa code có thể gây lỗi, khối catch bắt và xử lý lỗi nếu xảy ra. Điều này giúp chương trình không bị crash khi gặp lỗi.",
+    "formula": "try { // code có thể lỗi } catch (Exception ex) { // xử lý lỗi }"
+  },
+  {
+    "id": 48,
+    "question": "Thành phần nào sau đây KHÔNG thuộc bộ công cụ Visual Studio?",
+    "options": ["Toolbox", "Solution Explorer", "Server Manager", "Properties"],
+    "correctAnswer": 2,
+    "explanation": "Server Manager không phải là thành phần của Visual Studio. Toolbox chứa các control, Solution Explorer hiển thị cấu trúc project, Properties hiển thị thuộc tính của đối tượng được chọn. Server Manager là công cụ quản trị server của Windows.",
+    "formula": "Visual Studio components: Toolbox, Solution Explorer, Properties, Code Editor, etc."
+  },
+  {
+    "id": 49,
+    "question": "Thuộc tính AutoPostBack trong ASP.NET được sử dụng cho:",
+    "options": ["Gửi email", "Làm mới trang khi có thay đổi ở control", "Kết nối cơ sở dữ liệu", "Tạo animation"],
+    "correctAnswer": 1,
+    "explanation": "AutoPostBack được sử dụng để tự động gửi form về server (postback) khi có thay đổi ở control. Ví dụ: khi user chọn item khác trong DropDownList có AutoPostBack=true, trang sẽ tự động submit để xử lý sự kiện SelectedIndexChanged.",
+    "formula": "<asp:DropDownList AutoPostBack=\"true\" OnSelectedIndexChanged=\"Handler\" />"
+  },
+  {
+    "id": 50,
+    "question": "Trong HTML, thuộc tính nào được sử dụng để tạo liên kết đến trang web khác?",
+    "options": ["src", "href", "link", "url"],
+    "correctAnswer": 1,
+    "explanation": "Thuộc tính href (hypertext reference) được sử dụng trong thẻ <a> để tạo liên kết đến trang web khác. src dùng cho hình ảnh/script, link và url không phải thuộc tính chuẩn để tạo liên kết.",
+    "formula": "<a href=\"https://example.com\">Liên kết</a>"
+  },
+  {
+    "id": 51,
+    "question": "Trong CSS, thuộc tính nào được sử dụng để thay đổi màu chữ?",
+    "options": ["font-color", "text-color", "color", "foreground-color"],
+    "correctAnswer": 2,
+    "explanation": "Thuộc tính 'color' trong CSS được sử dụng để thay đổi màu chữ của phần tử. Các thuộc tính khác như font-color, text-color, foreground-color không tồn tại trong CSS.",
+    "formula": "selector { color: red; } hoặc { color: #FF0000; } hoặc { color: rgb(255,0,0); }"
+  },
+  {
+    "id": 52,
+    "question": "Phương thức nào của SqlConnection được sử dụng để mở kết nối đến cơ sở dữ liệu?",
+    "options": ["Start()", "Connect()", "Open()", "Begin()"],
+    "correctAnswer": 2,
+    "explanation": "Phương thức Open() được sử dụng để mở kết nối đến cơ sở dữ liệu. Sau khi sử dụng xong, cần gọi Close() để đóng kết nối và giải phóng tài nguyên.",
+    "formula": "SqlConnection conn = new SqlConnection(connectionString); conn.Open();"
+  },
+  {
+    "id": 53,
+    "question": "Trong HTML, thẻ nào được sử dụng để tạo bảng?",
+    "options": ["<table>", "<grid>", "<data>", "<list>"],
+    "correctAnswer": 0,
+    "explanation": "Thẻ <table> được sử dụng để tạo bảng trong HTML. Bên trong table sẽ có các thẻ <tr> (table row) cho hàng, <td> (table data) cho ô dữ liệu, và <th> (table header) cho tiêu đề cột.",
+    "formula": "<table><tr><th>Header</th></tr><tr><td>Data</td></tr></table>"
+  },
+  {
+    "id": 54,
+    "question": "Trong ASP.NET, ViewState được sử dụng để:",
+    "options": [
+      "Lưu trữ dữ liệu tạm thời trên server",
+      "Duy trì trạng thái của control giữa các postback",
+      "Kết nối cơ sở dữ liệu",
+      "Tạo session cho người dùng"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ViewState được sử dụng để duy trì trạng thái của các control trên trang web giữa các lần postback. Nó lưu trữ thông tin về giá trị của controls trong một hidden field và được gửi cùng với form.",
+    "formula": "ViewState[\"key\"] = value; // lưu trữ dữ liệu trong ViewState"
+  },
+  {
+    "id": 55,
+    "question": "Thuộc tính nào của thẻ <img> trong HTML là bắt buộc?",
+    "options": ["alt", "src", "width", "height"],
+    "correctAnswer": 1,
+    "explanation": "Thuộc tính 'src' (source) là bắt buộc cho thẻ <img> vì nó chỉ định đường dẫn đến file hình ảnh. Thuộc tính 'alt' tuy không bắt buộc nhưng rất quan trọng cho accessibility.",
+    "formula": "<img src=\"path/to/image.jpg\" alt=\"Mô tả hình ảnh\" />"
+  },
+  {
+    "id": 56,
+    "question": "Trong C#, từ khóa nào được sử dụng để kế thừa từ một class khác?",
+    "options": ["extends", "inherits", ":", "implements"],
+    "correctAnswer": 2,
+    "explanation": "Trong C#, dấu hai chấm (:) được sử dụng để kế thừa từ một class khác hoặc implement một interface. 'extends' dùng trong Java, 'inherits' dùng trong VB.NET, 'implements' dùng cho interface.",
+    "formula": "public class ChildClass : ParentClass { }"
+  },
+  {
+    "id": 57,
+    "question": "Phương thức nào được sử dụng để thêm item vào ListBox trong ASP.NET?",
+    "options": ["Add()", "Insert()", "Append()", "AddItem()"],
+    "correctAnswer": 0,
+    "explanation": "Phương thức Add() của collection Items được sử dụng để thêm item vào ListBox. Có thể thêm string hoặc ListItem object.",
+    "formula": "ListBox1.Items.Add(\"New Item\"); hoặc ListBox1.Items.Add(new ListItem(\"Text\", \"Value\"));"
+  },
+  {
+    "id": 58,
+    "question": "Trong JavaScript, hàm nào được sử dụng để chuyển đổi string thành số nguyên?",
+    "options": ["parseInt()", "parseFloat()", "Number()", "toInteger()"],
+    "correctAnswer": 0,
+    "explanation": "parseInt() được sử dụng để chuyển đổi string thành số nguyên. parseFloat() chuyển thành số thực, Number() chuyển thành số (có thể là nguyên hoặc thực), toInteger() không tồn tại trong JavaScript.",
+    "formula": "var num = parseInt(\"123\"); // kết quả: 123"
+  },
+  {
+    "id": 59,
+    "question": "Trong SQL Server, lệnh nào được sử dụng để tạo bảng mới?",
+    "options": ["CREATE TABLE", "NEW TABLE", "MAKE TABLE", "ADD TABLE"],
+    "correctAnswer": 0,
+    "explanation": "CREATE TABLE là lệnh SQL chuẩn để tạo bảng mới trong cơ sở dữ liệu. Sau CREATE TABLE là tên bảng và định nghĩa các cột với kiểu dữ liệu.",
+    "formula": "CREATE TABLE table_name (column1 datatype, column2 datatype, ...);"
+  },
+  {
+    "id": 60,
+    "question": "Trong ASP.NET, Session được lưu trữ ở đâu mặc định?",
+    "options": ["Client (Browser)", "Server Memory", "Database", "File System"],
+    "correctAnswer": 1,
+    "explanation": "Mặc định, Session trong ASP.NET được lưu trữ trong bộ nhớ của server (InProc mode). Có thể cấu hình để lưu trong SQL Server, State Server, hoặc Custom provider.",
+    "formula": "Session[\"key\"] = value; // lưu trong server memory"
+  },
+  {
+    "id": 61,
+    "question": "Thuộc tính nào của CSS được sử dụng để căn giữa text?",
+    "options": ["align", "text-align", "center", "text-center"],
+    "correctAnswer": 1,
+    "explanation": "Thuộc tính 'text-align' được sử dụng để căn chỉnh text. Giá trị có thể là left, right, center, justify. Thuộc tính 'align' đã deprecated, 'center' và 'text-center' không tồn tại.",
+    "formula": "selector { text-align: center; } // căn giữa text"
+  },
+  {
+    "id": 62,
+    "question": "Trong ADO.NET, đối tượng nào được sử dụng để thực thi stored procedure?",
+    "options": ["SqlDataAdapter", "SqlCommand", "SqlConnection", "SqlDataReader"],
+    "correctAnswer": 1,
+    "explanation": "SqlCommand được sử dụng để thực thi stored procedure bằng cách set CommandType = CommandType.StoredProcedure và CommandText = tên stored procedure. Có thể thêm parameters nếu cần.",
+    "formula": "SqlCommand cmd = new SqlCommand(\"sp_name\", conn); cmd.CommandType = CommandType.StoredProcedure;"
+  },
+  {
+    "id": 63,
+    "question": "Trong HTML, thuộc tính nào được sử dụng để gộp nhiều cột trong bảng?",
+    "options": ["rowspan", "colspan", "merge", "span"],
+    "correctAnswer": 1,
+    "explanation": "Thuộc tính 'colspan' được sử dụng để gộp nhiều cột trong bảng HTML. 'rowspan' dùng để gộp nhiều hàng. 'merge' và 'span' không phải thuộc tính hợp lệ cho bảng HTML.",
+    "formula": "<td colspan=\"2\">Ô này chiếm 2 cột</td>"
+  },
+  {
+    "id": 64,
+    "question": "Trong C#, interface khác với abstract class ở điểm nào?",
+    "options": [
+      "Interface có thể chứa implementation",
+      "Interface không thể chứa fields",
+      "Interface có thể có constructor",
+      "Interface có thể kế thừa từ class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Interface không thể chứa fields (biến instance), chỉ có thể chứa method signatures, properties, events, và indexers. Abstract class có thể chứa fields, constructors, và cả abstract lẫn concrete methods.",
+    "formula": "interface IExample { void Method(); } // không có fields"
+  },
+  {
+    "id": 65,
+    "question": "Trong JavaScript, cách nào đúng để khai báo một mảng?",
+    "options": ["var arr = [];", "var arr = new Array();", "var arr = [1, 2, 3];", "Tất cả đều đúng"],
+    "correctAnswer": 3,
+    "explanation": "Tất cả các cách đều đúng để khai báo mảng trong JavaScript: [] tạo mảng rỗng, new Array() tạo mảng mới, [1,2,3] tạo mảng với giá trị khởi tạo.",
+    "formula": "var arr1 = []; var arr2 = new Array(); var arr3 = [1,2,3];"
+  },
+  {
+    "id": 66,
+    "question": "Trong ASP.NET, control nào được sử dụng để hiển thị dữ liệu dạng lưới?",
+    "options": ["DataList", "Repeater", "GridView", "FormView"],
+    "correctAnswer": 2,
+    "explanation": "GridView được sử dụng để hiển thị dữ liệu dạng lưới (bảng) với các tính năng như sorting, paging, editing. DataList hiển thị dạng list, Repeater cho template tùy chỉnh, FormView cho single record.",
+    "formula": "<asp:GridView DataSourceID=\"SqlDataSource1\" AutoGenerateColumns=\"true\" />"
+  },
+  {
+    "id": 67,
+    "question": "Trong CSS, đơn vị nào được sử dụng để chỉ kích thước tương đối so với font-size của parent element?",
+    "options": ["px", "em", "pt", "%"],
+    "correctAnswer": 1,
+    "explanation": "Đơn vị 'em' được sử dụng để chỉ kích thước tương đối so với font-size của parent element. 1em = font-size của parent. 'px' là absolute unit, 'pt' dùng cho print, '%' là phần trăm của parent.",
+    "formula": "font-size: 1.5em; // 1.5 lần font-size của parent"
+  },
+  {
+    "id": 68,
+    "question": "Trong SQL, lệnh nào được sử dụng để sắp xếp kết quả truy vấn?",
+    "options": ["SORT BY", "ORDER BY", "ARRANGE BY", "GROUP BY"],
+    "correctAnswer": 1,
+    "explanation": "ORDER BY được sử dụng để sắp xếp kết quả truy vấn theo một hoặc nhiều cột. Có thể sắp xếp tăng dần (ASC) hoặc giảm dần (DESC). GROUP BY dùng để nhóm dữ liệu.",
+    "formula": "SELECT * FROM table ORDER BY column1 ASC, column2 DESC;"
+  },
+  {
+    "id": 69,
+    "question": "Trong ASP.NET, thuộc tính nào được sử dụng để disable một control?",
+    "options": ["Disabled", "Enabled", "Visible", "ReadOnly"],
+    "correctAnswer": 1,
+    "explanation": "Thuộc tính 'Enabled' được sử dụng để enable/disable control trong ASP.NET. Set Enabled=false để disable control. 'Visible' ẩn/hiện control, 'ReadOnly' chỉ cho phép đọc.",
+    "formula": "TextBox1.Enabled = false; // disable control"
+  },
+  {
+    "id": 70,
+    "question": "Trong thương mại điện tử, mô hình B2C là viết tắt của:",
+    "options": ["Business to Customer", "Business to Commerce", "Buyer to Consumer", "Business to Company"],
+    "correctAnswer": 0,
+    "explanation": "B2C là viết tắt của Business to Customer (doanh nghiệp bán cho khách hàng cá nhân). Đây là mô hình thương mại điện tử phổ biến nhất như các website bán lẻ trực tuyến. B2B là Business to Business.",
+    "formula": "B2C = Business to Customer (doanh nghiệp → khách hàng cá nhân)"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "question": "Hạch toán kế toán chủ yếu sử dụng thước đo:",
+    "options": ["Thước đo giá trị", "Thước đo hiện vật", "Thước đo lao động", "Cả 3 đáp án trên đều đúng"],
+    "correctAnswer": 0,
+    "explanation": "Hạch toán kế toán chủ yếu sử dụng thước đo giá trị để ghi nhận các nghiệp vụ kinh tế."
+  },
+  {
+    "id": 2,
+    "question": "Loại hạch toán sử dụng các phương pháp như: điều tra, phân tổ, số tương đối, số tuyệt đối, số bình quân… để thu thập và xử lý thông tin là:",
+    "options": [
+      "Hạch toán kế toán",
+      "Hạch toán thống kê",
+      "Hạch toán nghiệp vụ - kỹ thuật",
+      "Cả 3 đáp án trên đều đúng"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán thống kê sử dụng các phương pháp thống kê để thu thập và xử lý thông tin."
+  },
+  {
+    "id": 3,
+    "question": "Nguyên tắc nhất quán đòi hỏi kế toán:",
+    "options": [
+      "Không được thay đổi các phương pháp kế toán đã lựa chọn",
+      "Có thể thay đổi các chính sách kế toán nếu thấy cần thiết, phù hợp với doanh nghiệp và đồng thời thông báo, đăng ký với cơ quan thuế sự thay đổi này",
+      "Có thể thay đổi các phương pháp kế toán nhưng phải sử dụng phương pháp đã lựa chọn ít nhất 1 năm tài chính và trình bày những thay đổi, ảnh hưởng của sự thay đổi phương pháp trong báo cáo tài chính và thông báo với các cơ quan chức năng",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nguyên tắc nhất quán yêu cầu kế toán phải áp dụng phương pháp đã chọn ít nhất 1 năm và giải trình khi thay đổi."
+  },
+  {
+    "id": 4,
+    "question": "Nguyên tắc nào trong số các nguyên tắc sau quy định rằng nếu một khách hàng của doanh nghiệp đang có nguy cơ phá sản, doanh nghiệp cần phải lập một khoản dự phòng đối với khoản nợ phải thu từ khách hàng đó:",
+    "options": [
+      "Nguyên tắc phù hợp",
+      "Nguyên tắc trọng yếu",
+      "Nguyên tắc thận trọng",
+      "Tất cả các đáp án trên đều đúng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nguyên tắc thận trọng yêu cầu dự phòng rủi ro khi có nguy cơ tổn thất."
+  },
+  {
+    "id": 5,
+    "question": "Tiền lương của Ban giám đốc công ty được kế toán hạch toán vào chi phí sản xuất trong kỳ, việc làm này đã vi phạm nguyên tắc:",
+    "options": ["Khách quan", "Trọng yếu", "Thận trọng", "Phù hợp"],
+    "correctAnswer": 3,
+    "explanation": "Tiền lương ban giám đốc không phải là chi phí sản xuất nên vi phạm nguyên tắc phù hợp."
+  },
+  {
+    "id": 6,
+    "question": "Nguyên tắc nào sau đây không phải là các nguyên tắc kế toán chung được thừa nhận:",
+    "options": ["Nhất quán", "Giá gốc", "Trung thực", "Trọng yếu"],
+    "correctAnswer": 2,
+    "explanation": "Trung thực không được liệt kê là nguyên tắc kế toán chung được thừa nhận."
+  },
+  {
+    "id": 7,
+    "question": "Hạch toán kế toán có các chức năng:",
+    "options": ["Thông tin và hoạch định", "Thông tin và kiểm tra", "Hoạch định và kiểm tra", "Hoạch định và dự báo"],
+    "correctAnswer": 1,
+    "explanation": "Chức năng chính của hạch toán kế toán là cung cấp thông tin và kiểm tra."
+  },
+  {
+    "id": 8,
+    "question": "Công ty lập báo cáo tài chính năm cứ sau 15 tháng sẽ vi phạm nguyên tắc:",
+    "options": [
+      "Nguyên tắc kỳ kế toán",
+      "Nguyên tắc hoạt động liên tục",
+      "Nguyên tắc công khai",
+      "Nguyên tắc thực thể kinh doanh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc kỳ kế toán yêu cầu lập báo cáo đúng kỳ, không vượt quá 12 tháng."
+  },
+  {
+    "id": 9,
+    "question": "Công ty ghi nhận vào sổ kế toán của công ty ngôi nhà do chủ sở hữu đang đứng tên và sử dụng sẽ vi phạm nguyên tắc:",
+    "options": [
+      "Nguyên tắc thận trọng",
+      "Nguyên tắc hoạt động liên tục",
+      "Nguyên tắc khách quan",
+      "Nguyên tắc thực thể kinh doanh"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Nguyên tắc thực thể kinh doanh yêu cầu chỉ ghi nhận tài sản thuộc doanh nghiệp."
+  },
+  {
+    "id": 10,
+    "question": "Tất cả tài sản mua về phục vụ cho hoạt động sản xuất kinh doanh tại đơn vị phải được phản ánh trên sổ kế toán tại thời điểm phát sinh nghiệp vụ theo nguyên tắc:",
+    "options": [
+      "Nguyên tắc thận trọng",
+      "Nguyên tắc ghi nhận doanh thu",
+      "Nguyên tắc khách quan",
+      "Nguyên tắc phù hợp"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Nguyên tắc khách quan yêu cầu phản ánh tài sản theo chứng từ, bằng chứng rõ ràng."
+  },
+  {
+    "id": 11,
+    "question": "Thời điểm chuyển giao quyền sở hữu sản phẩm, hàng hóa, dịch vụ giữa người bán đối với người mua và được người mua chấp nhận thanh toán là nguyên tắc:",
+    "options": [
+      "Nguyên tắc thận trọng",
+      "Nguyên tắc ghi nhận doanh thu",
+      "Nguyên tắc khách quan",
+      "Nguyên tắc phù hợp"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc ghi nhận doanh thu xác định doanh thu khi quyền sở hữu được chuyển giao."
+  },
+  {
+    "id": 12,
+    "question": "Các nguyên tắc và phương pháp kế toán mà doanh nghiệp đã chọn phải được áp dụng thống nhất ít nhất trong một kỳ kế toán năm, nhằm đảm bảo số liệu có tính so sánh.",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc nhất quán", "Nguyên tắc khách quan", "Nguyên tắc phù hợp"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc nhất quán yêu cầu áp dụng đồng bộ trong kỳ để dữ liệu có thể so sánh."
+  },
+  {
+    "id": 13,
+    "question": "Một thành viên trong doanh nghiệp sử dụng một số vật tư trong kho cho mục đích cá nhân, việc làm này đã vi phạm nguyên tắc kế toán ……………",
+    "options": [
+      "Nguyên tắc thận trọng",
+      "Nguyên tắc hoạt động liên tục",
+      "Nguyên tắc khách quan",
+      "Nguyên tắc thực thể kinh doanh"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Việc sử dụng vật tư cho mục đích cá nhân vi phạm nguyên tắc thực thể kinh doanh."
+  },
+  {
+    "id": 14,
+    "question": "Nếu một khách hàng của doanh nghiệp đang có nguy cơ phá sản, doanh nghiệp cần phải lập một khoản dự phòng đối với nợ phải thu từ khách hàng đó là thuộc quy định của nguyên tắc:",
+    "options": [
+      "Nguyên tắc thận trọng",
+      "Nguyên tắc hoạt động liên tục",
+      "Nguyên tắc khách quan",
+      "Nguyên tắc thực thể kinh doanh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc thận trọng yêu cầu dự phòng rủi ro cho các khoản có khả năng mất."
+  },
+  {
+    "id": 15,
+    "question": "Chức năng cơ bản của hạch toán kế toán trong hệ thống quản lý đó là:",
+    "options": [
+      "Chức năng giám đốc",
+      "Chức năng phản ánh",
+      "Chức năng thông tin và chức năng kiểm tra",
+      "Chức năng thông tin và chức năng phản ánh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hạch toán kế toán cung cấp thông tin và thực hiện kiểm tra kiểm soát."
+  },
+  {
+    "id": 16,
+    "question": "Công ty ABC mua một ôtô vận tải vào ngày 02/9/N với giá 400 triệu đồng, sử dụng vào mục đích sản xuất kinh doanh. Ngày 30/9/N, giá chiếc xe này trên thị trường là 410 triệu đồng. Theo nguyên tắc giá phí và hoạt động liên tục:",
+    "options": [
+      "Giá trị ghi sổ của xe thời điểm 30/9/N là 400 triệu đồng",
+      "Giá trị ghi sổ của xe thời điểm 30/9/N là 405 triệu đồng",
+      "Giá trị ghi sổ của xe thời điểm 30/9/N là 410 triệu đồng",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Theo nguyên tắc giá gốc, tài sản ghi nhận theo giá mua, không điều chỉnh theo giá thị trường."
+  },
+  {
+    "id": 17,
+    "question": "Có tài liệu của công ty X vào ngày 01/01/N như sau (ĐVT: 1.000đ) ... Tài sản ngắn hạn của công ty X vào ngày 01/01/N sẽ là:",
+    "options": ["2.160.000", "2.002.000", "2.112.000", "3.762.000"],
+    "correctAnswer": 0,
+    "explanation": "Tài sản ngắn hạn gồm chứng khoán ngắn hạn, tiền gửi ngân hàng, nguyên vật liệu, thành phẩm và phải thu khách hàng."
+  },
+  {
+    "id": 18,
+    "question": "Có tài liệu của công ty X vào ngày 01/01/N như sau (ĐVT: 1.000đ) ... Tài sản dài hạn của công ty X vào ngày 01/01/N sẽ là:",
+    "options": ["2.160.000", "2.112.000", "2.100.000", "1.710.000"],
+    "correctAnswer": 3,
+    "explanation": "Tài sản dài hạn gồm nhà cửa, vật kiến trúc, công cụ dụng cụ, bản quyền sản phẩm và quỹ đầu tư phát triển."
+  },
+  {
+    "id": 19,
+    "question": "Có tài liệu của công ty X vào ngày 01/01/N như sau (ĐVT: 1.000đ) ... Phương trình kế toán cơ bản của công ty X vào ngày 01/01/N sẽ là: NVCSH = TỔNG TS – NỢ PHẢI TRẢ",
+    "options": [
+      "3.767.000 = (2.112.000 + 1.710.000) – 955.000",
+      "3.317.000 = (2.112.000 + 2.160.000) – 955.000",
+      "3.427.000 = (2.002.000 + 2.160.000) – 955.000",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phương trình kế toán cơ bản thể hiện vốn chủ sở hữu bằng tổng tài sản trừ nợ phải trả."
+  },
+  {
+    "id": 20,
+    "question": "Công ty ABC đang sở hữu và sử dụng một ngôi nhà làm văn phòng. Ngôi nhà được mua trong năm trước với giá 900 triệu đồng. Hiện tại, giá thị trường của ngôi nhà là 1.200 triệu đồng. Điều này sẽ làm cho:",
+    "options": [
+      "Tổng giá trị tài sản của công ty ABC năm nay tăng so với năm trước 300 triệu đồng",
+      "Tổng giá trị tài sản của công ty ABC năm nay có tăng thêm nhưng mức tăng thấp hơn 300 triệu đồng so với năm trước",
+      "Tổng nguồn vốn của công ty ABC không thay đổi",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Theo nguyên tắc giá gốc, tài sản vẫn được ghi nhận theo giá mua, không ghi nhận theo giá thị trường."
+  },
+  {
+    "id": 21,
+    "question": "Tổng tài sản của doanh nghiệp được xác định bằng:",
+    "options": [
+      "Nguồn vốn chủ sở hữu - Nợ phải trả",
+      "Nguồn vốn kinh doanh – Tài sản dài hạn",
+      "Tài sản ngắn hạn + Tài sản dài hạn",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tổng tài sản bằng tổng tài sản ngắn hạn và dài hạn."
+  },
+  {
+    "id": 22,
+    "question": "Nợ phải trả của doanh nghiệp được xác định bằng:",
+    "options": [
+      "Nợ ngắn hạn + Tài sản ngắn hạn",
+      "Tổng tài sản - Nguồn vốn chủ sở hữu",
+      "Tổng tài sản - Nguồn vốn kinh doanh",
+      "Nợ dài hạn + Tài sản dài hạn"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nợ phải trả bằng tổng tài sản trừ vốn chủ sở hữu."
+  },
+  {
+    "id": 23,
+    "question": "Có bao nhiêu phương pháp hạch toán kế toán:",
+    "options": ["3", "4", "5", "6"],
+    "correctAnswer": 0,
+    "explanation": "Có 3 phương pháp hạch toán kế toán."
+  },
+  {
+    "id": 24,
+    "question": "Có tài liệu công ty ABC vào ngày 01/01/N như sau: (ĐVT: 1.000đ) ... Nguồn vốn chủ sở hữu của công ty ABC vào ngày 01/01/N là:",
+    "options": ["313.000", "413.000", "393.000", "405.000"],
+    "correctAnswer": 1,
+    "explanation": "Tính tổng nguồn vốn chủ sở hữu dựa vào bảng tài liệu."
+  },
+  {
+    "id": 25,
+    "question": "Có tài liệu công ty ABC vào ngày 01/01/N như sau: (ĐVT: 1.000đ) ... Nợ phải trả của công ty ABC vào ngày 01/01/N là:",
+    "options": ["81.000", "101.000", "109.000", "Không có đáp án nào đúng"],
+    "correctAnswer": 2,
+    "explanation": "Tính tổng nợ phải trả dựa vào bảng tài liệu."
+  },
+  {
+    "id": 26,
+    "question": "Có tài liệu công ty ABC vào ngày 01/01/N như sau: (ĐVT: 1.000đ) ... Phương trình kế toán cơ bản vào ngày 01/01/N là:",
+    "options": [
+      "735.000 = 1.055.000 – 320.000",
+      "440.000 = 1.055.000 – 615.000",
+      "795.000 = 1.115.000 – 320.000",
+      "500.000 = 1.115.000 – 615.000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Phương trình kế toán cơ bản biểu diễn tài sản = nguồn vốn + nợ phải trả."
+  },
+  {
+    "id": 27,
+    "question": "Có tài liệu công ty ABC vào ngày 01/01/N như sau: (ĐVT: 1.000đ) ... Tài sản dài hạn của công ty ABC vào ngày 01/01/N là:",
+    "options": ["335.000", "185.000", "305.000", "Không có đáp án nào đúng"],
+    "correctAnswer": 0,
+    "explanation": "Tài sản dài hạn được tính theo các tài khoản liên quan trong bảng."
+  },
+  {
+    "id": 28,
+    "question": "Nếu phương trình kế toán cơ bản của đơn vị: 5.300.000=5.620.000–320.000. Trong kỳ có nghiệp vụ kinh tế phát sinh mua 02 xe tải chở hàng trị giá 1.036.000, chưa trả tiền cho người bán. Phương trình kế toán sau nghiệp vụ này là:",
+    "options": [
+      "5.300.000 = 5.620.000 – 320.000",
+      "5.300.000 = 6.656.000 – 1.356.000",
+      "6.336.000 = 6.656.000 – 320.000",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Phương trình kế toán cập nhật tài sản và nợ phải trả sau nghiệp vụ."
+  },
+  {
+    "id": 29,
+    "question": "Khách hàng trả nợ cho doanh nghiệp bằng chuyển khoản, số tiền 25 triệu đồng. Nghiệp vụ này sẽ làm cho:",
+    "options": [
+      "Tài sản không thay đổi",
+      "Tài sản tăng lên 20 triệu, nợ phải trả tăng lên 20 triệu",
+      "Tài sản tăng lên 20 triệu, nợ phải trả giảm xuống 20 triệu",
+      "Tài sản tăng lên 20 triệu, nguồn vốn kinh doanh tăng lên 20 triệu"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tiền chuyển khoản chỉ làm thay đổi hình thức tài sản, không làm tăng tổng tài sản."
+  },
+  {
+    "id": 30,
+    "question": "Doanh nghiệp chuyển khoản trả lương cho cán bộ công nhân viên, số tiền 120 triệu đồng. Nghiệp vụ này sẽ làm cho:",
+    "options": [
+      "Tài sản không thay đổi",
+      "Tài sản tăng lên 120 triệu, nguồn vốn tăng lên 120 triệu",
+      "Tài sản giảm xuống 120 triệu, nguồn vốn chủ sở hữu giảm xuống 120 triệu",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chi tiền lương làm giảm tài sản (tiền) và giảm nguồn vốn (chi phí)."
+  },
+  {
+    "id": 31,
+    "question": "Tạm ứng cho giám đốc công ty đi công tác Hà Nội số tiền 10 triệu đồng bằng tiền mặt. Nghiệp vụ này sẽ làm cho:",
+    "options": [
+      "Tài sản không thay đổi",
+      "Tài sản giảm xuống 10 triệu, nợ phải trả giảm xuống 10 triệu",
+      "Tài sản tăng lên 10 triệu, nguồn vốn tăng lên 10 triệu",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tạm ứng là thay đổi hình thức tài sản, không làm thay đổi tổng tài sản."
+  },
+  {
+    "id": 32,
+    "question": "Doanh nghiệp nhận được vốn góp liên doanh bằng một tài sản cố định hữu hình 100 triệu. Nghiệp vụ này sẽ làm cho:",
+    "options": [
+      "Tài sản không thay đổi",
+      "Tài sản tăng lên 100 triệu, nguồn vốn tăng lên 100 triệu",
+      "Tài sản tăng lên 100 triệu, nợ phải trả tăng lên 100 triệu",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nhận vốn góp tăng tài sản và nguồn vốn cùng giá trị."
+  },
+  {
+    "id": 33,
+    "question": "Đối tượng của hạch toán kế toán gồm có:",
+    "options": [
+      "Tài sản",
+      "Nguồn vốn",
+      "Tài sản, nguồn vốn, Quá trình kinh doanh",
+      "Tài sản, nguồn vốn, sự vận động của tài sản nguồn vốn, các quan hệ kinh tế khác"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Hạch toán kế toán tập trung phản ánh toàn bộ tài sản, nguồn vốn và các quan hệ kinh tế liên quan."
+  },
+  {
+    "id": 34,
+    "question": "Khi nhân viên nộp trả tiền tạm ứng thừa (hoàn tạm ứng) thì:",
+    "options": [
+      "Tài sản doanh nghiệp tăng thêm",
+      "Tổng tài sản doanh nghiệp không đổi",
+      "Nguồn vốn doanh nghiệp tăng thêm",
+      "Tổng nguồn vốn doanh nghiệp không đổi"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hoàn tạm ứng chỉ làm thay đổi hình thức tài sản, không ảnh hưởng tổng tài sản."
+  },
+  {
+    "id": 35,
+    "question": "Ngày 01/02/N, Công ty ABC xuất 100 sản phẩm gửi đến các cửa hàng của Công ty để bán sản phẩm ra thị trường. Kế toán của công ty ghi nhận:",
+    "options": ["Doanh thu bán hàng", "Hàng gửi đi bán", "Hàng mua đang đi đường", "Không ghi nhận"],
+    "correctAnswer": 1,
+    "explanation": "Hàng gửi đi bán chưa phải doanh thu, ghi nhận là hàng gửi đi bán."
+  },
+  {
+    "id": 36,
+    "question": "Ngày 01/01/N doanh nghiệp A cho thuê một văn phòng làm việc trong vòng 2 năm và số tiền nhận được từ việc cho thuê này là 240 triệu đồng, doanh nghiệp đã nhận đủ. Cuối tháng 01/N doanh nghiệp A sẽ ghi nhận doanh thu từ việc cho thuê văn phòng là:",
+    "options": ["240 triệu đồng", "120 triệu đồng", "10 triệu đồng", "12 triệu đồng"],
+    "correctAnswer": 3,
+    "explanation": "Doanh thu tháng 01 là 1/24 của tổng số tiền thuê, tức 10 triệu đồng."
+  },
+  {
+    "id": 37,
+    "question": "Một doanh nghiệp có giá trị tổng tài sản là 900 triệu đồng và tổng giá trị nợ phải trả là 300 triệu đồng. Vậy vốn chủ sở hữu của doanh nghiệp là:",
+    "options": ["1.200 triệu đồng", "600 triệu đồng", "900 triệu đồng", "300 triệu đồng"],
+    "correctAnswer": 1,
+    "explanation": "Vốn chủ sở hữu = Tổng tài sản – Nợ phải trả = 900 – 300 = 600 triệu đồng."
+  },
+  {
+    "id": 38,
+    "question": "Nếu tổng tài sản trong kỳ giảm xuống 200 triệu và vốn chủ sở hữu của doanh nghiệp tăng lên 250 triệu đồng thì nợ phải trả của doanh nghiệp sẽ giảm đi:",
+    "options": ["50 triệu đồng", "450 triệu đồng", "200 triệu đồng", "250 triệu đồng"],
+    "correctAnswer": 0,
+    "explanation": "Nợ phải trả = Tổng tài sản – Vốn chủ sở hữu, giảm 50 triệu đồng."
+  },
+  {
+    "id": 39,
+    "question": "Theo phương trình kế toán cơ bản; vốn chủ sở hữu bằng:",
+    "options": [
+      "Tổng tài sản – tổng nợ phải trả",
+      "Tổng tài sản + tổng nợ phải trả",
+      "Tổng tài sản dài hạn – tổng nợ phải trả",
+      "Tổng tài sản ngắn hạn - tổng nợ phải trả"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vốn chủ sở hữu = Tổng tài sản – Nợ phải trả."
+  },
+  {
+    "id": 40,
+    "question": "Phân loại chứng từ kế toán theo công dụng, bao gồm:",
+    "options": ["Chứng từ bên trong", "Chứng từ bên ngoài", "Cả a & b đều đúng", "Cả a & b đều sai"],
+    "correctAnswer": 2,
+    "explanation": "Chứng từ kế toán gồm cả chứng từ bên trong và bên ngoài."
+  },
+  {
+    "id": 41,
+    "question": "Các loại tài sản nào sau đây được xếp vào tài sản ngắn hạn:",
+    "options": [
+      "Tiền mặt, tiền gửi ngân hàng, nguyên vật liệu, hàng tồn kho",
+      "Nhà cửa, máy móc thiết bị, xe ô tô",
+      "Đất đai, quyền sử dụng đất",
+      "Tất cả các đáp án trên"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tài sản ngắn hạn gồm tiền mặt, tiền gửi ngân hàng, nguyên vật liệu và hàng tồn kho."
+  },
+  {
+    "id": 42,
+    "question": "Phương pháp kế toán nào được sử dụng để ghi nhận chi phí tài sản cố định khấu hao:",
+    "options": [
+      "Phương pháp khấu hao đường thẳng",
+      "Phương pháp khấu hao nhanh",
+      "Phương pháp giảm dần",
+      "Tất cả các phương pháp trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tùy vào chính sách doanh nghiệp, các phương pháp khấu hao có thể áp dụng."
+  },
+  {
+    "id": 43,
+    "question": "Nguyên tắc nào trong kế toán yêu cầu các số liệu phản ánh phải dựa trên chứng từ kế toán chính xác và đáng tin cậy:",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc nhất quán", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc khách quan yêu cầu chứng từ rõ ràng, tin cậy."
+  },
+  {
+    "id": 44,
+    "question": "Trong kế toán, khoản mục nào được sử dụng để ghi nhận các khoản nợ phải trả trong vòng 12 tháng tới:",
+    "options": ["Nợ dài hạn", "Nợ ngắn hạn", "Vốn chủ sở hữu", "Tài sản ngắn hạn"],
+    "correctAnswer": 1,
+    "explanation": "Nợ ngắn hạn là khoản nợ phải trả trong vòng 12 tháng."
+  },
+  {
+    "id": 45,
+    "question": "Khi doanh nghiệp mua nguyên vật liệu về kho, ghi nhận vào tài khoản nào:",
+    "options": ["Tài khoản nguyên vật liệu", "Tài khoản hàng hóa", "Tài khoản tiền mặt", "Tài khoản vốn chủ sở hữu"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên vật liệu nhập kho được ghi nhận vào tài khoản nguyên vật liệu."
+  },
+  {
+    "id": 46,
+    "question": "Báo cáo tài chính bao gồm những báo cáo nào:",
+    "options": [
+      "Bảng cân đối kế toán, báo cáo kết quả hoạt động kinh doanh",
+      "Bảng cân đối kế toán, báo cáo lưu chuyển tiền tệ",
+      "Bảng cân đối kế toán, báo cáo kết quả hoạt động kinh doanh, báo cáo lưu chuyển tiền tệ",
+      "Tất cả các báo cáo trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Báo cáo tài chính bao gồm tất cả các báo cáo trên."
+  },
+  {
+    "id": 47,
+    "question": "Kế toán ghi nhận doanh thu khi nào:",
+    "options": [
+      "Khi nhận tiền từ khách hàng",
+      "Khi giao hàng cho khách hàng và chuyển giao rủi ro",
+      "Khi ký hợp đồng bán hàng",
+      "Khi nhận đặt cọc từ khách hàng"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doanh thu ghi nhận khi giao hàng và chuyển giao rủi ro cho khách."
+  },
+  {
+    "id": 48,
+    "question": "Các khoản chi phí sản xuất kinh doanh bao gồm:",
+    "options": [
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí sản xuất chung",
+      "Tất cả các khoản trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chi phí sản xuất kinh doanh gồm nguyên vật liệu, nhân công trực tiếp và chi phí sản xuất chung."
+  },
+  {
+    "id": 49,
+    "question": "Nguyên tắc nào trong kế toán yêu cầu ghi nhận các khoản chi phí phù hợp với doanh thu liên quan trong kỳ kế toán:",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc phù hợp", "Nguyên tắc khách quan", "Nguyên tắc nhất quán"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc phù hợp yêu cầu ghi nhận chi phí phù hợp với doanh thu."
+  },
+  {
+    "id": 50,
+    "question": "Phương pháp hạch toán nào được sử dụng khi ghi nhận đồng thời các nghiệp vụ phát sinh có liên quan:",
+    "options": [
+      "Phương pháp hạch toán kép",
+      "Phương pháp hạch toán đơn",
+      "Phương pháp hạch toán tập hợp",
+      "Phương pháp hạch toán phân bổ"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phương pháp hạch toán kép ghi nhận các nghiệp vụ phát sinh theo phương pháp kép."
+  }
+]

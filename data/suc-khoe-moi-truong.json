@@ -1,1 +1,197 @@
-[]
+[
+  {
+    "id": "skmt-001",
+    "question": "Sức khỏe là (trạng thái hoàn toàn thoải mái về ........... chứ không phải đơn thuần là không có bệnh t���t",
+    "options": ["Thể chất, tâm thần và xã hội", "Xã hội", "Thể chất", "Tinh thần"],
+    "correctAnswer": 0,
+    "explanation": "Theo định nghĩa của Tổ chức Y tế Thế giới (WHO), sức khỏe là trạng thái hoàn toàn thoải mái về thể chất, tâm thần và xã hội, chứ không phải đơn thuần là không c�� bệnh tật hay tàn tật. Định nghĩa này nhấn mạnh tính toàn diện của sức khỏe, bao gồm cả các khía cạnh vật lý, tinh thần và xã hội."
+  },
+  {
+    "id": "skmt-002",
+    "question": "Mô hình nào dưới đây là không phải là mô hình can thiệp của sức khỏe môi trường?",
+    "options": [
+      "Mô hình can thiệp sức khỏe cộng đồng",
+      "Mô hình can thiệp lâm sàng",
+      "Mô hình hướng đến quản lý môi trường",
+      "Mô hình can thiệp sức khỏe người dân"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mô hình hướng đến quản lý môi trường không phải là mô hình can thiệp của sức khỏe môi trường. Các mô hình can thiệp chính trong sức khỏe môi trường bao gồm: mô hình can thiệp sức khỏe cộng đồng, mô hình can thiệp lâm sàng, và mô hình can thiệp sức khỏe người dân."
+  },
+  {
+    "id": "skmt-003",
+    "question": "Môi trường là:",
+    "options": [
+      "Môi trường bao gồm các yếu tố tự nhiên và yếu tố vật chất nhân tạo quan hệ mật thiết với nhau, có ảnh hưởng tới đời sống, sản xuất, sự tồn tại, phát triển của con người và thiên nhiên.",
+      "Môi trường bao gồm các nhân tố thiên nhiên như vật lý, hoá học, sinh học, tồn tại ngoài ý muốn của con người, nhưng cũng ít nhiều chịu tác động của con người.",
+      "Chỉ bao gồm các yếu tố tự nhiên",
+      "Chỉ bao gồm các yếu tố nhân tạo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Môi trường được định nghĩa một cách toàn diện bao gồm cả các yếu tố tự nhiên và yếu tố vật chất nhân tạo có quan hệ mật thiết với nhau, có ảnh hưởng tới đời sống, sản xuất, sự tồn tại và phát triển của con người và thiên nhiên. Định nghĩa này thể hiện tính tổng thể và mối quan hệ tương tác giữa các thành phần môi trường."
+  },
+  {
+    "id": "skmt-004",
+    "question": "Khi ozon tập trung nhiều ở tầng nào trong khí quyển:",
+    "options": ["Tầng ion", "Tầng đối lưu", "Tầng nhiệt", "Tầng bình lưu"],
+    "correctAnswer": 3,
+    "explanation": "Ozon tập trung nhiều nhất ở tầng bình lưu (stratosphere), cách mặt đất khoảng 15-50km. Tầng ozon này có vai trò quan trọng trong việc bảo vệ Trái Đất khỏi tia cực tím có hại từ Mặt Trời. Khi ozon ở tầng đối lưu (gần mặt đất) thì lại gây ô nhiễm và có hại cho sức khỏe."
+  },
+  {
+    "id": "skmt-005",
+    "question": "Ô nhiễm môi trường là gì?",
+    "options": [
+      "Ô nhiễm môi trường gây ảnh hưởng xấu đến con người, sinh vật.",
+      "Ô nhiễm môi trường là sự biến đổi của các thành phần môi trường không phù hợp với tiêu chuẩn môi trường.",
+      "Ô nhiễm môi trường là sự biến đổi của các thành phần môi trường không phù hợp với tiêu chuẩn môi trường, gây ảnh hưởng xấu đến con người, sinh vật.",
+      "Ô nhiễm môi trường là sự biến đổi của các thành phần môi trường."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ô nhiễm môi trường được định nghĩa đầy đủ là sự biến đổi của các thành phần môi trường không phù hợp với tiêu chuẩn môi trường, gây ảnh hưởng xấu đến con người và sinh vật. Định nghĩa này bao gồm cả hai yếu tố quan trọng: sự vượt quá tiêu chuẩn cho phép và tác động tiêu cực đến sức khỏe và hệ sinh thái."
+  },
+  {
+    "id": "skmt-006",
+    "question": "HIV không lây qua con đường nào sau đây?",
+    "options": [
+      "Giao tiếp thông thường (ôm hôn, bắt tay)",
+      "Đường tình dục",
+      "Lây nhiễm từ mẹ sang con",
+      "Đường truyền máu"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HIV không lây truyền qua giao tiếp thông thường như ôm hôn, bắt tay, sử dụng chung đồ dùng sinh hoạt. HIV chỉ lây truyền qua ba con đường chính: đường tình dục không an toàn, đường máu (qua kim tiêm, dụng cụ y tế không vô trùng), và từ mẹ sang con trong quá trình mang thai, sinh nở hoặc cho con bú."
+  },
+  {
+    "id": "skmt-007",
+    "question": "Mô hình nào dưới đây là mô hình can thiệp của sức khỏe môi trường?",
+    "options": [
+      "Mô hình can thiệp lâm sàng",
+      "Mô hình can thiệp cộng đồng",
+      "Cả A và B đều đúng",
+      "Không có đáp án nào đúng"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mô hình can thiệp cộng đồng là một trong những mô hình can thiệp quan trọng trong sức khỏe môi trường. Mô hình này tập trung vào phòng ngừa và can thiệp ở cấp độ dân số, giải quyết các vấn đề sức khỏe môi trường ảnh hưởng đến toàn bộ cộng đồng thông qua các biện pháp tập thể."
+  },
+  {
+    "id": "skmt-008",
+    "question": "Những hậu quả của Hiệu ứng nhà kính đến môi trường:",
+    "options": [
+      "Nhiệt độ Trái Đất tăng",
+      "Mực nước biển dâng cao",
+      "Mức nước biển dâng cao, nhiệt độ Trái Đất tăng",
+      "Tăng dân số"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hiệu ứng nhà kính gây ra nhiều hậu quả nghiêm trọng cho môi trường, trong đó hai hậu quả chính là nhiệt độ Trái Đất tăng (hiện tượng nóng lên toàn cầu) và mực nước biển dâng cao (do băng tan và nước biển nở ra khi nhiệt độ tăng). Tăng dân số không phải là hậu quả của hiệu ứng nhà kính mà là nguyên nhân góp phần vào hiện tượng này."
+  },
+  {
+    "id": "skmt-009",
+    "question": "Để có sức khỏe tốt cần:",
+    "options": [
+      "Chơi game quá nhiều",
+      "Uống nhiều rượu, bia, hút thuốc",
+      "Tập thể dục đều đặn, đúng khoa học",
+      "Ngủ quá ít"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Để có sức khỏe tốt, cần tập thể dục đều đặn và đúng khoa học. Hoạt động thể chất thường xuyên giúp tăng cường sức khỏe tim mạch, cơ bắp, xương khớp, cải thiện tâm trạng và giảm nguy cơ mắc nhiều bệnh mãn tính. Các hoạt động khác như chơi game quá nhiều, uống rượu bia, hút thuốc, ngủ không đủ giấc đều có hại cho sức khỏe."
+  },
+  {
+    "id": "skmt-010",
+    "question": "Nguyên nhân nào sau đây không gây ra bệnh nghề nghiệp?",
+    "options": [
+      "Cường độ lao động quá nặng nhọc",
+      "Thời gian lao động quá dài",
+      "Tư thế lao động không phù hợp với máy móc hoặc phương thức, phương tiện lao động",
+      "Do sự thay đổi thời tiết"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Bệnh nghề nghiệp là những bệnh phát sinh do điều kiện lao động không an toàn, bao gồm: cường độ lao động quá nặng, thời gian làm việc quá dài, tư thế lao động không phù hợp, tiếp xúc với các chất độc hại trong môi trường làm việc. Sự thay đổi thời tiết là yếu tố tự nhiên, không liên quan trực tiếp đến điều kiện lao động nên không được xếp vào nguyên nhân gây bệnh nghề nghiệp."
+  },
+  {
+    "id": "skmt-011",
+    "question": "Các yếu tố vi khí hậu cần quan tâm đối với môi trường không khí trong nhà là gì?",
+    "options": [
+      "Âm thanh, cây xanh, tiếng ồn",
+      "Nhiệt độ, cây xanh",
+      "Nhiệt độ, độ ẩm, ánh sáng",
+      "Âm nước, côn trùng"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Các yếu tố vi khí hậu quan trọng đối với môi trường không khí trong nhà bao gồm: nhiệt độ (ảnh hưởng đến cảm giác thoải mái), độ ẩm (ảnh hưởng đến sự phát triển của vi khuẩn, nấm mốc), và ánh sáng (ảnh hưởng đến thị lực và tâm lý). Ba yếu tố này có tác động trực tiếp đến sức khỏe và chất lượng cuộc sống của con người trong không gian sống."
+  },
+  {
+    "id": "skmt-012",
+    "question": "Các nguyên nhân chính gây ô nhiễm đất?",
+    "options": [
+      "Nhiệt mặn",
+      "Chất thải từ hoạt động nông nghiệp, công nghiệp",
+      "Chất thải từ hoạt động nông nghiệp, công nghiệp, các hoạt động sinh hoạt của con người, chiến tranh",
+      "Các hiện tượng thiên tai"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ô nhiễm đất có nhiều nguyên nhân khác nhau, bao gồm: chất thải từ hoạt động nông nghiệp (phân bón, thuốc trừ sâu), công nghiệp (chất thải độc hại, kim loại nặng), các hoạt động sinh hoạt của con người (rác thải sinh hoạt, nước thải), và chiến tranh (chất độc da cam, bom mìn). Đây là những nguyên nhân nhân tạo chính gây ô nhiễm đất nghiêm trọng."
+  },
+  {
+    "id": "skmt-013",
+    "question": "Thạch tín là tên gọi khác của nguyên tố hóa học nào sau đây:",
+    "options": ["Al (Nhôm)", "Ag (Bạc)", "Au (Vàng)", "As (Asen)"],
+    "correctAnswer": 3,
+    "explanation": "Thạch tín là tên gọi khác của nguyên tố Asen (As). Asen là một kim loại nặng có độc tính cao, có thể gây ngộ độc cấp tính hoặc mãn tính. Asen thường được sử dụng trong công nghiệp và có thể gây ô nhiễm nguồn nước, đất đai, ảnh hưởng nghiêm trọng đến sức khỏe con người."
+  },
+  {
+    "id": "skmt-014",
+    "question": "Tác nhân gây ô nhiễm thực phẩm:",
+    "options": ["Hóa học, Vật lý", "Sinh học, hóa học", "Vật lý, Sinh học", "Hóa học, Sinh học, Vật lý"],
+    "correctAnswer": 3,
+    "explanation": "Ô nhiễm thực phẩm có thể do ba loại tác nhân gây ra:\n\n- Tác nhân hóa học: thuốc trừ sâu, phân bón, chất bảo quản, kim loại nặng\n- Tác nhân sinh học: vi khuẩn, virus, ký sinh trùng, nấm mốc\n- Tác nhân vật lý: bụi bẩn, tạp chất, bức xạ\n\nCả ba loại tác nhân này đều có thể làm ô nhiễm thực phẩm và gây hại cho sức khỏe con người."
+  },
+  {
+    "id": "skmt-015",
+    "question": "Oxi chiếm bao nhiêu phần trăm trong thành phần không khí sạch:",
+    "options": ["19%", "22%", "20%", "21%"],
+    "correctAnswer": 2,
+    "explanation": "Trong thành phần không khí sạch, oxi (O₂) chiếm khoảng 20%. Thành phần không khí gồm: Nitơ (N₂) chiếm 78%, Oxi (O₂) chiếm khoảng 20-21%, Argon và các khí khác chiếm 1%. Tỷ lệ oxi này là cần thiết để duy trì sự sống và quá trình hô hấp của con người và động vật."
+  },
+  {
+    "id": "skmt-016",
+    "question": "Các thành phần trong khói mù quang hóa gây ảnh hưởng sức khỏe con người là gì?",
+    "options": ["CH₄, NH₃", "CO₂, NOₓ, SO₂", "Dioxin, NH₃", "O₃, PAN, Aldehyde"],
+    "correctAnswer": 1,
+    "explanation": "Khói mù quang hóa (photochemical smog) chứa các chất độc hại chính bao gồm:\n\n- CO₂ (Carbon dioxide): khí nhà kính\n- NOₓ (Nitrogen oxides): gây kích ứng đường hô hấp\n- SO₂ (Sulfur dioxide): gây kích ứng mắt, mũi, họng\n\nCác chất này hình thành từ các hoạt động công nghiệp và giao thông, gây ảnh hưởng nghiêm trọng đến sức khỏe con người và môi trường."
+  },
+  {
+    "id": "skmt-017",
+    "question": "Hiệu ứng nhà kính xảy ra ở đâu?",
+    "options": ["Trong đất", "Trong rừng", "Trên núi cao", "Trong khí quyển"],
+    "correctAnswer": 3,
+    "explanation": "Hiệu ứng nhà kính xảy ra trong khí quyển Trái Đất. Các khí nhà kính như CO₂, CH₄, N₂O trong khí quyển hấp thụ và giữ lại bức xạ nhiệt từ Trái Đất, làm tăng nhiệt độ bề mặt hành tinh. Đây là một quá trình tự nhiên cần thiết cho sự sống, nhưng khi nồng độ khí nhà kính tăng quá mức sẽ gây nóng lên toàn cầu."
+  },
+  {
+    "id": "skmt-018",
+    "question": "Bệnh ở người do dịch hạch lây truyền từ động vật gặm nhấm sang người được xếp thành:",
+    "options": ["Bệnh mãn tính", "Bệnh cấp tính", "Bệnh truyền nhiễm", "Bệnh nghề nghiệp"],
+    "correctAnswer": 2,
+    "explanation": "Dịch hạch là bệnh truyền nhiễm do vi khuẩn Yersinia pestis gây ra, lây truyền từ động vật gặm nhấm (chuột) sang người thông qua bọ chét. Đây được phân loại là bệnh truyền nhiễm vì có khả năng lây lan từ người này sang người khác và từ động vật sang người. Bệnh này có thể diễn biến cấp tính và rất nguy hiểm nếu không được điều trị kịp thời."
+  },
+  {
+    "id": "skmt-019",
+    "question": "Yếu tố nào sau đây không phải là yếu tố ảnh hưởng đến sức khỏe môi trường?",
+    "options": ["Chất lượng không khí", "Chất lượng nước", "Tiếng ồn", "Tuổi tác"],
+    "correctAnswer": 3,
+    "explanation": "Tuổi tác là yếu tố cá nhân, không phải yếu tố môi trường. Các yếu tố ảnh hưởng đến sức khỏe môi trường bao gồm:\n\n- Chất lượng không khí (ô nhiễm bụi, khí độc)\n- Chất lượng nước (ô nhiễm hóa học, vi sinh)\n- Tiếng ồn (gây stress, mất ngủ)\n- Bức xạ, nhiệt độ, độ ẩm\n\nTuổi tác ảnh hưởng đến mức độ nhạy cảm với các yếu tố môi trường nhưng bản thân không phải là yếu tố môi trường."
+  },
+  {
+    "id": "skmt-020",
+    "question": "Biện pháp nào sau đây không phải là biện pháp bảo vệ môi trường?",
+    "options": [
+      "Giảm thiểu chất thải",
+      "Tái chế, tái sử dụng",
+      "Sử dụng năng lượng tái tạo",
+      "Tăng sản xuất công nghiệp"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tăng sản xuất công nghiệp không phải là biện pháp bảo vệ môi trường, mà có thể gây ô nhiễm nếu không có các biện pháp kiểm soát phù hợp. Các biện pháp bảo vệ môi trường hiệu quả bao gồm:\n\n- Giảm thiểu chất thải tại nguồn\n- Tái chế và tái sử dụng vật liệu\n- Sử dụng năng lượng tái tạo (gió, mặt trời)\n- Áp dụng công nghệ sạch\n\nViệc tăng sản xuất cần đi kèm với công nghệ sạch và quản lý môi trường tốt."
+  }
+]

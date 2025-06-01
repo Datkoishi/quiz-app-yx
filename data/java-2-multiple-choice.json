@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "In a binary search tree, if we want to find the largest element, which direction should we go?",
+    "options": ["Always go left", "Always go right", "Go down to the root", "Go in both directions"],
+    "correctAnswer": 1,
+    "explanation": "In a binary search tree (BST), elements in the left subtree are always smaller than the root node, and elements in the right subtree are always larger than the root node.\n\nTherefore, to find the largest element, we need to always go right until we can't go further (i.e., reach a node with no right child).\n\n/ Trong cây nhị phân tìm kiếm (BST), các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc.\n\nDo đó, để tìm phần tử lớn nhất, ta cần luôn đi sang phải cho đến khi không thể đi tiếp được nữa (tức là đến nút không có con phải)."
+  },
+  {
+    "id": 2,
+    "question": "Which sorting algorithm has an average complexity of O(n log n)?",
+    "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
+    "correctAnswer": 2,
+    "explanation": "Quick Sort has an average complexity of O(n log n).\n\nBubble Sort, Insertion Sort, and Selection Sort all have an average complexity of O(n²).\n\n/ Thuật toán sắp xếp nhanh (Quick Sort) có độ phức tạp trung bình là O(n log n).\n\nCác thuật toán sắp xếp nổi bọt (Bubble Sort), sắp xếp chèn (Insertion Sort) và sắp xếp chọn (Selection Sort) đều có độ phức tạp trung bình là O(n²)."
+  },
+  {
+    "id": 3,
+    "question": "In the Stack data structure, which element is removed first?",
+    "options": [
+      "The element added first",
+      "The element added last",
+      "The element with the largest value",
+      "The element with the smallest value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stack is a LIFO (Last In First Out) data structure, meaning the element added last will be removed first.\n\nThis is like stacking plates, the plate placed on top (last) will be taken first.\n\n/ Ngăn xếp (Stack) là cấu trúc dữ liệu LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên.\n\nĐiều này giống như việc xếp chồng đĩa, đĩa nào được đặt lên trên cùng (cuối cùng) sẽ được lấy ra trước."
+  },
+  {
+    "id": 4,
+    "question": "In the Queue data structure, which element is removed first?",
+    "options": [
+      "The element added first",
+      "The element added last",
+      "The element with the largest value",
+      "The element with the smallest value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Queue is a FIFO (First In First Out) data structure, meaning the element added first will be removed first.\n\nThis is like people lining up to buy tickets, the person who arrives first will be served first.\n\n/ Hàng đợi (Queue) là cấu trúc dữ liệu FIFO (First In First Out), nghĩa là phần tử được thêm vào đầu tiên sẽ được lấy ra đầu tiên.\n\nĐiều này giống như người xếp hàng mua vé, người đến trước (đầu tiên) sẽ được phục vụ trước."
+  },
+  {
+    "id": 5,
+    "question": "Which of the following algorithms is NOT a sorting algorithm?",
+    "options": ["Merge Sort", "Bubble Sort", "Binary Search", "Insertion Sort"],
+    "correctAnswer": 2,
+    "explanation": "Binary Search is a search algorithm, not a sorting algorithm.\n\nThe remaining algorithms (Merge Sort, Bubble Sort, Insertion Sort) are all sorting algorithms.\n\n/ Binary Search (Tìm kiếm nhị phân) là thuật toán tìm kiếm, không phải thuật toán sắp xếp.\n\nCác thuật toán còn lại (Merge Sort, Bubble Sort, Insertion Sort) đều là các thuật toán sắp xếp."
+  },
+  {
+    "id": 6,
+    "question": "The best-case time complexity of Bubble Sort algorithm is:",
+    "options": ["O(n)", "O(n log n)", "O(n²)", "O(1)"],
+    "correctAnswer": 0,
+    "explanation": "The best-case time complexity of Bubble Sort is O(n), which occurs when the array is already sorted.\n\nIn this case, the algorithm only needs to traverse the array once and doesn't need to perform any swaps.\n\n/ Độ phức tạp thời gian tốt nhất của thuật toán sắp xếp nổi bọt (Bubble Sort) là O(n), xảy ra khi mảng đã được sắp xếp từ trước.\n\nTrong trường hợp này, thuật toán chỉ cần duyệt qua mảng một lần và không cần thực hiện bất kỳ phép đổi chỗ nào."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following data structures is NOT a linear data structure?",
+    "options": ["Array", "Linked List", "Tree", "Stack"],
+    "correctAnswer": 2,
+    "explanation": "Tree is not a linear data structure but a non-linear data structure.\n\nLinear data structures like Array, Linked List, Stack have elements arranged in a linear order, while Tree has elements arranged in a hierarchical relationship.\n\n/ Cây (Tree) không phải là cấu trúc dữ liệu tuyến tính mà là cấu trúc dữ liệu phi tuyến tính.\n\nCác cấu trúc dữ liệu tuyến tính như Mảng (Array), Danh sách liên kết (Linked List), Ngăn xếp (Stack) có các phần tử được sắp xếp theo thứ tự tuyến tính, trong khi Cây có các phần tử được sắp xếp theo quan hệ phân cấp."
+  },
+  {
+    "id": 8,
+    "question": "In a Full Binary Tree, how many children does each non-leaf node have?",
+    "options": ["0", "1", "2", "3"],
+    "correctAnswer": 2,
+    "explanation": "In a Full Binary Tree, each non-leaf node (internal node) has exactly 2 children.\n\nIn other words, each node either has 0 children (leaf node) or has 2 children (internal node).\n\n/ Trong cây nhị phân đầy đủ (Full Binary Tree), mỗi nút không phải là lá (nút trong) đều có đúng 2 con.\n\nNói cách khác, mỗi nút hoặc có 0 con (là nút lá), hoặc có 2 con (là nút trong)."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following algorithms uses the divide and conquer strategy?",
+    "options": ["Bubble Sort", "Insertion Sort", "Selection Sort", "Quick Sort"],
+    "correctAnswer": 3,
+    "explanation": "Quick Sort is a sorting algorithm that uses the divide and conquer strategy.\n\nThis algorithm divides the array into two parts based on a pivot element, then recursively sorts these two parts.\n\n/ Quick Sort (Sắp xếp nhanh) là thuật toán sắp xếp sử dụng chiến lược chia để trị (divide and conquer).\n\nThuật toán này chia mảng thành hai phần dựa trên một phần tử chốt (pivot), sau đó sắp xếp đệ quy hai phần này."
+  },
+  {
+    "id": 10,
+    "question": "In a Binary Search Tree (BST), how does the left child node's value compare to its parent node?",
+    "options": ["Always greater", "Always smaller", "Can be greater or smaller", "Equal"],
+    "correctAnswer": 1,
+    "explanation": "In a Binary Search Tree (BST), the left child node of a node always has a value smaller than the parent node.\n\nThis is one of the fundamental properties of BST, which enables efficient searching, insertion, and deletion of elements.\n\n/ Trong cây nhị phân tìm kiếm (BST), nút con trái của một nút luôn có giá trị nhỏ hơn nút cha.\n\nĐây là một trong những tính chất cơ bản của cây nhị phân tìm kiếm, giúp việc tìm kiếm, chèn và xóa các phần tử được thực hiện hiệu quả."
+  },
+  {
+    "id": 11,
+    "question": "Binary Search algorithm requires the data to be:",
+    "options": ["Sorted", "Unsorted", "Integer numbers", "Character strings"],
+    "correctAnswer": 0,
+    "explanation": "Binary Search algorithm requires the data to be sorted before performing the search.\n\nThis allows the algorithm to eliminate half of the data after each comparison step, reducing the time complexity to O(log n).\n\n/ Thuật toán tìm kiếm nhị phân (Binary Search) yêu cầu dữ liệu phải được sắp xếp trước khi thực hiện tìm kiếm.\n\nĐiều này cho phép thuật toán loại bỏ một nửa dữ liệu sau mỗi bước so sánh, giúp giảm độ phức tạp thời gian xuống còn O(log n)."
+  },
+  {
+    "id": 12,
+    "question": "The time complexity of Binary Search algorithm is:",
+    "options": ["O(n)", "O(log n)", "O(n²)", "O(n log n)"],
+    "correctAnswer": 1,
+    "explanation": "The time complexity of Binary Search algorithm is O(log n).\n\nThis is because after each comparison step, the algorithm eliminates half of the data to be examined, significantly reducing the number of comparisons needed.\n\n/ Độ phức tạp thời gian của thuật toán tìm kiếm nhị phân (Binary Search) là O(log n).\n\nĐiều này là do sau mỗi bước so sánh, thuật toán loại bỏ một nửa dữ liệu cần xem xét, giúp giảm đáng kể số lượng phép so sánh cần thực hiện."
+  },
+  {
+    "id": 13,
+    "question": "In a Tree data structure, a node with no child nodes is called:",
+    "options": ["Root node", "Internal node", "Leaf node", "Sibling node"],
+    "correctAnswer": 2,
+    "explanation": "In a Tree data structure, a node with no child nodes is called a Leaf node.\n\nLeaf nodes are usually located at the last level of the tree.\n\n/ Trong cấu trúc dữ liệu cây (Tree), nút không có nút con nào được gọi là nút lá (Leaf node).\n\nCác nút lá thường nằm ở tầng cuối cùng của cây."
+  },
+  {
+    "id": 14,
+    "question": "Which sorting algorithm has the same time complexity O(n log n) for best, average, and worst cases?",
+    "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Insertion Sort"],
+    "correctAnswer": 1,
+    "explanation": "Merge Sort has the same time complexity O(n log n) for best, average, and worst cases.\n\nThis is one of the advantages of Merge Sort compared to other sorting algorithms like Quick Sort (worst case O(n²)) or Insertion Sort (average and worst case O(n²)).\n\n/ Merge Sort (Sắp xếp trộn) có độ phức tạp thời gian tốt nhất, trung bình và xấu nhất đều là O(n log n).\n\nĐây là một trong những ưu điểm của Merge Sort so với các thuật toán sắp xếp khác như Quick Sort (có độ phức tạp xấu nhất là O(n²)) hay Insertion Sort (có độ phức tạp trung bình và xấu nhất là O(n²))."
+  },
+  {
+    "id": 15,
+    "question": "In a Complete Binary Tree with n nodes, the height of the tree is:",
+    "options": ["log₂(n)", "log₂(n+1)", "⌊log₂(n)⌋", "⌈log₂(n+1)⌉"],
+    "correctAnswer": 2,
+    "explanation": "In a Complete Binary Tree with n nodes, the height of the tree is ⌊log₂(n)⌋, which is the floor of log₂(n).\n\nFor example, a complete binary tree with 7 nodes will have height ⌊log₂(7)⌋ = ⌊2.81⌋ = 2.\n\n/ Trong cây nhị phân hoàn chỉnh (Complete Binary Tree) có n nút, chiều cao của cây là ⌊log₂(n)⌋, tức là phần nguyên của log₂(n).\n\nVí dụ, một cây nhị phân hoàn chỉnh có 7 nút sẽ có chiều cao là ⌊log₂(7)⌋ = ⌊2.81⌋ = 2."
+  },
+  {
+    "id": 16,
+    "question": "In a Binary Search Tree (BST), which traversal order will give elements in ascending order?",
+    "options": ["Preorder traversal", "Inorder traversal", "Postorder traversal", "Level order traversal"],
+    "correctAnswer": 1,
+    "explanation": "In a Binary Search Tree (BST), inorder traversal will give elements in ascending order.\n\nThis is because in BST, elements in the left subtree are always smaller than the root node, and elements in the right subtree are always larger than the root node. When performing inorder traversal (left - root - right), we visit nodes in ascending order of values.\n\n/ Trong cây nhị phân tìm kiếm (BST), duyệt trung tự (Inorder) sẽ cho ra các phần tử theo thứ tự tăng dần.\n\nĐiều này là do trong BST, các phần tử ở cây con trái luôn nhỏ hơn nút gốc, và các phần tử ở cây con phải luôn lớn hơn nút gốc. Khi duyệt trung tự (trái - gốc - phải), ta sẽ thăm các nút theo thứ tự tăng dần của giá trị."
+  },
+  {
+    "id": 17,
+    "question": "In a singly linked list, to delete a node in the middle of the list, we need:",
+    "options": [
+      "The address of the node to be deleted",
+      "The address of the node before the node to be deleted",
+      "The address of the node after the node to be deleted",
+      "The addresses of both the node before and after the node to be deleted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a singly linked list, to delete a node in the middle of the list, we need the address of the node before the node to be deleted.\n\nThis is because in a singly linked list, each node only has a pointer to the next node, not to the previous node. Therefore, to delete a node, we need to update the next pointer of the node before the node to be deleted to point to the node after the node to be deleted.\n\n/ Trong danh sách liên kết đơn, để xóa một nút ở giữa danh sách, ta cần biết địa chỉ của nút trước nút cần xóa.\n\nĐiều này là do trong danh sách liên kết đơn, mỗi nút chỉ có con trỏ trỏ đến nút tiếp theo, không có con trỏ trỏ đến nút trước đó. Do đó, để xóa một nút, ta cần cập nhật con trỏ next của nút trước nút cần xóa để trỏ đến nút sau nút cần xóa."
+  },
+  {
+    "id": 18,
+    "question": "The complexity of the Quick Sort algorithm is:",
+    "options": ["O(n)", "O(n²)", "O(nlogn)", "O(n³)"],
+    "correctAnswer": 2,
+    "explanation": "The Quick Sort algorithm has an average complexity of O(nlogn).\n\nIn the best and average cases, Quick Sort has O(nlogn) complexity, but in the worst case it can reach O(n²).\n\n/ Thuật toán Quick Sort có độ phức tạp trung bình là O(nlogn).\n\nTrong trường hợp tốt nhất và trung bình, Quick Sort có độ phức tạp O(nlogn), nhưng trong trường hợp xấu nhất có thể đạt O(n²)."
+  },
+  {
+    "id": 19,
+    "question": "Stack is also called as:",
+    "options": ["Last In First Out", "First In Last Out", "First In First Out", "All is correct"],
+    "correctAnswer": 0,
+    "explanation": "Stack is called a LIFO (Last In First Out) data structure, meaning the element added last will be removed first.\n\n/ Stack (Ngăn xếp) được gọi là cấu trúc dữ liệu LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
+  },
+  {
+    "id": 20,
+    "question": "The postfix form of the expression A*X/Y + B*C*F is:",
+    "options": ["A X * Y / B C F * * +", "A X Y * / B C * F * +", "A X * Y + / B C F * *", "All is correct"],
+    "correctAnswer": 0,
+    "explanation": "Converting infix expression A*X/Y + B*C*F to postfix:\n\n1. A*X → A X *\n\n2. (A*X)/Y → A X * Y /\n\n3. B*C → B C *\n\n4. (B*C)*F → B C * F *\n\n5. (A*X/Y) + (B*C*F) → A X * Y / B C * F * +\n\nSo the result is: A X * Y / B C * F * +\n\n/ Chuyển đổi biểu thức trung tố A*X/Y + B*C*F sang hậu tố:\n\n1. A*X → A X *\n\n2. (A*X)/Y → A X * Y /\n\n3. B*C → B C *\n\n4. (B*C)*F → B C * F *\n\n5. (A*X/Y) + (B*C*F) → A X * Y / B C * F * +. Vậy kết quả là: A X * Y / B C * F * +"
+  },
+  {
+    "id": 21,
+    "question": "What condition is used to check if a node (not null) in a binary tree has exactly 1 child?",
+    "options": [
+      "(T.left==null && T.right!=null)",
+      "(T.left==null && T.right!=null) && (T.left!=null && T.right==null)",
+      "(T.left==null && T.right!=null) || (T.left!=null && T.right==null)",
+      "(T.left!=null && T.right==null)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A node has exactly one child when either it has only a left child OR only a right child.\n\nThis is expressed as (T.left==null && T.right!=null) || (T.left!=null && T.right==null).\n\n/ Một nút có đúng một con khi hoặc nó chỉ có con trái HOẶC chỉ có con phải.\n\nĐiều này được biểu diễn bằng (T.left==null && T.right!=null) || (T.left!=null && T.right==null)."
+  },
+  {
+    "id": 22,
+    "question": "If we sort the array {28, 17, 25, 46, 39, 50, 62, 7} using bubble sort, what will the array look like after the 2nd pass?",
+    "options": [
+      "7, 17, 25, 28, 39, 46, 50, 62",
+      "7, 17, 28, 25, 39, 46, 50, 62",
+      "7, 28, 25, 17, 39, 46, 50, 62",
+      "All answers are incorrect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In bubble sort, after pass 1: 7, 28, 17, 25, 46, 39, 50, 62.\n\nAfter pass 2: 7, 17, 28, 25, 39, 46, 50, 62. The second smallest element (17) bubbles to its correct position.\n\n/ Trong sắp xếp nổi bọt, sau lần 1: 7, 28, 17, 25, 46, 39, 50, 62.\n\nSau lần 2: 7, 17, 28, 25, 39, 46, 50, 62. Phần tử nhỏ thứ hai (17) nổi lên vị trí đúng của nó."
+  },
+  {
+    "id": 23,
+    "question": "After how many steps will the bubble sort algorithm stop when sorting {28, 17, 25, 46, 39, 50, 62, 7}?",
+    "options": ["5", "4", "7", "6"],
+    "correctAnswer": 1,
+    "explanation": "Bubble sort will stop after 4 passes when no more swaps are needed.\n\nPass 1: 7 moves to front, Pass 2: 17 moves to position 2, Pass 3: 25 moves to position 3, Pass 4: no swaps needed, algorithm stops.\n\n/ Sắp xếp nổi bọt sẽ dừng sau 4 lần duyệt khi không cần hoán đổi thêm nữa.\n\nLần 1: 7 di chuyển lên đầu, Lần 2: 17 di chuyển đến vị trí 2, Lần 3: 25 di chuyển đến vị trí 3, Lần 4: không cần hoán đổi, thuật toán dừng."
+  },
+  {
+    "id": 24,
+    "question": "If we sort the array {28, 17, 25, 46, 39, 50, 62, 7} using selection sort, what will the array look like after the 2nd pass?",
+    "options": [
+      "7, 17, 25, 28, 39, 46, 50, 62",
+      "7, 17, 28, 25, 39, 46, 50, 62",
+      "7, 17, 25, 46, 39, 50, 62, 28",
+      "All answers are incorrect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In selection sort, we find the minimum element and place it at the beginning.\n\nPass 1: find minimum (7) and swap with first position. Pass 2: find minimum from remaining elements (17) and place at second position. Result: 7, 17, 25, 46, 39, 50, 62, 28.\n\n/ Trong sắp xếp chọn, ta tìm phần tử nhỏ nhất và đặt ở đầu.\n\nLần 1: tìm minimum (7) và hoán đổi với vị trí đầu. Lần 2: tìm minimum từ các phần tử còn lại (17) và đặt ở vị trí thứ hai. Kết quả: 7, 17, 25, 46, 39, 50, 62, 28."
+  },
+  {
+    "id": 25,
+    "question": "To find a value x in a sorted array of 100 elements, what is the minimum number of comparisons needed using binary search?",
+    "options": ["99", "7", "50", "25"],
+    "correctAnswer": 1,
+    "explanation": "Binary search has O(log n) complexity.\n\nFor 100 elements: log₂(100) ≈ 6.64, so we need at most 7 comparisons. Each comparison eliminates half of the remaining elements.\n\n/ Tìm kiếm nhị phân có độ phức tạp O(log n).\n\nVới 100 phần tử: log₂(100) ≈ 6.64, vậy ta cần tối đa 7 lần so sánh. Mỗi lần so sánh loại bỏ một nửa số phần tử còn lại."
+  },
+  {
+    "id": 26,
+    "question": "When sorting the array {351, 815, 4, 93, 167, 854, 45, 77, 805, 302} using radix sort, what will the queue Q contain after the 2nd pass (sorting by tens digit)?",
+    "options": [
+      "4, 45, 77, 93, 167, 303, 351, 805, 815, 854",
+      "4, 302, 805, 815, 45, 351, 854, 167, 77, 93",
+      "4, 45, 805, 815, 305, 351, 854, 167, 77, 93",
+      "302, 4, 805, 815, 45, 351, 854, 167, 77, 93"
+    ],
+    "correctAnswer": 3,
+    "explanation": "In radix sort, after sorting by units digit (1st pass), then by tens digit (2nd pass), elements are arranged by their tens digit: 302(0), 4(0), 805(0), 815(1), 45(4), 351(5), 854(5), 167(6), 77(7), 93(9).\n\n/ Trong sắp xếp cơ s���, sau khi sắp xếp theo hàng đơn vị (lần 1), rồi theo hàng chục (lần 2), các phần tử được sắp xếp theo chữ số hàng chục: 302(0), 4(0), 805(0), 815(1), 45(4), 351(5), 854(5), 167(6), 77(7), 93(9)."
+  },
+  {
+    "id": 27,
+    "question": "We can create an ascending or descending sequence when traversing a BST using which traversal technique?",
+    "options": ["Preorder traversal", "Inorder traversal", "Postorder traversal", "Level order traversal"],
+    "correctAnswer": 1,
+    "explanation": "Inorder traversal of a BST visits nodes in ascending order (left-root-right).\n\nFor descending order, we can use reverse inorder (right-root-left).\n\n/ Duyệt trung tự của BST thăm các nút theo thứ tự tăng dần (trái-gốc-phải).\n\nĐể có thứ tự giảm dần, ta có thể dùng duyệt trung tự ngược (phải-gốc-trái)."
+  },
+  {
+    "id": 28,
+    "question": "What is missing in this function to calculate the height of a tree: int height(TNode T) { if (T==null) return 0; else return ______________ ; }",
+    "options": [
+      "Math.max(height(T.left), height(T.right))",
+      "height(T.left) + height(T.right) + 1",
+      "height(T.left) + height(T.right)",
+      "Math.max(height(T.left), height(T.right)) + 1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The height of a tree is 1 plus the maximum height of its left and right subtrees.\n\nWe use Math.max to find the larger height and add 1 for the current node.\n\n/ Chiều cao của cây là 1 cộng với chiều cao lớn nhất của cây con trái và phải.\n\nTa dùng Math.max để tìm chiều cao lớn hơn và cộng 1 cho nút hiện tại."
+  },
+  {
+    "id": 29,
+    "question": "If p is a pointer to the root of a BST T, which code makes p point to the smallest value in the BST?",
+    "options": [
+      "while (p!=NULL) p=p.right;",
+      "while (p.left!=NULL) p=p.left;",
+      "while (p.right!=NULL) p=p.right;",
+      "p=p.right;"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a BST, the smallest value is always in the leftmost node.\n\nWe keep going left until we reach a node with no left child.\n\n/ Trong BST, giá trị nhỏ nhất luôn ở nút trái nhất.\n\nTa tiếp tục đi sang trái cho đến khi đến nút không có con trái."
+  },
+  {
+    "id": 30,
+    "question": "If we insert the values 25, 8, 6, 30, 20, 25, 44, 24, 35, 11 into a BST and perform preorder traversal, what sequence do we get?",
+    "options": [
+      "6, 11, 24, 20, 8, 25, 35, 44, 30, 25",
+      "25, 8, 6, 11, 20, 24, 30, 25, 44, 35",
+      "25, 8, 6, 20, 11, 24, 30, 44, 35",
+      "All answers are incorrect"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Preorder traversal visits root-left-right.\n\nStarting from root 25, we visit: 25, then left subtree (8, 6, 20, 11, 24), then right subtree (30, 44, 35). Note: duplicate 25 is typically ignored in BST.\n\n/ Duyệt tiền tự thăm gốc-trái-phải.\n\nBắt đầu từ gốc 25, ta thăm: 25, rồi cây con trái (8, 6, 20, 11, 24), rồi cây con phải (30, 44, 35). Lưu ý: giá trị 25 trùng lặp thường bị bỏ qua trong BST."
+  },
+  {
+    "id": 31,
+    "question": "The number of links in a doubly linked list is:",
+    "options": ["1", "2", "3", "All answers are incorrect"],
+    "correctAnswer": 1,
+    "explanation": "A doubly linked list has 2 links per node: one pointing to the next node and one pointing to the previous node.\n\n/ Danh sách liên kết đôi có 2 liên kết mỗi nút: một trỏ đến nút tiếp theo và một trỏ đến nút trước đó."
+  },
+  {
+    "id": 32,
+    "question": "If p is a pointer pointing to the head of a non-empty list, what condition is needed to make p point to the last node in the list?",
+    "options": ["while(p!=NULL)", "while(p.next!=NULL)", "while(p.next.next!=NULL)", "All answers are incorrect"],
+    "correctAnswer": 1,
+    "explanation": "To reach the last node, we continue until p.next is NULL, meaning the current node p is the last node (has no next node).\n\n/ Để đến nút cuối, ta tiếp tục cho đến khi p.next là NULL, nghĩa là nút hiện tại p là nút cuối (không có nút tiếp theo)."
+  },
+  {
+    "id": 33,
+    "question": "To find a value x in an array of 52 elements, what is the minimum number of comparisons needed?",
+    "options": ["52", "26", "6", "5"],
+    "correctAnswer": 2,
+    "explanation": "Using binary search on 52 elements: log₂(52) ≈ 5.7, so we need at most 6 comparisons.\n\n/ Sử dụng tìm kiếm nhị phân trên 52 phần tử: log₂(52) ≈ 5.7, vậy ta cần tối đa 6 lần so sánh."
+  },
+  {
+    "id": 34,
+    "question": "Which data structure is suitable for implementing recursion?",
+    "options": ["Tree", "Linked List", "Queue", "Stack"],
+    "correctAnswer": 3,
+    "explanation": "Stack is the most suitable data structure for recursion because it follows LIFO (Last In First Out) principle, which matches how recursive function calls are managed.\n\n/ Stack là cấu trúc dữ liệu phù hợp nhất cho đệ quy vì nó tuân theo nguyên tắc LIFO (Last In First Out), phù hợp với cách quản lý các lời gọi hàm đệ quy."
+  },
+  {
+    "id": 35,
+    "question": "Where is the smallest value located in a BST?",
+    "options": ["At the root", "Leftmost position", "Rightmost position", "All answers are incorrect"],
+    "correctAnswer": 1,
+    "explanation": "In a BST, the smallest value is always located at the leftmost position because left children are always smaller than their parents.\n\n/ Trong BST, giá trị nhỏ nhất luôn nằm ở vị trí trái nhất vì các con trái luôn nhỏ hơn cha của chúng."
+  },
+  {
+    "id": 36,
+    "question": "Stack operates according to which principle?",
+    "options": ["LIFO", "FIFO", "FILO", "LILO"],
+    "correctAnswer": 0,
+    "explanation": "Stack operates on LIFO (Last In First Out) principle, meaning the last element added is the first one to be removed.\n\n/ Stack hoạt động theo nguyên tắc LIFO (Last In First Out), nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
+  },
+  {
+    "id": 37,
+    "question": "If p is a pointer to the root of a BST T, which code makes p point to the largest value in the BST?",
+    "options": [
+      "while (p!=NULL) p=p.right;",
+      "while (p.left!=NULL) p=p.left;",
+      "while (p.right!=NULL) p=p.right;",
+      "p=p.right;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a BST, the largest value is always in the rightmost node.\n\nWe keep going right until we reach a node with no right child.\n\n/ Trong BST, giá trị lớn nhất luôn ở nút phải nhất.\n\nTa tiếp tục đi sang phải cho đến khi đến nút không có con phải."
+  },
+  {
+    "id": 38,
+    "question": "What is the fundamental difference between a queue and a stack?",
+    "options": [
+      "Maximum number of elements that can be stored",
+      "Data type of the elements",
+      "Number of basic operations on each data type",
+      "All answers are incorrect"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The fundamental difference is in the order of element access: Stack uses LIFO (Last In First Out) while Queue uses FIFO (First In First Out).\n\n/ Sự khác biệt cơ bản là thứ tự truy cập phần tử: Stack dùng LIFO (Last In First Out) trong khi Queue dùng FIFO (First In First Out)."
+  },
+  {
+    "id": 39,
+    "question": "The command to delete the first node in a non-empty singly linked list is:",
+    "options": [
+      "head = head.next;",
+      "Node q = head;",
+      "Node q = head; q = q.next;",
+      "Node q = head; head = head.next.next;"
+    ],
+    "correctAnswer": 0,
+    "explanation": "To delete the first node, we simply move the head pointer to the next node: head = head.next. This effectively removes the first node from the list.\n\n/ Để xóa nút đầu tiên, ta chỉ cần di chuyển con trỏ head đến nút tiếp theo: head = head.next. Điều này có hiệu quả loại bỏ nút đầu tiên khỏi danh sách."
+  },
+  {
+    "id": 40,
+    "question": "The condition to check if a binary tree has exactly 1 child is:",
+    "options": [
+      "T.left==NULL && T.right!=NULL",
+      "T.left!=NULL || T.right!=NULL",
+      "T.left!=NULL && T.right!=NULL",
+      "T.left!=NULL && T.right==NULL"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A node has exactly one child when it has either a left child OR a right child (but not both).\n\nThis is expressed as (T.left!=NULL && T.right==NULL) || (T.left==NULL && T.right!=NULL), which simplifies to T.left!=NULL || T.right!=NULL when we want to check if it has at least one child.\n\n/ Một nút có đúng một con khi nó có con trái HOẶC con phải (nhưng không phải cả hai).\n\nĐiều này được biểu diễn bằng (T.left!=NULL && T.right==NULL) || (T.left==NULL && T.right!=NULL)."
+  }
+]

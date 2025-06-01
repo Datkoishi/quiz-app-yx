@@ -1,0 +1,284 @@
+[
+    {
+      "id": 1,
+      "question": "Environmental factors affect marketing activities",
+      "options": ["True", "False"],
+      "correctAnswer": 0,
+      "explanation": "Environmental factors such as economic, social, technological, competitive, and regulatory forces significantly impact marketing activities."
+    },
+    {
+      "id": 2,
+      "question": "Needs affect marketing, but wants do not.",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "Both needs and wants affect marketing. Wants are shaped by culture and personality and are important for marketing strategies."
+    },
+    {
+      "id": 3,
+      "question": "The term market is best defined as people with the desire and ability to buy a specific product.",
+      "options": ["True", "False"],
+      "correctAnswer": 0,
+      "explanation": "A market consists of people who have both the desire and the ability (purchasing power) to buy specific products."
+    },
+    {
+      "id": 4,
+      "question": "Marketing programs are most closely related to the marketing mix",
+      "options": ["True", "False"],
+      "correctAnswer": 0,
+      "explanation": "Marketing programs are implemented through the marketing mix (4Ps: Product, Price, Place, Promotion)."
+    },
+    {
+      "id": 5,
+      "question": "The influencing of people during conversations is called Opinion Leadership (word of mouth)",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "The influencing of people during conversations is called word of mouth, not opinion leadership. Opinion leaders are individuals who influence others."
+    },
+    {
+      "id": 6,
+      "question": "The marketing mix concerns the various outlets and channels a business uses to distribute its products is Place strategy",
+      "options": ["True", "False"],
+      "correctAnswer": 0,
+      "explanation": "Place (distribution) in the marketing mix refers to the outlets and channels used to make products available to consumers."
+    },
+    {
+      "id": 7,
+      "question": "Monopolistic competition is a form of competition in which every company has a similar product",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "Pure competition is when every company has a similar product. Monopolistic competition involves differentiated products."
+    },
+    {
+      "id": 8,
+      "question": "The feeling of post-purchase psychological tension or anxiety that a consumer often experiences is called the temporal state",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "This feeling is called cognitive dissonance, not temporal state."
+    },
+    {
+      "id": 9,
+      "question": "The five roles of individual family members in family decision making are opinion leader, influencer, decision-maker, purchaser, and user.",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "The five roles are initiator, influencer, decision-maker, purchaser, and user. Opinion leader is not one of the family roles."
+    },
+    {
+      "id": 10,
+      "question": "In BCG matrix, a star has a high share of a high growth market.",
+      "options": ["True", "False"],
+      "correctAnswer": 0,
+      "explanation": "Stars in the BCG matrix are characterized by high market share in high growth markets."
+    },
+    {
+      "id": 11,
+      "question": "Which of the following statements about marketing activities is true?",
+      "options": [
+        "Marketing is affected by society and in return affects society as a whole",
+        "The marketing department works closely with other departments and employees to implement marketing activities",
+        "Marketing activities provide the customer-satisfying products required for the organization to survive and prosper",
+        "Environmental factors affect marketing activities",
+        "All of the above statements about marketing activities are true"
+      ],
+      "correctAnswer": 4,
+      "explanation": "All statements are true - marketing has a reciprocal relationship with society, requires cross-departmental collaboration, focuses on customer satisfaction, and is influenced by environmental factors."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following statements best defines needs and wants?",
+      "options": [
+        "Needs occur when a person feels physiologically deprived of something, and wants are determined by a person's knowledge, culture, or personality",
+        "Wants are a subset of needs",
+        "Wants occur when a person feels physiologically deprived of something and needs are determined by a person's knowledge, culture, or personality",
+        "Needs affect marketing, but wants do not",
+        "By definition, wants are more socially responsible than needs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Needs are basic physiological deprivations, while wants are shaped by culture, knowledge, and personality."
+    },
+    {
+      "id": 13,
+      "question": "The term market is best defined as",
+      "options": [
+        "people with a need and a want for a product",
+        "organizations with the need and desire for a product",
+        "organizations with products which satisfy people's needs and wants",
+        "people with the desire and ability to buy a specific product",
+        "people with the desire and the need for a product"
+      ],
+      "correctAnswer": 3,
+      "explanation": "A market requires both desire and ability (purchasing power) to buy specific products."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following statements about environmental factors is true?",
+      "options": [
+        "Environmental factors have no influence over an organization's opportunities",
+        "Recent studies have shown that an action-oriented firm still cannot affect environmental factors in any way",
+        "Environmental factors are also called controllable factors",
+        "Environmental factors include social, economic, technological, competitive, and regulatory forces",
+        "All of the above statements about environmental factors are true"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Environmental factors include social, economic, technological, competitive, and regulatory forces that affect marketing."
+    },
+    {
+      "id": 15,
+      "question": "Marketing programs are most closely related to:",
+      "options": [
+        "customer relationship management",
+        "the ease with which relationship management can be implemented",
+        "the four utilities",
+        "the marketing mix",
+        "mass marketing strategy"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Marketing programs are implemented through the marketing mix (4Ps)."
+    },
+    {
+      "id": 16,
+      "question": "Bill McDermott is President and CEO of SAP Americas and Asia Pacific Japan. SAP is a company that sells extremely expensive enterprise resource planning software to large and mid-sized companies. McDermott operates at the ___________ level of his organization.",
+      "options": ["business unit", "functional", "corporate", "strategic", "all of above"],
+      "correctAnswer": 2,
+      "explanation": "As President and CEO, McDermott operates at the corporate level of the organization."
+    },
+    {
+      "id": 17,
+      "question": "Kellie Johnson is the owner of Yesterday's Kitchen in Minnesota. She produces and markets 35 different kinds of jams and jellies at her home-based business. In 2009, she sold $105,000. Her goal for 2010 was to sell $130,000. This is an example of a goal.",
+      "options": ["quality", "customer satisfaction", "sales", "profit", "market share"],
+      "correctAnswer": 2,
+      "explanation": "The goal of selling $130,000 is a sales revenue goal."
+    },
+    {
+      "id": 18,
+      "question": "The influencing of people during conversations is called:",
+      "options": ["Opinion Leadership", "Word of mouth", "BzzAgent", "All of above"],
+      "correctAnswer": 1,
+      "explanation": "Word of mouth refers to the influencing of people during conversations."
+    },
+    {
+      "id": 19,
+      "question": "In the Boston Consulting Group (BCG) model for analysis of a firm's strategic business units, or SBUs, the horizontal axis reflects the",
+      "options": [
+        "national forecast",
+        "business portfolio in dollars",
+        "years of experience",
+        "market segment size",
+        "relative market share"
+      ],
+      "correctAnswer": 4,
+      "explanation": "In the BCG matrix, the horizontal axis represents relative market share."
+    },
+    {
+      "id": 20,
+      "question": "A SWOT analysis for P & G of this information would indicate that the powerful retailers who demand lower pricing is a ____________ while the innovation taking place at P & G is a ________.",
+      "options": [
+        "strength; weakness",
+        "weakness; threat",
+        "threat; strength",
+        "opportunity; threat",
+        "opportunity; strength"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Powerful retailers demanding lower prices are an external threat, while innovation is an internal strength."
+    },
+    {
+      "id": 21,
+      "question": "Which of the traditional \"4Ps\" of the marketing mix concerns the various outlets and channels a business uses to distribute its products?",
+      "options": ["Promotion", "Price", "Place", "Product", "does none of the above"],
+      "correctAnswer": 2,
+      "explanation": "Place refers to distribution channels and outlets where products are made available."
+    },
+    {
+      "id": 22,
+      "question": "An ad on the back of a women's magazine for Cover Girl cosmetics shows both African-American Queen Latifah and blonde Faith Hill endorsing its products as good for their skin. This is an example of an ad with a ___________ focus because it shows product users of different ethnic backgrounds.",
+      "options": ["cultural", "behavioral", "occupational", "demographic", "psychographic"],
+      "correctAnswer": 3,
+      "explanation": "Demographic segmentation includes ethnic background and other population characteristics."
+    },
+    {
+      "id": 23,
+      "question": "_________ is a form of competition in which every company has a similar product.",
+      "options": ["Pure competition", "Cross-market competition", "Oligopoly", "Monopolistic competition", "Monopoly"],
+      "correctAnswer": 0,
+      "explanation": "Pure competition occurs when all companies offer similar products with little differentiation."
+    },
+    {
+      "id": 24,
+      "question": "Wendy's, McDonald's, Subway, KFC, and Burger King would all be characterized as an example of which form of competition?",
+      "options": ["cross-market competition", "pure competition", "oligopoly", "monopolistic competition", "monopoly"],
+      "correctAnswer": 3,
+      "explanation": "These fast-food chains compete with differentiated products, characteristic of monopolistic competition."
+    },
+    {
+      "id": 25,
+      "question": "When Thomas goes to the store to buy breakfast cereal, he considers buying Rice Krispies, Cocoa Krispies, Rice Chex, and any other cereal made with rice. These cereals are his:",
+      "options": [
+        "cognitive set",
+        "reference group",
+        "consideration set",
+        "subliminal choices",
+        "cognitive inducements"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Consideration set includes all brands a consumer would consider acceptable for purchase."
+    },
+    {
+      "id": 26,
+      "question": "Several different food manufacturers use the American Heart Association seal in their ads for food products that are low in saturated fat and cholesterol. This seal and what it represents is most closely related to which of the following needs?",
+      "options": ["Physiological", "Safety", "Social", "Personal", "psychological"],
+      "correctAnswer": 1,
+      "explanation": "The American Heart Association seal addresses safety needs related to health and well-being."
+    },
+    {
+      "id": 27,
+      "question": "In which stage in the consumer purchase decision process would a consumer ask, \"Is installation included in the price of this HDTV?\"",
+      "options": [
+        "problem recognition",
+        "information search",
+        "alternative evaluation",
+        "purchase decision",
+        "evaluation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Questions about installation and final terms occur during the purchase decision stage."
+    },
+    {
+      "id": 28,
+      "question": "The feeling of post-purchase psychological tension or anxiety that a consumer often experiences is called",
+      "options": [
+        "angst",
+        "the temporal state",
+        "the dissociative state",
+        "selective comprehension",
+        "cognitive dissonance"
+      ],
+      "correctAnswer": 4,
+      "explanation": "Cognitive dissonance is the psychological tension experienced after making a purchase decision."
+    },
+    {
+      "id": 29,
+      "question": "A marketing manager's controllable factors-product, price, promotion, and place – are the company's:",
+      "options": [
+        "environmental factors",
+        "marketing program",
+        "marketing mix factors",
+        "marketing concept",
+        "all of above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The 4Ps (product, price, promotion, place) are the marketing mix factors under management control."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following conditions is necessary for marketing to occur?",
+      "options": [
+        "a physical location for an exchange to occur",
+        "a tangible exchange",
+        "advertising to express unrealized needs",
+        "two or more parties with unsatisfied needs",
+        "all of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Marketing requires two or more parties with unsatisfied needs who are willing to exchange."
+    }
+  ]

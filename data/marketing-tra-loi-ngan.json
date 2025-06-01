@@ -1,0 +1,212 @@
+[
+    {
+      "id": 1,
+      "question": "In BCG matrix, location of low-growth, low-share businesses:",
+      "type": "short_answer",
+      "correctAnswer": "dogs",
+      "explanation": "In the BCG matrix, businesses with low growth and low market share are classified as 'dogs'."
+    },
+    {
+      "id": 2,
+      "question": "Internal capabilities, resources, and positive situational factors that may help serve company customers and achieve company objectives:",
+      "type": "short_answer",
+      "correctAnswer": "Strength",
+      "explanation": "Strengths are internal positive factors that help a company serve customers and achieve objectives."
+    },
+    {
+      "id": 3,
+      "question": "The organization's purpose and what it wants to accomplish in the larger environment:",
+      "type": "short_answer",
+      "correctAnswer": "mission",
+      "explanation": "Mission statement defines an organization's purpose and what it wants to accomplish."
+    },
+    {
+      "id": 4,
+      "question": "In BCG matrix, location of high-growth, high-share businesses or products:",
+      "type": "short_answer",
+      "correctAnswer": "Stars",
+      "explanation": "Stars are businesses or products with high growth and high market share in the BCG matrix."
+    },
+    {
+      "id": 5,
+      "question": "Favourable factors or trends in the external environment:",
+      "type": "short_answer",
+      "correctAnswer": "Opportunities",
+      "explanation": "Opportunities are favorable external factors that a company can exploit for competitive advantage."
+    },
+    {
+      "id": 6,
+      "question": "Kellie Johnson's goal for 2010 was to sell $130,000. This is an example of a _____ goal:",
+      "type": "short_answer",
+      "correctAnswer": "Sale",
+      "explanation": "A sales goal focuses on achieving specific revenue targets."
+    },
+    {
+      "id": 7,
+      "question": "An organization's long term course of action designed to deliver a unique customer experience while achieving its goal:",
+      "type": "short_answer",
+      "correctAnswer": "Strategy",
+      "explanation": "Strategy is the long-term plan for achieving organizational goals and delivering customer value."
+    },
+    {
+      "id": 8,
+      "question": "A unique strength relative to competitors, often based on quality, time, cost, or innovation:",
+      "type": "short_answer",
+      "correctAnswer": "Competitive advantage",
+      "explanation": "Competitive advantage is what makes a company superior to its competitors."
+    },
+    {
+      "id": 9,
+      "question": "_____ is the stages a buyer passes through in making choices about which products and services to buy:",
+      "type": "short_answer",
+      "correctAnswer": "PURCHASE DECISION PROCESS",
+      "explanation": "The purchase decision process includes all stages from problem recognition to post-purchase behavior."
+    },
+    {
+      "id": 10,
+      "question": "The group of brands that a consumer would consider acceptable from among all the brands in the product class of which he or she is aware:",
+      "type": "short_answer",
+      "correctAnswer": "CONSIDERATION SET",
+      "explanation": "Consideration set includes brands that consumers would consider purchasing."
+    },
+    {
+      "id": 11,
+      "question": "_____ is the influencing of people during conversations:",
+      "type": "short_answer",
+      "correctAnswer": "WORD OF MOUTH",
+      "explanation": "Word of mouth refers to informal communication between consumers about products or services."
+    },
+    {
+      "id": 12,
+      "question": "A search for product information that draws on personal experience and prior knowledge:",
+      "type": "short_answer",
+      "correctAnswer": "INTERNAL SEARCH",
+      "explanation": "Internal search involves using information stored in memory from past experiences."
+    },
+    {
+      "id": 13,
+      "question": "_____ are individuals who exert direct or indirect social influence over others:",
+      "type": "short_answer",
+      "correctAnswer": "OPINION LEADERS",
+      "explanation": "Opinion leaders are people who influence others' attitudes and behaviors through their expertise or social position."
+    },
+    {
+      "id": 14,
+      "question": "The product attributes or performance characteristics on which consumers base their product evaluations:",
+      "type": "short_answer",
+      "correctAnswer": "EVALUATIVE CRITERIA",
+      "explanation": "Evaluative criteria are the standards consumers use to compare and evaluate products."
+    },
+    {
+      "id": 15,
+      "question": "The feeling of post-purchase psychological tension or anxiety consumers may experience when faced with two or more highly attractive alternatives:",
+      "type": "short_answer",
+      "correctAnswer": "COGNITIVE DISSONANCE",
+      "explanation": "Cognitive dissonance occurs when consumers experience doubt after making a purchase decision."
+    },
+    {
+      "id": 16,
+      "question": "A means of displaying the position of products or brands in consumers' minds:",
+      "type": "short_answer",
+      "correctAnswer": "perceptual mapping",
+      "explanation": "Perceptual mapping visually represents how consumers perceive brands relative to competitors."
+    },
+    {
+      "id": 17,
+      "question": "_____ is changing the place a product occupies in consumers' minds relative to competitive products:",
+      "type": "short_answer",
+      "correctAnswer": "Repositioning",
+      "explanation": "Repositioning involves changing consumer perceptions of a brand or product."
+    },
+    {
+      "id": 18,
+      "question": "Dividing a market into different geographical units such as nations, regions, provinces, counties, cities or neighborhoods:",
+      "type": "short_answer",
+      "correctAnswer": "Geographic Segmentation",
+      "explanation": "Geographic segmentation divides markets based on location and geographical characteristics."
+    },
+    {
+      "id": 19,
+      "question": "_____ divides the market into groups based on variables such as age, gender, family size, family life cycle, income, occupation, education, race, generation and nationality:",
+      "type": "short_answer",
+      "correctAnswer": "Demographic Segmentation",
+      "explanation": "Demographic segmentation uses population characteristics to divide markets into groups."
+    },
+    {
+      "id": 20,
+      "question": "_____ is the place an offering occupies in consumers' minds on important attributes relative to competitive products:",
+      "type": "short_answer",
+      "correctAnswer": "Product positioning",
+      "explanation": "Product positioning refers to how consumers perceive a product compared to competitors."
+    },
+    {
+      "id": 21,
+      "question": "The sum of fixed cost and variable cost is called:",
+      "type": "short_answer",
+      "correctAnswer": "Total cost",
+      "explanation": "Total cost is the sum of all fixed and variable costs in production."
+    },
+    {
+      "id": 22,
+      "question": "A ______ consists of individuals and firms involved in the process of making a good or service available for use or consumption by consumers or industrial users:",
+      "type": "short_answer",
+      "correctAnswer": "marketing channel",
+      "explanation": "Marketing channels are the pathways through which products flow from producers to consumers."
+    },
+    {
+      "id": 23,
+      "question": "Transactional function activities involve:",
+      "type": "short_answer",
+      "correctAnswer": "buying, selling, and risk taking",
+      "explanation": "Transactional functions in marketing channels include buying, selling, and assuming risks."
+    },
+    {
+      "id": 24,
+      "question": "A(n) ____ is any intermediary with legal authority to act on behalf of the manufacturer:",
+      "type": "short_answer",
+      "correctAnswer": "agent or broker",
+      "explanation": "Agents and brokers have legal authority to represent manufacturers in transactions."
+    },
+    {
+      "id": 25,
+      "question": "An FPT store is an example of a(n)___:",
+      "type": "short_answer",
+      "correctAnswer": "retailer",
+      "explanation": "FPT stores sell directly to end consumers, making them retailers."
+    },
+    {
+      "id": 26,
+      "question": "A(n)____ is an intermediary who sells to other intermediaries:",
+      "type": "short_answer",
+      "correctAnswer": "wholesale",
+      "explanation": "Wholesalers sell products to other businesses rather than directly to consumers."
+    },
+    {
+      "id": 27,
+      "question": "When marketing channel members are engaged in assorting, storing, sorting, and transporting they are performing ____ functions:",
+      "type": "short_answer",
+      "correctAnswer": "logistical",
+      "explanation": "Logistical functions involve the physical movement and storage of products."
+    },
+    {
+      "id": 28,
+      "question": "When a product is sold in as many outlets as possible, a(n) ___ distribution strategy is being used:",
+      "type": "short_answer",
+      "correctAnswer": "intensive",
+      "explanation": "Intensive distribution aims to make products available in as many outlets as possible."
+    },
+    {
+      "id": 29,
+      "question": "___ marketing systems are professionally managed and centrally coordinated marketing channels designed to achieve channel economies and maximum marketing impact:",
+      "type": "short_answer",
+      "correctAnswer": "vertical",
+      "explanation": "Vertical marketing systems coordinate channel activities for efficiency and effectiveness."
+    },
+    {
+      "id": 30,
+      "question": "The combination of successive stages of production and distribution under a single ownership is called a(n)___:",
+      "type": "short_answer",
+      "correctAnswer": "corporate vertical marketing system",
+      "explanation": "Corporate vertical marketing systems involve single ownership of multiple channel levels."
+    }
+  ]

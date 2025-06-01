@@ -1,0 +1,652 @@
+[
+    {
+      "id": 1,
+      "question": "Sức khỏe là trạng thái hoàn toàn thoải mái về .......... chứ không phải đơn thuần là không có bệnh tật",
+      "options": ["Thể chất, tâm thần và xã hội", "Xã hội", "Thể chất", "Tinh thần"],
+      "correctAnswer": 0,
+      "explanation": "Theo định nghĩa của WHO, sức khỏe là trạng thái hoàn toàn thoải mái về thể chất, tâm thần và xã hội, chứ không phải đơn thuần là không có bệnh tật."
+    },
+    {
+      "id": 2,
+      "question": "Mô hình nào dưới đây là không phải là mô hình can thiệp của sức khỏe môi trường?",
+      "options": [
+        "Mô hình can thiệp sức khỏe cộng đồng",
+        "Mô hình can thiệp lâm sàng",
+        "Mô hình hướng đến quản lý môi trường",
+        "Mô hình can thiệp sức khỏe người dân"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Mô hình can thiệp sức khỏe người dân không phải là mô hình can thiệp chính của sức khỏe môi trường."
+    },
+    {
+      "id": 3,
+      "question": "Môi trường là:",
+      "options": [
+        "Môi trường bao gồm các yếu tố tự nhiên và yếu tố vật chất nhân tạo quan hệ mật thiết với nhau, có ảnh hưởng tới đời sống, sản xuất, sự tồn tại, phát triển của con người và thiên nhiên.",
+        "Môi trường bao gồm các nhân tố thiên nhiên như vật lý, hoá học, sinh học, tồn tại ngoài ý muốn của con người, nhưng cũng ít nhiều chịu tác động của con người.",
+        "Môi trường là tổng thể các quan hệ giữa người với người. Đó là những luật lệ, thể chế, cam kết, quy định, ước định... ở các cấp khác nhau như: Liên Hợp Quốc, Hiệp hội các nước, quốc gia, tỉnh, huyện, cơ quan, làng xã, họ tộc, gia đình, tổ nhóm, các tổ chức tôn giáo, tổ chức đoàn thể,...",
+        "Môi trường bao gồm các yếu tố tự nhiên và yếu tố vật chất nhân tạo."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Môi trường là khái niệm tổng thể bao gồm các yếu tố tự nhiên và nhân tạo có quan hệ mật thiết, ảnh hưởng đến sự tồn tại và phát triển của con người và thiên nhiên."
+    },
+    {
+      "id": 4,
+      "question": "Mục tiêu của mô hình can thiệp sức khỏe lâm sàng?",
+      "options": [
+        "Bảo vệ con người bằng việc ngăn chặn sự suy thoái môi trường và các tác động đến sức khỏe.",
+        "Ngăn ngừa một bệnh cụ thể dẫn đến tử vong",
+        "Ngăn chặn sự phát triển của bệnh sau khi cộng đồng đã tiếp xúc với yếu tố nguy cơ",
+        "Tiếp cận trong khám chữa bệnh cộng đồng"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mô hình can thiệp sức khỏe lâm sàng tập trung vào ngăn ngừa một bệnh cụ thể dẫn đến tử vong thông qua điều trị y tế."
+    },
+    {
+      "id": 5,
+      "question": "Cấu trúc hữu sinh của quần xã KHÔNG có nhóm nào dưới đây:",
+      "options": ["Sinh vật sản xuất", "Sinh vật phân hủy", "Sinh vật trung gian", "Sinh vật tiêu thụ"],
+      "correctAnswer": 2,
+      "explanation": "Cấu trúc hữu sinh của quần xã gồm 3 nhóm chính: sinh vật sản xuất, sinh vật tiêu thụ và sinh vật phân hủy. Không có nhóm sinh vật trung gian."
+    },
+    {
+      "id": 6,
+      "question": "Môi trường xã hội là:",
+      "options": [
+        "Môi trường bao gồm các yếu tố tự nhiên và yếu tố vật chất nhân tạo quan hệ mật thiết với nhau, có ảnh hưởng tới đời sống, sản xuất, sự tồn tại, phát triển của con người và thiên nhiên.",
+        "Môi trường bao gồm các nhân tố thiên nhiên như vật lý, hoá học, sinh học, tồn tại ngoài ý muốn của con người, nhưng cũng ít nhiều chịu tác động của con người.",
+        "Môi trường là tổng thể các quan hệ giữa người với người. Đó là những luật lệ, thể chế, cam kết, quy định, ước định... ở các cấp khác nhau như: Liên Hợp Quốc, Hiệp hội các nước, quốc gia, tỉnh, huyện, cơ quan, làng xã, họ tộc, gia đình, tổ nhóm, các tổ chức tôn giáo, tổ chức đoàn thể,...",
+        "Mối quan hệ giữa người với người."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Môi trường xã hội là tổng thể các quan hệ giữa người với người, bao gồm các luật lệ, thể chế, quy định ở các cấp độ khác nhau."
+    },
+    {
+      "id": 7,
+      "question": "Môi trường tự nhiên là:",
+      "options": [
+        "Môi trường bao gồm các yếu tố tự nhiên và yếu tố vật chất nhân tạo quan hệ mật thiết với nhau, có ảnh hưởng tới đời sống, sản xuất, sự tồn tại, phát triển của con người và thiên nhiên.",
+        "Môi trường bao gồm các nhân tố thiên nhiên như vật lý, hoá học, sinh học, tồn tại ngoài ý muốn của con người, nhưng cũng ít nhiều chịu tác động của con người.",
+        "Môi trường là tổng thể các quan hệ giữa người với người. Đó là những luật lệ, thể chế, cam kết, quy định, ước định... ở các cấp khác nhau như: Liên Hợp Quốc, Hiệp hội các nước, quốc gia, tỉnh, huyện, cơ quan, làng xã, họ tộc, gia đình, tổ nhóm, các tổ chức tôn giáo, tổ chức đoàn thể,...",
+        "Bao gồm các yếu tố tồn tại khách quan và chủ quan."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Môi trường tự nhiên bao gồm các nhân tố thiên nhiên như vật lý, hóa học, sinh học, tồn tại ngoài ý muốn của con người."
+    },
+    {
+      "id": 8,
+      "question": "Nhân tố quan trọng nhất ảnh hưởng đến cân bằng sinh thái là gì?",
+      "options": [
+        "Số lượng các các động vật trong hệ sinh thái",
+        "Mối quan hệ giữa sinh vật sản xuất và sinh vật tiêu thụ",
+        "Số lượng nhiều các loài vật thiên địch",
+        "Tính đa dạng sinh học của hệ sinh thái"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Tính đa dạng sinh học là nhân tố quan trọng nhất ảnh hưởng đến cân bằng sinh thái, giúp hệ sinh thái ổn định và bền vững."
+    },
+    {
+      "id": 9,
+      "question": "Sức khỏe bị ảnh hưởng bởi yếu tố nào của môi trường?",
+      "options": [
+        "Tâm lý, tai nạn, sinh học, hóa học, độc học",
+        "Tai nạn, sinh học, hóa lý, độc học, vật lý",
+        "Tâm lý, tai nạn, sinh học, hóa học, vật lý",
+        "Sinh học, hóa học, vật lý, sinh lý, tai nạn"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sức khỏe bị ảnh hưởng bởi các yếu tố: tâm lý, tai nạn, sinh học, hóa học và vật lý của môi trường."
+    },
+    {
+      "id": 10,
+      "question": "Tài nguyên bao gồm tất cả các…........ có trên trái đất và trong không gian vũ trụ liên quan, mà con người có thể sử dụng để phục vụ cuộc sống và sự phát triển của con người",
+      "options": ["Yếu tố nhân tạo", "Yếu tố vật chất", "Yếu tố trình trạng dinh dưỡng", "Yếu tố tinh thần"],
+      "correctAnswer": 1,
+      "explanation": "Tài nguyên bao gồm tất cả các yếu tố vật chất có trên trái đất mà con người có thể sử dụng để phục vụ cuộc sống và phát triển."
+    },
+    {
+      "id": 11,
+      "question": "Yếu tố nào KHÔNG ảnh hưởng đến sự đáp ứng của cơ thể con người trước tác động của môi trường",
+      "options": ["Yếu tố di truyền", "Yếu tố cá tính", "Yếu tố trình trạng dinh dưỡng", "Yếu tố học vấn"],
+      "correctAnswer": 3,
+      "explanation": "Yếu tố học vấn không ảnh hưởng trực tiếp đến sự đáp ứng sinh lý của cơ thể trước tác động môi trường."
+    },
+    {
+      "id": 12,
+      "question": "Theo anh/chị Sinh vật tiêu thụ bậc 1 là:",
+      "options": ["Cá sấu", "Hươu", "Nấm, Vi khuẩn", "Cây đào chuông"],
+      "correctAnswer": 1,
+      "explanation": "Sinh vật tiêu thụ bậc 1 là động vật ăn cỏ như hươu, chúng tiêu thụ trực tiếp sinh vật sản xuất (thực vật)."
+    },
+    {
+      "id": 13,
+      "question": "Theo anh/ chị nhóm sinh vật có vai trò quan trọng trong xử lý chất thải và khép kín vòng tuần hoàn vật chất là:",
+      "options": ["Cáo", "Bò", "Nấm, Vi khuẩn", "Cây đào chuông"],
+      "correctAnswer": 2,
+      "explanation": "Nấm và vi khuẩn là sinh vật phân hủy, có vai trò quan trọng trong xử lý chất thải và khép kín vòng tuần hoàn vật chất."
+    },
+    {
+      "id": 14,
+      "question": "Tập hợp tất cả hệ sinh thái trên bề mặt trái đất làm thành...",
+      "options": ["Thủy quyển", "Thạch quyển", "Sinh quyển", "Khí quyển"],
+      "correctAnswer": 2,
+      "explanation": "Sinh quyển là tập hợp tất cả các hệ sinh thái trên bề mặt trái đất, nơi có sự sống."
+    },
+    {
+      "id": 15,
+      "question": "Các thành phần của môi trường vật lý gồm:",
+      "options": [
+        "Các điều kiện khí hậu: nhiệt độ, ánh sáng, pH",
+        "Chất dinh dưỡng, chất độc",
+        "Sinh vật sản xuất, sinh vật tiêu thụ, sinh vật phân hủy",
+        "Vi sinh vật, thực vật, động vật"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Môi trường vật lý bao gồm các điều kiện khí hậu như nhiệt độ, ánh sáng, pH và các yếu tố vật lý khác."
+    },
+    {
+      "id": 16,
+      "question": "Các thành phần của môi trường hóa học gồm:",
+      "options": [
+        "Các điều kiện khí hậu: nhiệt độ, ánh sáng, pH",
+        "Chất dinh dưỡng, chất độc",
+        "Sinh vật sản xuất, sinh vật tiêu thụ, sinh vật phân hủy",
+        "Vi sinh vật, thực vật, động vật"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Môi trường hóa học bao gồm các chất dinh dưỡng và chất độc có trong môi trường."
+    },
+    {
+      "id": 17,
+      "question": "Các thành phần của môi trường sinh học gồm:",
+      "options": [
+        "Các điều kiện khí hậu: nhiệt độ, ánh sáng, pH",
+        "Chất dinh dưỡng, chất độc",
+        "Sinh vật sản xuất, sinh vật tiêu thụ, sinh vật phân hủy",
+        "Thiên tai bão lũ"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Môi trường sinh học bao gồm các sinh vật: sinh vật sản xuất, sinh vật tiêu thụ và sinh vật phân hủy."
+    },
+    {
+      "id": 18,
+      "question": "Hệ sinh thái nào sau đây có tính đa dạng sinh học cao nhất:",
+      "options": ["Đài nguyên", "Rừng lá kim", "Rừng mưa nhiệt đới", "Sa mạc"],
+      "correctAnswer": 2,
+      "explanation": "Rừng mưa nhiệt đới có tính đa dạng sinh học cao nhất với số lượng loài động thực vật phong phú nhất."
+    },
+    {
+      "id": 19,
+      "question": "Việt Nam hằng năm hứng chịu nhiều cơn bão là do:",
+      "options": [
+        "Nằm gần xích đạo",
+        "Nằm trong vùng ảnh hưởng của Thái Bình Dương",
+        "Nằm ở Châu Á",
+        "Nằm trong vùng ảnh hưởng của Ấn Độ Dương"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Việt Nam nằm trong vùng ảnh hưởng của Thái Bình Dương, nơi hình thành nhiều cơn bão nhiệt đới."
+    },
+    {
+      "id": 20,
+      "question": "Số lượng và số loài của loài động vật nào nhiều nhất trên Trái đất:",
+      "options": ["Linh trưởng", "Côn trùng", "Cá", "Bò sát"],
+      "correctAnswer": 1,
+      "explanation": "Côn trùng là nhóm động vật có số lượng cá thể và số loài nhiều nhất trên Trái đất."
+    },
+    {
+      "id": 21,
+      "question": "Ô nhiễm trắng là gì?",
+      "options": ["Ô nhiễm do đồ nhựa và túi nilon", "Ô nhiễm do tảo", "Ô nhiễm do bụi", "Ô nhiễm do khai thác đá"],
+      "correctAnswer": 0,
+      "explanation": "Ô nhiễm trắng là ô nhiễm do các sản phẩm nhựa và túi nilon khó phân hủy gây ra."
+    },
+    {
+      "id": 22,
+      "question": "Bốn họ chính chịu trách nhiệm trong vấn đề suy thoái tầng ozon",
+      "options": ["NOx, HOx, ClOx, BrOx", "NO, HOx, ClOx, BrOx", "NO, HO, ClOx, BrOx", "NOx. HO, ClO, BrOx"],
+      "correctAnswer": 0,
+      "explanation": "Bốn họ chính gây suy thoái tầng ozon là NOx, HOx, ClOx và BrOx."
+    },
+    {
+      "id": 23,
+      "question": "Tác hại chính của ô nhiễm tiếng ồn là gì:",
+      "options": ["Suy giảm thính giác", "Suy giảm thị giác", "Suy giảm vị giác", "Suy giảm xúc giác"],
+      "correctAnswer": 0,
+      "explanation": "Tác hại chính của ô nhiễm tiếng ồn là suy giảm thính giác và các vấn đề về tai."
+    },
+    {
+      "id": 24,
+      "question": "Những chất nào sau đây là chất ô nhiễm không khí thứ cấp:",
+      "options": ["CO, NH3", "NH3, SO2", "SO2, NO", "SO3, HNO3"],
+      "correctAnswer": 3,
+      "explanation": "SO3 và HNO3 là các chất ô nhiễm thứ cấp được hình thành từ phản ứng của các chất ô nhiễm sơ cấp."
+    },
+    {
+      "id": 25,
+      "question": "Nước được coi là ô nhiễm khi:",
+      "options": [
+        "Nồng độ các chất ô nhiễm đạt tiêu chuẩn cho phép",
+        "Nồng độ các chất ô nhiễm dưới tiêu chuẩn cho phép",
+        "Nồng độ các chất ô nhiễm vượt tiêu chuẩn cho phép",
+        "Nồng độ các chất ô nhiễm nhỏ hơn hoặc bằng tiêu chuẩn cho phép"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nước được coi là ô nhiễm khi nồng độ các chất ô nhiễm vượt quá tiêu chuẩn cho phép."
+    },
+    {
+      "id": 26,
+      "question": "Quản lý chất thải là hoạt động phân loại, thu gom, vận chuyển giảm thiểu, tái sử dụng, tách chế, xử lý,………, thải loại chất thải",
+      "options": ["Đổ đống", "Phân hủy", "Thiêu hủy", "Hủy bỏ"],
+      "correctAnswer": 2,
+      "explanation": "Thiêu hủy là một phương pháp quan trọng trong quản lý chất thải, đặc biệt với chất thải nguy hại."
+    },
+    {
+      "id": 27,
+      "question": "Ở tầng điện li (tầng nhiệt) xảy ra hiện tượng:",
+      "options": [
+        "Phân tử và nguyên tử chuyển động với tốc độ cao",
+        "Nhiệt độ dao động mạnh (-100oC đến hơn 2000oC)",
+        "Có tầng ozon cản tia cực tím",
+        "Thời tiết thay đổi"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ở tầng điện li (tầng nhiệt), nhiệt độ dao động mạnh từ -100°C đến hơn 2000°C."
+    },
+    {
+      "id": 28,
+      "question": "Hiệu ứng nhà kính chủ yếu xảy ra ở tầng nào của khí quyển:",
+      "options": ["Tầng bình lưu", "Tầng đối lưu", "Tầng nhiệt", "Tầng trung lưu"],
+      "correctAnswer": 1,
+      "explanation": "Hiệu ứng nhà kính chủ yếu xảy ra ở tầng đối lưu, nơi tập trung các khí nhà kính."
+    },
+    {
+      "id": 29,
+      "question": "Hiện tượng mây dạ quang xảy ra ở tầng nào của lớp khí quyển",
+      "options": ["Tầng bình lưu", "Tầng đối lưu", "Tầng nhiệt", "Tầng trung lưu"],
+      "correctAnswer": 3,
+      "explanation": "Hiện tượng mây dạ quang xảy ra ở tầng trung lưu của khí quyển."
+    },
+    {
+      "id": 30,
+      "question": "Phát biểu nào sau đây là đúng về ảnh hưởng của tia UV đến sức khỏe con người",
+      "options": [
+        "Giảm khả năng miễn dịch, gây bệnh về da, mắt",
+        "Tăng cường sức khỏe cho làn da",
+        "Tăng cường sức khỏe cho đôi mắt",
+        "Tăng khả năng miễn dịch của cơ thể người"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tia UV có thể giảm khả năng miễn dịch và gây các bệnh về da, mắt như ung thư da, đục thủy tinh thể."
+    },
+    {
+      "id": 31,
+      "question": "Hiệu ứng nhà kính là",
+      "options": [
+        "Hiện tượng nóng lên của lớp khí quyển trái đất",
+        "Hiện tượng nóng lên của lớp vỏ trái đất",
+        "Hiện tượng trái đất có khả năng cản tia UV",
+        "Hiện tượng suy giảm tầng ozon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hiệu ứng nhà kính là hiện tượng nóng lên của lớp khí quyển trái đất do các khí nhà kính."
+    },
+    {
+      "id": 32,
+      "question": "Mưa axit là:",
+      "options": [
+        "Hiện tượng nước mưa có pH >7",
+        "Hiện tượng nước mưa có pH >5.6",
+        "Hiện tượng nước mưa có pH <5.6",
+        "Hiện tượng nước mưa có pH=6"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Mưa axit là hiện tượng nước mưa có pH < 5.6, thấp hơn pH tự nhiên của nước mưa."
+    },
+    {
+      "id": 33,
+      "question": "Ozon là chất khí có hại đối với sinh vật và con người khi có mặt ở tầng?",
+      "options": ["Tầng đối lưu", "Tầng bình lưu", "Tầng trung lưu", "Tầng ngoài"],
+      "correctAnswer": 0,
+      "explanation": "Ozon có hại khi có mặt ở tầng đối lưu (gần mặt đất), nhưng có lợi khi ở tầng bình lưu."
+    },
+    {
+      "id": 34,
+      "question": "Thành phần của khói mù quang hóa có chứa chất",
+      "options": ["Aldehydes", "CO2", "CH4", "NH3"],
+      "correctAnswer": 0,
+      "explanation": "Khói mù quang hóa chứa aldehydes được tạo ra từ phản ứng quang hóa của các chất ô nhiễm."
+    },
+    {
+      "id": 35,
+      "question": "Khói mù quang hóa khác v��i khói mù thông thường ở điểm nào?",
+      "options": [
+        "Xảy ra ở điều kiện thời tiết lạnh và khô",
+        "Xảy ra ở điều kiện thời tiết nóng",
+        "Xảy ra ở điều kiện thời tiết nóng, ẩm",
+        "Xảy ra ở điều kiện thời tiết lạnh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Khói mù quang hóa xảy ra ở điều kiện thời tiết nóng với ánh nắng mặt trời mạnh."
+    },
+    {
+      "id": 36,
+      "question": "Các tầng của khí quyển bao gồm",
+      "options": [
+        "Tầng đối lưu, bình lưu, trung lưu, điện li (nhiệt), tầng ngoài",
+        "Tầng đối lưu, bình lưu, trung lưu, điện li (nhiệt)",
+        "Tầng đối lưu, bình lưu, trung lưu, điện li (nhiệt), thượng lưu",
+        "Tầng đối lưu, bình lưu, trung lưu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Khí quyển gồm 5 tầng: đối lưu, bình lưu, trung lưu, điện li (nhiệt) và tầng ngoài."
+    },
+    {
+      "id": 37,
+      "question": "Khí quyển là",
+      "options": [
+        "Hỗn hợp khí bao xung quanh trái đất",
+        "Hỗn hợp chất lỏng bao xung quanh trái đất",
+        "Hỗn hợp khí và chất lỏng bao xung quanh trái đất",
+        "Hỗn hợp khí, lỏng rắn bao xung quanh trái đất"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Khí quyển là hỗn hợp khí bao xung quanh trái đất, tạo thành lớp vỏ khí."
+    },
+    {
+      "id": 38,
+      "question": "Khí sulfur dioxide (SO2) chủ yếu sinh ra từ",
+      "options": [
+        "Do đốt cháy nhiên liệu hóa thạch, khói thải nhà máy điện",
+        "Các đầm lầy",
+        "Chất thải gia súc, gia cầm",
+        "Trong quá trình xảy ra bão bụi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "SO2 chủ yếu sinh ra từ việc đốt cháy nhiên liệu hóa thạch và khói thải từ các nhà máy điện."
+    },
+    {
+      "id": 39,
+      "question": "Hiệu ứng nhà kính xảy ra ở đâu?",
+      "options": ["Trong đất", "Trong rừng", "Trên núi cao", "Trong khí quyển"],
+      "correctAnswer": 3,
+      "explanation": "Hiệu ứng nhà kính xảy ra trong khí quyển do các khí nhà kính hấp thụ bức xạ nhiệt."
+    },
+    {
+      "id": 40,
+      "question": "Giải pháp giải nào sau đây được xem là giải pháp hiệu quả nhất trong việc giảm thiểu ô nhiễm tiếng ồn?",
+      "options": ["Trồng cây", "Giữ vệ sinh nhà cửa", "Kéo rèm", "Bật quạt"],
+      "correctAnswer": 0,
+      "explanation": "Trồng cây là giải pháp hiệu quả nhất để giảm thiểu ô nhiễm tiếng ồn vì cây có khả năng hấp thụ âm thanh."
+    },
+    {
+      "id": 41,
+      "question": "Melatonin còn được gọi là gì?",
+      "options": ["Hóc môn bóng tối", "Hóc môn hắc tố", "Sắc tố da", "Bạch tạng"],
+      "correctAnswer": 0,
+      "explanation": "Melatonin còn được gọi là hormone bóng tối vì được tiết ra nhiều trong điều kiện tối."
+    },
+    {
+      "id": 42,
+      "question": "Phát biểu nào sau đây là đúng khi nói về bệnh mãn tính",
+      "options": [
+        "Bệnh phát trong thời gian từ 3-7 tuần",
+        "Được gây ra bởi virus SARS-CoV-2",
+        "Nguyên nhân gây bệnh không rõ ràng và chúng thường phát triển theo thời gian dài",
+        "Bệnh có thể lây từ động vật sang người hoặc từ người sang người"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bệnh mãn tính có nguyên nhân gây bệnh không rõ ràng và thường phát triển theo thời gian dài."
+    },
+    {
+      "id": 43,
+      "question": "Phát biểu nào sau đây là KHÔNG ĐÚNG khi nói về bệnh truyền nhiễm?",
+      "options": [
+        "Covid 19 là một trong những bệnh truyền nhiễm",
+        "Có thời gian ủ bệnh và điều trị rất dài",
+        "Bệnh truyền nhiễm thường được gây ra bởi vi sinh vật (mầm bệnh)",
+        "Bệnh truyền nhiễm còn gọi là bệnh lây"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bệnh truyền nhiễm không nhất thiết có thời gian ủ bệnh và điều trị rất dài, điều này tùy thuộc vào từng loại bệnh."
+    },
+    {
+      "id": 44,
+      "question": "Phát biểu nào sau đây là KHÔNG đúng:",
+      "options": [
+        "Biến đổi khí hậu làm thay đổi mô hình bệnh tật tại Việt Nam",
+        "Biến đổi khí hậu làm gia tăng nhiệt độ trung bình của trái đất",
+        "Biến đổi khí hậu làm gia tăng các hiện tượng thời tiết cực đoan",
+        "Biến đổi khí hậu làm gia tăng hiện tượng động đất, sóng thần"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Biến đổi khí hậu không gây ra động đất và sóng thần - đây là các hiện tượng địa chất."
+    },
+    {
+      "id": 45,
+      "question": "Tác động chính mà sự thay đổi khí hậu có thể ảnh hưởng đối với sức khỏe cộng đồng là",
+      "options": [
+        "Tạo điều kiện thuận lợi cho sự bùng nổ các bệnh dịch truyền nhiễm",
+        "Giảm khả năng lây truyền các bệnh truyền nhiễm từ động vật sang người và người sang người",
+        "Làm tăng tuổi thọ của con người",
+        "Làm tăng nhiệt độ Trái đất"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thay đổi khí hậu tạo điều kiện thuận lợi cho sự bùng nổ các bệnh dịch truyền nhiễm do thay đổi môi trường sống của vector."
+    },
+    {
+      "id": 46,
+      "question": "Bệnh tả có thể lây qua",
+      "options": [
+        "Lây truyền theo đường da và niêm mạc",
+        "Lây truyền theo đường hô hấp",
+        "Lây truyền theo đường tiêu hoá",
+        "Đường máu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bệnh tả lây truyền chủ yếu qua đường tiêu hóa thông qua nước và thực phẩm bị ô nhiễm."
+    },
+    {
+      "id": 47,
+      "question": "Các giai đoạn của bệnh truyền nhiễm thông thường theo thứ tự là:",
+      "options": [
+        "Thời kỳ nung bệnh -> Thời kỳ khởi phát ->Thời kỳ toàn phát -> Thời kỳ lui bệnh ->Thời kỳ hồi phục",
+        "Thời kỳ nung bệnh -> Thời kỳ hồi phục -> Thời kỳ khởi phát -> Thời kỳ toàn phát ->Thời kỳ lui bệnh",
+        "Thời kỳ nung bệnh -> Thời kỳ khởi phát -> Thời kỳ hồi phục -> Thời kỳ toàn phát ->Thời kỳ lui bệnh",
+        "Thời kỳ nung bệnh -> Thời kỳ khởi phát -> Thời kỳ toàn phát -> Thời kỳ hồi phục ->Thời kỳ lui bệnh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Các giai đoạn của bệnh truyền nhiễm theo thứ tự: nung bệnh → khởi phát → toàn phát → lui bệnh → hồi phục."
+    },
+    {
+      "id": 48,
+      "question": "Chất lượng cuộc sống của môi trường đô thị?",
+      "options": [
+        "Là điều kiện sống được cung cấp đầy đủ về nhà ở, giáo dục, dịch vụ y tế, lương thực, vui chơi, giải trí cho con người",
+        "Là điều kiện sống được cung cấp đầy đủ về dịch vụ y tế, lương thực, vui chơi, giải trí cho con người",
+        "Là điều kiện sống được cung cấp đầy đủ về nhà ở, giáo dục, giải trí cho con người",
+        "Là điều kiện sống được cung cấp đầy đủ về nhà ở, vui chơi, giải trí cho con người"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chất lượng cuộc sống đô thị bao gồm đầy đủ các yếu tố: nhà ở, giáo dục, y tế, lương thực và giải trí."
+    },
+    {
+      "id": 49,
+      "question": "Nhu cầu cơ bản về tinh thần của con người bao gồm:",
+      "options": [
+        "Giáo dục, sức khỏe và các phương tiện dịch vụ y tế",
+        "Thu nhập cao",
+        "Thực phẩm phong phú",
+        "Gia đình hạnh phúc"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nhu cầu cơ bản về tinh thần bao gồm giáo dục, sức khỏe và các dịch vụ y tế."
+    },
+    {
+      "id": 50,
+      "question": "Nhà ở là:",
+      "options": [
+        "Nơi con người sinh hoạt",
+        "Nơi con người ngủ nghỉ",
+        "Nơi con người sinh sống, nghỉ ngơi và hồi phục sức khỏe sau lao động, thỏa mãn đầy đủ yêu cầu văn hóa đời sống",
+        "Là nơi cầu nguyện"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Nhà ở là nơi sinh sống, nghỉ ngơi, hồi phục sức khỏe và thỏa mãn yêu cầu văn hóa đời sống."
+    },
+    {
+      "id": 51,
+      "question": "Nhiệm vụ chính của nhà ở?",
+      "options": [
+        "Bảo vệ cơ thể khỏi bị tác dụng của những yếu tố khí hậu xấu",
+        "Nhà ở là nơi nghỉ ngơi để phục hồi sức khỏe",
+        "Nhà ở là nơi tập trung mọi vấn đề của cuộc sống gia đình",
+        "Là khu vui chơi giải trí"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nhiệm vụ chính của nhà ở là bảo vệ cơ thể khỏi các yếu tố khí hậu xấu và môi trường bất lợi."
+    },
+    {
+      "id": 52,
+      "question": "SBS - Sick Building Syndrome, nghĩa là:",
+      "options": ["Hội chứng nhà kín", "Hiệu ứng nhà kính", "Stress", "Đau đầu"],
+      "correctAnswer": 0,
+      "explanation": "SBS (Sick Building Syndrome) là hội chứng nhà kín, gây ra các triệu chứng sức khỏe do môi trường trong nhà."
+    },
+    {
+      "id": 53,
+      "question": "Một trong những lời khuyên nhằm hạn chế ảnh hưởng của hội chứng nhà kín đến sức khỏe con người là:",
+      "options": [
+        "Hút thuốc",
+        "Ăn thực phẩm ăn liền",
+        "Tập yoga, ngồi thiền, các kỹ thuật thư giãn có thể giúp làm dịu cơ thể và tâm trí",
+        "Gia tăng thực phẩm ngọt trong khẩu phần"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Tập yoga, thiền và các kỹ thuật thư giãn giúp giảm stress và tác động của hội chứng nhà kín."
+    },
+    {
+      "id": 54,
+      "question": "Bệnh nghề nghiệp?",
+      "options": [
+        "Là những bệnh lý mang đặc trưng của nghề nghiệp hoặc liên quan tới nghề nghiệp",
+        "Là những bệnh lý không liên quan tới nghề nghiệp",
+        "Do tác hại thường xuyên và lâu dài của nghề nghiệp",
+        "Do điều kiện lao động tốt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Bệnh nghề nghiệp là những bệnh lý mang đặc trưng hoặc liên quan trực tiếp đến nghề nghiệp."
+    },
+    {
+      "id": 55,
+      "question": "Những bệnh nghề nghiệp do tác hại của bụi?",
+      "options": ["Bệnh bụi phổi bông", "Bệnh nhiễm độc chì", "Bệnh nhiễm độc thuỷ ngân", "Bệnh sạm da"],
+      "correctAnswer": 0,
+      "explanation": "Bệnh bụi phổi bông là bệnh nghề nghiệp điển hình do tác hại của bụi trong môi trường làm việc."
+    },
+    {
+      "id": 56,
+      "question": "Những bệnh nghề nghiệp do các tác nhân hóa học?",
+      "options": [
+        "Bệnh bụi phổi Atbet (Amiăng)",
+        "Bệnh nhiễm độc asen",
+        "Bệnh do quang tuyến X và các chất phóng xạ",
+        "Stress"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Bệnh nhiễm độc asen là bệnh nghề nghiệp do tác nhân hóa học gây ra."
+    },
+    {
+      "id": 57,
+      "question": "Những bệnh nghề nghiệp do các yếu tố vật lý?",
+      "options": [
+        "Bệnh lao nghề nghiệp",
+        "Nhiễm độc chất Nicotin nghề nghiệp",
+        "Bệnh điếc do tiếng ồn",
+        "Bệnh nhiễm độc hoá chất trừ sâu"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Bệnh điếc do tiếng ồn là bệnh nghề nghiệp do yếu tố vật lý (âm thanh) gây ra."
+    },
+    {
+      "id": 58,
+      "question": "Những bệnh nghề nghiệp do tính chất công việc?",
+      "options": [
+        "Stress",
+        "Bệnh điếc do tiếng ồn",
+        "Bệnh nhiễm độc hóa chất trừ sâu",
+        "Bệnh do quang tuyến X và tia phóng xạ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Stress là bệnh nghề nghiệp do tính chất công việc như áp lực, căng thẳng trong lao động."
+    },
+    {
+      "id": 59,
+      "question": "Tai nạn lao động?",
+      "options": [
+        "Xảy ra bất ngờ trong lao động do công việc hoặc môi trường lao động gây nên, làm nguy hại đến sức khỏe cả về thể chất hoặc tinh thần thậm chí có thể gây chết người",
+        "Xảy ra trên đường",
+        "Tai nạn giao thông",
+        "Xảy ra bất ngờ trong công việc hoặc môi trường, làm nguy hại đến sức khỏe cả về thể chất hoặc tinh thần nhưng không gây chết người"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tai nạn lao động là sự cố bất ngờ trong lao động gây nguy hại đến sức khỏe, thậm chí có thể gây tử vong."
+    },
+    {
+      "id": 60,
+      "question": "Phát biểu nào sau đây là đúng nhất?",
+      "options": [
+        "An toàn lao động là tất cả công việc của tập thể hoặc người lao động nhằm giảm nhẹ hoặc chống lại các tai nạn và bệnh nghề nghiệp",
+        "An toàn lao động là tất cả các giải pháp nhằm giảm nhẹ hoặc chống lại các tai nạn và bệnh nghề nghiệp",
+        "An toàn lao động là tất cả các giải pháp, công việc của tập thể hoặc người lao động nhằm giảm nhẹ hoặc chống lại các tai nạn và bệnh nghề nghiệp",
+        "An toàn lao động là tất cả các giải pháp, công việc của tập thể hoặc người lao động nhằm giảm nhẹ hoặc chống lại các tai nạn"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An toàn lao động bao gồm tất cả giải pháp và công việc nhằm chống lại tai nạn và bệnh nghề nghiệp."
+    },
+    {
+      "id": 61,
+      "question": "Bộ tiêu chuẩn quốc tế về hệ thống quản lý an toàn thực phẩm:",
+      "options": ["ISO 21000", "ISO 22000", "ISO 23000", "ISO 24000"],
+      "correctAnswer": 1,
+      "explanation": "ISO 22000 là bộ tiêu chuẩn quốc tế về hệ thống quản lý an toàn thực phẩm."
+    },
+    {
+      "id": 62,
+      "question": "Bộ tiêu chuẩn quốc tế về hệ thống quản lý môi trường",
+      "options": ["ISO 11000", "ISO 12000", "ISO 13000", "ISO 14000"],
+      "correctAnswer": 3,
+      "explanation": "ISO 14000 là bộ tiêu chuẩn quốc tế về hệ thống quản lý môi trường."
+    },
+    {
+      "id": 63,
+      "question": "Sử dụng phụ gia thực phẩm như thế nào là đúng?",
+      "options": [
+        "Sử dụng phụ gia nhập khẩu",
+        "Sử dụng theo hướng dẫn ghi trên nhãn",
+        "Dùng các hóa chất có màu, hương vị bền, bóng",
+        "Sử dụng theo kinh nghiệm"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sử dụng phụ gia thực phẩm đúng cách là theo hướng dẫn ghi trên nhãn sản phẩm."
+    },
+    {
+      "id": 64,
+      "question": "Khoai mì chứa độc chất?",
+      "options": ["KCN", "HCN", "NaCN", "Vitamin"],
+      "correctAnswer": 1,
+      "explanation": "Khoai mì chứa HCN (axit xianua) là chất độc tự nhiên, đặc biệt ở khoai mì đắng."
+    },
+    {
+      "id": 65,
+      "question": "Các tác nhân chính gây mất an toàn thực phẩm?",
+      "options": [
+        "Vật lý, hóa học, ký sinh trùng",
+        "Vật lý, kim loại nặng, sinh học",
+        "Vật lý, hóa học, sinh học",
+        "Vật lý, hóa sinh, sinh học"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ba tác nhân chính gây mất an toàn thực phẩm là: vật lý, hóa học và sinh học."
+    }
+  ]

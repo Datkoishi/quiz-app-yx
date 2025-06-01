@@ -1,0 +1,512 @@
+[
+  {
+    "id": 1,
+    "question": "Nguyên tắc kế toán nào yêu cầu kế toán phải sử dụng các số liệu có căn cứ chứng từ đầy đủ, hợp pháp, trung thực và khách quan?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc nhất quán", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc khách quan yêu cầu số liệu kế toán phải dựa trên chứng từ hợp pháp và khách quan."
+  },
+  {
+    "id": 2,
+    "question": "Trong các nguyên tắc kế toán, nguyên tắc nào đảm bảo tính liên tục của hoạt động kinh doanh và kế toán?",
+    "options": [
+      "Nguyên tắc thực thể kinh doanh",
+      "Nguyên tắc hoạt động liên tục",
+      "Nguyên tắc giá gốc",
+      "Nguyên tắc phù hợp"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc hoạt động liên tục giả định doanh nghiệp sẽ tiếp tục hoạt động trong tương lai gần."
+  },
+  {
+    "id": 3,
+    "question": "Kế toán ghi nhận doanh thu khi nào?",
+    "options": [
+      "Khi nhận được tiền mặt từ khách hàng",
+      "Khi giao hàng và chuyển giao rủi ro cho khách hàng",
+      "Khi ký hợp đồng bán hàng",
+      "Khi khách hàng đặt cọc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doanh thu được ghi nhận khi giao hàng và chuyển giao rủi ro."
+  },
+  {
+    "id": 4,
+    "question": "Phương pháp nào sau đây không phải là phương pháp khấu hao tài sản cố định?",
+    "options": [
+      "Phương pháp đường thẳng",
+      "Phương pháp giảm dần",
+      "Phương pháp số dư giảm dần",
+      "Phương pháp tính theo số lượng sản phẩm"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Phương pháp số dư giảm dần không phải là phương pháp khấu hao chuẩn."
+  },
+  {
+    "id": 5,
+    "question": "Hạch toán kế toán là quá trình:",
+    "options": [
+      "Phân tích các nghiệp vụ kinh tế",
+      "Ghi chép và xử lý các nghiệp vụ kinh tế",
+      "Kiểm tra các nghiệp vụ kế toán",
+      "Đánh giá kết quả kinh doanh"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán kế toán là quá trình ghi chép và xử lý các nghiệp vụ kinh tế."
+  },
+  {
+    "id": 6,
+    "question": "Phân loại tài sản theo thời gian sử dụng bao gồm:",
+    "options": [
+      "Tài sản ngắn hạn và tài sản dài hạn",
+      "Tài sản cố định và tài sản lưu động",
+      "Tài sản hữu hình và tài sản vô hình",
+      "Tài sản vật chất và tài sản phi vật chất"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phân loại tài sản theo thời gian sử dụng bao gồm tài sản ngắn hạn và dài hạn."
+  },
+  {
+    "id": 7,
+    "question": "Nguyên tắc kế toán nào yêu cầu phải phản ánh trung thực và đầy đủ các nghiệp vụ kinh tế phát sinh?",
+    "options": ["Nguyên tắc khách quan", "Nguyên tắc thận trọng", "Nguyên tắc trọng yếu", "Nguyên tắc trung thực"],
+    "correctAnswer": 3,
+    "explanation": "Nguyên tắc trung thực đòi hỏi phản ánh đúng và đủ nghiệp vụ kinh tế."
+  },
+  {
+    "id": 8,
+    "question": "Phương pháp hạch toán kế toán nào ghi nhận đồng thời các mặt đối ứng của nghiệp vụ kinh tế phát sinh?",
+    "options": [
+      "Phương pháp hạch toán đơn",
+      "Phương pháp hạch toán kép",
+      "Phương pháp hạch toán tập hợp",
+      "Phương pháp hạch toán phân bổ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phương pháp hạch toán kép ghi nhận đồng thời hai mặt đối ứng của nghiệp vụ."
+  },
+  {
+    "id": 9,
+    "question": "Chứng từ kế toán bao gồm:",
+    "options": [
+      "Chứng từ gốc và chứng từ tổng hợp",
+      "Chứng từ bên trong và chứng từ bên ngoài",
+      "Chứng từ điện tử và chứng từ giấy",
+      "Tất cả các loại trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chứng từ kế toán bao gồm nhiều loại khác nhau để ghi nhận nghiệp vụ kinh tế."
+  },
+  {
+    "id": 10,
+    "question": "Kế toán phải lập báo cáo tài chính ít nhất bao lâu một lần?",
+    "options": ["1 tháng", "3 tháng", "6 tháng", "12 tháng"],
+    "correctAnswer": 3,
+    "explanation": "Báo cáo tài chính phải được lập ít nhất hàng năm."
+  },
+  {
+    "id": 11,
+    "question": "Nguyên tắc kế toán nào yêu cầu các khoản chi phí phải được ghi nhận đúng kỳ kế toán mà nó phát sinh?",
+    "options": ["Nguyên tắc phù hợp", "Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc nhất quán"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc phù hợp yêu cầu ghi nhận chi phí đúng kỳ kế toán phát sinh."
+  },
+  {
+    "id": 12,
+    "question": "Tài sản nào được xếp vào tài sản cố định hữu hình?",
+    "options": ["Bằng sáng chế", "Máy móc thiết bị", "Bản quyền phần mềm", "Giấy phép kinh doanh"],
+    "correctAnswer": 1,
+    "explanation": "Máy móc thiết bị là tài sản cố định hữu hình."
+  },
+  {
+    "id": 13,
+    "question": "Khi nhận vốn góp bằng tài sản cố định, doanh nghiệp ghi nhận như thế nào?",
+    "options": [
+      "Tăng tài sản cố định và tăng vốn chủ sở hữu",
+      "Tăng nợ phải trả và tăng tài sản cố định",
+      "Tăng tài sản lưu động và tăng nợ phải trả",
+      "Không ghi nhận"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nhận vốn góp bằng tài sản cố định làm tăng tài sản và vốn chủ sở hữu."
+  },
+  {
+    "id": 14,
+    "question": "Phương pháp nào sau đây không phải là một trong các nguyên tắc kế toán phổ biến?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc trung thực", "Nguyên tắc giá gốc", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc trung thực là đạo đức nghề nghiệp, không phải nguyên tắc kế toán."
+  },
+  {
+    "id": 15,
+    "question": "Kế toán ghi nhận doanh thu bán hàng khi:",
+    "options": [
+      "Khi nhận tiền trước từ khách hàng",
+      "Khi hoàn thành việc giao hàng và chuyển giao rủi ro cho khách hàng",
+      "Khi ký hợp đồng bán hàng",
+      "Khi khách hàng đặt cọc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doanh thu ghi nhận khi giao hàng và chuyển giao rủi ro."
+  },
+  {
+    "id": 16,
+    "question": "Chi phí nào sau đây không được tính vào chi phí sản xuất kinh doanh?",
+    "options": [
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí quảng cáo sản phẩm",
+      "Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chi phí quảng cáo được tính vào chi phí bán hàng, không phải chi phí sản xuất."
+  },
+  {
+    "id": 17,
+    "question": "Phương pháp tính khấu hao nào phổ biến nhất trong kế toán tài sản cố định?",
+    "options": [
+      "Phương pháp số dư giảm dần",
+      "Phương pháp đường thẳng",
+      "Phương pháp sản lượng",
+      "Phương pháp giảm dần"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phương pháp đường thẳng là phương pháp phổ biến và dễ áp dụng."
+  },
+  {
+    "id": 18,
+    "question": "Trong kế toán, tài sản nào được coi là tài sản vô hình?",
+    "options": ["Máy móc thiết bị", "Bằng sáng chế", "Nhà xưởng", "Xe tải"],
+    "correctAnswer": 1,
+    "explanation": "Bằng sáng chế là tài sản vô hình."
+  },
+  {
+    "id": 19,
+    "question": "Nợ phải trả ngắn hạn bao gồm các khoản nào?",
+    "options": [
+      "Vay ngân hàng trên 1 năm",
+      "Phải trả người bán trong vòng 12 tháng",
+      "Vốn góp của chủ sở hữu",
+      "Lợi nhuận chưa phân phối"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nợ ngắn hạn là các khoản phải trả trong vòng 12 tháng."
+  },
+  {
+    "id": 20,
+    "question": "Theo nguyên tắc kế toán, khi nào cần lập dự phòng tổn thất nợ phải thu?",
+    "options": [
+      "Khi khách hàng đã thanh toán đủ nợ",
+      "Khi khách hàng có khả năng mất khả năng thanh toán",
+      "Khi khách hàng đang vay ngân hàng",
+      "Khi khách hàng ký hợp đồng mua bán"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lập dự phòng khi có rủi ro mất khả năng thu hồi nợ."
+  },
+  {
+    "id": 21,
+    "question": "Chứng từ kế toán có vai trò gì trong hoạt động kế toán?",
+    "options": [
+      "Là căn cứ pháp lý để ghi chép các nghiệp vụ kinh tế",
+      "Là báo cáo tài chính",
+      "Là tài liệu lưu trữ nội bộ",
+      "Là sổ kế toán tổng hợp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chứng từ là căn cứ pháp lý để ghi chép nghiệp vụ kinh tế."
+  },
+  {
+    "id": 22,
+    "question": "Kế toán sử dụng thước đo nào để phản ánh các nghiệp vụ kinh tế?",
+    "options": ["Thước đo giá trị", "Thước đo hiện vật", "Thước đo lao động", "Tất cả đều đúng"],
+    "correctAnswer": 0,
+    "explanation": "Kế toán chủ yếu sử dụng thước đo giá trị."
+  },
+  {
+    "id": 23,
+    "question": "Khi nhận được khoản tiền gửi của khách hàng vào tài khoản ngân hàng, kế toán ghi nhận như thế nào?",
+    "options": ["Tăng tiền mặt", "Tăng tiền gửi ngân hàng", "Giảm nợ phải trả", "Tăng vốn chủ sở hữu"],
+    "correctAnswer": 1,
+    "explanation": "Tiền gửi ngân hàng tăng khi nhận được khoản tiền gửi."
+  },
+  {
+    "id": 24,
+    "question": "Nguyên tắc nào đòi hỏi doanh nghiệp phải lập báo cáo tài chính theo kỳ kế toán cố định?",
+    "options": ["Nguyên tắc phù hợp", "Nguyên tắc kỳ kế toán", "Nguyên tắc hoạt động liên tục", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc kỳ kế toán quy định lập báo cáo tài chính theo kỳ cố định."
+  },
+  {
+    "id": 25,
+    "question": "Tài sản nào sau đây không thuộc tài sản ngắn hạn?",
+    "options": ["Tiền mặt", "Phải thu khách hàng", "Máy móc thiết bị", "Hàng tồn kho"],
+    "correctAnswer": 2,
+    "explanation": "Máy móc thiết bị là tài sản dài hạn."
+  },
+  {
+    "id": 26,
+    "question": "Vốn chủ sở hữu bao gồm:",
+    "options": [
+      "Vốn góp của chủ sở hữu và lợi nhuận chưa phân phối",
+      "Nợ phải trả ngắn hạn và dài hạn",
+      "Tổng tài sản trừ nợ phải trả",
+      "Tài sản ngắn hạn và tài sản dài hạn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vốn chủ sở hữu gồm vốn góp và lợi nhuận chưa phân phối."
+  },
+  {
+    "id": 27,
+    "question": "Phương pháp hạch toán kế toán nào sử dụng để ghi chép các nghiệp vụ tài chính theo từng đơn vị kế toán?",
+    "options": [
+      "Phương pháp hạch toán đơn",
+      "Phương pháp hạch toán kép",
+      "Phương pháp hạch toán tập hợp",
+      "Phương pháp hạch toán phân bổ"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Phương pháp hạch toán tập hợp được sử dụng theo đơn vị kế toán."
+  },
+  {
+    "id": 28,
+    "question": "Báo cáo lưu chuyển tiền tệ cho biết điều gì?",
+    "options": [
+      "Tình hình tài chính của doanh nghiệp",
+      "Nguồn vốn của doanh nghiệp",
+      "Dòng tiền vào và ra của doanh nghiệp",
+      "Kết quả hoạt động kinh doanh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Báo cáo lưu chuyển tiền tệ thể hiện dòng tiền ra và vào."
+  },
+  {
+    "id": 29,
+    "question": "Khi nào doanh nghiệp phải thực hiện kiểm kê tài sản?",
+    "options": [
+      "Khi kết thúc năm tài chính",
+      "Khi có thay đổi lớn về tài sản",
+      "Khi kiểm soát nội bộ yêu cầu",
+      "Tất cả các trường hợp trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kiểm kê tài sản thực hiện trong nhiều trường hợp để đảm bảo tính chính xác."
+  },
+  {
+    "id": 30,
+    "question": "Phương pháp kế toán nào được sử dụng để tính giá vốn hàng bán?",
+    "options": [
+      "Phương pháp nhập trước xuất trước (FIFO)",
+      "Phương pháp xuất trước nhập trước (LIFO)",
+      "Phương pháp bình quân gia quyền",
+      "Tất cả các phương pháp trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Các phương pháp trên đều được sử dụng tùy theo chính sách doanh nghiệp."
+  },
+  {
+    "id": 31,
+    "question": "Nguyên tắc kế toán nào yêu cầu kế toán phải thận trọng trong việc ghi nhận doanh thu và chi phí?",
+    "options": ["Nguyên tắc khách quan", "Nguyên tắc thận trọng", "Nguyên tắc phù hợp", "Nguyên tắc nhất quán"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc thận trọng đòi hỏi ghi nhận doanh thu và chi phí thận trọng."
+  },
+  {
+    "id": 32,
+    "question": "Tài sản vô hình bao gồm:",
+    "options": [
+      "Bằng sáng chế, bản quyền, thương hiệu",
+      "Nhà cửa, máy móc thiết bị",
+      "Tiền mặt, tiền gửi ngân hàng",
+      "Nguyên vật liệu, hàng tồn kho"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tài sản vô hình là các tài sản phi vật thể như bằng sáng chế, bản quyền."
+  },
+  {
+    "id": 33,
+    "question": "Tài sản nào sau đây thuộc tài sản dài hạn?",
+    "options": ["Nguyên vật liệu", "Máy móc thiết bị", "Tiền mặt", "Hàng tồn kho"],
+    "correctAnswer": 1,
+    "explanation": "Máy móc thiết bị là tài sản dài hạn."
+  },
+  {
+    "id": 34,
+    "question": "Nợ phải trả dài hạn là khoản nợ:",
+    "options": [
+      "Phải trả trong vòng 12 tháng",
+      "Phải trả trên 12 tháng",
+      "Vốn góp của chủ sở hữu",
+      "Lợi nhuận chưa phân phối"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nợ dài hạn là khoản nợ có kỳ hạn trả trên 12 tháng."
+  },
+  {
+    "id": 35,
+    "question": "Kế toán phải lập sổ kế toán nào để phản ánh tổng quát tài sản, nguồn vốn và kết quả kinh doanh?",
+    "options": ["Sổ cái", "Sổ nhật ký chung", "Sổ chi tiết", "Sổ kho"],
+    "correctAnswer": 0,
+    "explanation": "Sổ cái phản ánh tổng quát các tài khoản kế toán."
+  },
+  {
+    "id": 36,
+    "question": "Doanh nghiệp ghi nhận chi phí sản xuất kinh doanh như thế nào?",
+    "options": [
+      "Ghi nhận khi chi ra tiền",
+      "Ghi nhận theo nguyên tắc phù hợp với doanh thu",
+      "Ghi nhận khi phát sinh chi phí",
+      "Ghi nhận khi nhận hóa đơn"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chi phí được ghi nhận phù hợp với doanh thu liên quan."
+  },
+  {
+    "id": 37,
+    "question": "Báo cáo kết quả hoạt động kinh doanh thể hiện:",
+    "options": [
+      "Tổng tài sản của doanh nghiệp",
+      "Nguồn vốn chủ sở hữu",
+      "Doanh thu, chi phí và lợi nhuận trong kỳ",
+      "Dòng tiền ra vào"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Báo cáo này thể hiện kết quả kinh doanh trong kỳ."
+  },
+  {
+    "id": 38,
+    "question": "Nguyên tắc nào quy định doanh nghiệp không được tự ý thay đổi các chính sách kế toán đã lựa chọn nếu không có sự thông báo?",
+    "options": ["Nguyên tắc nhất quán", "Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc nhất quán yêu cầu duy trì chính sách kế toán đã lựa chọn."
+  },
+  {
+    "id": 39,
+    "question": "Trong các loại báo cáo tài chính, báo cáo nào phản ánh tài sản, nguồn vốn tại một thời điểm cụ thể?",
+    "options": [
+      "Báo cáo kết quả hoạt động kinh doanh",
+      "Bảng cân đối kế toán",
+      "Báo cáo lưu chuyển tiền tệ",
+      "Báo cáo thay đổi vốn chủ sở hữu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bảng cân đối kế toán thể hiện tài sản và nguồn vốn tại thời điểm."
+  },
+  {
+    "id": 40,
+    "question": "Kế toán trưởng chịu trách nhiệm chính trong việc:",
+    "options": [
+      "Lập báo cáo tài chính",
+      "Tổ chức thực hiện công tác kế toán",
+      "Quản lý tài chính doanh nghiệp",
+      "Kiểm tra nội bộ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kế toán trưởng tổ chức và quản lý công tác kế toán."
+  },
+  {
+    "id": 41,
+    "question": "Doanh nghiệp có thể lựa chọn phương pháp nào để tính giá vốn hàng bán?",
+    "options": [
+      "Phương pháp FIFO",
+      "Phương pháp LIFO",
+      "Phương pháp bình quân gia quyền",
+      "Tất cả các phương pháp trên"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tất cả các phương pháp đều được áp dụng tùy theo chính sách."
+  },
+  {
+    "id": 42,
+    "question": "Các khoản mục nào thuộc tài sản ngắn hạn?",
+    "options": [
+      "Tiền mặt, hàng tồn kho, phải thu khách hàng",
+      "Nhà cửa, máy móc thiết bị",
+      "Vốn góp của chủ sở hữu",
+      "Nợ phải trả dài hạn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tiền mặt, hàng tồn kho và phải thu khách hàng là tài sản ngắn hạn."
+  },
+  {
+    "id": 43,
+    "question": "Tài sản cố định bao gồm:",
+    "options": ["Máy móc thiết bị, nhà xưởng", "Tiền mặt, tiền gửi ngân hàng", "Hàng tồn kho", "Bằng sáng chế"],
+    "correctAnswer": 0,
+    "explanation": "Máy móc thiết bị, nhà xưởng là tài sản cố định."
+  },
+  {
+    "id": 44,
+    "question": "Nợ phải trả là:",
+    "options": [
+      "Số tiền doanh nghiệp phải trả người khác",
+      "Số tiền doanh nghiệp nhận được từ khách hàng",
+      "Số tiền doanh nghiệp đầu tư vào tài sản",
+      "Số tiền doanh nghiệp kiếm được từ hoạt động kinh doanh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nợ phải trả là khoản nghĩa vụ phải thanh toán."
+  },
+  {
+    "id": 45,
+    "question": "Vốn chủ sở hữu gồm:",
+    "options": [
+      "Vốn góp, lợi nhuận chưa phân phối",
+      "Nợ phải trả ngắn hạn và dài hạn",
+      "Tổng tài sản",
+      "Tài sản ngắn hạn và dài hạn"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vốn chủ sở hữu gồm vốn góp và lợi nhuận chưa phân phối."
+  },
+  {
+    "id": 46,
+    "question": "Khi ghi nhận chi phí nhân công trực tiếp, kế toán sử dụng tài khoản nào?",
+    "options": ["Chi phí nhân công", "Chi phí sản xuất chung", "Chi phí bán hàng", "Chi phí quản lý doanh nghiệp"],
+    "correctAnswer": 0,
+    "explanation": "Chi phí nhân công trực tiếp được ghi nhận vào chi phí nhân công."
+  },
+  {
+    "id": 47,
+    "question": "Kế toán ghi nhận nguyên vật liệu nhập kho bằng phương pháp:",
+    "options": [
+      "Ghi nhận theo giá mua thực tế",
+      "Ghi nhận theo giá thị trường",
+      "Ghi nhận theo giá trị ước tính",
+      "Không ghi nhận"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nguyên vật liệu nhập kho ghi nhận theo giá mua thực tế."
+  },
+  {
+    "id": 48,
+    "question": "Báo cáo lưu chuyển tiền tệ phản ánh:",
+    "options": [
+      "Doanh thu và chi phí",
+      "Tài sản và nguồn vốn",
+      "Dòng tiền thuần từ hoạt động kinh doanh, đầu tư và tài chính",
+      "Lợi nhuận trước thuế"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Báo cáo thể hiện dòng tiền ra vào của doanh nghiệp."
+  },
+  {
+    "id": 49,
+    "question": "Kế toán trưởng có trách nhiệm:",
+    "options": [
+      "Lập kế hoạch kinh doanh",
+      "Kiểm tra, giám sát hoạt động kế toán",
+      "Quản lý tài chính doanh nghiệp",
+      "Lập báo cáo thuế"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kế toán trưởng giám sát và kiểm tra công tác kế toán."
+  },
+  {
+    "id": 50,
+    "question": "Kế toán sử dụng loại chứng từ nào làm căn cứ ghi sổ kế toán?",
+    "options": ["Chứng từ kế toán hợp pháp, đầy đủ và hợp lệ", "Báo cáo tài chính", "Sổ cái", "Hợp đồng kinh tế"],
+    "correctAnswer": 0,
+    "explanation": "Chứng từ kế toán là căn cứ pháp lý để ghi sổ kế toán."
+  }
+]

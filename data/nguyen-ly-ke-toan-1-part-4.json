@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "question": "Nguyên tắc kế toán nào yêu cầu doanh nghiệp ghi nhận tài sản, nợ phải trả, vốn chủ sở hữu, doanh thu và chi phí theo đúng thực tế?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc trung thực", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc khách quan yêu cầu số liệu kế toán phải dựa trên chứng từ hợp pháp, chính xác."
+  },
+  {
+    "id": 2,
+    "question": "Phương pháp hạch toán nào được sử dụng phổ biến nhất trong kế toán hiện đại?",
+    "options": ["Hạch toán đơn", "Hạch toán kép", "Hạch toán tập hợp", "Hạch toán phân bổ"],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán kép được sử dụng rộng rãi vì ghi nhận hai mặt đối ứng của nghiệp vụ kinh tế."
+  },
+  {
+    "id": 3,
+    "question": "Tài sản ngắn hạn gồm những loại nào dưới đây?",
+    "options": [
+      "Tiền mặt, tiền gửi ngân hàng, hàng tồn kho",
+      "Máy móc, thiết bị, nhà xưởng",
+      "Bằng sáng chế, thương hiệu",
+      "Tài sản cố định"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tài sản ngắn hạn là tài sản có thể chuyển đổi thành tiền mặt trong vòng 1 năm."
+  },
+  {
+    "id": 4,
+    "question": "Báo cáo tài chính gồm các báo cáo nào?",
+    "options": [
+      "Bảng cân đối kế toán, báo cáo kết quả hoạt động kinh doanh, báo cáo lưu chuyển tiền tệ, báo cáo thay đổi vốn chủ sở hữu",
+      "Bảng cân đối kế toán, báo cáo lưu chuyển tiền tệ",
+      "Báo cáo kết quả hoạt động kinh doanh, báo cáo thay đổi vốn chủ sở hữu",
+      "Bảng cân đối kế toán, báo cáo tài chính thuế"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Báo cáo tài chính gồm 4 báo cáo chính nêu trên."
+  },
+  {
+    "id": 5,
+    "question": "Chi phí nào sau đây được ghi nhận vào chi phí bán hàng?",
+    "options": [
+      "Chi phí tiền lương nhân viên kinh doanh",
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chi phí tiền lương nhân viên kinh doanh được ghi nhận vào chi phí bán hàng."
+  },
+  {
+    "id": 6,
+    "question": "Khi doanh nghiệp mua nguyên vật liệu bằng tiền mặt, kế toán ghi nhận định khoản như thế nào?",
+    "options": ["Nợ TK 152, Có TK 111", "Nợ TK 111, Có TK 152", "Nợ TK 331, Có TK 111", "Nợ TK 111, Có TK 331"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên vật liệu nhập kho tăng (Nợ TK 152), tiền mặt giảm (Có TK 111)."
+  },
+  {
+    "id": 7,
+    "question": "Phương pháp tính khấu hao tài sản cố định nào phổ biến nhất?",
+    "options": [
+      "Phương pháp đường thẳng",
+      "Phương pháp giảm dần",
+      "Phương pháp số lượng sản phẩm",
+      "Phương pháp số dư giảm dần"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phương pháp đường thẳng là phổ biến và dễ áp dụng."
+  },
+  {
+    "id": 8,
+    "question": "Tài sản vô hình bao gồm:",
+    "options": [
+      "Bằng sáng chế, bản quyền, thương hiệu",
+      "Máy móc, thiết bị",
+      "Tiền mặt, tiền gửi ngân hàng",
+      "Nguyên vật liệu, hàng tồn kho"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tài sản vô hình là tài sản phi vật thể có giá trị kinh tế."
+  },
+  {
+    "id": 9,
+    "question": "Nguyên tắc nào trong kế toán yêu cầu doanh nghiệp phải lập báo cáo tài chính theo kỳ kế toán cố định?",
+    "options": ["Nguyên tắc phù hợp", "Nguyên tắc kỳ kế toán", "Nguyên tắc thận trọng", "Nguyên tắc nhất quán"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc kỳ kế toán quy định lập báo cáo tài chính theo kỳ cố định."
+  },
+  {
+    "id": 10,
+    "question": "Kế toán phản ánh số tiền tiền mặt trong doanh nghiệp trên tài khoản nào?",
+    "options": ["TK 111 - Tiền mặt", "TK 112 - Tiền gửi ngân hàng", "TK 331 - Phải trả người bán", "TK 141 - Tạm ứng"],
+    "correctAnswer": 0,
+    "explanation": "TK 111 dùng để phản ánh tiền mặt."
+  },
+  {
+    "id": 11,
+    "question": "Kế toán trưởng chịu trách nhiệm chính trong việc:",
+    "options": [
+      "Lập báo cáo tài chính",
+      "Tổ chức thực hiện công tác kế toán",
+      "Quản lý tài chính doanh nghiệp",
+      "Kiểm tra nội bộ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kế toán trưởng tổ chức và quản lý công tác kế toán."
+  },
+  {
+    "id": 12,
+    "question": "Kế toán ghi nhận doanh thu bán hàng khi nào?",
+    "options": [
+      "Khi nhận tiền từ khách hàng",
+      "Khi giao hàng và chuyển giao rủi ro",
+      "Khi ký hợp đồng bán hàng",
+      "Khi nhận đặt cọc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doanh thu ghi nhận khi giao hàng và chuyển giao rủi ro cho khách."
+  },
+  {
+    "id": 13,
+    "question": "Kế toán ghi nhận chi phí nguyên vật liệu trực tiếp trên tài khoản nào?",
+    "options": ["TK 621", "TK 622", "TK 627", "TK 641"],
+    "correctAnswer": 0,
+    "explanation": "TK 621 dùng để ghi nhận chi phí nguyên vật liệu trực tiếp."
+  },
+  {
+    "id": 14,
+    "question": "Tài khoản nào dùng để phản ánh các khoản phải trả người bán?",
+    "options": ["TK 331", "TK 111", "TK 152", "TK 142"],
+    "correctAnswer": 0,
+    "explanation": "TK 331 dùng để phản ánh các khoản phải trả người bán."
+  },
+  {
+    "id": 15,
+    "question": "Phương pháp kế toán nào ghi nhận đồng thời hai mặt đối ứng của nghiệp vụ kinh tế?",
+    "options": ["Hạch toán đơn", "Hạch toán kép", "Hạch toán tập hợp", "Hạch toán phân bổ"],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán kép ghi nhận hai mặt đối ứng của nghiệp vụ kinh tế."
+  },
+  {
+    "id": 16,
+    "question": "Khi mua hàng hóa chưa thanh toán tiền ngay, kế toán định khoản như thế nào?",
+    "options": ["Nợ TK 156, Có TK 331", "Nợ TK 331, Có TK 156", "Nợ TK 111, Có TK 331", "Nợ TK 331, Có TK 111"],
+    "correctAnswer": 0,
+    "explanation": "Mua hàng hóa tăng tài sản (Nợ TK 156) và tăng nợ phải trả (Có TK 331)."
+  },
+  {
+    "id": 17,
+    "question": "Doanh nghiệp phản ánh số tiền vay ngân hàng trên tài khoản nào?",
+    "options": ["TK 331", "TK 341", "TK 111", "TK 112"],
+    "correctAnswer": 1,
+    "explanation": "TK 341 dùng để phản ánh các khoản vay dài hạn."
+  },
+  {
+    "id": 18,
+    "question": "Chi phí nhân công trực tiếp phản ánh trên tài khoản nào?",
+    "options": ["TK 622", "TK 621", "TK 627", "TK 641"],
+    "correctAnswer": 0,
+    "explanation": "TK 622 dùng để phản ánh chi phí nhân công trực tiếp."
+  },
+  {
+    "id": 19,
+    "question": "Báo cáo tài chính phải lập tối thiểu bao lâu một lần?",
+    "options": ["1 tháng", "3 tháng", "6 tháng", "12 tháng"],
+    "correctAnswer": 3,
+    "explanation": "Báo cáo tài chính phải được lập ít nhất hàng năm."
+  },
+  {
+    "id": 20,
+    "question": "Tài sản cố định hữu hình gồm những gì?",
+    "options": [
+      "Nhà cửa, máy móc, thiết bị, xe ô tô",
+      "Bằng sáng chế, thương hiệu",
+      "Tiền mặt, tiền gửi ngân hàng",
+      "Nguyên vật liệu, hàng tồn kho"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tài sản cố định hữu hình là các tài sản vật chất."
+  },
+  {
+    "id": 21,
+    "question": "Kế toán ghi nhận hàng tồn kho trên tài khoản nào?",
+    "options": ["TK 152", "TK 156", "TK 111", "TK 331"],
+    "correctAnswer": 1,
+    "explanation": "TK 156 dùng để phản ánh hàng hóa tồn kho."
+  },
+  {
+    "id": 22,
+    "question": "Chi phí quản lý doanh nghiệp gồm những khoản nào?",
+    "options": [
+      "Chi phí tiền lương nhân viên văn phòng",
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chi phí tiền lương nhân viên văn phòng là chi phí quản lý."
+  },
+  {
+    "id": 23,
+    "question": "Phương pháp kế toán nào tính giá vốn hàng bán phổ biến nhất?",
+    "options": ["FIFO", "LIFO", "Bình quân gia quyền", "Đích danh"],
+    "correctAnswer": 0,
+    "explanation": "FIFO là phương pháp phổ biến và dễ áp dụng."
+  },
+  {
+    "id": 24,
+    "question": "Kế toán ghi nhận doanh thu bán hàng khi:",
+    "options": [
+      "Khi nhận tiền từ khách hàng",
+      "Khi giao hàng và chuyển giao rủi ro",
+      "Khi ký hợp đồng bán hàng",
+      "Khi khách hàng đặt cọc"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doanh thu ghi nhận khi giao hàng và chuyển giao rủi ro."
+  },
+  {
+    "id": 25,
+    "question": "Nguyên tắc kế toán nào yêu cầu thận trọng trong ghi nhận doanh thu và chi phí?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc phù hợp", "Nguyên tắc nhất quán"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc thận trọng đòi hỏi thận trọng trong ghi nhận doanh thu và chi phí."
+  },
+  {
+    "id": 26,
+    "question": "Báo cáo lưu chuyển tiền tệ phản ánh điều gì?",
+    "options": [
+      "Tình hình tài chính của doanh nghiệp",
+      "Dòng tiền thuần từ hoạt động kinh doanh, đầu tư và tài chính",
+      "Doanh thu và chi phí",
+      "Tài sản và nguồn vốn"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Báo cáo này thể hiện dòng tiền ra vào của doanh nghiệp."
+  },
+  {
+    "id": 27,
+    "question": "Nguyên tắc kế toán nào đòi hỏi sử dụng phương pháp kế toán đồng nhất trong một kỳ kế toán?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc nhất quán", "Nguyên tắc phù hợp", "Nguyên tắc khách quan"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc nhất quán yêu cầu áp dụng thống nhất phương pháp."
+  },
+  {
+    "id": 28,
+    "question": "Tài khoản nào dùng để phản ánh tiền gửi ngân hàng?",
+    "options": ["TK 111", "TK 112", "TK 331", "TK 141"],
+    "correctAnswer": 1,
+    "explanation": "TK 112 dùng để phản ánh tiền gửi ngân hàng."
+  },
+  {
+    "id": 29,
+    "question": "Kế toán ghi nhận khấu hao tài sản cố định vào tài khoản nào?",
+    "options": ["TK 214", "TK 641", "TK 627", "TK 811"],
+    "correctAnswer": 0,
+    "explanation": "TK 214 dùng để phản ánh hao mòn tài sản cố định."
+  },
+  {
+    "id": 30,
+    "question": "Kế toán trưởng có trách nhiệm chính nào trong doanh nghiệp?",
+    "options": [
+      "Tổ chức thực hiện công tác kế toán",
+      "Lập kế hoạch kinh doanh",
+      "Kiểm tra nội bộ",
+      "Quản lý tài chính doanh nghiệp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kế toán trưởng chịu trách nhiệm tổ chức công tác kế toán."
+  },
+  {
+    "id": 31,
+    "question": "Chi phí sản xuất chung gồm những khoản nào?",
+    "options": [
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí quản lý sản xuất",
+      "Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Chi phí sản xuất chung bao gồm các chi phí phục vụ sản xuất nhưng không trực tiếp."
+  },
+  {
+    "id": 32,
+    "question": "Tài khoản nào dùng để phản ánh chi phí bán hàng?",
+    "options": ["TK 641", "TK 642", "TK 627", "TK 621"],
+    "correctAnswer": 0,
+    "explanation": "TK 641 dùng để phản ánh chi phí bán hàng."
+  },
+  {
+    "id": 33,
+    "question": "Kế toán ghi nhận chi phí quản lý doanh nghiệp vào tài khoản nào?",
+    "options": ["TK 641", "TK 642", "TK 627", "TK 621"],
+    "correctAnswer": 1,
+    "explanation": "TK 642 dùng để phản ánh chi phí quản lý doanh nghiệp."
+  },
+  {
+    "id": 34,
+    "question": "Phương pháp hạch toán kế toán nào được sử dụng để ghi nhận đồng thời hai mặt đối ứng của nghiệp vụ kinh tế?",
+    "options": ["Hạch toán đơn", "Hạch toán kép", "Hạch toán tập hợp", "Hạch toán phân bổ"],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán kép ghi nhận hai mặt đối ứng."
+  },
+  {
+    "id": 35,
+    "question": "Kế toán phải lập báo cáo tài chính theo quy định của cơ quan nào?",
+    "options": ["Bộ Tài chính", "Ngân hàng Nhà nước", "Bộ Công Thương", "Bộ Lao động Thương binh và Xã hội"],
+    "correctAnswer": 0,
+    "explanation": "Bộ Tài chính quản lý công tác kế toán."
+  },
+  {
+    "id": 36,
+    "question": "Tài khoản nào dùng để phản ánh doanh thu bán hàng?",
+    "options": ["TK 511", "TK 521", "TK 641", "TK 911"],
+    "correctAnswer": 0,
+    "explanation": "TK 511 dùng để ghi nhận doanh thu bán hàng."
+  },
+  {
+    "id": 37,
+    "question": "Nguyên tắc kế toán nào yêu cầu các số liệu phản ánh phải dựa trên chứng từ hợp pháp và khách quan?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc trung thực", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc khách quan yêu cầu số liệu dựa trên chứng từ hợp pháp."
+  },
+  {
+    "id": 38,
+    "question": "Chi phí nào sau đây không được tính vào chi phí sản xuất kinh doanh?",
+    "options": [
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí quảng cáo sản phẩm",
+      "Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chi phí quảng cáo tính vào chi phí bán hàng."
+  },
+  {
+    "id": 39,
+    "question": "Kế toán phản ánh tiền gửi ngân hàng trên tài khoản nào?",
+    "options": ["TK 111", "TK 112", "TK 331", "TK 141"],
+    "correctAnswer": 1,
+    "explanation": "TK 112 dùng để ghi nhận tiền gửi ngân hàng."
+  },
+  {
+    "id": 40,
+    "question": "Kế toán trưởng chịu trách nhiệm chính trong việc gì?",
+    "options": [
+      "Lập báo cáo tài chính",
+      "Tổ chức thực hiện công tác kế toán",
+      "Quản lý tài chính doanh nghiệp",
+      "Kiểm toán nội bộ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kế toán trưởng tổ chức và quản lý công tác kế toán."
+  },
+  {
+    "id": 41,
+    "question": "Báo cáo kết quả hoạt động kinh doanh thể hiện:",
+    "options": [
+      "Tổng tài sản của doanh nghiệp",
+      "Nguồn vốn chủ sở hữu",
+      "Doanh thu, chi phí và lợi nhuận trong kỳ",
+      "Dòng tiền ra vào"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Báo cáo thể hiện kết quả kinh doanh trong kỳ."
+  },
+  {
+    "id": 42,
+    "question": "Phương pháp hạch toán kế toán nào ghi nhận đồng thời hai mặt đối ứng của nghiệp vụ kinh tế phát sinh?",
+    "options": [
+      "Phương pháp hạch toán đơn",
+      "Phương pháp hạch toán kép",
+      "Phương pháp hạch toán tập hợp",
+      "Phương pháp hạch toán phân bổ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phương pháp hạch toán kép ghi nhận hai mặt đối ứng."
+  },
+  {
+    "id": 43,
+    "question": "Nguyên tắc kế toán nào đòi hỏi các khoản chi phí phải được ghi nhận đúng kỳ kế toán mà nó phát sinh?",
+    "options": ["Nguyên tắc phù hợp", "Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc nhất quán"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc phù hợp yêu cầu ghi nhận chi phí đúng kỳ kế toán."
+  },
+  {
+    "id": 44,
+    "question": "Kế toán phản ánh số tiền vay ngân hàng trên tài khoản nào?",
+    "options": ["TK 331", "TK 341", "TK 111", "TK 112"],
+    "correctAnswer": 1,
+    "explanation": "TK 341 dùng để phản ánh khoản vay dài hạn."
+  },
+  {
+    "id": 45,
+    "question": "Tài khoản nào dùng để phản ánh chi phí nhân công trực tiếp?",
+    "options": ["TK 621", "TK 622", "TK 627", "TK 641"],
+    "correctAnswer": 1,
+    "explanation": "TK 622 phản ánh chi phí nhân công trực tiếp."
+  },
+  {
+    "id": 46,
+    "question": "Kế toán ghi nhận nguyên vật liệu nhập kho bằng phương pháp nào?",
+    "options": ["Theo giá mua thực tế", "Theo giá thị trường", "Theo giá trị ước tính", "Không ghi nhận"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên vật liệu nhập kho ghi nhận theo giá mua thực tế."
+  },
+  {
+    "id": 47,
+    "question": "Kế toán ghi nhận chi phí bán hàng vào tài khoản nào?",
+    "options": ["TK 641", "TK 642", "TK 627", "TK 621"],
+    "correctAnswer": 0,
+    "explanation": "TK 641 phản ánh chi phí bán hàng."
+  },
+  {
+    "id": 48,
+    "question": "Báo cáo lưu chuyển tiền tệ cho biết điều gì?",
+    "options": [
+      "Tình hình tài chính doanh nghiệp",
+      "Dòng tiền vào và ra trong kỳ",
+      "Doanh thu và chi phí",
+      "Vốn chủ sở hữu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Báo cáo lưu chuyển tiền tệ thể hiện dòng tiền thuần của doanh nghiệp."
+  },
+  {
+    "id": 49,
+    "question": "Nguyên tắc kế toán nào đòi hỏi phải có chứng từ hợp pháp làm căn cứ ghi nhận nghiệp vụ kinh tế?",
+    "options": ["Nguyên tắc khách quan", "Nguyên tắc thận trọng", "Nguyên tắc phù hợp", "Nguyên tắc nhất quán"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc khách quan yêu cầu ghi nhận số liệu dựa trên chứng từ hợp pháp."
+  },
+  {
+    "id": 50,
+    "question": "Doanh nghiệp phải lập báo cáo tài chính tối thiểu bao lâu một lần?",
+    "options": ["Hàng tháng", "Hàng quý", "6 tháng", "Hàng năm"],
+    "correctAnswer": 3,
+    "explanation": "Báo cáo tài chính phải được lập tối thiểu hàng năm."
+  }
+]

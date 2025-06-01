@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "question": "Doanh nghiệp ghi nhận chi phí bán hàng vào tài khoản nào?",
+    "options": ["Chi phí sản xuất chung", "Chi phí bán hàng", "Chi phí quản lý doanh nghiệp", "Chi phí tài chính"],
+    "correctAnswer": 1,
+    "explanation": "Chi phí bán hàng phản ánh các chi phí liên quan đến việc bán sản phẩm, hàng hóa."
+  },
+  {
+    "id": 2,
+    "question": "Loại chứng từ nào dùng để xác nhận các nghiệp vụ kinh tế phát sinh nội bộ doanh nghiệp?",
+    "options": ["Chứng từ bên ngoài", "Chứng từ bên trong", "Chứng từ tổng hợp", "Chứng từ gốc"],
+    "correctAnswer": 1,
+    "explanation": "Chứng từ bên trong xác nhận các nghiệp vụ nội bộ doanh nghiệp."
+  },
+  {
+    "id": 3,
+    "question": "Nguyên tắc kế toán nào quy định rằng doanh nghiệp không được phép ghi nhận lợi nhuận chưa thực hiện?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc phù hợp", "Nguyên tắc khách quan", "Nguyên tắc trọng yếu"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc thận trọng yêu cầu không ghi nhận lợi nhuận chưa thực hiện."
+  },
+  {
+    "id": 4,
+    "question": "Chi phí nào sau đây được xem là chi phí quản lý doanh nghiệp?",
+    "options": [
+      "Chi phí tiền lương nhân viên kế toán",
+      "Chi phí nguyên vật liệu trực tiếp",
+      "Chi phí nhân công trực tiếp",
+      "Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chi phí tiền lương nhân viên kế toán thuộc chi phí quản lý doanh nghiệp."
+  },
+  {
+    "id": 5,
+    "question": "Tài khoản kế toán dùng để phản ánh tiền mặt trong doanh nghiệp là:",
+    "options": [
+      "TK 111 - Tiền mặt",
+      "TK 112 - Tiền gửi ngân hàng",
+      "TK 331 - Phải trả người bán",
+      "TK 511 - Doanh thu bán hàng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 111 dùng để ghi nhận tiền mặt trong doanh nghiệp."
+  },
+  {
+    "id": 6,
+    "question": "Kế toán ghi nhận hàng hóa mua về để bán thuộc tài khoản nào?",
+    "options": ["TK 152 - Nguyên vật liệu", "TK 156 - Hàng hóa", "TK 111 - Tiền mặt", "TK 331 - Phải trả người bán"],
+    "correctAnswer": 1,
+    "explanation": "Hàng hóa mua về để bán được ghi nhận vào TK 156."
+  },
+  {
+    "id": 7,
+    "question": "Theo chuẩn mực kế toán Việt Nam, báo cáo tài chính bao gồm mấy loại báo cáo chính?",
+    "options": ["2", "3", "4", "5"],
+    "correctAnswer": 2,
+    "explanation": "Báo cáo tài chính gồm 4 loại báo cáo chính."
+  },
+  {
+    "id": 8,
+    "question": "Trong kế toán, tài sản lưu động là:",
+    "options": [
+      "Tài sản có thời gian sử dụng trên 1 năm",
+      "Tài sản có thể chuyển đổi thành tiền mặt trong vòng 1 năm",
+      "Tài sản không dùng để sản xuất kinh doanh",
+      "Tài sản cố định"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tài sản lưu động là tài sản có thể chuyển đổi thành tiền mặt trong vòng 1 năm."
+  },
+  {
+    "id": 9,
+    "question": "Phương pháp tính giá vốn hàng bán nào phổ biến và đơn giản nhất?",
+    "options": [
+      "Phương pháp nhập trước xuất trước (FIFO)",
+      "Phương pháp xuất trước nhập trước (LIFO)",
+      "Phương pháp bình quân gia quyền",
+      "Phương pháp đích danh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phương pháp FIFO phổ biến và dễ áp dụng."
+  },
+  {
+    "id": 10,
+    "question": "Lợi nhuận kế toán trước thuế được tính bằng:",
+    "options": ["Doanh thu - Chi phí", "Doanh thu - Chi phí - Thuế", "Doanh thu", "Chi phí"],
+    "correctAnswer": 0,
+    "explanation": "Lợi nhuận trước thuế là doanh thu trừ chi phí."
+  },
+  {
+    "id": 11,
+    "question": "Định khoản kế toán là quá trình:",
+    "options": [
+      "Lập báo cáo tài chính",
+      "Ghi nhận các nghiệp vụ kinh tế phát sinh vào các tài khoản kế toán",
+      "Kiểm tra số liệu kế toán",
+      "Đánh giá kết quả kinh doanh"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Định khoản kế toán ghi nhận nghiệp vụ vào các tài khoản tương ứng."
+  },
+  {
+    "id": 12,
+    "question": "Khi doanh nghiệp mua nguyên vật liệu bằng tiền mặt, ghi nhận nghiệp vụ như thế nào?",
+    "options": ["Nợ TK 152, Có TK 111", "Nợ TK 111, Có TK 152", "Nợ TK 331, Có TK 111", "Nợ TK 111, Có TK 331"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên vật liệu nhập kho tăng (Nợ TK 152), tiền mặt giảm (Có TK 111)."
+  },
+  {
+    "id": 13,
+    "question": "Kế toán phản ánh sự biến động của vốn chủ sở hữu trên báo cáo nào?",
+    "options": [
+      "Báo cáo lưu chuyển tiền tệ",
+      "Bảng cân đối kế toán",
+      "Báo cáo kết quả hoạt động kinh doanh",
+      "Báo cáo thay đổi vốn chủ sở hữu"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Báo cáo thay đổi vốn chủ sở hữu phản ánh biến động vốn."
+  },
+  {
+    "id": 14,
+    "question": "Khi công ty vay ngân hàng để mua máy móc, ghi nhận nghiệp vụ như thế nào?",
+    "options": ["Nợ TK 211, Có TK 331", "Nợ TK 211, Có TK 341", "Nợ TK 331, Có TK 111", "Nợ TK 111, Có TK 341"],
+    "correctAnswer": 1,
+    "explanation": "Mua máy móc tăng tài sản cố định (Nợ TK 211), vay ngân hàng tăng nợ phải trả dài hạn (Có TK 341)."
+  },
+  {
+    "id": 15,
+    "question": "Nguyên tắc nào trong kế toán yêu cầu ghi nhận tài sản theo giá gốc, không được ghi theo giá thị trường?",
+    "options": ["Nguyên tắc giá gốc", "Nguyên tắc thận trọng", "Nguyên tắc phù hợp", "Nguyên tắc khách quan"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc giá gốc yêu cầu ghi nhận tài sản theo giá mua."
+  },
+  {
+    "id": 16,
+    "question": "Báo cáo tài chính nào phản ánh kết quả kinh doanh của doanh nghiệp trong kỳ?",
+    "options": [
+      "Bảng cân đối kế toán",
+      "Báo cáo kết quả hoạt động kinh doanh",
+      "Báo cáo lưu chuyển tiền tệ",
+      "Báo cáo thay đổi vốn chủ sở hữu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Báo cáo kết quả hoạt động kinh doanh thể hiện doanh thu, chi phí, lợi nhuận."
+  },
+  {
+    "id": 17,
+    "question": "Tài khoản kế toán nào phản ánh số tiền doanh nghiệp phải trả người bán?",
+    "options": [
+      "TK 111 - Tiền mặt",
+      "TK 331 - Phải trả người bán",
+      "TK 331 - Phải thu khách hàng",
+      "TK 152 - Nguyên vật liệu"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TK 331 phản ánh các khoản phải trả người bán."
+  },
+  {
+    "id": 18,
+    "question": "Doanh nghiệp ghi nhận khấu hao tài sản cố định vào tài khoản nào?",
+    "options": [
+      "TK 214 - Hao mòn TSCĐ",
+      "TK 641 - Chi phí bán hàng",
+      "TK 627 - Chi phí sản xuất chung",
+      "TK 811 - Chi phí quản lý doanh nghiệp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 214 dùng để phản ánh hao mòn tài sản cố định."
+  },
+  {
+    "id": 19,
+    "question": "Kế toán dùng tài khoản nào để phản ánh doanh thu bán hàng?",
+    "options": [
+      "TK 511 - Doanh thu bán hàng và cung cấp dịch vụ",
+      "TK 521 - Chi phí nguyên vật liệu trực tiếp",
+      "TK 641 - Chi phí bán hàng",
+      "TK 911 - Xác định kết quả kinh doanh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 511 dùng để ghi nhận doanh thu bán hàng."
+  },
+  {
+    "id": 20,
+    "question": "Kế toán phải lập báo cáo tài chính theo:",
+    "options": ["Chuẩn mực kế toán Việt Nam", "Luật kế toán", "Quy định của Bộ Tài chính", "Tất cả các đáp án trên"],
+    "correctAnswer": 3,
+    "explanation": "Báo cáo tài chính phải tuân theo chuẩn mực, luật và quy định hiện hành."
+  },
+  {
+    "id": 21,
+    "question": "Khi doanh nghiệp trả lương cho nhân viên bằng tiền mặt, kế toán định khoản như thế nào?",
+    "options": [
+      "Nợ TK 334 - Phải trả người lao động; Có TK 111 - Tiền mặt",
+      "Nợ TK 641 - Chi phí bán hàng; Có TK 111 - Tiền mặt",
+      "Nợ TK 334 - Phải trả người lao động; Có TK 331 - Phải trả người bán",
+      "Nợ TK 642 - Chi phí quản lý doanh nghiệp; Có TK 111 - Tiền mặt"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trả lương giảm tiền mặt và giảm khoản phải trả cho người lao động."
+  },
+  {
+    "id": 22,
+    "question": "Tài khoản nào dùng để phản ánh chi phí nguyên vật liệu trực tiếp?",
+    "options": [
+      "TK 621 - Chi phí nguyên vật liệu trực tiếp",
+      "TK 622 - Chi phí nhân công trực tiếp",
+      "TK 623 - Chi phí sử dụng máy thi công",
+      "TK 627 - Chi phí sản xuất chung"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 621 phản ánh chi phí nguyên vật liệu trực tiếp."
+  },
+  {
+    "id": 23,
+    "question": "Kế toán ghi nhận hàng hóa bán ra khi:",
+    "options": ["Khi nhận tiền từ khách hàng", "Khi giao hàng cho khách", "Khi đặt hàng", "Khi ký hợp đồng"],
+    "correctAnswer": 1,
+    "explanation": "Hàng hóa được ghi nhận bán ra khi giao cho khách."
+  },
+  {
+    "id": 24,
+    "question": "Theo nguyên tắc kế toán, khi nào doanh thu được ghi nhận?",
+    "options": ["Khi nhận tiền trước", "Khi giao hàng và chuyển giao rủi ro", "Khi ký hợp đồng", "Khi xuất hóa đơn"],
+    "correctAnswer": 1,
+    "explanation": "Doanh thu ghi nhận khi giao hàng và chuyển giao rủi ro."
+  },
+  {
+    "id": 25,
+    "question": "Kế toán trưởng chịu trách nhiệm gì trong doanh nghiệp?",
+    "options": [
+      "Quản lý toàn bộ hoạt động kinh doanh",
+      "Tổ chức thực hiện công tác kế toán",
+      "Lập báo cáo tài chính",
+      "Kiểm toán nội bộ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kế toán trưởng tổ chức và quản lý công tác kế toán."
+  },
+  {
+    "id": 26,
+    "question": "Phương pháp hạch toán nào được sử dụng khi ghi nhận các nghiệp vụ phát sinh trong kỳ kế toán?",
+    "options": ["Hạch toán đơn", "Hạch toán kép", "Hạch toán phân bổ", "Hạch toán tập hợp"],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán kép ghi nhận hai mặt đối ứng của nghiệp vụ kinh tế."
+  },
+  {
+    "id": 27,
+    "question": "Tài sản nào sau đây không thuộc tài sản cố định?",
+    "options": ["Nhà xưởng", "Máy móc thiết bị", "Tiền mặt", "Phương tiện vận tải"],
+    "correctAnswer": 2,
+    "explanation": "Tiền mặt không phải tài sản cố định."
+  },
+  {
+    "id": 28,
+    "question": "Nguyên tắc kế toán nào yêu cầu sử dụng đồng nhất phương pháp kế toán trong một kỳ kế toán?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc nhất quán", "Nguyên tắc phù hợp", "Nguyên tắc khách quan"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc nhất quán yêu cầu sử dụng thống nhất phương pháp kế toán."
+  },
+  {
+    "id": 29,
+    "question": "Doanh nghiệp phải lập sổ nào để phản ánh các nghiệp vụ kinh tế phát sinh?",
+    "options": ["Sổ kế toán tổng hợp", "Sổ kế toán chi tiết", "Sổ nhật ký chung", "Sổ kho"],
+    "correctAnswer": 2,
+    "explanation": "Sổ nhật ký chung dùng để ghi chép các nghiệp vụ kinh tế phát sinh."
+  },
+  {
+    "id": 30,
+    "question": "Khi mua nguyên vật liệu chưa thanh toán tiền ngay, kế toán định khoản như thế nào?",
+    "options": ["Nợ TK 152, Có TK 331", "Nợ TK 331, Có TK 152", "Nợ TK 111, Có TK 331", "Nợ TK 331, Có TK 111"],
+    "correctAnswer": 0,
+    "explanation": "Mua nguyên vật liệu tăng tài sản (Nợ TK 152) và tăng nợ phải trả (Có TK 331)."
+  },
+  {
+    "id": 31,
+    "question": "Kế toán phản ánh số tiền doanh nghiệp vay ngân hàng trên tài khoản nào?",
+    "options": [
+      "TK 331 - Phải trả người bán",
+      "TK 341 - Vay và nợ thuê tài chính dài hạn",
+      "TK 111 - Tiền mặt",
+      "TK 112 - Tiền gửi ngân hàng"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TK 341 dùng để phản ánh các khoản vay dài hạn."
+  },
+  {
+    "id": 32,
+    "question": "Kế toán phản ánh số tiền tiền mặt trong doanh nghiệp trên tài khoản nào?",
+    "options": ["TK 111 - Tiền mặt", "TK 112 - Tiền gửi ngân hàng", "TK 331 - Phải trả người bán", "TK 141 - Tạm ứng"],
+    "correctAnswer": 0,
+    "explanation": "TK 111 dùng để phản ánh tiền mặt."
+  },
+  {
+    "id": 33,
+    "question": "Chi phí nhân công trực tiếp được ghi nhận trên tài khoản nào?",
+    "options": [
+      "TK 622 - Chi phí nhân công trực tiếp",
+      "TK 621 - Chi phí nguyên vật liệu trực tiếp",
+      "TK 627 - Chi phí sản xuất chung",
+      "TK 641 - Chi phí bán hàng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 622 dùng để phản ánh chi phí nhân công trực tiếp."
+  },
+  {
+    "id": 34,
+    "question": "Khi ghi nhận doanh thu bán hàng, kế toán dùng tài khoản nào?",
+    "options": [
+      "TK 511 - Doanh thu bán hàng",
+      "TK 521 - Chi phí nguyên vật liệu trực tiếp",
+      "TK 641 - Chi phí bán hàng",
+      "TK 911 - Xác định kết quả kinh doanh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 511 dùng để ghi nhận doanh thu bán hàng."
+  },
+  {
+    "id": 35,
+    "question": "Nguyên tắc kế toán nào yêu cầu phản ánh đúng thời điểm phát sinh các nghiệp vụ kinh tế?",
+    "options": ["Nguyên tắc phù hợp", "Nguyên tắc nhất quán", "Nguyên tắc thận trọng", "Nguyên tắc khách quan"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên tắc phù hợp yêu cầu ghi nhận đúng kỳ kế toán."
+  },
+  {
+    "id": 36,
+    "question": "Kế toán ghi nhận chi phí khấu hao tài sản cố định trên tài khoản nào?",
+    "options": [
+      "TK 214 - Hao mòn TSCĐ",
+      "TK 641 - Chi phí bán hàng",
+      "TK 627 - Chi phí sản xuất chung",
+      "TK 811 - Chi phí quản lý doanh nghiệp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 214 phản ánh hao mòn tài sản cố định."
+  },
+  {
+    "id": 37,
+    "question": "Phương pháp hạch toán kép gồm bao nhiêu mặt đối ứng?",
+    "options": ["1", "2", "3", "4"],
+    "correctAnswer": 1,
+    "explanation": "Hạch toán kép ghi nhận hai mặt đối ứng của nghiệp vụ kinh tế."
+  },
+  {
+    "id": 38,
+    "question": "Kế toán phải lập báo cáo tài chính theo quy định của cơ quan nào?",
+    "options": ["Bộ Tài chính", "Ngân hàng Nhà nước", "Bộ Công Thương", "Bộ Lao động Thương binh và Xã hội"],
+    "correctAnswer": 0,
+    "explanation": "Bộ Tài chính quản lý công tác kế toán và báo cáo tài chính."
+  },
+  {
+    "id": 39,
+    "question": "Kế toán ghi nhận tiền gửi ngân hàng trên tài khoản nào?",
+    "options": ["TK 111 - Tiền mặt", "TK 112 - Tiền gửi ngân hàng", "TK 331 - Phải trả người bán", "TK 141 - Tạm ứng"],
+    "correctAnswer": 1,
+    "explanation": "TK 112 dùng để ghi nhận tiền gửi ngân hàng."
+  },
+  {
+    "id": 40,
+    "question": "Báo cáo tài chính gồm các thành phần nào sau đây?",
+    "options": [
+      "Bảng cân đối kế toán, báo cáo kết quả hoạt động kinh doanh",
+      "Báo cáo lưu chuyển tiền tệ, báo cáo thay đổi vốn chủ sở hữu",
+      "Tất cả các báo cáo trên",
+      "Chỉ bảng cân đối kế toán và báo cáo kết quả hoạt động kinh doanh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Báo cáo tài chính bao gồm tất cả các báo cáo trên."
+  },
+  {
+    "id": 41,
+    "question": "Kế toán phản ánh chi phí bán hàng vào tài khoản nào?",
+    "options": [
+      "TK 641 - Chi phí bán hàng",
+      "TK 642 - Chi phí quản lý doanh nghiệp",
+      "TK 627 - Chi phí sản xuất chung",
+      "TK 621 - Chi phí nguyên vật liệu trực tiếp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 641 dùng để phản ánh chi phí bán hàng."
+  },
+  {
+    "id": 42,
+    "question": "Nguyên tắc kế toán nào yêu cầu báo cáo tài chính phải trình bày trung thực, hợp lý?",
+    "options": ["Nguyên tắc thận trọng", "Nguyên tắc khách quan", "Nguyên tắc trọng yếu", "Nguyên tắc trung thực"],
+    "correctAnswer": 3,
+    "explanation": "Nguyên tắc trung thực yêu cầu báo cáo tài chính phải phản ánh đúng tình hình."
+  },
+  {
+    "id": 43,
+    "question": "Tài sản cố định hữu hình bao gồm những loại nào?",
+    "options": [
+      "Máy móc, thiết bị, nhà cửa, đất đai",
+      "Bằng sáng chế, thương hiệu",
+      "Tiền mặt, tiền gửi ngân hàng",
+      "Nguyên vật liệu, hàng tồn kho"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tài sản cố định hữu hình là tài sản vật chất có thời gian sử dụng dài."
+  },
+  {
+    "id": 44,
+    "question": "Vốn chủ sở hữu bao gồm những khoản nào?",
+    "options": [
+      "Vốn góp của chủ sở hữu, lợi nhuận chưa phân phối",
+      "Nợ phải trả ngắn hạn và dài hạn",
+      "Tổng tài sản",
+      "Tài sản cố định"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vốn chủ sở hữu là vốn của chủ doanh nghiệp và lợi nhuận giữ lại."
+  },
+  {
+    "id": 45,
+    "question": "Kế toán ghi nhận các khoản nợ phải trả ngắn hạn trên tài khoản nào?",
+    "options": [
+      "TK 331 - Phải trả người bán",
+      "TK 341 - Vay và nợ thuê tài chính dài hạn",
+      "TK 111 - Tiền mặt",
+      "TK 112 - Tiền gửi ngân hàng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 331 dùng để phản ánh các khoản nợ phải trả ngắn hạn."
+  },
+  {
+    "id": 46,
+    "question": "Chi phí nhân công trực tiếp được phản ánh trên tài khoản nào?",
+    "options": [
+      "TK 622 - Chi phí nhân công trực tiếp",
+      "TK 621 - Chi phí nguyên vật liệu trực tiếp",
+      "TK 627 - Chi phí sản xuất chung",
+      "TK 641 - Chi phí bán hàng"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TK 622 dùng để ghi nhận chi phí nhân công trực tiếp."
+  },
+  {
+    "id": 47,
+    "question": "Kế toán ghi nhận nguyên vật liệu mua về bằng phương pháp nào?",
+    "options": ["Theo giá mua thực tế", "Theo giá thị trường", "Theo giá ước tính", "Không ghi nhận"],
+    "correctAnswer": 0,
+    "explanation": "Nguyên vật liệu được ghi nhận theo giá mua thực tế."
+  },
+  {
+    "id": 48,
+    "question": "Báo cáo kết quả hoạt động kinh doanh thể hiện:",
+    "options": ["Tình hình tài chính", "Doanh thu, chi phí và lợi nhuận", "Dòng tiền ra vào", "Vốn chủ sở hữu"],
+    "correctAnswer": 1,
+    "explanation": "Báo cáo này thể hiện kết quả kinh doanh trong kỳ."
+  },
+  {
+    "id": 49,
+    "question": "Nguyên tắc kế toán nào yêu cầu sử dụng phương pháp kế toán đồng nhất trong kỳ kế toán?",
+    "options": ["Nguyên tắc phù hợp", "Nguyên tắc nhất quán", "Nguyên tắc khách quan", "Nguyên tắc thận trọng"],
+    "correctAnswer": 1,
+    "explanation": "Nguyên tắc nhất quán yêu cầu áp dụng thống nhất phương pháp."
+  },
+  {
+    "id": 50,
+    "question": "Tài khoản nào dùng để phản ánh số tiền tiền mặt trong doanh nghiệp?",
+    "options": ["TK 111 - Tiền mặt", "TK 112 - Tiền gửi ngân hàng", "TK 331 - Phải trả người bán", "TK 141 - Tạm ứng"],
+    "correctAnswer": 0,
+    "explanation": "TK 111 dùng để phản ánh tiền mặt."
+  }
+]

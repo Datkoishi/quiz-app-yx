@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "question": "Which is stage efficiency for finding code defects?",
+    "options": ["Meeting", "Discussing with the author", "Reading", "A, B, C are not correct"],
+    "correctAnswer": 2,
+    "explanation": "Reading is the most efficient stage for finding code defects. Studies show that individual reading during preparation phase finds more defects than group meetings."
+  },
+  {
+    "id": 2,
+    "question": "When you run your code step by step to find defects. This technic is...",
+    "options": ["Reviewing", "Testing", "Debugging", "Refactoring"],
+    "correctAnswer": 2,
+    "explanation": "Debugging is the process of running code step by step to identify and locate defects. It involves using debugging tools and techniques to trace program execution."
+  },
+  {
+    "id": 3,
+    "question": "If your code has errors but you can't find the defect for many hours. What is the best way you should do?",
+    "options": [
+      "Check for common defects",
+      "Check code that has changed recently",
+      "Isolate the suspicious regions of code",
+      "Take a break"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Taking a break is often the best approach when stuck on a difficult bug for hours. Fresh perspective after rest often leads to breakthrough insights."
+  },
+  {
+    "id": 4,
+    "question": "When you want to move some lines of codes to a new procedure. What will you do in Eclipse?",
+    "options": [
+      "Copy, Paste and Modify the code",
+      "Use the Extract method in Refactoring",
+      "Use the Pull Up in Refactoring",
+      "Use the Push Down in Refactoring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Extract Method refactoring in Eclipse automatically moves selected code lines to a new method, handling parameter passing and return values correctly."
+  },
+  {
+    "id": 5,
+    "question": "What are the roles in the inspection process?",
+    "options": [
+      "Author, Reviewer, Moderator",
+      "Author, Reviewer, Observer",
+      "Author, Inspector, Moderator, Timekeeper/Reader, Recorder",
+      "B and C are correct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Both B and C are correct. Inspection process can have various role combinations depending on the formality level and team size."
+  },
+  {
+    "id": 6,
+    "question": "Long method (code smell) is...",
+    "options": [
+      "an application has more than 200 class, interfaces or forms",
+      "a class having too much method",
+      "a method indicates too many parameters",
+      "a method, function, or procedure that has grown too large"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Long method code smell refers to methods that have grown too large and try to do too many things, making them hard to understand and maintain."
+  },
+  {
+    "id": 7,
+    "question": "What is the reason of code defects?",
+    "options": ["Poor understanding of requirements", "Poor design", "Poor coding practices", "All above"],
+    "correctAnswer": 3,
+    "explanation": "Code defects can arise from multiple sources: misunderstood requirements, inadequate design, and poor coding practices. All contribute to software defects."
+  },
+  {
+    "id": 8,
+    "question": "Who are involved in the inspection meeting?",
+    "options": ["Author, Inspector", "Moderator, Recorder", "Reader / Timekeeper", "All above"],
+    "correctAnswer": 3,
+    "explanation": "All mentioned roles can be involved in inspection meetings: Author (code writer), Inspector (reviewer), Moderator (facilitates), Recorder (documents issues), Reader/Timekeeper (reads code, manages time)."
+  },
+  {
+    "id": 9,
+    "question": "All studies of Inspection have common results, the meeting will find very few errors compared to the reading code. Why are many companies still inspecting the code by meeting?",
+    "options": [
+      "They use inspection for training",
+      "Inspection can find the defect that the individual couldn't found",
+      "Meetings create a schedule that people must work towards",
+      "All above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Despite meetings finding fewer defects than individual reading, companies use them for training purposes, finding defects missed by individuals, and creating accountability through scheduled commitments."
+  },
+  {
+    "id": 10,
+    "question": "What is the name of inspection process?",
+    "options": ["Software inspection", "Code inspection", "Fagan inspection", "All above"],
+    "correctAnswer": 3,
+    "explanation": "The formal inspection process is known by all these names: Software inspection, Code inspection, and Fagan inspection (named after Michael Fagan who developed the process)."
+  },
+  {
+    "id": 11,
+    "question": "In order to use Eclipse, you must ....",
+    "options": [
+      "install the current version of Java Development Kit on your computer",
+      "install the current version of Tomcat on your computer",
+      "install the current version of SVN on your computer",
+      "install the current version of ANT on your computer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Eclipse requires Java Development Kit (JDK) to be installed as it's a Java-based IDE. Other tools like Tomcat, SVN, and ANT are optional depending on project needs."
+  },
+  {
+    "id": 12,
+    "question": "What is Integration Testing?",
+    "options": [
+      "is a method by which individual units of source code are tested to determine if they are fit for use",
+      "is the phase in software testing in which individual software modules are combined and tested as a group",
+      "is testing conducted on a complete, integrated system to evaluate the system's compliance with its specified requirements",
+      "is a test conducted to determine if the requirements of a specification or contract are met"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Integration testing focuses on testing the interfaces and interaction between integrated software modules to detect interface defects."
+  },
+  {
+    "id": 13,
+    "question": "In software change management CCB is the observation for...",
+    "options": [
+      "Changing Control Board",
+      "Configuration Changing Board",
+      "Configuration Control Board",
+      "C. All above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CCB stands for Configuration Control Board, which is responsible for evaluating and approving changes to software configuration items."
+  },
+  {
+    "id": 14,
+    "question": "The version of the software is 1.01.0012. The number 0012 means....",
+    "options": [
+      "the Major Release Number",
+      "the Minor (Maintenance) Release Number",
+      "the Build Number",
+      "the revision"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In version numbering like 1.01.0012, the last number (0012) typically represents the build number, indicating a specific build of that version."
+  },
+  {
+    "id": 15,
+    "question": "What are defects in coding phase?",
+    "options": [
+      "poorness design",
+      "programming errors",
+      "poorness coding practices",
+      "poorness understanding of requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "During the coding phase, defects are primarily programming errors - mistakes made while writing the actual code, such as syntax errors, logic errors, and implementation mistakes."
+  },
+  {
+    "id": 16,
+    "question": "The best period of time for one Sprint Backlogs in Scrum process is?",
+    "options": ["3->5 weeks", "one week", "2->4 weeks", "one month"],
+    "correctAnswer": 2,
+    "explanation": "The recommended Sprint length in Scrum is 2-4 weeks, providing enough time to deliver working software while maintaining short feedback cycles."
+  },
+  {
+    "id": 17,
+    "question": "What is the difference between team and group?",
+    "options": ["Product", "Salary", "Result", "Strength"],
+    "correctAnswer": 2,
+    "explanation": "The key difference between a team and a group is the result - teams work collaboratively toward shared goals and collective results, while groups may just work in proximity."
+  },
+  {
+    "id": 18,
+    "question": "For Eclipse to work with SVN, which tool must you add to Eclipse?",
+    "options": ["subversive", "Ant", "Maker", "SVN client"],
+    "correctAnswer": 0,
+    "explanation": "Subversive is the Eclipse plugin that provides SVN integration, allowing Eclipse to work with Subversion version control systems."
+  },
+  {
+    "id": 19,
+    "question": "What is code inspection?",
+    "options": [
+      "Checking code syntax errors",
+      "Manual review of source code to find defects",
+      "Running code to find bugs",
+      "Writing unit tests"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Code inspection is a systematic manual review of source code by peers to identify defects, improve quality, and share knowledge."
+  },
+  {
+    "id": 20,
+    "question": "What is debugging?",
+    "options": ["Writing code", "Running code to find defects step-by-step", "Reviewing code", "Refactoring code"],
+    "correctAnswer": 1,
+    "explanation": "Debugging is the process of running code step-by-step to locate and identify defects, often using debugging tools and techniques."
+  },
+  {
+    "id": 21,
+    "question": "What is a defect?",
+    "options": ["A feature request", "An error or bug in the software", "A design document", "A test case"],
+    "correctAnswer": 1,
+    "explanation": "A defect is an error, flaw, or bug in software that causes it to behave incorrectly or not as expected."
+  },
+  {
+    "id": 22,
+    "question": "What is regression testing?",
+    "options": [
+      "Testing new features only",
+      "Testing entire system after changes",
+      "Performance testing",
+      "Security testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regression testing involves re-running tests on the entire system after changes to ensure existing functionality still works correctly."
+  },
+  {
+    "id": 23,
+    "question": "What is version control?",
+    "options": [
+      "Managing versions of documentation",
+      "Managing code changes and history",
+      "Testing software versions",
+      "Deploying software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Version control is a system for managing changes to code over time, tracking history, and enabling collaboration among developers."
+  },
+  {
+    "id": 24,
+    "question": "What is refactoring?",
+    "options": ["Adding new features", "Improving code without changing functionality", "Fixing bugs", "Writing tests"],
+    "correctAnswer": 1,
+    "explanation": "Refactoring is the process of improving code structure, readability, and maintainability without changing its external behavior or functionality."
+  },
+  {
+    "id": 25,
+    "question": "What is a test case?",
+    "options": [
+      "A script for testing",
+      "A document describing input and expected output for a test",
+      "A defect report",
+      "A project plan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A test case is a document that specifies test inputs, execution conditions, and expected results to verify a particular software feature."
+  },
+  {
+    "id": 26,
+    "question": "What is black-box testing?",
+    "options": [
+      "Testing with knowledge of code",
+      "Testing without knowledge of internal code",
+      "Testing performance",
+      "Security testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Black-box testing examines software functionality without knowledge of internal code structure, focusing on inputs and outputs."
+  },
+  {
+    "id": 27,
+    "question": "What is white-box testing?",
+    "options": [
+      "Testing without knowledge of code",
+      "Testing with knowledge of internal code",
+      "Performance testing",
+      "Usability testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "White-box testing examines software with full knowledge of internal code structure, testing code paths, conditions, and loops."
+  },
+  {
+    "id": 28,
+    "question": "What is the purpose of software inspection?",
+    "options": [
+      "To find defects early",
+      "To deploy software",
+      "To write documentation",
+      "To test software functionality"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The primary purpose of software inspection is to find defects early in the development process when they are cheaper and easier to fix."
+  },
+  {
+    "id": 29,
+    "question": "What is a build number in software version?",
+    "options": [
+      "Major version",
+      "Minor version",
+      "Revision number",
+      "Number assigned to a particular build of software"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A build number is a unique identifier assigned to a specific build or compilation of software, helping track different builds of the same version."
+  },
+  {
+    "id": 30,
+    "question": "What is continuous integration?",
+    "options": [
+      "Writing code continuously",
+      "Frequent integration of code changes to a shared repository",
+      "Continuous testing",
+      "Deployment automation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Continuous integration is the practice of frequently integrating code changes into a shared repository, with automated builds and tests."
+  },
+  {
+    "id": 31,
+    "question": "What is unit testing?",
+    "options": [
+      "Testing entire application",
+      "Testing individual units or components",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unit testing focuses on testing individual units or components of software in isolation to verify they work correctly."
+  },
+  {
+    "id": 32,
+    "question": "What is the main goal of code review?",
+    "options": [
+      "Find bugs and improve code quality",
+      "Deploy software",
+      "Write documentation",
+      "Performance optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main goal of code review is to find bugs early and improve overall code quality through peer examination and feedback."
+  },
+  {
+    "id": 33,
+    "question": "What is the meaning of SVN?",
+    "options": ["Simple Versioning Network", "Subversion", "Software Version Number", "Source Versioning Node"],
+    "correctAnswer": 1,
+    "explanation": "SVN stands for Subversion, which is a centralized version control system for managing code changes and collaboration."
+  },
+  {
+    "id": 34,
+    "question": "What is the role of Configuration Control Board (CCB)?",
+    "options": ["Manage change requests", "Approve software deployment", "Write code", "Test software"],
+    "correctAnswer": 0,
+    "explanation": "The Configuration Control Board (CCB) is responsible for managing and approving change requests to ensure controlled software evolution."
+  },
+  {
+    "id": 35,
+    "question": "What is a sprint backlog?",
+    "options": [
+      "List of features for the whole project",
+      "Tasks to be done in the current sprint",
+      "Defects report",
+      "Testing plan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sprint backlog contains the specific tasks and user stories that the team commits to complete during the current sprint."
+  },
+  {
+    "id": 36,
+    "question": "What is software inspection?",
+    "options": [
+      "A method to find defects by reviewing software artifacts",
+      "Writing test scripts",
+      "Running automated tests",
+      "Deploying software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software inspection is a systematic method for finding defects through manual review of software artifacts like code, designs, and requirements."
+  },
+  {
+    "id": 37,
+    "question": "What is test-driven development (TDD)?",
+    "options": [
+      "Writing code first, then tests",
+      "Writing tests first, then code",
+      "Writing documentation first",
+      "Writing deployment scripts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Test-Driven Development (TDD) is a practice where tests are written first, then code is written to make the tests pass."
+  },
+  {
+    "id": 38,
+    "question": "What tool is commonly used with Eclipse for version control?",
+    "options": ["Subversive", "Jenkins", "Maven", "JIRA"],
+    "correctAnswer": 0,
+    "explanation": "Subversive is the most commonly used Eclipse plugin for SVN version control integration."
+  },
+  {
+    "id": 39,
+    "question": "Which Java package is necessary for running Eclipse IDE?",
+    "options": ["Java Development Kit (JDK)", "Tomcat Server", "Apache ANT", "SVN Client"],
+    "correctAnswer": 0,
+    "explanation": "Eclipse IDE requires Java Development Kit (JDK) to be installed as it's built on Java platform."
+  },
+  {
+    "id": 40,
+    "question": "What is a defect density?",
+    "options": [
+      "Number of defects per lines of code",
+      "Number of defects found per test case",
+      "Number of test cases",
+      "Number of bugs fixed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Defect density is a quality metric that measures the number of defects per unit of code (typically per thousand lines of code)."
+  },
+  {
+    "id": 41,
+    "question": "What is the primary purpose of unit testing?",
+    "options": [
+      "Test entire system integration",
+      "Test individual software components",
+      "Test performance",
+      "Test usability"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unit testing primarily focuses on testing individual software components or units in isolation to verify their correctness."
+  },
+  {
+    "id": 42,
+    "question": "Which activity is part of software configuration management?",
+    "options": ["Version control", "Code review", "Unit testing", "Requirement gathering"],
+    "correctAnswer": 0,
+    "explanation": "Version control is a core activity of Software Configuration Management (SCM), managing changes to software artifacts over time."
+  },
+  {
+    "id": 43,
+    "question": "What is the meaning of \"code smell\"?",
+    "options": [
+      "A bad odor in the workplace",
+      "Indicators of possible problems in code",
+      "Code with many comments",
+      "New feature requests"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Code smells are indicators of potential problems in code that suggest the need for refactoring to improve code quality."
+  },
+  {
+    "id": 44,
+    "question": "Which of these is a common Agile methodology?",
+    "options": ["Waterfall", "Scrum", "Spiral", "V-Model"],
+    "correctAnswer": 1,
+    "explanation": "Scrum is one of the most popular Agile methodologies, emphasizing iterative development, collaboration, and continuous improvement."
+  },
+  {
+    "id": 45,
+    "question": "What document must you fill when you get a new change from the customer?",
+    "options": ["Change Requests", "Software Requirement Specification", "Change Control Board", "All above"],
+    "correctAnswer": 0,
+    "explanation": "Change Requests document is used to formally capture and track new changes requested by customers or stakeholders."
+  },
+  {
+    "id": 46,
+    "question": "What is the main goal of software testing?",
+    "options": ["Find defects and improve software quality", "Write code", "Deploy software", "Write documentation"],
+    "correctAnswer": 0,
+    "explanation": "The main goal of software testing is to find defects early and improve overall software quality before delivery to users."
+  },
+  {
+    "id": 47,
+    "question": "What is a bug?",
+    "options": ["A feature", "An error or flaw in software", "A test case", "A version number"],
+    "correctAnswer": 1,
+    "explanation": "A bug is an error, flaw, or fault in software that causes it to produce incorrect or unexpected results."
+  },
+  {
+    "id": 48,
+    "question": "What is the difference between verification and validation?",
+    "options": [
+      "No difference",
+      "Verification checks requirements, validation checks design",
+      "Verification is static, validation is dynamic",
+      "Verification is for testing, validation is for coding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Verification is static analysis (reviews, inspections) asking 'Are we building the product right?', while validation is dynamic testing asking 'Are we building the right product?'"
+  },
+  {
+    "id": 49,
+    "question": "What is the purpose of code refactoring?",
+    "options": [
+      "Add new features",
+      "Fix bugs",
+      "Improve code structure without changing functionality",
+      "Write documentation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Code refactoring aims to improve code structure, readability, and maintainability without changing the external behavior or functionality."
+  },
+  {
+    "id": 50,
+    "question": "What is pair programming?",
+    "options": [
+      "Two programmers working on different projects",
+      "Two programmers working together on the same code",
+      "Programming in pairs of functions",
+      "Using two computers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pair programming is an Agile practice where two programmers work together on the same code, with one writing and the other reviewing in real-time."
+  }
+]
