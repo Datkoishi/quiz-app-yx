@@ -30,42 +30,6 @@ export const activeSubjects: Subject[] = [
     estimatedTime: "45 phút",
   },
   {
-    id: "ky-thuat-thuong-mai-dien-tu",
-    name: "Kỹ Thuật Thương Mại Điện Tử",
-    description: "Ôn tập kiến thức về kỹ thuật thương mại điện tử - Học kỳ 2025",
-    icon: <ShoppingBag className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-orange-500/10 via-amber-400/5 to-yellow-500/10 dark:from-orange-400/20 dark:via-amber-300/10 dark:to-yellow-400/20 border border-orange-200/30 dark:border-orange-400/30",
-    textColor: "text-orange-700 dark:text-orange-300",
-    questionCount: 70,
-    difficulty: "Khó",
-    estimatedTime: "60 phút",
-  },
-  {
-    id: "tieng-anh-cmu-de-1",
-    name: "Tiếng Anh Chuyên Ngành CMU - Đề 1",
-    description: "Ôn tập từ vựng và thuật ngữ tiếng Anh chuyên ngành Công nghệ thông tin - Học kỳ 2025",
-    icon: <Languages className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-rose-500/10 via-pink-400/5 to-fuchsia-500/10 dark:from-rose-400/20 dark:via-pink-300/10 dark:to-fuchsia-400/20 border border-rose-200/30 dark:border-rose-400/30",
-    textColor: "text-rose-700 dark:text-rose-300",
-    questionCount: 42,
-    difficulty: "Trung bình",
-    estimatedTime: "40 phút",
-  },
-  {
-    id: "tieng-anh-cmu-de-2",
-    name: "Tiếng Anh Chuyên Ngành CMU - Đề 2",
-    description: "Ôn tập từ vựng và thuật ngữ tiếng Anh chuyên ngành Công nghệ thông tin - Học kỳ 2025",
-    icon: <Languages className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-violet-500/10 via-purple-400/5 to-indigo-500/10 dark:from-violet-400/20 dark:via-purple-300/10 dark:to-indigo-400/20 border border-violet-200/30 dark:border-violet-400/30",
-    textColor: "text-violet-700 dark:text-violet-300",
-    questionCount: 44,
-    difficulty: "Trung bình",
-    estimatedTime: "42 phút",
-  },
-  {
     id: "application-development-practices",
     name: "Application Development Practices",
     description: "Ôn tập kiến thức về thực hành phát triển ứng dụng - Học kỳ 2025 (Yêu cầu mật khẩu)",
@@ -93,6 +57,20 @@ export const activeSubjects: Subject[] = [
     estimatedTime: "40 phút",
   },
   {
+    id: "application-development-practices-2",
+    name: "Application Development Practices 2",
+    description:
+      "Ôn tập nâng cao về quy trình phát triển phần mềm, kiểm thử, và quản lý dự án - Học kỳ 2025 (Yêu cầu mật khẩu)",
+    icon: <Code className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-purple-500/10 via-violet-400/5 to-fuchsia-500/10 dark:from-purple-400/20 dark:via-violet-300/10 dark:to-fuchsia-400/20 border border-purple-200/30 dark:border-purple-400/30",
+    textColor: "text-purple-700 dark:text-purple-300",
+    questionCount: 50,
+    requiresPassword: true,
+    difficulty: "Khó",
+    estimatedTime: "50 phút",
+  },
+  {
     id: "network-telecommunications",
     name: "Introduction to Network & Telecommunications Technology",
     description: "Ôn tập kiến thức về mạng máy tính và công nghệ viễn thông - Học kỳ 2025",
@@ -103,31 +81,6 @@ export const activeSubjects: Subject[] = [
     questionCount: 106,
     difficulty: "Khó",
     estimatedTime: "90 phút",
-  },
-  {
-    id: "toan-cao-cap-c2",
-    name: "Toán cao cấp C2",
-    description: "Ôn tập đại số tuyến tính: ma trận, định thức, hệ phương trình, không gian vector - Học kỳ 2025",
-    icon: <Calculator className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-blue-500/10 via-indigo-400/5 to-purple-500/10 dark:from-blue-400/20 dark:via-indigo-300/10 dark:to-purple-400/20 border border-blue-200/30 dark:border-blue-400/30",
-    textColor: "text-blue-700 dark:text-blue-300",
-    questionCount: 27,
-    difficulty: "Khó",
-    estimatedTime: "60 phút",
-  },
-  {
-    id: "lich-su-van-minh-the-gioi",
-    name: "Lịch sử văn minh thế giới",
-    description:
-      "Ôn tập kiến thức về các nền văn minh cổ đại: Ai Cập, Lưỡng Hà, Ấn Độ, Trung Quốc, Hy Lạp, La Mã - Học kỳ 2025",
-    icon: <BookOpen className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-red-500/10 via-orange-400/5 to-yellow-500/10 dark:from-red-400/20 dark:via-orange-300/10 dark:to-yellow-400/20 border border-red-200/30 dark:border-red-400/30",
-    textColor: "text-red-700 dark:text-red-300",
-    questionCount: 150,
-    difficulty: "Trung bình",
-    estimatedTime: "120 phút",
   },
 ]
 
@@ -173,6 +126,20 @@ export const completedSubjects: Subject[] = [
     completedDate: "29/5/2025",
     difficulty: "Khó",
     estimatedTime: "30 phút",
+  },
+  {
+    id: "ky-thuat-thuong-mai-dien-tu",
+    name: "Kỹ Thuật Thương Mại Điện Tử",
+    description: "Đã hoàn thành kỳ thi 2025 - Ôn tập kiến thức về kỹ thuật thương mại điện tử",
+    icon: <ShoppingBag className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 70,
+    difficulty: "Khó",
+    estimatedTime: "60 phút",
+    completed: true,
+    completedDate: "4/6/2025",
   },
   {
     id: "ky-thuat-thuong-mai-dien-tu-2",
@@ -302,7 +269,7 @@ export const completedSubjects: Subject[] = [
     difficulty: "Trung bình",
     estimatedTime: "45 phút",
     completed: true,
-    completedDate: "1/6/2025",
+    completedDate: "2/6/2025",
   },
   {
     id: "marketing-trac-nghiem",
@@ -317,7 +284,7 @@ export const completedSubjects: Subject[] = [
     difficulty: "Trung bình",
     estimatedTime: "35 phút",
     completed: true,
-    completedDate: "1/6/2025",
+    completedDate: "2/6/2025",
   },
   {
     id: "marketing-tra-loi-ngan",
@@ -332,7 +299,65 @@ export const completedSubjects: Subject[] = [
     difficulty: "Dễ",
     estimatedTime: "25 phút",
     completed: true,
-    completedDate: "1/6/2025",
+    completedDate: "2/6/2025",
+  },
+  {
+    id: "toan-cao-cap-c2",
+    name: "Toán cao cấp C2",
+    description:
+      "Đã hoàn thành kỳ thi 2025 - Ôn tập đại số tuyến tính: ma trận, định thức, hệ phương trình, không gian vector",
+    icon: <Calculator className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 27,
+    difficulty: "Khó",
+    estimatedTime: "60 phút",
+    completed: true,
+    completedDate: "3/6/2025",
+  },
+  {
+    id: "tieng-anh-cmu-de-1",
+    name: "Tiếng Anh Chuyên Ngành CMU - Đề 1",
+    description: "Đã hoàn thành kỳ thi 2025 - Ôn tập từ vựng và thuật ngữ tiếng Anh chuyên ngành Công nghệ thông tin",
+    icon: <Languages className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 42,
+    difficulty: "Trung bình",
+    estimatedTime: "40 phút",
+    completed: true,
+    completedDate: "3/6/2025",
+  },
+  {
+    id: "tieng-anh-cmu-de-2",
+    name: "Tiếng Anh Chuyên Ngành CMU - Đề 2",
+    description: "Đã hoàn thành kỳ thi 2025 - Ôn tập từ vựng và thuật ngữ tiếng Anh chuyên ngành Công nghệ thông tin",
+    icon: <Languages className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 44,
+    difficulty: "Trung bình",
+    estimatedTime: "42 phút",
+    completed: true,
+    completedDate: "3/6/2025",
+  },
+  {
+    id: "lich-su-van-minh-the-gioi",
+    name: "Lịch sử văn minh thế giới",
+    description:
+      "Đã hoàn thành kỳ thi 2025 - Ôn tập kiến thức về các nền văn minh cổ đại: Ai Cập, Lưỡng Hà, Ấn Độ, Trung Quốc, Hy Lạp, La Mã",
+    icon: <BookOpen className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 150,
+    difficulty: "Trung bình",
+    estimatedTime: "120 phút",
+    completed: true,
+    completedDate: "3/6/2025",
   },
 ]
 

@@ -1,0 +1,447 @@
+[
+  {
+    "id": 1,
+    "question": "What is the best way to find defects from a function with numerous lines of code?",
+    "options": [
+      "Change the test-case and do Unit-Test again",
+      "Isolate the suspicious regions of code",
+      "Check code that has changed recently",
+      "Be suspicious of classes and methods that have had defects before"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Các phần mã có lỗi trước đây thường có khả năng gặp phải lỗi tương tự. Vì vậy, việc kiểm tra lại những phần này là một phương pháp hiệu quả để tìm ra các lỗi."
+  },
+  {
+    "id": 2,
+    "question": "What is the maximum time to peer code review?",
+    "options": ["30 minutes", "60 minutes", "90 minutes", "120 minutes"],
+    "correctAnswer": 1,
+    "explanation": "Thời gian tối đa cho một phiên peer code review không nên quá dài để tránh việc mất tập trung và không hiệu quả."
+  },
+  {
+    "id": 3,
+    "question": "Why do we need to build the teamwork?",
+    "options": [
+      "The software projects are too large and those a diverse set of skills and roles",
+      "Experienced programmers who will teach those less experienced",
+      "To do inspection",
+      "To prevent defects"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Các dự án phần mềm lớn yêu cầu nhiều kỹ năng và vai trò khác nhau, vì vậy cần có teamwork để phối hợp hiệu quả."
+  },
+  {
+    "id": 4,
+    "question": "JUnit is used to .....",
+    "options": ["Review code", "Find defect", "Refactoring", "Manage the revision of the project"],
+    "correctAnswer": 1,
+    "explanation": "JUnit là công cụ kiểm thử trong Java dùng để xác định lỗi trong mã nguồn qua việc thực thi các đơn vị kiểm thử."
+  },
+  {
+    "id": 5,
+    "question": "In conducting phase. It is a defect if...",
+    "options": [
+      "The algorithm is wrong.",
+      "The code is right but unintelligible due to poor documentation.",
+      "The code is right but there's a better way to do it",
+      "All above."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tất cả những yếu tố này đều có thể được xem là lỗi trong quá trình thực hiện, vì chúng đều ảnh hưởng đến chất lượng của phần mềm."
+  },
+  {
+    "id": 6,
+    "question": "What are team members competent?",
+    "options": ["Technical (1)", "Personal (2)", "Salary", "(1) and (2) are correct"],
+    "correctAnswer": 3,
+    "explanation": "Các thành viên trong nhóm cần có kỹ năng chuyên môn (technical) và các phẩm chất cá nhân (personal) để làm việc hiệu quả."
+  },
+  {
+    "id": 7,
+    "question": "Positive receiving feedback, listen without frequent interruption or objections is...",
+    "options": ["Open", "Active listening", "Thoughtful", "Responsive"],
+    "correctAnswer": 1,
+    "explanation": "Khi nhận phản hồi tích cực, lắng nghe mà không ngắt lời hay phản đối là một phần quan trọng của \"active listening\"."
+  },
+  {
+    "id": 8,
+    "question": "What is the correct stage order?",
+    "options": [
+      "Task, Entry, Validation, Exit",
+      "Entry, Validation, Task, Exit",
+      "Exit, Validation, Task, Entry",
+      "Entry, Task, Validation, Exit"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Quy trình chuẩn khi thực hiện một công việc thường là xác định điểm nhập (Entry), thực hiện công việc (Task), xác nhận công việc (Validation), và sau đó là kết thúc (Exit)."
+  },
+  {
+    "id": 9,
+    "question": "According to Votta in \"Does every inspection need a meeting\" - 8/1993, inspection meetings contribute only an additional ... to the number of defects were already found by private code-readings",
+    "options": ["4%", "10%", "20%", "50%"],
+    "correctAnswer": 0,
+    "explanation": "Theo Votta, các cuộc họp kiểm tra chỉ đóng góp thêm khoảng 4% vào số lượng lỗi đã được tìm thấy qua việc đọc mã cá nhân."
+  },
+  {
+    "id": 10,
+    "question": "What are the goals of Refactoring technology?",
+    "options": [
+      "Improve the understandability of the code",
+      "Improve the structure of the code",
+      "Remove unnecessary code",
+      "All Above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mục tiêu của refactoring là cải thiện tính dễ hiểu, cấu trúc của mã, cũng như loại bỏ các đoạn mã không cần thiết."
+  },
+  {
+    "id": 11,
+    "question": "The Kano model is used for...",
+    "options": [
+      "Increasing the quality of codes",
+      "Finding defects as much as possible",
+      "Assessing customer satisfaction",
+      "Testing the security of the application"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mô hình Kano được sử dụng để phân loại các tính năng của sản phẩm phần mềm dựa trên sự hài lòng của khách hàng."
+  },
+  {
+    "id": 12,
+    "question": "The process you can see insight is...",
+    "options": ["White Box", "Black Box", "A and B are correct", "A and B are not correct"],
+    "correctAnswer": 0,
+    "explanation": "Trong kiểm thử phần mềm, White Box test là khi bạn có thể nhìn thấy mã nguồn và hiểu rõ quá trình bên trong của hệ thống."
+  },
+  {
+    "id": 13,
+    "question": "For building java project using ANT, you must write config file in?",
+    "options": ["Java language(1)", "HTML language", "XML language (2)", "(1) and (2) are correct"],
+    "correctAnswer": 2,
+    "explanation": "Để xây dựng dự án Java bằng ANT, bạn cần viết file cấu hình trong XML."
+  },
+  {
+    "id": 14,
+    "question": "SCM is used to ....",
+    "options": ["Build Project", "Manage the revision of the project", "Share document and code", "Review code"],
+    "correctAnswer": 1,
+    "explanation": "SCM (Source Code Management) được sử dụng để quản lý các phiên bản mã nguồn trong một dự án phần mềm."
+  },
+  {
+    "id": 15,
+    "question": "In the software project, how many processes should be used?",
+    "options": ["As much as possible", "As less as possible", "Only one", "Depend on what process we know"],
+    "correctAnswer": 1,
+    "explanation": "Trong một dự án phần mềm, bạn nên sử dụng càng ít quy trình càng tốt để tránh phức tạp không cần thiết."
+  },
+  {
+    "id": 16,
+    "question": "For moving a method from subclass to supper class in eclipse. What refactoring technic will you do?",
+    "options": [
+      "Copy, Paste and Modify the code",
+      "Use the Extract method in Refactoring",
+      "Use the Pull Up in Refactoring",
+      "Use the Push Down in Refactoring"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Kỹ thuật \"Pull Up\" được sử dụng trong refactoring để di chuyển một phương thức từ lớp con lên lớp cha."
+  },
+  {
+    "id": 17,
+    "question": "What is the most formal technical review?",
+    "options": ["Walkthroughs", "Code Reading", "Pair Programming", "Inspections"],
+    "correctAnswer": 3,
+    "explanation": "Kiểm tra phần mềm (inspections) là hình thức đánh giá kỹ thuật chính thức nhất trong các loại review."
+  },
+  {
+    "id": 18,
+    "question": "In software project development, who usually does the unit test?",
+    "options": ["Tester", "Developer (coder)", "Customer", "Designer"],
+    "correctAnswer": 1,
+    "explanation": "Trong quá trình phát triển phần mềm, việc thực hiện unit test chủ yếu là nhiệm vụ của lập trình viên."
+  },
+  {
+    "id": 19,
+    "question": "What are three types of Object Oriented's review?",
+    "options": [
+      "checklist review, systematic review, use-case review",
+      "checklist review, Diagram review, use-case review",
+      "checklist review, Diagram review, Code review",
+      "checklist review, systematic review, use review"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ba loại review này thường được sử dụng trong phát triển phần mềm theo hướng đối tượng."
+  },
+  {
+    "id": 20,
+    "question": "When you test the number of users access the website at the same time, that is...",
+    "options": ["Accepting Test", "Unit Test", "Integration Test", "Stress Test"],
+    "correctAnswer": 3,
+    "explanation": "Kiểm thử stress (Stress Test) được sử dụng để kiểm tra xem hệ thống có thể chịu được tải lớn hay không, như khi nhiều người dùng truy cập đồng thời."
+  },
+  {
+    "id": 21,
+    "question": "Kano's Survey questions based on...",
+    "options": [
+      "The functional form of questions",
+      "A dysfunctional form of questions",
+      "Nonfunctional",
+      "Both A and B are correct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Các câu hỏi khảo sát của Kano dựa trên cả hai dạng câu hỏi chức năng và phi chức năng."
+  },
+  {
+    "id": 22,
+    "question": "Duplicated code (code smell) is?",
+    "options": [
+      "Duplicated code problem is identical or very similar code exists in more",
+      "Duplicated code problem is when you have the same expression in two",
+      "Duplication problem is when you have the same expression in two sibling subclasses",
+      "All above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tất cả các đáp án trên đều mô tả các vấn đề của mã lặp lại trong lập trình (code smell)."
+  },
+  {
+    "id": 23,
+    "question": "ANT is used to ....",
+    "options": ["Build Project", "Manage the revision of the project", "Share document and code", "Review code"],
+    "correctAnswer": 0,
+    "explanation": "ANT là công cụ dùng để xây dựng dự án (build project) trong Java."
+  },
+  {
+    "id": 24,
+    "question": "According to Kano, who are your customers?",
+    "options": ["User Community", "Your Executive Management", "The Project Team", "All Above"],
+    "correctAnswer": 3,
+    "explanation": "Theo Kano, khách hàng của bạn có thể là cộng đồng người dùng, quản lý cấp cao hoặc đội ngũ dự án."
+  },
+  {
+    "id": 25,
+    "question": "What is the most successful type of Object Oriented's review?",
+    "options": ["Checklist review", "Systematic review", "Use-case review", "No solution is true"],
+    "correctAnswer": 0,
+    "explanation": "Đánh giá theo danh sách kiểm tra (checklist review) là kiểu đánh giá thành công nhất trong phương pháp Object Oriented."
+  },
+  {
+    "id": 26,
+    "question": "According to Capers Jones in \"Software Defect Removal Efficiency, Design and Code Inspections\" usually remove ... of product defects",
+    "options": ["40%", "50 - 60%", "60 - 70%", "70 - 85%"],
+    "correctAnswer": 3,
+    "explanation": "Theo Capers Jones, các đánh giá thiết kế và mã thường loại bỏ từ 70% đến 85% các lỗi sản phẩm."
+  },
+  {
+    "id": 27,
+    "question": "The goal of testing is...",
+    "options": [
+      "To find all defects",
+      "To admit the software is good enough to release",
+      "To remove defects",
+      "To find as many defects as they can"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mục tiêu của kiểm thử là phát hiện càng nhiều lỗi càng tốt."
+  },
+  {
+    "id": 28,
+    "question": "Which phase of inspection is used to choose inspectors?",
+    "options": ["Meeting", "Overview", "Preparation", "Planning"],
+    "correctAnswer": 3,
+    "explanation": "Giai đoạn kế hoạch trong kiểm tra là nơi chọn lựa những người tham gia kiểm tra."
+  },
+  {
+    "id": 29,
+    "question": "What methodology in which requirement change is embraced?",
+    "options": ["Traditional", "Agile", "A and B are correct", "None of the above"],
+    "correctAnswer": 1,
+    "explanation": "Phương pháp Agile chấp nhận sự thay đổi yêu cầu trong suốt quá trình phát triển phần mềm."
+  },
+  {
+    "id": 30,
+    "question": "According to Conradi in Architecture Reviews, when they using 25% times for reading and 75% times for a meeting, so ... of the defects were found during reading",
+    "options": ["More than 80%", "Less than 80%", "Less than 40%", "More than 40%"],
+    "correctAnswer": 0,
+    "explanation": "Theo nghiên cứu của Conradi, khi dành 25% thời gian cho việc đọc và 75% cho cuộc họp, hơn 80% các lỗi đã được phát hiện trong khi đọc."
+  },
+  {
+    "id": 31,
+    "question": "Which is stage efficiency for finding code defects?",
+    "options": ["Meeting", "Discussing with the author", "Reading", "A, B, C are not correct"],
+    "correctAnswer": 2,
+    "explanation": "Để tìm lỗi trong mã, phương pháp đọc mã (reading) thường có hiệu quả cao hơn so với việc thảo luận với tác giả hoặc trong các cuộc họp. Việc đọc mã kỹ lưỡng sẽ giúp phát hiện lỗi nhanh chóng hơn."
+  },
+  {
+    "id": 32,
+    "question": "When you run your code step by step to find defects. This technic is…",
+    "options": ["Reviewing", "Testing", "Debugging", "Refactoring"],
+    "correctAnswer": 2,
+    "explanation": "Khi chạy mã từng bước để phát hiện lỗi, phương pháp này gọi là debugging. Debugging giúp bạn kiểm tra và theo dõi các lỗi trong chương trình."
+  },
+  {
+    "id": 33,
+    "question": "If your code has errors but you can't find the defect for many hours. What is the best way you should do?",
+    "options": [
+      "Check for common defects",
+      "Check code that has changed recently",
+      "Isolate the suspicious regions of code",
+      "Take a break"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Khi mã có lỗi mà bạn không thể tìm ra nguyên nhân, phương pháp tốt nhất là kiểm tra các phần mã vừa được thay đổi gần đây. Lỗi thường xảy ra ở những vùng mới thay đổi."
+  },
+  {
+    "id": 34,
+    "question": "When you want to move some lines of codes to a new procedure. What will you do in Eclipse?",
+    "options": [
+      "Copy, Paste and Modify the code",
+      "Use the Extract method in Refactoring",
+      "Use the Pull Up in Refactoring",
+      "Use the Push Down in Refactoring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Trong Eclipse, để di chuyển một số dòng mã vào một phương thức mới, bạn có thể sử dụng Extract method trong refactoring. Điều này giúp mã trở nên gọn gàng và dễ bảo trì hơn."
+  },
+  {
+    "id": 35,
+    "question": "What are the roles in the inspection process?",
+    "options": [
+      "Author, Reviewer, Moderator",
+      "Author, Reviewer, Observer",
+      "Author, Inspector, Moderator, Timekeeper/Reader, Recorder",
+      "B and C are correct"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Trong quá trình kiểm tra mã, các vai trò quan trọng bao gồm Author (Tác giả), Reviewer (Người xem xét), Moderator (Người điều hành), Timekeeper/Reader (Người ghi chép/Đọc) và Recorder (Người ghi lại)."
+  },
+  {
+    "id": 36,
+    "question": "Long method (code smell) is...",
+    "options": [
+      "an application has more than 200 class, interfaces or forms",
+      "a class having too much method",
+      "a method indicates too many parameters",
+      "a method, function, or procedure that has grown too large"
+    ],
+    "correctAnswer": 3,
+    "explanation": "\"Long method\" hay \"mùi mã dài\" trong lập trình ám chỉ một phương thức, hàm hoặc thủ tục quá dài, gây khó khăn trong việc duy trì và kiểm thử."
+  },
+  {
+    "id": 37,
+    "question": "What is the reason of code defects?",
+    "options": ["Poor understanding of requirements", "Poor design", "Poor coding practices", "All above"],
+    "correctAnswer": 3,
+    "explanation": "Các lỗi trong mã có thể do nhiều nguyên nhân như hiểu sai yêu cầu, thiết kế kém, và thực hành lập trình kém."
+  },
+  {
+    "id": 38,
+    "question": "Who are involved in the inspection meeting?",
+    "options": ["Author, Inspector", "Moderator, Recorder", "Reader / Timekeeper", "All above"],
+    "correctAnswer": 3,
+    "explanation": "Trong cuộc họp kiểm tra mã, các thành viên tham gia có thể là Author, Inspector, Moderator, Recorder, và Reader / Timekeeper."
+  },
+  {
+    "id": 39,
+    "question": "All studies of Inspection have common results, the meeting will find very few errors compared to the reading code. Why are many companies still inspecting the code by meeting?",
+    "options": [
+      "They use inspection for training",
+      "Inspection can find the defect that the individual couldn't found",
+      "Meetings create a schedule that people must work towards",
+      "All above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mặc dù trong các cuộc họp kiểm tra mã, số lỗi phát hiện được ít hơn khi đọc mã, nhưng nhiều công ty vẫn tổ chức kiểm tra mã qua các cuộc họp để đào tạo, phát hiện lỗi mà cá nhân không thể tìm ra, và đảm bảo lịch trình làm việc."
+  },
+  {
+    "id": 40,
+    "question": "What is the name of inspection process?",
+    "options": ["Software inspection", "Code inspection", "Fagan inspection", "All above"],
+    "correctAnswer": 3,
+    "explanation": "Quá trình kiểm tra mã thường được gọi là Software inspection hay Code inspection. Đây là một phương pháp được Fagan phát triển."
+  },
+  {
+    "id": 41,
+    "question": "In order to use Eclipse, you must ....",
+    "options": [
+      "install the current version of Java Development Kit on your computer",
+      "install the current version of Tomcat on your computer",
+      "install the current version of SVN on your computer",
+      "install the current version of ANT on your computer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Để sử dụng Eclipse, bạn cần cài đặt Java Development Kit (JDK) vì Eclipse chủ yếu dùng cho lập trình Java."
+  },
+  {
+    "id": 42,
+    "question": "What is Integration Testing?",
+    "options": [
+      "is a method by which individual units of source code are tested to determine if they are fit for use",
+      "is the phase in software testing in which individual software modules are combined and tested as a group",
+      "is testing conducted on a complete, integrated system to evaluate the system's compliance with its specified requirements",
+      "is a test conducted to determine if the requirements of a specification or contract are met"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Integration Testing là giai đoạn kiểm thử trong đó các mô-đun phần mềm riêng lẻ được kết hợp và kiểm thử như một nhóm."
+  },
+  {
+    "id": 43,
+    "question": "In software change management, CCB is the observation for...",
+    "options": ["Changing Control Board", "Configuration Changing Board", "Configuration Control Board", "All above"],
+    "correctAnswer": 2,
+    "explanation": "CCB là viết tắt của Configuration Control Board, là một cơ quan quản lý các thay đổi về cấu hình phần mềm."
+  },
+  {
+    "id": 44,
+    "question": "The version of the software is 1.01.0012. The number 0012 means....",
+    "options": ["the Major Release Number", "Minor (Maintenance) Release Number", "the Build Number", "the revision"],
+    "correctAnswer": 2,
+    "explanation": "Số 0012 trong phiên bản phần mềm là Build Number."
+  },
+  {
+    "id": 45,
+    "question": "What are defects in coding phase?",
+    "options": [
+      "poorness design",
+      "programming errors",
+      "poorness coding practices",
+      "poorness understanding of requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Các lỗi trong giai đoạn lập trình chủ yếu liên quan đến lỗi lập trình (programming errors) và thực hành lập trình kém."
+  },
+  {
+    "id": 46,
+    "question": "The best period of time for one Sprint Backlogs in Scrum process is?",
+    "options": ["3->5 weeks", "one week", "2->4 weeks", "one month"],
+    "correctAnswer": 2,
+    "explanation": "Một Sprint trong quy trình Scrum thường kéo dài từ 2 đến 4 tuần."
+  },
+  {
+    "id": 47,
+    "question": "Traditional methodology work on prioritized change requests from",
+    "options": ["change requests", "Customer said", "Leader said", "Change Control Board"],
+    "correctAnswer": 3,
+    "explanation": "Trong phương pháp truyền thống, các thay đổi sẽ được ưu tiên dựa trên Change Control Board."
+  },
+  {
+    "id": 48,
+    "question": "If you get a new change from the customer. What document must you fill?",
+    "options": ["Change Requests", "Software Requirement Specification", "Change Control Board", "All above"],
+    "correctAnswer": 0,
+    "explanation": "Khi nhận được yêu cầu thay đổi từ khách hàng, bạn sẽ cần phải điền vào Change Requests."
+  },
+  {
+    "id": 49,
+    "question": "What is the difference between team and group?",
+    "options": ["Product", "Salary", "Result", "Strength"],
+    "correctAnswer": 2,
+    "explanation": "Sự khác biệt cơ bản giữa team và group là kết quả (result) mà họ đạt được."
+  },
+  {
+    "id": 50,
+    "question": "For Eclipse to work with SVN, which tool must you add to Eclipse?",
+    "options": ["subversive", "Ant", "Maker", "SVN client"],
+    "correctAnswer": 0,
+    "explanation": "Để Eclipse làm việc với SVN, bạn cần cài đặt công cụ subversive."
+  }
+]
