@@ -180,7 +180,9 @@ export default function SubjectQuiz() {
           const finalQuestions =
             subjectId === "java-2-multiple-choice" ||
             subjectId === "suc-khoe-moi-truong" ||
-            subjectId === "ky-thuat-thuong-mai-dien-tu-2"
+            subjectId === "ky-thuat-thuong-mai-dien-tu-2" ||
+            subjectId === "xac-suat-thong-ke-2" ||
+            subjectId === "xac-suat-thong-ke-3"
               ? shuffleArray(loadedQuestions)
               : loadedQuestions
 
