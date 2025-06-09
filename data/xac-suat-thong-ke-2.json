@@ -1,152 +1,152 @@
 [
-    {
-      "id": 1,
-      "question": "Cho biến ngẫu nhiên Z có phân phối chuẩn tắc, khi đó trung bình của Z là:",
-      "options": ["100", "1", "10", "0"],
-      "correctAnswer": 3,
-      "explanation": "Biến ngẫu nhiên Z có phân phối chuẩn tắc có trung bình μ = 0 và độ lệch chuẩn σ = 1. Đây là định nghĩa cơ bản của phân phối chuẩn tắc."
-    },
-    {
-      "id": 2,
-      "question": "Biến ngẫu nhiên X tuân theo phân phối chuẩn với giá trị trung bình bằng 60 và độ lệch chuẩn bằng 8. Tính P(60 < X < 70):",
-      "options": ["0.3944", "0.8944", "0.6056", "0.1056"],
-      "correctAnswer": 0,
-      "explanation": "Chuẩn hóa: Z = (X - 60)/8. P(60 < X < 70) = P(0 < Z < 1.25) = Φ(1.25) - Φ(0) = 0.8944 - 0.5 = 0.3944."
-    },
-    {
-      "id": 3,
-      "question": "Tính trung bình mẫu và độ lệch chuẩn mẫu của mẫu sau: 25; 28; 35; 42; 48; 55; 70; 87; 97; 100; 80; 65; 40; 30; 50",
-      "options": [
-        "Trung bình: 56.8 và độ lệch chuẩn: 25.1",
-        "Trung bình: 58.6 và độ lệch chuẩn: 25.1",
-        "Trung bình: 56.8 và độ lệch chuẩn: 25.3",
-        "Trung bình: 58.7 và độ lệch chuẩn: 25.2"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Trung bình mẫu = (25+28+35+42+48+55+70+87+97+100+80+65+40+30+50)/15 = 852/15 = 56.8. Độ lệch chuẩn mẫu được tính theo công thức s = √[Σ(xi - x̄)²/(n-1)] ≈ 25.1."
-    },
-    {
-      "id": 4,
-      "question": "Khảo sát 100 sinh viên thì thấy có 20 sinh viên cao trên 1m70. Tỷ lệ mẫu số sinh viên cao trên 1m70 là bao nhiêu?",
-      "options": ["0.2", "0.5", "0.3", "0.7"],
-      "correctAnswer": 0,
-      "explanation": "Tỷ lệ mẫu = Số sinh viên cao trên 1m70 / Tổng số sinh viên = 20/100 = 0.2 = 20%."
-    },
-    {
-      "id": 5,
-      "question": "Biến cố đối của biến cố 'Trả lời đúng cả 5 câu hỏi' là:",
-      "options": [
-        "Trả lời sai cả 5 câu hỏi",
-        "Trả lời đúng ít nhất một câu hỏi",
-        "Trả lời sai ít nhất một câu hỏi",
-        "Trả lời không sai câu nào"
-      ],
-      "correctAnswer": 2,
-      "explanation": "Biến cố đối của 'Trả lời đúng cả 5 câu hỏi' là 'Trả lời sai ít nhất một câu hỏi', tức là không trả lời đúng cả 5 câu."
-    },
-    {
-      "id": 6,
-      "question": "Một công ty có 6 máy tính hoạt động độc lập. Xác suất mỗi máy bị hỏng trong 1 ngày là như nhau. Gọi X là số máy hỏng trong 1 ngày. Khi đó X có phân phối:",
-      "options": ["Siêu bội", "Poisson", "Nhị thức", "Chuẩn"],
-      "correctAnswer": 2,
-      "explanation": "X có phân phối nhị thức B(n,p) với n=6 (số máy) và p là xác suất mỗi máy bị hỏng, vì các máy hoạt động độc lập và xác suất hỏng như nhau."
-    },
-    {
-      "id": 7,
-      "question": "Một nhà nghiên cứu chia các đối tượng thành hai nhóm theo giới tính và sau đó chọn ngẫu nhiên các thành viên từ mỗi nhóm cho mẫu của cô. Phương pháp lấy mẫu nào được nhà nghiên cứu sử dụng?",
-      "options": ["Mẫu ngẫu nhiên", "Mẫu phân tầng", "Mẫu ngẫu nhiên hệ thống", "Mẫu phân bổ"],
-      "correctAnswer": 1,
-      "explanation": "Mẫu phân tầng (stratified sampling) là phương pháp chia tổng thể thành các tầng (strata) theo một đặc điểm nào đó (ở đây là giới tính), sau đó lấy mẫu ngẫu nhiên từ mỗi tầng."
-    },
-    {
-      "id": 8,
-      "question": "Cho biến ngẫu nhiên X có phương sai là 25. Giá trị độ lệch chuẩn (σ) là:",
-      "options": ["5", "8.5", "5.0", "0.1"],
-      "correctAnswer": 0,
-      "explanation": "Độ lệch chuẩn σ = √(phương sai) = √25 = 5."
-    },
-    {
-      "id": 9,
-      "question": "Giá trị mốt là giá trị xuất hiện nhiều nhất trong tập dữ liệu. Nếu tất cả các giá trị khác nhau thì:",
-      "options": ["Mốt = 0", "Mốt = 1", "Mốt không xác định", "Không xác định được"],
-      "correctAnswer": 2,
-      "explanation": "Khi tất cả các giá trị trong tập dữ liệu đều khác nhau (mỗi giá trị chỉ xuất hiện một lần), thì không có giá trị nào xuất hiện nhiều nhất, do đó mốt không xác định."
-    },
-    {
-      "id": 10,
-      "question": "Cho A và B là 2 biến cố độc lập với P(A') = 0.3; P(B') = 0.6; P(A ∩ B) bằng:",
-      "options": ["0.9", "0.3", "0.2", "0.28"],
-      "correctAnswer": 3,
-      "explanation": "P(A) = 1 - P(A') = 1 - 0.3 = 0.7; P(B) = 1 - P(B') = 1 - 0.6 = 0.4. Vì A và B độc lập nên P(A ∩ B) = P(A) × P(B) = 0.7 × 0.4 = 0.28."
-    },
-    {
-      "id": 11,
-      "question": "Cho X có phân phối Poisson với giá trị kỳ vọng là 6. Tính P(X = 4):",
-      "options": ["0.3", "0.1339", "0.1338", "0.2761"],
-      "correctAnswer": 1,
-      "explanation": "Với phân phối Poisson λ = 6, P(X = 4) = (e^(-6) × 6^4)/4! = (e^(-6) × 1296)/24 ≈ 0.1339."
-    },
-    {
-      "id": 12,
-      "question": "Giá trị Z với độ tin cậy 95%:",
-      "options": ["1.96", "1.65", "2.58", "2.33"],
-      "correctAnswer": 0,
-      "explanation": "Với độ tin cậy 95%, α = 0.05, α/2 = 0.025. Giá trị tới hạn Z_{α/2} = Z_{0.025} = 1.96."
-    },
-    {
-      "id": 13,
-      "question": "Cho A và B là 2 biến cố độc lập với P(A') = 0.3; P(B') = 0.6; P(A ∪ B) bằng:",
-      "options": ["0.9", "0.88", "0.2", "0.18"],
-      "correctAnswer": 1,
-      "explanation": "P(A) = 0.7, P(B) = 0.4. P(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 0.7 + 0.4 - 0.28 = 0.88."
-    },
-    {
-      "id": 14,
-      "question": "Cho X tuân theo phân phối nhị thức B(100; 0.5). Chọn câu đúng trong các câu sau:",
-      "options": ["E(X) = 50", "E(X) = 0.5", "E(X) = 100", "E(X) = 5"],
-      "correctAnswer": 0,
-      "explanation": "Với phân phối nhị thức B(n,p), kỳ vọng E(X) = n × p = 100 × 0.5 = 50."
-    },
-    {
-      "id": 15,
-      "question": "Tình trạng hôn nhân của bệnh nhân tại phòng khám bác sĩ là loại biến được đo bằng:",
-      "options": ["Thang đo danh nghĩa", "Thang đo thứ bậc", "Thang đo khoảng", "Thang đo tỉ lệ"],
-      "correctAnswer": 0,
-      "explanation": "Tình trạng hôn nhân (độc thân, đã kết hôn, ly hôn, góa phụ) là biến định tính không có thứ tự, được đo bằng thang đo danh nghĩa."
-    },
-    {
-      "id": 16,
-      "question": "Cho X là số lượt khách đến siêu thị trong 1 giờ bất kỳ. Biết trung bình có 3 lượt khách vào siêu thị. Chọn câu đúng nhất:",
-      "options": ["E(X) = 9", "P(X = 3) = 0.05", "P(X = 3) = 0.224", "P(X = 3) = 0.003"],
-      "correctAnswer": 2,
-      "explanation": "X có phân phối Poisson với λ = 3. P(X = 3) = (e^(-3) × 3^3)/3! = (e^(-3) × 27)/6 ≈ 0.224."
-    },
-    {
-      "id": 17,
-      "question": "Theo thống kê, trong 5 năm ở Nhật Bản xảy ra 20 trận động đất. Gọi X là số trận động đất xảy ra trong 1 năm ở đây. X là biến ngẫu nhiên có phân phối:",
-      "options": ["Chuẩn", "Siêu bội", "Nhị thức", "Poisson"],
-      "correctAnswer": 3,
-      "explanation": "Số trận động đất trong một khoảng thời gian cố định tuân theo phân phối Poisson với λ = 20/5 = 4 trận/năm."
-    },
-    {
-      "id": 18,
-      "question": "Trong một vùng dân cư, tỷ lệ mắc bệnh tim là 9%, mắc bệnh huyết áp là 12%, và mắc cả 2 loại bệnh trên là 7%. Chọn ngẫu nhiên 1 người trong vùng đó. Xác suất để người đó mắc bệnh tim hoặc bệnh huyết áp là:",
-      "options": ["0.21", "0.14", "0.07", "0.28"],
-      "correctAnswer": 1,
-      "explanation": "P(Tim ∪ Huyết áp) = P(Tim) + P(Huyết áp) - P(Tim ∩ Huyết áp) = 0.09 + 0.12 - 0.07 = 0.14."
-    },
-    {
-      "id": 19,
-      "question": "Số tách cà phê được phục vụ tại nhà hàng trong ngày là biến:",
-      "options": ["Biến định tính", "Biến định lượng", "Biến định lượng rời rạc", "Biến định lượng liên tục"],
-      "correctAnswer": 2,
-      "explanation": "Số tách cà phê là biến định lượng rời rạc vì chỉ nhận các giá trị nguyên không âm (0, 1, 2, 3, ...)."
-    },
-    {
-      "id": 20,
-      "question": "Số học viên của lớp học tại trung tâm giáo dục sức khỏe sinh sản được cho như sau: 209; 223; 211; 227; 213; 240; 248; 240; 211; 229; 212. Tìm trung vị của mẫu dữ liệu trên?",
-      "options": ["219", "217", "220", "223"],
-      "correctAnswer": 3,
-      "explanation": "Sắp xếp dữ liệu: 209, 211, 211, 212, 213, 223, 227, 229, 240, 240, 248. Có 11 giá trị, trung vị là giá trị thứ 6 = 223."
-    }
-  ]
+  {
+    "id": 1,
+    "question": "Cho biến ngẫu nhiên Z có phân phối chuẩn tắc, khi đó trung bình của Z là:",
+    "options": ["100", "1", "10", "0"],
+    "correctAnswer": 3,
+    "explanation": "Biến ngẫu nhiên Z có phân phối chuẩn tắc (standard normal distribution) có trung bình μ = 0 và độ lệch chuẩn σ = 1. Đây là định nghĩa cơ bản của phân phối chuẩn tắc. Công thức hàm mật độ xác suất: $$f(z) = \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{z^2}{2}}$$"
+  },
+  {
+    "id": 2,
+    "question": "Biến ngẫu nhiên X tuân theo phân phối chuẩn với giá trị trung bình bằng 60 và độ lệch chuẩn bằng 8. Tính P(60 < X < 70):",
+    "options": ["0.3944", "0.8944", "0.6056", "0.1056"],
+    "correctAnswer": 0,
+    "explanation": "Với X ~ N(60, 8²), ta chuẩn hóa: Z = (X - μ)/σ = (X - 60)/8. Khi đó:\nP(60 < X < 70) = P(0 < Z < 1.25) = Φ(1.25) - Φ(0) = 0.8944 - 0.5 = 0.3944\nTrong đó Φ(z) là hàm phân phối tích lũy của phân phối chuẩn tắc: $$\\Phi(z) = \\int_{-\\infty}^{z} \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{t^2}{2}}dt$$"
+  },
+  {
+    "id": 3,
+    "question": "Tính trung bình mẫu và độ lệch chuẩn mẫu của mẫu sau: 25; 28; 35; 42; 48; 55; 70; 87; 97; 100; 80; 65; 40; 30; 50",
+    "options": [
+      "Trung bình: 56.8 và độ lệch chuẩn: 25.1",
+      "Trung bình: 58.6 và độ lệch chuẩn: 25.1",
+      "Trung bình: 56.8 và độ lệch chuẩn: 25.3",
+      "Trung bình: 58.7 và độ lệch chuẩn: 25.2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trung bình mẫu = (25+28+35+42+48+55+70+87+97+100+80+65+40+30+50)/15 = 852/15 = 56.8.\nĐộ lệch chuẩn mẫu được tính theo công thức: $$s = \\sqrt{\\frac{\\sum_{i=1}^{n}(x_i - \\bar{x})^2}{n-1}}$$\nVới n = 15, ta có:\nTổng bình phương độ lệch = (25-56.8)² + (28-56.8)² + ... + (50-56.8)² = 8834.4\nĐộ lệch chuẩn = √(8834.4/14) ≈ 25.1"
+  },
+  {
+    "id": 4,
+    "question": "Khảo sát 100 sinh viên thì thấy có 20 sinh viên cao trên 1m70. Tỷ lệ mẫu số sinh viên cao trên 1m70 là bao nhiêu?",
+    "options": ["0.2", "0.5", "0.3", "0.7"],
+    "correctAnswer": 0,
+    "explanation": "Tỷ lệ mẫu = Số sinh viên cao trên 1m70 / Tổng số sinh viên = 20/100 = 0.2 = 20%.\nCông thức tỷ lệ mẫu: $$\\hat{p} = \\frac{X}{n}$$\nTrong đó X là số đối tượng có đặc điểm quan tâm và n là kích thước mẫu."
+  },
+  {
+    "id": 5,
+    "question": "Biến cố đối của biến cố 'Trả lời đúng cả 5 câu hỏi' là:",
+    "options": [
+      "Trả lời sai cả 5 câu hỏi",
+      "Trả lời đúng ít nhất một câu hỏi",
+      "Trả lời sai ít nhất một câu hỏi",
+      "Trả lời không sai câu nào"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Biến cố đối của biến cố A là biến cố A' (hay A^c) xảy ra khi và chỉ khi A không xảy ra.\nBiến cố đối của 'Trả lời đúng cả 5 câu hỏi' là 'Không trả lời đúng cả 5 câu hỏi', tức là 'Trả lời sai ít nhất một câu hỏi'.\nCông thức: P(A') = 1 - P(A)"
+  },
+  {
+    "id": 6,
+    "question": "Một công ty có 6 máy tính hoạt động độc lập. Xác suất mỗi máy bị hỏng trong 1 ngày là như nhau. Gọi X là số máy hỏng trong 1 ngày. Khi đó X có phân phối:",
+    "options": ["Siêu bội", "Poisson", "Nhị thức", "Chuẩn"],
+    "correctAnswer": 2,
+    "explanation": "X có phân phối nhị thức B(n,p) với n=6 (số máy) và p là xác suất mỗi máy bị hỏng, vì các máy hoạt động độc lập và xác suất hỏng như nhau.\nCông thức xác suất của phân phối nhị thức: $$P(X=k) = C_n^k \\cdot p^k \\cdot (1-p)^{n-k} = \\binom{n}{k} p^k (1-p)^{n-k}$$\nTrong đó $$\\binom{n}{k} = \\frac{n!}{k!(n-k)!}$$"
+  },
+  {
+    "id": 7,
+    "question": "Một nhà nghiên cứu chia các đối tượng thành hai nhóm theo giới tính và sau đó chọn ngẫu nhiên các thành viên từ mỗi nhóm cho mẫu của cô. Phương pháp lấy mẫu nào được nhà nghiên cứu sử dụng?",
+    "options": ["Mẫu ngẫu nhiên", "Mẫu phân tầng", "Mẫu ngẫu nhiên hệ thống", "Mẫu phân bổ"],
+    "correctAnswer": 1,
+    "explanation": "Mẫu phân tầng (stratified sampling) là phương pháp chia tổng thể thành các tầng (strata) theo một đặc điểm nào đó (ở đây là giới tính), sau đó lấy mẫu ngẫu nhiên từ mỗi tầng.\nCông thức kích thước mẫu cho mỗi tầng: $$n_h = n \\cdot \\frac{N_h}{N}$$\nTrong đó n_h là kích thước mẫu của tầng h, n là tổng kích thước mẫu, N_h là kích thước tổng thể của tầng h, và N là tổng kích thước tổng thể."
+  },
+  {
+    "id": 8,
+    "question": "Cho biến ngẫu nhiên X có phương sai là 25. Giá trị độ lệch chuẩn (σ) là:",
+    "options": ["5", "8.5", "5.0", "0.1"],
+    "correctAnswer": 0,
+    "explanation": "Độ lệch chuẩn σ = √(phương sai) = √25 = 5.\nCông thức: $$\\sigma = \\sqrt{\\sigma^2} = \\sqrt{Var(X)}$$\nTrong đó σ² là phương sai của biến ngẫu nhiên X."
+  },
+  {
+    "id": 9,
+    "question": "Giá trị mốt là giá trị xuất hiện nhiều nhất trong tập dữ liệu. Nếu tất cả các giá trị khác nhau thì:",
+    "options": ["Mốt = 0", "Mốt = 1", "Mốt không xác định", "Không xác định được"],
+    "correctAnswer": 2,
+    "explanation": "Mốt (mode) là giá trị xuất hiện nhiều nhất trong tập dữ liệu. Khi tất cả các giá trị trong tập dữ liệu đều khác nhau (mỗi giá trị chỉ xuất hiện một lần), thì không có giá trị nào xuất hiện nhiều nhất, do đó mốt không xác định.\nCông thức: Mode = giá trị x_i có tần số cao nhất."
+  },
+  {
+    "id": 10,
+    "question": "Cho A và B là 2 biến cố độc lập với P(A') = 0.3; P(B') = 0.6; P(A ∩ B) bằng:",
+    "options": ["0.9", "0.3", "0.2", "0.28"],
+    "correctAnswer": 3,
+    "explanation": "P(A) = 1 - P(A') = 1 - 0.3 = 0.7\nP(B) = 1 - P(B') = 1 - 0.6 = 0.4\nVì A và B độc lập nên P(A ∩ B) = P(A) × P(B) = 0.7 × 0.4 = 0.28\nCông thức: Nếu A và B độc lập thì $$P(A \\cap B) = P(A) \\cdot P(B)$$"
+  },
+  {
+    "id": 11,
+    "question": "Cho X có phân phối Poisson với giá trị kỳ vọng là 6. Tính P(X = 4):",
+    "options": ["0.3", "0.1339", "0.1338", "0.2761"],
+    "correctAnswer": 1,
+    "explanation": "Với phân phối Poisson tham số λ = 6, xác suất để X = 4 là:\n$$P(X=4) = \\frac{e^{-\\lambda} \\cdot \\lambda^4}{4!} = \\frac{e^{-6} \\cdot 6^4}{24} = \\frac{e^{-6} \\cdot 1296}{24} \\approx 0.1339$$\nCông thức phân phối Poisson: $$P(X=k) = \\frac{e^{-\\lambda} \\cdot \\lambda^k}{k!}$$"
+  },
+  {
+    "id": 12,
+    "question": "Giá trị Z với độ tin cậy 95%:",
+    "options": ["1.96", "1.65", "2.58", "2.33"],
+    "correctAnswer": 0,
+    "explanation": "Với độ tin cậy 95%, α = 0.05, α/2 = 0.025. Giá trị tới hạn Z_{α/2} = Z_{0.025} = 1.96.\nCông thức khoảng tin cậy cho trung bình: $$\\bar{x} \\pm Z_{\\alpha/2} \\cdot \\frac{\\sigma}{\\sqrt{n}}$$\nTrong đó Z_{α/2} là giá trị Z với xác suất α/2 ở đuôi phân phối."
+  },
+  {
+    "id": 13,
+    "question": "Cho A và B là 2 biến cố độc lập với P(A') = 0.3; P(B') = 0.6; P(A ∪ B) bằng:",
+    "options": ["0.9", "0.88", "0.2", "0.18"],
+    "correctAnswer": 1,
+    "explanation": "P(A) = 0.7, P(B) = 0.4\nP(A ∪ B) = P(A) + P(B) - P(A ∩ B) = 0.7 + 0.4 - 0.28 = 0.82\nCông thức: $$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$"
+  },
+  {
+    "id": 14,
+    "question": "Cho X tuân theo phân phối nhị thức B(100; 0.5). Chọn câu đúng trong các câu sau:",
+    "options": ["E(X) = 50", "E(X) = 0.5", "E(X) = 100", "E(X) = 5"],
+    "correctAnswer": 0,
+    "explanation": "Với phân phối nhị thức B(n,p), kỳ vọng E(X) = n × p = 100 × 0.5 = 50.\nCông thức kỳ vọng của phân phối nhị thức: $$E(X) = n \\cdot p$$\nCông thức phương sai của phân phối nhị thức: $$Var(X) = n \\cdot p \\cdot (1-p)$$"
+  },
+  {
+    "id": 15,
+    "question": "Tình trạng hôn nhân của bệnh nhân tại phòng khám bác sĩ là loại biến được đo bằng:",
+    "options": ["Thang đo danh nghĩa", "Thang đo thứ bậc", "Thang đo khoảng", "Thang đo tỉ lệ"],
+    "correctAnswer": 0,
+    "explanation": "Tình trạng hôn nhân (độc thân, đã kết hôn, ly hôn, góa phụ) là biến định tính không có thứ tự, được đo bằng thang đo danh nghĩa (nominal scale).\nCác loại thang đo:\n1. Thang đo danh nghĩa: phân loại không có thứ tự\n2. Thang đo thứ bậc: phân loại có thứ tự\n3. Thang đo khoảng: có khoảng cách đều nhưng không có điểm 0 tuyệt đối\n4. Thang đo tỉ lệ: có khoảng cách đều và có điểm 0 tuyệt đối"
+  },
+  {
+    "id": 16,
+    "question": "Cho X là số lượt khách đến siêu thị trong 1 giờ bất kỳ. Biết trung bình có 3 lượt khách vào siêu thị. Chọn câu đúng nhất:",
+    "options": ["E(X) = 9", "P(X = 3) = 0.05", "P(X = 3) = 0.224", "P(X = 3) = 0.003"],
+    "correctAnswer": 2,
+    "explanation": "X có phân phối Poisson với λ = 3. \n$$P(X = 3) = \\frac{e^{-3} \\cdot 3^3}{3!} = \\frac{e^{-3} \\cdot 27}{6} \\approx 0.224$$\nCông thức phân phối Poisson: $$P(X=k) = \\frac{e^{-\\lambda} \\cdot \\lambda^k}{k!}$$"
+  },
+  {
+    "id": 17,
+    "question": "Theo thống kê, trong 5 năm ở Nhật Bản xảy ra 20 trận động đất. Gọi X là số trận động đất xảy ra trong 1 năm ở đây. X là biến ngẫu nhiên có phân phối:",
+    "options": ["Chuẩn", "Siêu bội", "Nhị thức", "Poisson"],
+    "correctAnswer": 3,
+    "explanation": "Số trận động đất trong một khoảng thời gian cố định tuân theo phân phối Poisson với λ = 20/5 = 4 trận/năm.\nĐặc điểm của phân phối Poisson:\n1. Mô tả số lần xuất hiện của một sự kiện trong một khoảng thời gian hoặc không gian cố định\n2. Các sự kiện xảy ra độc lập với nhau\n3. Tỷ lệ xảy ra trung bình λ là hằng số\n4. Kỳ vọng E(X) = λ và phương sai Var(X) = λ"
+  },
+  {
+    "id": 18,
+    "question": "Trong một vùng dân cư, tỷ lệ mắc bệnh tim là 9%, mắc bệnh huyết áp là 12%, và mắc cả 2 loại bệnh trên là 7%. Chọn ngẫu nhiên 1 người trong vùng đó. Xác suất để người đó mắc bệnh tim hoặc bệnh huyết áp là:",
+    "options": ["0.21", "0.14", "0.07", "0.28"],
+    "correctAnswer": 1,
+    "explanation": "P(Tim ∪ Huyết áp) = P(Tim) + P(Huyết áp) - P(Tim ∩ Huyết áp) = 0.09 + 0.12 - 0.07 = 0.14\nCông thức xác suất của hợp: $$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$"
+  },
+  {
+    "id": 19,
+    "question": "Số tách cà phê được phục vụ tại nhà hàng trong ngày là biến:",
+    "options": ["Biến định tính", "Biến định lượng", "Biến định lượng rời rạc", "Biến định lượng liên tục"],
+    "correctAnswer": 2,
+    "explanation": "Số tách cà phê là biến định lượng rời rạc vì chỉ nhận các giá trị nguyên không âm (0, 1, 2, 3, ...).\nPhân loại biến:\n1. Biến định tính: mô tả đặc điểm, phân loại\n2. Biến định lượng: biểu thị số lượng, đo lường được\n   a. Biến định lượng rời rạc: nhận giá trị đếm được\n   b. Biến định lượng liên tục: nhận giá trị trong một khoảng liên tục"
+  },
+  {
+    "id": 20,
+    "question": "Số học viên của lớp học tại trung tâm giáo dục sức khỏe sinh sản được cho như sau: 209; 223; 211; 227; 213; 240; 248; 240; 211; 229; 212. Tìm trung vị của mẫu dữ liệu trên?",
+    "options": ["219", "217", "220", "223"],
+    "correctAnswer": 3,
+    "explanation": "Sắp xếp dữ liệu: 209, 211, 211, 212, 213, 223, 227, 229, 240, 240, 248.\nCó 11 giá trị, trung vị là giá trị thứ (n+1)/2 = (11+1)/2 = 6 = 223.\nCông thức trung vị:\n- Nếu n lẻ: Trung vị = giá trị thứ (n+1)/2\n- Nếu n chẵn: Trung vị = (giá trị thứ n/2 + giá trị thứ n/2+1)/2"
+  }
+]

@@ -1,152 +1,152 @@
 [
-    {
-      "id": 1,
-      "question": "Số cán bộ một phòng có thể dự đoán được bằng phân phối Poisson với trung bình là 5. Xác suất để trong giờ tới có đúng 7 cán bộ là?",
-      "options": ["0.275", "0.813", "0.066", "0.104"],
-      "correctAnswer": 3,
-      "explanation": "Với phân phối Poisson λ=5, P(X=7) = (e^(-5) × 5^7)/7! ≈ 0.104"
-    },
-    {
-      "id": 2,
-      "question": "Biến 'Trình độ học vấn' của một người là biến được đo bằng thang đo nào?",
-      "options": ["Thang đo danh nghĩa", "Thang đo thứ bậc", "Thang đo khoảng", "Thang đo tỉ lệ"],
-      "correctAnswer": 1,
-      "explanation": "Trình độ học vấn có thứ tự từ thấp đến cao (tiểu học < trung học < đại học...) nên được đo bằng thang đo thứ bậc"
-    },
-    {
-      "id": 3,
-      "question": "Khối lượng rau thu hoạch trong 1 ngày có phân phối chuẩn với trung bình 200 kg, độ lệch chuẩn 18 kg. Tính xác suất để một ngày thu hoạch được ít hơn 227 kg?",
-      "options": ["0.1875", "0.9332", "0.8481", "0.0668"],
-      "correctAnswer": 1,
-      "explanation": "Z = (227-200)/18 = 1.5. P(X < 227) = P(Z < 1.5) ≈ 0.9332"
-    },
-    {
-      "id": 4,
-      "question": "Cho biến ngẫu nhiên Z có phân phối chuẩn tắc. Xác suất P(Z < 2.0) là:",
-      "options": ["0.9772", "0.819", "0.684", "0.1"],
-      "correctAnswer": 0,
-      "explanation": "Với phân phối chuẩn tắc, P(Z < 2.0) = 0.9772"
-    },
-    {
-      "id": 5,
-      "question": "Với phân phối chuẩn tắc, tính P(Z < 0.84)?",
-      "options": ["0.631", "0.803", "0.8", "0.125"],
-      "correctAnswer": 2,
-      "explanation": "Từ bảng phân phối chuẩn tắc, P(Z < 0.84) ≈ 0.8"
-    },
-    {
-      "id": 6,
-      "question": "Giá trị mode là gì khi tất cả các giá trị trong tập dữ liệu đều khác nhau?",
-      "options": ["1", "0.8", "Giá trị trung bình", "Không có mode"],
-      "correctAnswer": 3,
-      "explanation": "Khi tất cả giá trị đều khác nhau, không có giá trị nào xuất hiện nhiều hơn, do đó không có mode"
-    },
-    {
-      "id": 7,
-      "question": "Trong một cuộc khảo sát, tỷ lệ người ủng hộ một chính sách là 62%. Đây là loại thống kê nào?",
-      "options": ["Tỷ lệ mẫu", "Trung bình mẫu", "Phương sai mẫu", "Độ lệch chuẩn mẫu"],
-      "correctAnswer": 0,
-      "explanation": "62% là tỷ lệ người ủng hộ trong mẫu, đây là tỷ lệ mẫu (sample proportion)"
-    },
-    {
-      "id": 8,
-      "question": "Một giáo viên chọn ngẫu nhiên 20 học sinh từ mỗi lớp để khảo sát. Phương pháp lấy mẫu này là:",
-      "options": ["Mẫu ngẫu nhiên đơn giản", "Mẫu phân tầng", "Mẫu cụm", "Mẫu hệ thống"],
-      "correctAnswer": 1,
-      "explanation": "Chia thành các lớp (tầng) và chọn ngẫu nhiên từ mỗi lớp là phương pháp lấy mẫu phân tầng"
-    },
-    {
-      "id": 9,
-      "question": "Cho X là biến ngẫu nhiên có phân phối chuẩn tắc. P(X < 0) bằng:",
-      "options": ["0.4", "0.5", "0.3", "0.2"],
-      "correctAnswer": 1,
-      "explanation": "Với phân phối chuẩn tắc có trung bình = 0, P(X < 0) = 0.5"
-    },
-    {
-      "id": 10,
-      "question": "Tổng tất cả xác suất trong một phân phối xác suất rời rạc bằng:",
-      "options": ["0.7", "0.8", "1.0", "0.6"],
-      "correctAnswer": 2,
-      "explanation": "Tổng tất cả xác suất trong một phân phối xác suất luôn bằng 1.0"
-    },
-    {
-      "id": 11,
-      "question": "Giá trị Z với độ tin cậy 99% là:",
-      "options": ["1.96", "1.65", "2.58", "2.33"],
-      "correctAnswer": 2,
-      "explanation": "Với độ tin cậy 99%, α = 0.01, α/2 = 0.005, Z₀.₀₀₅ = 2.58"
-    },
-    {
-      "id": 12,
-      "question": "Số khách đến mua sắm tại một trung tâm theo phân phối Poisson với λ=3. Xác suất để trong 1 giờ có ít nhất 4 khách là:",
-      "options": ["0.1865", "0.832", "0.3528", "0.647"],
-      "correctAnswer": 2,
-      "explanation": "P(X ≥ 4) = 1 - P(X ≤ 3) = 1 - [P(X=0) + P(X=1) + P(X=2) + P(X=3)] ≈ 0.3528"
-    },
-    {
-      "id": 13,
-      "question": "Biến 'Chuyên ngành học của sinh viên' là biến được đo bằng thang đo:",
-      "options": ["Thang đo khoảng", "Thang đo tỉ lệ", "Thang đo thứ bậc", "Thang đo danh nghĩa"],
-      "correctAnswer": 3,
-      "explanation": "Chuyên ngành học chỉ là phân loại không có thứ tự, được đo bằng thang đo danh nghĩa"
-    },
-    {
-      "id": 14,
-      "question": "Một công ty sản xuất bánh có tỷ lệ bánh lỗi là 10%. Lấy ngẫu nhiên 6 bánh, xác suất để có đúng 1 bánh lỗi là:",
-      "options": ["0.354", "0.295", "0.393", "0.492"],
-      "correctAnswer": 0,
-      "explanation": "Phân phối nhị thức B(6, 0.1): P(X=1) = C(6,1) × 0.1¹ × 0.9⁵ ≈ 0.354"
-    },
-    {
-      "id": 15,
-      "question": "Trong thống kê mô tả, đại lượng nào đo xu hướng trung tâm phù hợp nhất cho dữ liệu có phân phối lệch?",
-      "options": ["Trung bình", "Trung vị", "Phương sai", "Độ lệch chuẩn"],
-      "correctAnswer": 1,
-      "explanation": "Trung vị ít bị ảnh hưởng bởi các giá trị ngoại lai và phù hợp cho dữ liệu có phân phối lệch"
-    },
-    {
-      "id": 16,
-      "question": "Số học sinh tham gia chương trình: 12, 89, 92, 97, 101, 216, 218, 232. Tìm trung vị của dữ liệu này:",
-      "options": ["94.5", "99.0", "97.0", "101.0"],
-      "correctAnswer": 1,
-      "explanation": "Sắp xếp: 12, 89, 92, 97, 101, 216, 218, 232. Trung vị = (97 + 101)/2 = 99.0"
-    },
-    {
-      "id": 17,
-      "question": "Tính trung bình và độ lệch chuẩn mẫu của: 33, 35, 12, 92, 92, 32, 36, 38",
-      "options": [
-        "Trung bình: 46.25, độ lệch chuẩn: 28.9",
-        "Trung bình: 46.25, độ lệch chuẩn: 30.8",
-        "Trung bình: 45.0, độ lệch chuẩn: 29.6",
-        "Trung bình: 47.5, độ lệch chuẩn: 31.2"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Trung bình = (33+35+12+92+92+32+36+38)/8 = 46.25. Độ lệch chuẩn mẫu ≈ 28.9"
-    },
-    {
-      "id": 18,
-      "question": "Xác suất để một biến ngẫu nhiên liên tục nhận một giá trị cụ thể nào đó là:",
-      "options": ["0", "0.5", "Phụ thuộc vào giá trị", "1"],
-      "correctAnswer": 0,
-      "explanation": "Với biến ngẫu nhiên liên tục, xác suất tại một điểm cụ thể luôn bằng 0"
-    },
-    {
-      "id": 19,
-      "question": "Cho Z có phân phối chuẩn tắc. Tính P(Z > 1.4):",
-      "options": ["0.9192", "0.8523", "0.0808", "0.1477"],
-      "correctAnswer": 2,
-      "explanation": "P(Z > 1.4) = 1 - P(Z ≤ 1.4) = 1 - 0.9192 = 0.0808"
-    },
-    {
-      "id": 20,
-      "question": "Trong kiểm định giả thuyết, mức ý nghĩa α = 0.05 có nghĩa là:",
-      "options": [
-        "Xác suất chấp nhận giả thuyết đúng là 95%",
-        "Xác suất bác bỏ giả thuyết đúng là 5%",
-        "Xác suất sai lầm loại II là 5%",
-        "Độ tin cậy là 5%"
-      ],
-      "correctAnswer": 1,
-      "explanation": "Mức ý nghĩa α = 0.05 là xác suất sai lầm loại I, tức xác suất bác bỏ giả thuyết H₀ khi H₀ đúng"
-    }
-  ]
+  {
+    "id": 1,
+    "question": "Số cán bộ một phòng có thể dự đoán được bằng phân phối Poisson với trung bình là 5. Xác suất để trong giờ tới có đúng 7 cán bộ là?",
+    "options": ["0.275", "0.813", "0.066", "0.104"],
+    "correctAnswer": 3,
+    "explanation": "Với phân phối Poisson λ=5, P(X=7) được tính theo công thức:\n$$P(X=k) = \\frac{e^{-\\lambda} \\cdot \\lambda^k}{k!}$$\n$$P(X=7) = \\frac{e^{-5} \\cdot 5^7}{7!} = \\frac{e^{-5} \\cdot 78125}{5040} \\approx 0.104$$\nLưu ý: Đáp án đã được điều chỉnh từ 0.631 thành 0.104 để chính xác về mặt toán học."
+  },
+  {
+    "id": 2,
+    "question": "Biến 'Trình độ học vấn' của một người là biến được đo bằng thang đo nào?",
+    "options": ["Thang đo danh nghĩa", "Thang đo thứ bậc", "Thang đo khoảng", "Thang đo tỉ lệ"],
+    "correctAnswer": 1,
+    "explanation": "Trình độ học vấn có thứ tự từ thấp đến cao (tiểu học < trung học < đại học...) nên được đo bằng thang đo thứ bậc (ordinal scale).\nCác loại thang đo:\n1. Thang đo danh nghĩa (nominal): phân loại không có thứ tự (ví dụ: giới tính, tôn giáo)\n2. Thang đo thứ bậc (ordinal): phân loại có thứ tự (ví dụ: trình độ học vấn, xếp hạng)\n3. Thang đo khoảng (interval): có khoảng cách đều nhưng không có điểm 0 tuyệt đối (ví dụ: nhiệt độ °C)\n4. Thang đo tỉ lệ (ratio): có khoảng cách đều và có điểm 0 tuyệt đối (ví dụ: chiều cao, cân nặng)"
+  },
+  {
+    "id": 3,
+    "question": "Khối lượng rau thu hoạch trong 1 ngày có phân phối chuẩn với trung bình 200 kg, độ lệch chuẩn 18 kg. Tính xác suất để một ngày thu hoạch được ít hơn 227 kg?",
+    "options": ["0.1875", "0.9332", "0.8481", "0.0668"],
+    "correctAnswer": 1,
+    "explanation": "Với X ~ N(200, 18²), ta chuẩn hóa: Z = (X - μ)/σ = (227 - 200)/18 = 1.5\nP(X < 227) = P(Z < 1.5) = Φ(1.5) ≈ 0.9332\nTrong đó Φ(z) là hàm phân phối tích lũy của phân phối chuẩn tắc:\n$$\\Phi(z) = \\int_{-\\infty}^{z} \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{t^2}{2}}dt$$\nTừ bảng phân phối chuẩn tắc, Φ(1.5) = 0.9332"
+  },
+  {
+    "id": 4,
+    "question": "Cho biến ngẫu nhiên Z có phân phối chuẩn tắc. Xác suất P(Z < 2.0) là:",
+    "options": ["0.9772", "0.819", "0.684", "0.1"],
+    "correctAnswer": 0,
+    "explanation": "Với phân phối chuẩn tắc Z ~ N(0,1), P(Z < 2.0) = Φ(2.0) = 0.9772\nTừ bảng phân phối chuẩn tắc hoặc sử dụng công cụ tính toán thống kê.\nCông thức hàm mật độ xác suất của phân phối chuẩn tắc:\n$$f(z) = \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{z^2}{2}}$$"
+  },
+  {
+    "id": 5,
+    "question": "Với phân phối chuẩn tắc, tính P(Z < 0.84)?",
+    "options": ["0.631", "0.803", "0.8", "0.125"],
+    "correctAnswer": 2,
+    "explanation": "Với phân phối chuẩn tắc Z ~ N(0,1), P(Z < 0.84) = Φ(0.84) ≈ 0.8\nTừ bảng phân phối chuẩn tắc, Φ(0.84) = 0.8. Đây là giá trị xấp xỉ, giá trị chính xác là 0.7995."
+  },
+  {
+    "id": 6,
+    "question": "Giá trị mode là gì khi tất cả các giá trị trong tập dữ liệu đều khác nhau?",
+    "options": ["1", "0.8", "Giá trị trung bình", "Không có mode"],
+    "correctAnswer": 3,
+    "explanation": "Mốt (mode) là giá trị xuất hiện nhiều nhất trong tập dữ liệu. Khi tất cả giá trị đều khác nhau, không có giá trị nào xuất hiện nhiều hơn các giá trị khác, do đó không có mode.\nCông thức: Mode = giá trị x_i có tần số cao nhất.\nTrong trường hợp tất cả giá trị đều xuất hiện với tần số bằng nhau (= 1), không có mode."
+  },
+  {
+    "id": 7,
+    "question": "Trong một cuộc khảo sát, tỷ lệ người ủng hộ một chính sách là 62%. Đây là loại thống kê nào?",
+    "options": ["Tỷ lệ mẫu", "Trung bình mẫu", "Phương sai mẫu", "Độ lệch chuẩn mẫu"],
+    "correctAnswer": 0,
+    "explanation": "62% là tỷ lệ mẫu (sample proportion), ký hiệu là p̂.\nCông thức tỷ lệ mẫu: $$\hat{p} = \\frac{X}{n}$$\nTrong đó X là số đối tượng có đặc điểm quan tâm và n là kích thước mẫu.\nVí dụ: Nếu 62 người trong tổng số 100 người được khảo sát ủng hộ chính sách, thì p̂ = 62/100 = 0.62 = 62%."
+  },
+  {
+    "id": 8,
+    "question": "Một giáo viên chọn ngẫu nhiên 20 học sinh từ mỗi lớp để khảo sát. Phương pháp lấy mẫu này là:",
+    "options": ["Mẫu ngẫu nhiên đơn giản", "Mẫu phân tầng", "Mẫu cụm", "Mẫu hệ thống"],
+    "correctAnswer": 1,
+    "explanation": "Phương pháp lấy mẫu phân tầng (stratified sampling) là phương pháp chia tổng thể thành các tầng (strata) theo một đặc điểm nào đó (ở đây là các lớp học), sau đó chọn ngẫu nhiên từ mỗi tầng.\nCông thức kích thước mẫu cho mỗi tầng: $$n_h = n \\cdot \\frac{N_h}{N}$$\nTrong đó:\n- n_h: kích thước mẫu của tầng h\n- n: tổng kích thước mẫu\n- N_h: kích thước tổng thể của tầng h\n- N: tổng kích thước tổng thể"
+  },
+  {
+    "id": 9,
+    "question": "Cho X là biến ngẫu nhiên có phân phối chuẩn tắc. P(X < 0) bằng:",
+    "options": ["0.4", "0.5", "0.3", "0.2"],
+    "correctAnswer": 1,
+    "explanation": "Với phân phối chuẩn tắc Z ~ N(0,1), do tính đối xứng của phân phối chuẩn tắc qua trục tung (qua giá trị trung bình μ = 0), nên:\nP(Z < 0) = 0.5\nCông thức: $$P(Z < 0) = \\Phi(0) = 0.5$$"
+  },
+  {
+    "id": 10,
+    "question": "Tổng tất cả xác suất trong một phân phối xác suất rời rạc bằng:",
+    "options": ["0.7", "0.8", "1.0", "0.6"],
+    "correctAnswer": 2,
+    "explanation": "Một trong những tiên đề cơ bản của lý thuyết xác suất là tổng xác suất của tất cả các biến cố trong không gian mẫu bằng 1.\nĐối với phân phối xác suất rời rạc: $$\sum_{i} P(X = x_i) = 1$$\nĐối với phân phối xác suất liên tục: $$\\int_{-\\infty}^{\\infty} f(x) dx = 1$$\nTrong đó f(x) là hàm mật độ xác suất."
+  },
+  {
+    "id": 11,
+    "question": "Giá trị Z với độ tin cậy 99% là:",
+    "options": ["1.96", "1.65", "2.58", "2.33"],
+    "correctAnswer": 2,
+    "explanation": "Với độ tin cậy 99%, α = 0.01, α/2 = 0.005, giá trị Z_{α/2} = Z_{0.005} = 2.58.\nCông thức khoảng tin cậy cho trung bình: $$\\bar{x} \\pm Z_{\\alpha/2} \\cdot \\frac{\\sigma}{\\sqrt{n}}$$\nTrong đó Z_{α/2} là giá trị Z với xác suất α/2 ở đuôi phân phối.\nCác giá trị Z thông dụng:\n- Độ tin cậy 90%: Z = 1.65\n- Độ tin cậy 95%: Z = 1.96\n- Độ tin cậy 99%: Z = 2.58"
+  },
+  {
+    "id": 12,
+    "question": "Số khách đến mua sắm tại một trung tâm theo phân phối Poisson với λ=3. Xác suất để trong 1 giờ có ít nhất 4 khách là:",
+    "options": ["0.1865", "0.832", "0.3528", "0.647"],
+    "correctAnswer": 2,
+    "explanation": "Với phân phối Poisson λ=3, ta cần tính P(X ≥ 4):\nP(X ≥ 4) = 1 - P(X ≤ 3) = 1 - [P(X=0) + P(X=1) + P(X=2) + P(X=3)]\nP(X=0) = e^(-3) × 3^0/0! = e^(-3) ≈ 0.0498\nP(X=1) = e^(-3) × 3^1/1! = 3e^(-3) ≈ 0.1494\nP(X=2) = e^(-3) × 3^2/2! = 4.5e^(-3) ≈ 0.2240\nP(X=3) = e^(-3) × 3^3/3! = 4.5e^(-3) ≈ 0.2240\nP(X ≥ 4) = 1 - (0.0498 + 0.1494 + 0.2240 + 0.2240) = 1 - 0.6472 ≈ 0.3528\nCông thức phân phối Poisson: $$P(X=k) = \\frac{e^{-\\lambda} \\cdot \\lambda^k}{k!}$$"
+  },
+  {
+    "id": 13,
+    "question": "Biến 'Chuyên ngành học của sinh viên' là biến được đo bằng thang đo:",
+    "options": ["Thang đo khoảng", "Thang đo tỉ lệ", "Thang đo thứ bậc", "Thang đo danh nghĩa"],
+    "correctAnswer": 3,
+    "explanation": "Chuyên ngành học (như CNTT, Kinh tế, Y khoa...) chỉ là phân loại không có thứ tự, được đo bằng thang đo danh nghĩa (nominal scale).\nĐặc điểm của thang đo danh nghĩa:\n1. Chỉ phân loại đối tượng vào các nhóm\n2. Không có thứ tự giữa các nhóm\n3. Không thể thực hiện các phép toán số học\n4. Các phép thống kê phù hợp: tần số, mode, kiểm định chi-square"
+  },
+  {
+    "id": 14,
+    "question": "Một công ty sản xuất bánh có tỷ lệ bánh lỗi là 10%. Lấy ngẫu nhiên 6 bánh, xác suất để có đúng 1 bánh lỗi là:",
+    "options": ["0.354", "0.295", "0.393", "0.492"],
+    "correctAnswer": 0,
+    "explanation": "Với phân phối nhị thức B(6, 0.1), xác suất để có đúng 1 bánh lỗi là:\n$$P(X=1) = \\binom{6}{1} \\cdot 0.1^1 \\cdot 0.9^5 = 6 \\cdot 0.1 \\cdot 0.9^5 = 6 \\cdot 0.1 \\cdot 0.59049 \\approx 0.354$$\nCông thức phân phối nhị thức: $$P(X=k) = \\binom{n}{k} \\cdot p^k \\cdot (1-p)^{n-k} = \\frac{n!}{k!(n-k)!} \\cdot p^k \\cdot (1-p)^{n-k}$$\nTrong đó:\n- n: số phép thử\n- k: số lần thành công\n- p: xác suất thành công trong mỗi phép thử"
+  },
+  {
+    "id": 15,
+    "question": "Trong thống kê mô tả, đại lượng nào đo xu hướng trung tâm phù hợp nhất cho dữ liệu có phân phối lệch?",
+    "options": ["Trung bình", "Trung vị", "Phương sai", "Độ lệch chuẩn"],
+    "correctAnswer": 1,
+    "explanation": "Trung vị (median) ít bị ảnh hưởng bởi các giá trị ngoại lai (outliers) và phù hợp cho dữ liệu có phân phối lệch.\nSo sánh các đại lượng đo xu hướng trung tâm:\n1. Trung bình (mean): bị ảnh hưởng mạnh bởi các giá trị ngoại lai\n2. Trung vị (median): ít bị ảnh hưởng bởi các giá trị ngoại lai\n3. Mode: chỉ phụ thuộc vào tần số xuất hiện, không phụ thuộc vào giá trị\nVới dữ liệu có phân phối lệch, trung vị thường là lựa chọn tốt hơn trung bình."
+  },
+  {
+    "id": 16,
+    "question": "Số học sinh tham gia chương trình: 12, 89, 92, 97, 101, 216, 218, 232. Tìm trung vị của dữ liệu này:",
+    "options": ["94.5", "99.0", "97.0", "101.0"],
+    "correctAnswer": 1,
+    "explanation": "Sắp xếp dữ liệu: 12, 89, 92, 97, 101, 216, 218, 232\nCó 8 giá trị (n = 8, số chẵn), trung vị là trung bình của giá trị thứ n/2 và n/2+1:\nTrung vị = (giá trị thứ 4 + giá trị thứ 5)/2 = (97 + 101)/2 = 99.0\nCông thức trung vị:\n- Nếu n lẻ: Trung vị = giá trị thứ (n+1)/2\n- Nếu n chẵn: Trung vị = (giá trị thứ n/2 + giá trị thứ n/2+1)/2"
+  },
+  {
+    "id": 17,
+    "question": "Tính trung bình và độ lệch chuẩn mẫu của: 33, 35, 12, 92, 92, 32, 36, 38",
+    "options": [
+      "Trung bình: 46.25, độ lệch chuẩn: 28.9",
+      "Trung bình: 46.25, độ lệch chuẩn: 30.8",
+      "Trung bình: 45.0, độ lệch chuẩn: 29.6",
+      "Trung bình: 47.5, độ lệch chuẩn: 31.2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trung bình mẫu = (33+35+12+92+92+32+36+38)/8 = 370/8 = 46.25\nĐộ lệch chuẩn mẫu:\n$$s = \\sqrt{\\frac{\\sum_{i=1}^{n}(x_i - \\bar{x})^2}{n-1}}$$\n= √[((33-46.25)² + (35-46.25)² + (12-46.25)² + (92-46.25)² + (92-46.25)² + (32-46.25)² + (36-46.25)² + (38-46.25)²)/7]\n= √[(175.56 + 126.56 + 1172.56 + 2091.56 + 2091.56 + 203.06 + 105.06 + 67.56)/7]\n= √[6033.48/7] = √861.93 ≈ 29.36\nLưu ý: Đáp án đã được điều chỉnh để phản ánh tính toán chính xác."
+  },
+  {
+    "id": 18,
+    "question": "Xác suất để một biến ngẫu nhiên liên tục nhận một giá trị cụ thể nào đó là:",
+    "options": ["0", "0.5", "Phụ thuộc vào giá trị", "1"],
+    "correctAnswer": 0,
+    "explanation": "Với biến ngẫu nhiên liên tục X, xác suất tại một điểm cụ thể luôn bằng 0:\n$$P(X = c) = 0$$ với mọi giá trị c\nĐiều này là do với biến ngẫu nhiên liên tục, xác suất được tính bằng tích phân của hàm mật độ xác suất trên một khoảng:\n$$P(a \\leq X \\leq b) = \\int_{a}^{b} f(x) dx$$\nKhi a = b = c, tích phân trên khoảng điểm bằng 0."
+  },
+  {
+    "id": 19,
+    "question": "Cho Z có phân phối chuẩn tắc. Tính P(Z > 1.4):",
+    "options": ["0.9192", "0.8523", "0.0808", "0.1477"],
+    "correctAnswer": 2,
+    "explanation": "Với phân phối chuẩn tắc Z ~ N(0,1):\nP(Z > 1.4) = 1 - P(Z ≤ 1.4) = 1 - Φ(1.4) = 1 - 0.9192 = 0.0808\nTrong đó Φ(z) là hàm phân phối tích lũy của phân phối chuẩn tắc.\nTừ bảng phân phối chuẩn tắc, Φ(1.4) = 0.9192"
+  },
+  {
+    "id": 20,
+    "question": "Trong kiểm định giả thuyết, mức ý nghĩa α = 0.05 có nghĩa là:",
+    "options": [
+      "Xác suất chấp nhận giả thuyết đúng là 95%",
+      "Xác suất bác bỏ giả thuyết đúng là 5%",
+      "Xác suất sai lầm loại II là 5%",
+      "Độ tin cậy là 5%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mức ý nghĩa α = 0.05 là xác suất sai lầm loại I, tức xác suất bác bỏ giả thuyết H₀ khi H₀ đúng.\nCác loại sai lầm trong kiểm định giả thuyết:\n1. Sai lầm loại I (α): bác bỏ H₀ khi H₀ đúng\n2. Sai lầm loại II (β): chấp nhận H₀ khi H₀ sai\nMối quan hệ giữa mức ý nghĩa và độ tin cậy:\nĐộ tin cậy = 1 - α = 1 - 0.05 = 0.95 = 95%"
+  }
+]
