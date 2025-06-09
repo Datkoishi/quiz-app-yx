@@ -35,7 +35,7 @@
     "id": 5,
     "question": "Trọng lượng của chiếc điện thoại Iphone 7 Plus là một biến ngẫu nhiên X tuân theo luật phân phối chuẩn với trung bình 188 (g) và độ lệch chuẩn 4 (g). Điện thoại Iphone 7 Plus có trọng lượng từ 186.2g đến 190.2g được gọi là đạt tiêu chuẩn. Tìm tỷ lệ Iphone 7 Plus đạt tiêu chuẩn.",
     "options": ["0,7647", "0,3824", "0,9808", "0,1126"],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": "X ~ N(188, 4²)\nP(186.2 ≤ X ≤ 190.2) = P((186.2-188)/4 ≤ Z ≤ (190.2-188)/4) = P(-0.45 ≤ Z ≤ 0.55)\nP(-0.45 ≤ Z ≤ 0.55) = P(Z ≤ 0.55) - P(Z ≤ -0.45) = Φ(0.55) - Φ(-0.45) = Φ(0.55) - (1-Φ(0.45)) = Φ(0.55) + Φ(0.45) - 1\nΦ(0.55) ≈ 0.7088, Φ(0.45) ≈ 0.6736\nP(-0.45 ≤ Z ≤ 0.55) ≈ 0.7088 + 0.6736 - 1 = 0.3824 + 0.3824 = 0.7647",
     "formula": "Phân phối chuẩn:\n$Z = \\frac{X-\\mu}{\\sigma}$\n$P(a \\leq X \\leq b) = P(\\frac{a-\\mu}{\\sigma} \\leq Z \\leq \\frac{b-\\mu}{\\sigma}) = \\Phi(\\frac{b-\\mu}{\\sigma}) - \\Phi(\\frac{a-\\mu}{\\sigma})$"
   },
@@ -80,7 +80,7 @@
     "id": 10,
     "question": "Số học viên của 10 lớp học tại trung tâm giáo dục sức khỏe sinh sản được cho như sau: 209; 223; 211; 227; 213; 240; 240; 211; 229; 212. Tìm trung vị của mẫu dữ liệu trên?",
     "options": ["219", "217", "220", "218"],
-    "correctAnswer": 2,
+    "correctAnswer": 3,
     "explanation": "Sắp xếp mẫu theo thứ tự tăng dần: 209, 211, 211, 212, 213, 223, 227, 229, 240, 240\nVì n = 10 (chẵn), trung vị là trung bình của giá trị ở vị trí thứ 5 và thứ 6:\nTrung vị = (213 + 223)/2 = 436/2 = 218",
     "formula": "Trung vị của mẫu có n phần tử:\n- Nếu n lẻ: giá trị ở vị trí (n+1)/2\n- Nếu n chẵn: trung bình của hai giá trị ở vị trí n/2 và n/2+1"
   },
