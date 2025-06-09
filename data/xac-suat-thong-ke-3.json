@@ -46,7 +46,7 @@
     "question": "Trong một cuộc khảo sát, tỷ lệ người ủng hộ một chính sách là 62%. Đây là loại thống kê nào?",
     "options": ["Tỷ lệ mẫu", "Trung bình mẫu", "Phương sai mẫu", "Độ lệch chuẩn mẫu"],
     "correctAnswer": 0,
-    "explanation": "62% là tỷ lệ mẫu (sample proportion), ký hiệu là p̂.\nCông thức tỷ lệ mẫu: $$\hat{p} = \\frac{X}{n}$$\nTrong đó X là số đối tượng có đặc điểm quan tâm và n là kích thước mẫu.\nVí dụ: Nếu 62 người trong tổng số 100 người được khảo sát ủng hộ chính sách, thì p̂ = 62/100 = 0.62 = 62%."
+    "explanation": "62% là tỷ lệ mẫu (sample proportion), ký hiệu là p̂.\nCông thức tỷ lệ mẫu: $$\\hat{p} = \\frac{X}{n}$$\nTrong đó X là số đối tượng có đặc điểm quan tâm và n là kích thước mẫu.\nVí dụ: Nếu 62 người trong tổng số 100 người được khảo sát ủng hộ chính sách, thì p̂ = 62/100 = 0.62 = 62%."
   },
   {
     "id": 8,
@@ -67,7 +67,7 @@
     "question": "Tổng tất cả xác suất trong một phân phối xác suất rời rạc bằng:",
     "options": ["0.7", "0.8", "1.0", "0.6"],
     "correctAnswer": 2,
-    "explanation": "Một trong những tiên đề cơ bản của lý thuyết xác suất là tổng xác suất của tất cả các biến cố trong không gian mẫu bằng 1.\nĐối với phân phối xác suất rời rạc: $$\sum_{i} P(X = x_i) = 1$$\nĐối với phân phối xác suất liên tục: $$\\int_{-\\infty}^{\\infty} f(x) dx = 1$$\nTrong đó f(x) là hàm mật độ xác suất."
+    "explanation": "Một trong những tiên đề cơ bản của lý thuyết xác suất là tổng xác suất của tất cả các biến cố trong không gian mẫu bằng 1.\nĐối với phân phối xác suất rời rạc: $$\\sum_{i} P(X = x_i) = 1$$\nĐối với phân phối xác suất liên tục: $$\\int_{-\\infty}^{\\infty} f(x) dx = 1$$\nTrong đó f(x) là hàm mật độ xác suất."
   },
   {
     "id": 11,

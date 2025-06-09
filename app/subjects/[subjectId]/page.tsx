@@ -152,6 +152,8 @@ export default function SubjectQuiz() {
   // Ánh xạ ID môn học sang tên hiển thị
   const subjectNames: Record<string, string> = {
     "xac-suat-thong-ke": "Xác Suất Thống Kê",
+    "xac-suat-thong-ke-2": "Xác Suất Thống Kê 2",
+    "xac-suat-thong-ke-3": "Xác Suất Thống Kê 3",
     "suc-khoe-moi-truong": "Sức Khỏe Môi Trường",
     "toan-roi-rac": "Toán Rời Rạc",
     "ky-thuat-thuong-mai-dien-tu": "Kỹ Thuật Thương Mại Điện Tử",
@@ -159,7 +161,12 @@ export default function SubjectQuiz() {
     "java-2": "Java 2 (Fundamentals of Computing 2)",
     "application-development-practices": "Application Development Practices",
     "application-development-practices-essay": "Application Development Practices - Tự Luận",
+    "application-development-practices-2": "Application Development Practices 2",
     "network-telecommunications": "Introduction to Network & Telecommunications Technology",
+    "toan-cao-cap-c2": "Toán cao cấp C2",
+    "lich-su-van-minh-the-gioi": "Lịch sử văn minh thế giới",
+    "tieng-anh-cmu-de-1": "Tiếng Anh Chuyên Ngành CMU - Đề 1",
+    "tieng-anh-cmu-de-2": "Tiếng Anh Chuyên Ngành CMU - Đề 2",
   }
 
   // Tải câu hỏi từ API
@@ -771,8 +778,6 @@ export default function SubjectQuiz() {
                                 buttonVariant = "destructive"
                                 statusClass = "bg-red-600 hover:bg-red-700 text-white"
                               }
-                            } else if (answers[index] !== null) {
-                              buttonVariant = "secondary"
                             }
 
                             return (
