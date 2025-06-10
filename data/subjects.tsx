@@ -18,43 +18,6 @@ export interface Subject {
 
 export const activeSubjects: Subject[] = [
   {
-    id: "xac-suat-thong-ke",
-    name: "Xác Suất Thống Kê",
-    description: "Ôn tập các khái niệm và bài tập về xác suất và thống kê - Học kỳ 2025",
-    icon: <Brain className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-blue-500/10 via-blue-400/5 to-indigo-500/10 dark:from-blue-400/20 dark:via-blue-300/10 dark:to-indigo-400/20 border border-blue-200/30 dark:border-blue-400/30",
-    textColor: "text-blue-700 dark:text-blue-300",
-    questionCount: 52,
-    difficulty: "Trung bình",
-    estimatedTime: "45 phút",
-  },
-  {
-    id: "xac-suat-thong-ke-2",
-    name: "Xác Suất Thống Kê 2",
-    description: "Ôn tập nâng cao về phân phối xác suất, thống kê mô tả và suy luận thống kê - Học kỳ 2025",
-    icon: <Calculator className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-emerald-500/10 via-green-400/5 to-teal-500/10 dark:from-emerald-400/20 dark:via-green-300/10 dark:to-teal-400/20 border border-emerald-200/30 dark:border-emerald-400/30",
-    textColor: "text-emerald-700 dark:text-emerald-300",
-    questionCount: 20,
-    difficulty: "Khó",
-    estimatedTime: "30 phút",
-  },
-  {
-    id: "xac-suat-thong-ke-3",
-    name: "Xác Suất Thống Kê 3",
-    description:
-      "Ôn tập chuyên sâu về kiểm định giả thuyết, ước lượng khoảng tin cậy và phân tích thống kê nâng cao - Học kỳ 2025",
-    icon: <Brain className="h-8 w-8" />,
-    color:
-      "bg-gradient-to-br from-purple-500/10 via-indigo-400/5 to-blue-500/10 dark:from-purple-400/20 dark:via-indigo-300/10 dark:to-blue-400/20 border border-purple-200/30 dark:border-purple-400/30",
-    textColor: "text-purple-700 dark:text-purple-300",
-    questionCount: 20,
-    difficulty: "Khó",
-    estimatedTime: "35 phút",
-  },
-  {
     id: "application-development-practices",
     name: "Application Development Practices",
     description: "Ôn tập kiến thức về thực hành phát triển ứng dụng - Học kỳ 2025 (Yêu cầu mật khẩu)",
@@ -98,6 +61,50 @@ export const activeSubjects: Subject[] = [
 ]
 
 export const completedSubjects: Subject[] = [
+  {
+    id: "xac-suat-thong-ke",
+    name: "Xác Suất Thống Kê",
+    description: "Đã hoàn thành kỳ thi 2025 - Ôn tập các khái niệm và bài tập về xác suất và thống kê",
+    icon: <Brain className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 52,
+    difficulty: "Trung bình",
+    estimatedTime: "45 phút",
+    completed: true,
+    completedDate: "10/6/2025",
+  },
+  {
+    id: "xac-suat-thong-ke-2",
+    name: "Xác Suất Thống Kê 2",
+    description:
+      "Đã hoàn thành kỳ thi 2025 - Ôn tập nâng cao về phân phối xác suất, thống kê mô tả và suy luận thống kê",
+    icon: <Calculator className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 20,
+    difficulty: "Khó",
+    estimatedTime: "30 phút",
+    completed: true,
+    completedDate: "10/6/2025",
+  },
+  {
+    id: "xac-suat-thong-ke-3",
+    name: "Xác Suất Thống Kê 3",
+    description:
+      "Đã hoàn thành kỳ thi 2025 - Ôn tập chuyên sâu về kiểm định giả thuyết, ước lượng khoảng tin cậy và phân tích thống kê nâng cao",
+    icon: <Brain className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-gray-400/10 via-slate-300/5 to-zinc-400/10 dark:from-gray-300/15 dark:via-slate-200/8 dark:to-zinc-300/15 border border-gray-200/40 dark:border-gray-400/40",
+    textColor: "text-gray-600 dark:text-gray-300",
+    questionCount: 20,
+    difficulty: "Khó",
+    estimatedTime: "35 phút",
+    completed: true,
+    completedDate: "10/6/2025",
+  },
   {
     id: "toan-roi-rac",
     name: "Toán Rời Rạc",
