@@ -252,7 +252,11 @@ export default function SubjectQuiz() {
 
   useEffect(() => {
     // Check if this subject requires password protection
-    if (subjectId === "application-development-practices" || subjectId === "application-development-practices-essay") {
+    if (
+      subjectId === "application-development-practices" ||
+      subjectId === "application-development-practices-essay" ||
+      subjectId === "application-development-practices-2"
+    ) {
       const hasAccess = sessionStorage.getItem("adp-access") === "granted"
       if (!hasAccess) {
         // Redirect back to home page if no access
