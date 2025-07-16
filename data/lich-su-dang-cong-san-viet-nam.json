@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "question": "Nhiệm vụ của khoa học lịch sử Đảng Cộng sản Việt Nam.",
+    "options": [
+      "Trình bày có hệ thống Cương lĩnh, đường lối của Đảng",
+      "Tái hiện tiến trình lịch sử lãnh đạo, đấu tranh của Đảng",
+      "Tổng kết lịch sử của Đảng",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 2,
+    "question": "Phương pháp nghiên cứu môn lịch sử Đảng Cộng sản Việt Nam gồm những phương pháp nào?",
+    "options": [
+      "Phương pháp lịch sử; phương pháp logic",
+      "Phương pháp lịch sử; phương pháp logic; phương pháp tổng kết thực tiễn lịch sử",
+      "Phương pháp lịch sử; phương pháp logic; phương pháp tổng kết thực tiễn lịch sử; phương pháp so sánh",
+      "Phương pháp logic; phương pháp tổng kết thực tiễn lịch sử; phương pháp so sánh"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "Chức năng của khoa học Lịch sử Đảng Cộng sản Việt Nam.",
+    "options": [
+      "Chức năng nhận thức; chức năng giáo dục; chức năng dự báo và phê phán",
+      "Chức năng nhận thức; chức năng giáo dục",
+      "Chức năng giáo dục; chức năng dự báo và phê phán",
+      "Chức năng nhận thức; chức năng dự báo và phê phán"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Năm 1929 ở Việt Nam đã xuất hiên các tổ chức cộng sản nào?",
+    "options": [
+      "Đông Dương Cộng sản Đảng",
+      "An Nam Cộng sản Đảng",
+      "Đông Dương Cộng sản Liên đoàn",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 5,
+    "question": "Hội nghị thành lập Đảng năm 1930 do ai chủ trì?",
+    "options": [
+      "Nguyễn Đức Cảnh",
+      "Trịnh Đình Cửu",
+      "Nguyễn Ái Quốc",
+      "Trần Phú"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "question": "Đảng Cộng sản Việt Nam thành lập ngày, tháng, năm nào?",
+    "options": [
+      "Ngày 03 tháng 2 năm 1930",
+      "Ngày 06 tháng 2 năm 1930",
+      "Ngày 24 tháng 2 năm 1930",
+      "Ngày 07 tháng 3 năm 1930"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "Cương lĩnh chính trị đầu tiên của Đảng do Nguyễn Ái Quốc soạn thảo xác định phương hướng chiến lược của cách mạng Việt Nam là gì?",
+    "options": [
+      "Tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản",
+      "Tư sản dân quyền cách mạng và thổ địa cách mạng",
+      "Thổ địa cách mạng",
+      "Tư sản dân quyền"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "Ai là Tổng Bí thư đầu tiên của Đảng Đảng Cộng sản Việt Nam?",
+    "options": [
+      "Trịnh Đình Cửu",
+      "Trần Phú",
+      "Lê Hồng Phong",
+      "Hà Huy Tập"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 9,
+    "question": "Khi nào phong trào công nhân Việt Nam hoàn toàn trở thành một phong trào tự giác?",
+    "options": [
+      "Năm 1920 (tổ chức công hội ở Sài Gòn được thành lập)",
+      "Năm 1925 (cuộc bãi công Ba Son)",
+      "Năm 1929 (sự ra đời ba tổ chức cộng sản)",
+      "Năm 1930 (Đảng Cộng sản Việt Nam ra đời)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 10,
+    "question": "Luận cương chính trị tháng 10 năm 1930 do ai soạn thảo?",
+    "options": [
+      "Trần Phú",
+      "Nguyễn Ái Quốc",
+      "Trịnh Đình Cửu",
+      "Nguyễn Đức Cảnh"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "Vai trò lãnh đạo của Đảng Cộng sản Đông dương trong Luận cương Chính trị tháng 10 năm 1930 được xác định như thế nào?",
+    "options": [
+      "Sự lãnh đạo của Đảng là điều kiện cốt yếu cho thắng lợi của cách mạng Việt Nam",
+      "Làm cách mạng tư sản dân quyền và tổ địa cách mạng",
+      "Đoàn kết rộng rãi các tầng lớp nhân dân chống thực dân, phong kiến",
+      "Đánh đuổi thực dân Pháp xâm lược"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Tháng 6 năm 1932, Chương trình hành động của Đảng Cộng sản Đông Dương được công bố, gồm những nội dung nào?",
+    "options": [
+      "Đòi các quyền tự do tổ chức, xuất bản, ngôn luận, đi lại. Bỏ những luật hình đặc biệt đối với người bản xứ, trả tự do cho tù chính trị, bỏ ngay chính sách đàn áp, giải tán hội đồng đề hình",
+      "Bỏ thuế thân, thuế ngụ cư và các thứ thuế vô lý khác",
+      "Bỏ các độc quyền về rượu, muối và thuốc phiện",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 13,
+    "question": "Ngày 16 tháng 8 năm 1945, Quốc dân Đại hội họp tại Tân Trào quyết định những vấn đề gì?",
+    "options": [
+      "Tán thành chủ trương Tổng khởi nghĩa của Đảng và Mười chính sách của Việt Minh",
+      "Quyết định đặt tên nước là Việt Nam Dân chủ Cộng hòa, xác định quốc kỳ, quốc ca",
+      "Thành lập Ủy ban dân tộc giải phóng Việt Nam (Chính phủ lâm thời) do Hồ Chí Minh làm Chủ tịch",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 14,
+    "question": "Ngày 16 tháng 8 năm 1945, Quốc dân Đại hội họp tại Tân Trào quyết định thành lập Uỷ ban dân tộc giải phóng do ai làm chủ tịch?",
+    "options": [
+      "Hồ Chí Minh",
+      "Phạm Văn Đồng",
+      "Võ Nguyên Giáp",
+      "Trường Chinh"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "Việt Nam Tuyên truyền giải phóng quân được thành lập ngày, tháng, năm nào?",
+    "options": [
+      "Ngày 19 tháng 12 năm 1944",
+      "Ngày 20 tháng 12 năm 1944",
+      "Ngày 21 tháng 12 năm 1944",
+      "Ngày 22 tháng 12 năm 1944"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 16,
+    "question": "Ngày 25 tháng 11 năm 1945, Ban Chấp hành trung ương Đảng ra chỉ thị \"Kháng chiến, kiến quốc\" xác định ai là kẻ thù chính của cách mạng Việt Nam?",
+    "options": [
+      "Phát xít Nhật",
+      "Quân đội Tưởng Giới Thạch",
+      "Thực dân Pháp xâm lược",
+      "Thực dân Anh"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 17,
+    "question": "Lời kêu gọi Toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh viết vào ngày, tháng, năm nào?",
+    "options": [
+      "Ngày 18 tháng 12 năm 1946",
+      "Ngày 19 tháng 12 năm 1946",
+      "Ngày 20 tháng 12 năm 1946",
+      "Ngày 21 tháng 12 năm 1946"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 18,
+    "question": "Đường lối kháng chiến (1945-1954) được hoàn chỉnh và thể hiện tập trung trong những văn kiện nào?",
+    "options": [
+      "Toàn dân kháng chiến của Trung ương Đảng (12/12/1946)",
+      "Lời kêu gọi toàn quốc kháng chiến (19/12/1946) của Hồ Chủ Tịch",
+      "Kháng chiến nhất định thắng lợi (1947) của đồng chí Trường Chinh",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 19,
+    "question": "Ngày 3-9-1945, Chính phủ lâm thời họp phiên đầu tiên dưới sự chủ trì của Chủ tịch Hồ Chí Minh đã xác định ngay nhiệm vụ lớn trước mắt, gồm những nhiệm vụ nào?",
+    "options": [
+      "Diệt giặc đói",
+      "Diệt giặc dốt",
+      "Diệt giặc ngoại xâm",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 20,
+    "question": "Quốc hội khóa I đã họp phiên đầu tiên tại Nhà hát lớn Hà Nội vào ngày 2-3-1946 đã nhất trí bầu Ban Thường trực Quốc hội do ai làm Chủ tịch?",
+    "options": [
+      "Trường Chinh",
+      "Phạm Văn Đồng",
+      "Huỳnh Thúc Kháng",
+      "Nguyễn Văn Tố"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 21,
+    "question": "Trong cuộc kháng chiến chống Pháp và can thiệp Mỹ Đảng ta đã chủ trương xây dựng và phát triển lực lượng vũ trang nhằm đáp ứng kịp thời yêu cầu của nhiệm vụ chính trị-quân sự của cuộc kháng chiến, gồm những lực lượng nào?",
+    "options": [
+      "Bộ đội chủ lực",
+      "Bộ đội địa phương",
+      "Dân quân du kích",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 22,
+    "question": "Sau khi miền Bắc được giải phóng, tháng 9/1954 Bộ Chính trị đề ra nhiệm vụ chủ yếu trước mắt của miền Bắc là gì?",
+    "options": [
+      "Hàn gắn vết thương chiến tranh, phục hồi kinh tế quốc dân",
+      "Giảm tô, giảm tức và cải cách ruộng đất",
+      "Đưa miền Bắc tiến lên chủ nghĩa xã hội",
+      "Xây dựng nền văn hóa mới, con người mới"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "Nghị quyết Bộ Chính trị, tháng 9-1954, nêu rõ nhiệm vụ cụ thể trước mắt của cách mạng miền Nam là gì?",
+    "options": [
+      "Đấu tranh đòi thi hành Hiệp định",
+      "Chuyển hướng công tác cho phù hợp điều kiện mới",
+      "Tập hợp mọi lực lượng dân tộc, dân chủ, hòa bình, thống nhất, độc lập, đấu tranh",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 24,
+    "question": "Từ thắng lợi của phong trào Đồng khởi, ngày 20/12/1960, tại xã Tân Lập (Tây Ninh), Mặt trận Dân tộc giải phóng miền Nam Việt Nam được thành lập, do ai làm chủ tịch?",
+    "options": [
+      "Nguyễn Thị Bình",
+      "Nguyễn Thị Định",
+      "Huỳnh Tấn Phát",
+      "Nguyễn Hữu Thọ"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 25,
+    "question": "Đại hội đại biểu toàn quốc lần thứ III của Đảng họp tại Thủ đô Hà Nội, vào tháng năm nào?",
+    "options": [
+      "Tháng 8 năm 1960",
+      "Tháng 9 năm 1960",
+      "Tháng 10 năm 1960",
+      "Tháng 11 năm 1960"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "Trận \"Điện Biên Phủ trên không\", đánh bại hoàn toàn cuộc tập kích chiến lược bằng máy bay B52 của Mỹ vào Hà Nội và Hải Phòng, diễn ra thời gian nào?",
+    "options": [
+      "Từ 18 đến ngày 30 tháng 12 năm 1972",
+      "Từ 18 đến ngày 24 tháng 12 năm 1972",
+      "Từ 18 đến ngày 26 tháng 12 năm 1972",
+      "Từ 18 đến ngày 28 tháng 12 năm 1972"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "Cuộc đấu tranh ngoại giao trên bàn Hội nghị Paris với việc ký kết \"Hiệp định về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam, kết thúc vào ngày, tháng, năm nào?",
+    "options": [
+      "Ngày 27 tháng 1 năm 1973",
+      "Ngày 28 tháng 1 năm 1973",
+      "Ngày 29 tháng 1 năm 1973",
+      "Ngày 30 tháng 1 năm 1973"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "Cuộc Tổng tiến công và nổi dậy mùa Xuân 1975 bắt đầu bằng chiến dịch nào?",
+    "options": [
+      "Chiến dịch giải phóng Phước Long",
+      "Chiến dịch tiến công giải phóng thành phố Đà Nẵng",
+      "Chiến dịch Tây Nguyên",
+      "Chiến dịch tiến công giải phóng Huế"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "Chiến dịch Hồ Chí Minh giải phóng Sài Gòn-Gia Định bắt đầu vào ngày, tháng, năm nào?",
+    "options": [
+      "Ngày 25 tháng 4 năm 1975",
+      "Ngày 26 tháng 4 năm 1975",
+      "Ngày 27 tháng 4 năm 1975",
+      "Ngày 28 tháng 4 năm 1975"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 30,
+    "question": "Cuộc tổng tiến công và nổi dậy Xuân 1975 đã toàn thắng, kết thúc vào ngày, tháng, năm nào?",
+    "options": [
+      "Ngày 27 tháng 4 năm 1975",
+      "Ngày 28 tháng 4 năm 1975",
+      "Ngày 29 tháng 4 năm 1975",
+      "Ngày 30 tháng 4 năm 1975"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 31,
+    "question": "Từ ngày 24 tháng 6 đến ngày 3 tháng 7 năm 1976, kỳ họp thứ nhất của Quốc hội nước Việt Nam thống nhất đã họp tại Thủ đô Hà Nội đã quyết định những vấn đề gì?",
+    "options": [
+      "Đặt tên nước ta là nước Cộng hoà Xã hội chủ nghĩa Việt Nam, Quốc kỳ nền đỏ sao vàng 5 cánh, Thủ đô là Hà Nội, Quốc ca là bài Tiến quân ca, Quốc huy mang dòng chữ Cộng hòa Xã hội chủ nghĩa Việt Nam",
+      "Thành phố Sài Gòn đổi tên là Thành phố Hồ Chí Minh",
+      "Quốc hội đã bầu Tôn Đức Thắng làm Chủ tịch nước; Nguyễn Lương Bằng, Nguyễn Hữu Thọ làm Phó Chủ tịch nước; Trường Chinh làm Chủ tịch Quốc hội và Phạm Văn Đồng làm Thủ tướng Chính phủ nước Cộng hòa Xã hội chủ nghĩa Việt Nam. Quốc hội đã thành lập Ủy ban dự thảo Hiến pháp mới",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 32,
+    "question": "Đại hội lần thứ mấy của Đảng là đại hội toàn thắng của sự nghiệp giải phóng dân tộc, thống nhất Tổ quốc, khẳng định và xác định đường lối đưa cả nước tiến lên chủ nghĩa xã hội?",
+    "options": [
+      "Đại hội lần thứ IV",
+      "Đại hội lần thứ V",
+      "Đại hội lần thứ VI",
+      "Đại hội lần thứ VII"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "Đại hội lần thứ mấy của Đảng xác định cách mạng Việt Nam có hai nhiệm vụ chiến lược là: xây dựng thành công chủ nghĩa xã hội và bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ nghĩa. Hai nhiệm vụ chiến lược có quan hệ mật thiết với nhau?",
+    "options": [
+      "Đại hội lần thứ IV",
+      "Đại hội lần thứ V",
+      "Đại hội lần thứ VI",
+      "Đại hội lần thứ VII"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "Đại hội nào xác định quan điểm mới nổi bật cho phép đảng viên làm kinh tế tư nhân, kể cả tư bản tư nhân nhưng yêu cầu phải tuân thủ Điều lệ Đảng, nghị quyết của Đảng và quy định của pháp luật Nhà nước đồng thời nêu cao tính tiền phong gương mẫu của người đảng viên?",
+    "options": [
+      "Đại hội lần thứ IX",
+      "Đại hội lần thứ X",
+      "Đại hội lần thứ XI",
+      "Đại hội lần thứ XII"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "Vấn đề trọng tâm trong xây dựng văn hóa được Hội nghị Trung ương 9 (khóa XI) xác định là gì?",
+    "options": [
+      "Xây dựng lối sống \"Mỗi người vì mọi người, mọi người vì mỗi người\"; hình thành lối sống có ý thức tự trọng, tự chủ, sống và làm việc theo Hiến pháp và pháp luật",
+      "Xây dựng nền văn hoá Việt Nam tiên tiến, đậm đà bản sắc dân tộc, thống nhất trong đa dạng của cộng đồng các dân tộc Việt Nam",
+      "Chăm lo xây dựng con người có nhân cách, lối sống tốt đẹp, với các đặc tính cơ bản: yêu nước, nhân ái, nghĩa tình, trung thực, đoàn kết, cần cù, sáng tạo",
+      "Giáo dục nghệ thuật, nâng cao năng lực cảm thụ thẩm mỹ cho nhân dân, đặc biệt là thanh, thiếu niên"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 36,
+    "question": "Thế nào là văn hóa tiến tiến theo tinh thần Nghị quyết Hội nghị Trung ương IX (khóa XI)?",
+    "options": [
+      "Văn hóa Tiên tiến là yêu nước và tiến bộ với nội dung cốt lõi là lý tưởng độc lập dân tộc và chủ nghĩa xã hội theo chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh, nhằm mục tiêu tất cả vì con người",
+      "Là những giá trị văn hoá truyền thống bền vững của cộng đồng các dân tộc Việt Nam được vun đắp qua lịch sử hàng ngàn năm đấu tranh dựng nước và giữ nước",
+      "Đó là lòng nhân ái, khoan dung trọng tình nghĩa, đạo lý",
+      "Là đức tính cần cù, sáng tạo trong lao động"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "Vai trò của đội ngũ trí thức trong xây dựng và phát triển văn hóa hiện nay, được Hội nghị Trung ương 9 (khóa XI) xác định là gì?",
+    "options": [
+      "Cùng với giai cấp công nhân, nông dân, trí thức có vai trò quan trọng là nền tảng của sự nghiệp xây dựng và phát triển văn hóa dưới sự lãnh đạo của Đảng, quản lý của Nhà nước",
+      "Tham gia sự nghiệp xây dựng và phát triển nền văn hoá nước nhà",
+      "Đi đầu trong xây dựng và phát triển văn hóa, con người Việt Nam",
+      "Góp phần giáo dục, rèn luyện con người về nhân cách, lối sống"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "Nguyên tắc cơ bản trong thực hiện chính sách đối ngoại của Đảng ta được Hội nghị Trung ương 8 (khóa XI) xác định là gì?",
+    "options": [
+      "Nắm vững hai mặt hợp tác và đấu tranh trong quan hệ quốc tế",
+      "Tôn trọng độc lập chủ quyền không can thiệp vào công việc nội bộ của nhau",
+      "Thúc đẩy hợp tác, cân bằng lợi ích",
+      "Chủ động và tích cực hội nhập quốc tế; là bạn, là đối tác tin cậy và thành viên có trách nhiệm của cộng đồng quốc tế"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 39,
+    "question": "Trong chiến lược phát triển kinh tế-xã hội 2011-2020, Đại hội XI nhấn mạnh ba đột phá chiến lược, gồm những chiến lược nào?",
+    "options": [
+      "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa, trọng tâm là tạo lập môi trường cạnh tranh bình đẳng và cải cách hành chính",
+      "Phát triển nhanh nguồn nhân lực, nhất là nguồn nhân lực chất lượng cao, tập trung vào việc đổi mới căn bản và toàn diện nền giáo dục quốc dân; gắn kết chặt chẽ phát triển nguồn nhân lực với phát triển và ứng dụng khoa học, công nghệ",
+      "Xây dựng hệ thống kết cấu hạ tầng đồng bộ, với một số công trình hiện đại, tập trung vào hệ thống giao thông và hạ tầng đô thị lớn",
+      "Tất cả các phương án đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 40,
+    "question": "Theo quan điểm Đại hội XII của Đảng, để tiếp tục đẩy mạnh thực hiện mô hình công nghiệp hóa, hiện đại hóa trong điều kiện phát triển kinh tế thị trường định hướng xã hội chủ nghĩa và hội nhập quốc tế gắn với phát triển kinh tế tri thức, Đảng ta xác định cần lấy những yếu tố nào làm động lực chủ yếu?",
+    "options": [
+      "Nguồn nhân lực chất lượng cao",
+      "Khoa học và công nghệ",
+      "Khoa học, công nghệ, tri thức và nguồn nhân lực chất lượng cao",
+      "Nguồn lực về tài chính"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 41,
+    "question": "Mục đích nền kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta do Đại hội XII của Đảng xác định?",
+    "options": [
+      "Phát triển nền kinh tế với nhiều hình thức sở hữu, nhiều thành phần kinh tế nhằm giải phóng mọi tiềm năng trong mọi thành phần kinh tế",
+      "Nhằm thực hiện \"dân giàu, nước mạnh, dân chủ, công bằng, văn minh\"; giải phóng mạnh mẽ lực lượng sản xuất, không ngừng nâng cao đời sống nhân dân",
+      "Phát huy vai trò làm chủ xã hội của nhân dân, bảo đảm vai trò quản lý, điều tiết nền kinh tế của Nhà nước pháp quyền xã hội chủ nghĩa dưới sự lãnh đạo của Đảng.",
+      "Phát huy vai trò làm chủ xã hội của nhân dân."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 42,
+    "question": "Vai trò của thành phần kinh tế tư nhân trong nền kinh tế thị trường ở nước ta hiện nay do Hội nghị Trung ương 5 (khóa XII) xác đinh là gì?",
+    "options": [
+      "Là một động lực quan trọng của nền kinh tế",
+      "Điều tiết nền kinh tế, tạo môi trường và điều kiện thúc đẩy các thành phần kinh tế cùng phát triển",
+      "Giữ vai trò chủ đạo, là lực lượng vật chất quan trọng để Nhà nước định hướng và điều tiết nền kinh tế",
+      "Là lực lượng vật chất quan trọng để Nhà nước định hướng và điều tiết nền kinh tế, tạo môi trường và điều kiện thúc đẩy các thành phần kinh tế cùng phát triển"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "Chủ trương: \"Bảo đảm lợi ích tối cao của quốc gia - dân tộc, trên cơ sở các nguyên tắc cơ bản của luật pháp quốc tế, bình đẳng và cùng có lợi, thực hiện nhất quán đường lối đối ngoại độc lập, tự chủ, hoà bình, hợp tác và phát triển; đa dạng hoá, đa phương hoá trong quan hệ đối ngoại; chủ động và tích cực hội nhập quốc tế; là bạn, là đối tác tin cậy và thành viên có trách nhiệm của cộng đồng quốc tế\" được Đại hội nào xác định?",
+    "options": [
+      "Đại hội XII",
+      "Đại hội XI",
+      "Đại hội X",
+      "Đại hội IX"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "Cấu trúc hệ thống chính trị ở Việt Nam hiện nay bao gồm những bộ phận nào?",
+    "options": [
+      "Đảng Cộng sản Việt Nam",
+      "Nhà nước",
+      "Mặt trận Tổ quốc Việt Nam và các đoàn thể chính trị xã hội",
+      "Tất cả đều đúng"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 45,
+    "question": "Đại hội XII của Đảng chủ trương triển khai mạnh mẽ định hướng chiến lược chủ động và tích cực hội nhập quốc tế hiện nay lấy hội nhập lĩnh vực nào là trọng tâm?",
+    "options": [
+      "Chính trị",
+      "Kinh tế",
+      "Văn hóa, xã hội",
+      "Quốc phòng, an ninh"
+    ],
+    "correctAnswer": 1
+  }
+] 

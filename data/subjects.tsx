@@ -58,6 +58,18 @@ export const activeSubjects: Subject[] = [
     difficulty: "Khó",
     estimatedTime: "50 phút",
   },
+  {
+    id: "lich-su-dang-cong-san-viet-nam",
+    name: "Lịch sử Đảng Cộng sản Việt Nam",
+    description: "Ôn tập trắc nghiệm về lịch sử Đảng Cộng sản Việt Nam - Học kỳ 2025",
+    icon: <BookOpen className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-red-500/10 via-yellow-400/5 to-orange-500/10 dark:from-red-400/20 dark:via-yellow-300/10 dark:to-orange-400/20 border border-red-200/30 dark:border-red-400/30",
+    textColor: "text-red-700 dark:text-red-300",
+    questionCount: 45,
+    difficulty: "Trung bình",
+    estimatedTime: "45 phút",
+  },
 ]
 
 export const completedSubjects: Subject[] = [
