@@ -44,7 +44,7 @@ export function Header() {
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
               Ôn thi đi
             </span>
-            <span className="text-xs text-muted-foreground">Designed & Developed truongdat</span>
+            <span className="text-xs text-muted-foreground">Designed & Developed TruongDat</span>
           </div>
         </Link>
 

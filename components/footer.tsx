@@ -15,7 +15,7 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             Designed & Developed by{" "}
             <Link
-              href="https://truongdat.glitch.me/"
+              href="https://truongdat.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-medium text-primary hover:underline inline-flex items-center gap-1"

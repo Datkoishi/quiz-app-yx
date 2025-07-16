@@ -72,8 +72,8 @@ export default function ContactPage() {
                 <CardTitle>Email</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
-                <p className="text-gray-600 dark:text-gray-400">https://truongdat.glitch.me/</p>
-                <p className="text-gray-600 dark:text-gray-400">https://truongdat.glitch.me/</p>
+                <p className="text-gray-600 dark:text-gray-400">https://truongdat.vercel.app/</p>
+                <p className="text-gray-600 dark:text-gray-400">https://truongdat.vercel.app/</p>
               </CardContent>
             </Card>
 
