@@ -70,6 +70,42 @@ export const activeSubjects: Subject[] = [
     difficulty: "Trung bình",
     estimatedTime: "45 phút",
   },
+  {
+    id: "co-so-du-lieu",
+    name: "Cơ sở dữ liệu",
+    description: "Ôn tập trắc nghiệm về cơ sở dữ liệu - Học kỳ 2025",
+    icon: <Code className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-blue-500/10 via-cyan-400/5 to-green-500/10 dark:from-blue-400/20 dark:via-cyan-300/10 dark:to-green-400/20 border border-blue-200/30 dark:border-blue-400/30",
+    textColor: "text-blue-700 dark:text-blue-300",
+    questionCount: 60,
+    difficulty: "Trung bình",
+    estimatedTime: "60 phút",
+  },
+  {
+    id: "co-so-du-lieu-2",
+    name: "Cơ sở dữ liệu 2",
+    description: "Ôn tập trắc nghiệm về cơ sở dữ liệu 2 - Học kỳ 2025",
+    icon: <Code className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-cyan-500/10 via-blue-400/5 to-green-500/10 dark:from-cyan-400/20 dark:via-blue-300/10 dark:to-green-400/20 border border-cyan-200/30 dark:border-cyan-400/30",
+    textColor: "text-cyan-700 dark:text-cyan-300",
+    questionCount: 57,
+    difficulty: "Trung bình",
+    estimatedTime: "57 phút",
+  },
+  {
+    id: "lich-su-van-minh-the-gioi-he-2025",
+    name: "Lịch sử văn minh thế giới - hè 2025",
+    description: "Ôn tập trắc nghiệm về lịch sử văn minh thế giới - Học kỳ hè 2025",
+    icon: <BookOpen className="h-8 w-8" />,
+    color:
+      "bg-gradient-to-br from-yellow-500/10 via-orange-400/5 to-red-500/10 dark:from-yellow-400/20 dark:via-orange-300/10 dark:to-red-400/20 border border-yellow-200/30 dark:border-yellow-400/30",
+    textColor: "text-yellow-700 dark:text-yellow-300",
+    questionCount: 56,
+    difficulty: "Trung bình",
+    estimatedTime: "90 phút",
+  },
 ]
 
 export const completedSubjects: Subject[] = [
